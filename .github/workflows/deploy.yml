@@ -17,17 +17,12 @@ jobs:
       - uses: pnpm/action-setup@v2.2.4
         with:
           version: 6.0.2
-
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'pnpm'
-
       - uses: extractions/setup-just@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
 
       - name: Install dependencies
         run: just install
