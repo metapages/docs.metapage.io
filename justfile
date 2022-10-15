@@ -39,6 +39,9 @@ dev:
 build:
     pnpm run build
 
+install:
+    pnpm i
+
 open:
     deno run --allow-all --unstable https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
 
