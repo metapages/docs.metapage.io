@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'metapages', // Usually your GitHub org/user name.
-  projectName: 'public.mtpg.io', // Usually your repo name.
+  projectName: 'docs.metapage.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/metapages/docs.mtpg.io/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/metapages/docs.mtpg.io/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/metapages/docs.mtpg.io',
+            href: 'https://github.com/metapages/docs.metapage.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -117,7 +117,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/metapages/docs.mtpg.io',
+                href: 'https://github.com/metapages/docs.metapage.io',
               },
             ],
           },
