@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Metapage Documentation',
   tagline: 'Metapages are cool',
-  url: 'https://docs.mtpg.io',
+  url: 'https://docs.metapage.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,9 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'metapages', // Usually your GitHub org/user name.
-  projectName: 'docs.mtpg.io', // Usually your repo name.
+  projectName: 'public.mtpg.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

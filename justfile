@@ -33,14 +33,14 @@ _help:
     just --list --unsorted --list-heading $'📚 Commands for metapage docs:\n'
     echo -e ""
 
-dev:
+dev: install
     pnpm run start
 
 build:
     pnpm run build
 
-install:
-    pnpm i
+install +args="":
+    pnpm i {{args}}
 
 open:
     deno run --allow-all --unstable https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
@@ -48,3 +48,6 @@ open:
 # https://docusaurus.io/docs/
 docs:
     deno run --allow-all --unstable https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://docusaurus.io/docs/
+
+@_ensure_npm_modules:
+    if [ ! -d node_modules ]; then pnpm i; fi
