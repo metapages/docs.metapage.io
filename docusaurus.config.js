@@ -115,7 +115,10 @@ const config = {
                 label: 'Terms of Service',
                 to: '/legal/terms-of-service',
               },
-
+              {
+                label: 'Privacy Policy',
+                to: '/legal/privacy-policy',
+              },
             ],
           },
           {
