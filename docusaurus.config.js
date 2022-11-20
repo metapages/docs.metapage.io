@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -109,6 +109,16 @@ const config = {
             ],
           },
           {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Terms of Service',
+                to: '/legal/terms-of-service',
+              },
+
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
@@ -121,6 +131,7 @@ const config = {
               },
             ],
           },
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} metapages, LLC. Built with Docusaurus.`,
       },
