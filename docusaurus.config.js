@@ -119,6 +119,10 @@ const config = {
                 label: 'Privacy Policy',
                 to: '/legal/privacy-policy',
               },
+              {
+                label: 'Data Deletion',
+                to: '/legal/data-deletion',
+              },
             ],
           },
           {
