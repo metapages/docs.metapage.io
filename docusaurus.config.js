@@ -113,15 +113,15 @@ const config = {
             items: [
               {
                 label: 'Terms of Service',
-                to: '/legal/terms-of-service',
+                to: '/terms-of-service',
               },
               {
                 label: 'Privacy Policy',
-                to: '/legal/privacy-policy',
+                to: '/privacy-policy',
               },
               {
                 label: 'Data Deletion',
-                to: '/legal/data-deletion',
+                to: '/data-deletion',
               },
             ],
           },
