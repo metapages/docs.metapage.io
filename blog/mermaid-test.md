@@ -17,9 +17,6 @@ graph LR
 ```
 
 
-[Introduction to docu-notion](/intro-test)
-
-
 ```mermaid
 graph LR
   A[An internal page] -->|Get money| B(Go shopping)
