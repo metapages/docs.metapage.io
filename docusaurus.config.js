@@ -1,55 +1,65 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+const APP_HREF = process.env.APP_HREF || "https://app.metapage.io";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Metapage Documentation',
-  tagline: 'Metapages are cool',
-  url: 'https://docs.metapage.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Metapage Documentation",
+  tagline: "Metapages: simulations and workflows in the cloud",
+  url: "https://docs.metapage.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'metapages', // Usually your GitHub org/user name.
-  projectName: 'docs.metapage.io', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  organizationName: "metapages", // Usually your GitHub org/user name.
+  projectName: "docs.metapage.io", // Usually your repo name.
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
+  plugins: ["docusaurus2-dotenv"],
+
+  // referenceSidebar: ['reference'],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -58,87 +68,131 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mermaid: {
+        theme: {
+          light: "neutral",
+          dark: "forest",
+        },
+        // config: {
+        //   // Mermaid config
+        // }
+      },
+      metadata: [
+        {
+          name: "keywords",
+          content: "metapages, javascript, code, workflow, app",
+        },
+      ],
       navbar: {
-        title: 'Docs',
+        title: "",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "Metapages Logo",
+          src: "img/logo.svg",
+          href: "/about"
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "Introduction/intro",
+            position: "left",
+            label: "Documentation",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/metapages/docs.metapage.io',
-            label: 'GitHub',
-            position: 'right',
+            to: "/docs/reference",
+            docId: "reference",
+            label: "Reference",
+            position: "left",
+          },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+            href: "https://github.com/metapages/docs.metapage.io",
+            label: "GitHub",
+            position: "right",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
+          {
+            href: APP_HREF,
+            position: "right",
+            // Copied and modified the button from: https://cssbuttons.app/buttons/60
+            html: `<a href="${APP_HREF}/sign-up" style="background-color: #32AEE4; color: #ffffff;  font-weight: 600; position: relative; outline: none; border-radius: 6px; display: flex; justify-content: center; align-items: center; cursor: pointer; height: 40px; width: 120px;">Sign Up</a>`,
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Introduction",
+                to: "/docs",
+              },
+              {
+                label: "About",
+                to: "/about",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Live Examples",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Gallery",
+                href: `${APP_HREF}`,
               },
             ],
           },
           {
-            title: 'Legal',
+            title: "Community",
             items: [
               {
-                label: 'Terms of Service',
-                to: '/terms-of-service',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/metapages",
               },
               {
-                label: 'Privacy Policy',
-                to: '/privacy-policy',
+                label: "Discord",
+                href: "https://discord.gg/ATvFWMGKVZ",
               },
               {
-                label: 'Data Deletion',
-                to: '/data-deletion',
+                label: "Twitter",
+                href: "https://twitter.com/metapagesapp",
               },
             ],
           },
           {
-            title: 'More',
+            title: "Legal",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Terms of Service",
+                to: "/terms-of-service",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/metapages/docs.metapage.io',
+                label: "Privacy Policy",
+                to: "/privacy-policy",
+              },
+              {
+                label: "Data Deletion",
+                to: "/data-deletion",
               },
             ],
           },
-
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/metapages/docs.metapage.io",
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} metapages, LLC. Built with Docusaurus.`,
       },
