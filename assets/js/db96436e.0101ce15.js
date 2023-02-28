@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmetapage_docs=self.webpackChunkmetapage_docs||[]).push([[7903],{89813:a=>{a.exports=JSON.parse('{"label":"history","permalink":"/blog/tags/history","allTagsPath":"/blog/tags","count":3}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmetapage_docs=self.webpackChunkmetapage_docs||[]).push([[2093],{1735:a=>{a.exports=JSON.parse('{"label":"metapages","permalink":"/blog/tags/metapages","allTagsPath":"/blog/tags","count":2}')}}]);
