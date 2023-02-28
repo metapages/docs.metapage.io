@@ -46,7 +46,8 @@ dev: install
     APP_HREF={{APP_HREF}} \
         pnpm run start --port {{DOCUSAURUS_PORT}}
 
-build: _ensure_npm_modules notion
+# build documentation. TODO: automate notion, but cannot until docu-notion mermaid is fixed
+build: _ensure_npm_modules
     APP_HREF={{APP_HREF}} \
         pnpm run build
 
