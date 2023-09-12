@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmetapage_docs=self.webpackChunkmetapage_docs||[]).push([[9683],{71143:e=>{e.exports=JSON.parse('{"label":"deep time","permalink":"/blog/tags/deep-time","allTagsPath":"/blog/tags","count":2}')}}]);
