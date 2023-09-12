@@ -12,8 +12,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # TODO: REMEMBER TO REMOVE THIS ONCE MERGED
-          ref: metapage-create-edit-docs
 
       - uses: extractions/setup-just@v1
         env:
