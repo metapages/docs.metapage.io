@@ -1,3 +1,0 @@
----
-title: Customizable data dashboard
----

@@ -1,29 +1,39 @@
-name: Deploy to GitHub Pages
+name: Auto Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "20 * * * *"
 
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: extractions/setup-just@v1
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.8.0
+          version: 8.6.7
+
       - name: Install dependencies
-        run: just install --frozen-lockfile
+        run: just _install --frozen-lockfile
+    
       - name: Build website
         run: just build
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DOCUMENT_ROOT: ${{ secrets.NOTION_DOCUMENT_ROOT }}
+          NOTION_BLOG_ROOT: ${{ secrets.NOTION_BLOG_ROOT }}
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -40,3 +50,15 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notify_when: 'failure'
+          notification_title: '{workflow} has {status_message}'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+        
