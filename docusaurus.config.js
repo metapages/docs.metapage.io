@@ -13,7 +13,7 @@ const config = {
   url: "https://docs.metapage.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
@@ -37,7 +37,8 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ["@docusaurus/theme-mermaid"],
+
+  themes: ["@docusaurus/theme-mermaid", "@docusaurus/theme-live-codeblock"],
 
   presets: [
     [
@@ -53,13 +54,14 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          postsPerPage: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/notion-to-markdown-columns.css") ],
         },
       }),
     ],
@@ -73,9 +75,16 @@ const config = {
           light: "neutral",
           dark: "forest",
         },
-        // config: {
-        //   // Mermaid config
-        // }
+        options: {
+          securityLevel: "loose",
+        }
+      },
+      liveCodeBlock: {
+        /**
+         * The position of the live playground, above or under the editor
+         * Possible values: "top" | "bottom"
+         */
+        playgroundPosition: 'top',
       },
       metadata: [
         {
@@ -88,21 +97,21 @@ const config = {
         logo: {
           alt: "Metapages Logo",
           src: "img/logo.svg",
-          href: "/about"
+          href: "/about",
         },
         items: [
           {
             type: "doc",
-            docId: "Introduction/intro",
+            docId: "Introduction",
             position: "left",
             label: "Documentation",
           },
-          {
-            to: "/docs/reference",
-            docId: "reference",
-            label: "Reference",
-            position: "left",
-          },
+          // {
+          //   to: "/docs/api",
+          //   docId: "api",
+          //   label: "APIs",
+          //   position: "left",
+          // },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/metapages/docs.metapage.io",

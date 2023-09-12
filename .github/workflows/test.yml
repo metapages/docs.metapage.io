@@ -1,0 +1,37 @@
+name: Test build
+
+on:
+  push:
+    # only non-main (and non-master) branches
+    branches:
+      - "**"
+      - "!main"
+
+jobs:
+  test-deploy:
+    name: Test build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: extractions/setup-just@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.7
+
+      - name: Install dependencies
+        run: just _install --frozen-lockfile
+      
+      - name: Test build website
+        run: just build
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DOCUMENT_ROOT: ${{ secrets.NOTION_DOCUMENT_ROOT }}
+          NOTION_BLOG_ROOT: ${{ secrets.NOTION_BLOG_ROOT }}
