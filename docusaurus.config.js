@@ -77,6 +77,10 @@ const config = {
         },
         options: {
           securityLevel: "loose",
+          flowchart: {
+            useMaxWidth: false,
+            htmlLabels: false,
+          },
         }
       },
       liveCodeBlock: {
@@ -89,7 +93,7 @@ const config = {
       metadata: [
         {
           name: "keywords",
-          content: "metapages, javascript, code, workflow, app",
+          content: "metapages, javascript, code, workflow, app, evolution, superslides, gestures, hand control, deep time",
         },
       ],
       navbar: {
