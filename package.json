@@ -24,6 +24,7 @@
     "@mantine/hooks": "^5.8.3",
     "@mantine/styles": "^5.8.3",
     "@mdx-js/react": "^1.6.22",
+    "@metapages/docu-notion-plugins": "^0.0.8",
     "@metapages/metapage": "^0.13.9",
     "@metapages/metapage-grid-react": "0.2.1",
     "@notionhq/client": "^2.2.3",
@@ -43,7 +44,7 @@
     "@docusaurus/module-type-aliases": "2.4.1",
     "@docusaurus/types": "2.4.1",
     "@tsconfig/docusaurus": "^1.0.6",
-    "client": "link:@types/@notionhq/client",
+    "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.1",
     "typescript": "^4.7.4"
   },

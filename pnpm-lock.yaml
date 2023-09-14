@@ -32,6 +32,9 @@ dependencies:
   '@mdx-js/react':
     specifier: ^1.6.22
     version: 1.6.22(react@17.0.2)
+  '@metapages/docu-notion-plugins':
+    specifier: ^0.0.8
+    version: 0.0.8
   '@metapages/metapage':
     specifier: ^0.13.9
     version: 0.13.9
@@ -86,7 +89,7 @@ devDependencies:
     specifier: ^1.0.6
     version: 1.0.7
   client:
-    specifier: link:@types/@notionhq/client
+    specifier: '@types/@notionhq/client'
     version: link:@types/@notionhq/client
   notion-to-md:
     specifier: ^3.1.1
@@ -2753,6 +2756,16 @@ packages:
 
   /@mdx-js/util@1.6.22:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
+    dev: false
+
+  /@metapages/docu-notion-plugins@0.0.8:
+    resolution: {integrity: sha512-KaOy3Sy0d5rNIOr4fC3/ojYBdt+ZXlMDbtUxtbJOZWc3eUk8nj632x3moU5b/JvuYJqKJ2UFcxKxwzIMWJi1iw==}
+    engines: {node: '>=16.14'}
+    dependencies:
+      he: 1.2.0
+      marked: 4.0.17
+      prismjs: 1.29.0
+      sanitize-html: 2.11.0
     dev: false
 
   /@metapages/metapage-grid-react@0.2.1(@metapages/metapage@0.13.9)(react-dom@17.0.2)(react@17.0.2):
