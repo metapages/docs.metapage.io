@@ -8,8 +8,8 @@ const APP_HREF = process.env.APP_HREF || "https://app.metapage.io";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Metapage Documentation",
-  tagline: "Metapages: simulations and workflows in the cloud",
+  title: "Metapages",
+  tagline: "Simulations, workflows, and apps in the browser",
   url: "https://docs.metapage.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -49,16 +49,16 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           postsPerPage: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/notion-to-markdown-columns.css") ],
@@ -97,7 +97,7 @@ const config = {
         logo: {
           alt: "Metapages Logo",
           src: "img/logo.svg",
-          href: "/about",
+          href: "/",
         },
         items: [
           {
@@ -140,10 +140,10 @@ const config = {
                 label: "Introduction",
                 to: "/docs",
               },
-              {
-                label: "About",
-                to: "/about",
-              },
+              // {
+              //   label: "About",
+              //   to: "/about",
+              // },
             ],
           },
           {
@@ -166,10 +166,10 @@ const config = {
                 label: "Discord",
                 href: "https://discord.gg/ATvFWMGKVZ",
               },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/metapagesapp",
-              },
+              // {
+              //   label: "Twitter",
+              //   href: "https://twitter.com/metapagesapp",
+              // },
             ],
           },
           {

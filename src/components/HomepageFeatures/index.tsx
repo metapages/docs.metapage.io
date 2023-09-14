@@ -1,5 +1,7 @@
 import React from 'react';
+
 import clsx from 'clsx';
+
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -10,32 +12,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Open Source',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Metapages are built on top of open source technologies. You will always be able to run
+        your metapages <a href="/blog/metapages-are-deep-time-persistent">forever</a>.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on Collaboration',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The units of combination and collaboration are websites. By connecting websites together, we 
+        can create arbitrarily complex systems, then preserve and share them.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Storehouse of Shared Knowledge',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The <a href="https://app.metapage.io">metapage application</a> is a storehouse of shared knowledge and techniques.
+        It is the fastest way to iterate on technical ideas, especially when collaborating with others.
       </>
     ),
   },
