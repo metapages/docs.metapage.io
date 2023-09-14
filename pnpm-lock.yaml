@@ -33,8 +33,8 @@ dependencies:
     specifier: ^1.6.22
     version: 1.6.22(react@17.0.2)
   '@metapages/docu-notion-plugins':
-    specifier: ^0.0.8
-    version: 0.0.8
+    specifier: ^0.1.0
+    version: 0.1.0
   '@metapages/metapage':
     specifier: ^0.13.9
     version: 0.13.9
@@ -2758,8 +2758,8 @@ packages:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
     dev: false
 
-  /@metapages/docu-notion-plugins@0.0.8:
-    resolution: {integrity: sha512-KaOy3Sy0d5rNIOr4fC3/ojYBdt+ZXlMDbtUxtbJOZWc3eUk8nj632x3moU5b/JvuYJqKJ2UFcxKxwzIMWJi1iw==}
+  /@metapages/docu-notion-plugins@0.1.0:
+    resolution: {integrity: sha512-gHBYRHJ08gna1xTuCoEiTgE1H/wz7qnKFQAnWSUuuumBvX/rtGjpZNtMFYsvnnoMOTD9m2IW2ARqm5FGKge5sQ==}
     engines: {node: '>=16.14'}
     dependencies:
       he: 1.2.0

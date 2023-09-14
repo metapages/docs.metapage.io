@@ -1,8 +1,6 @@
-.row {
+.custom-docunotion-row {
     display: flex;
     direction: row;
-    /* Allow shrinkage */
-    /* flex: 1 1 auto; */
     min-height: 0;
     max-height: 100%;
     align-self: center;
@@ -10,24 +8,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
-    /* background-color: purple; */
-    /* max-height: 100%; */
   }
   
-  .row-cell {
+  .custom-docunotion-row-cell {
     /* Allow shrinkage */
-    
     flex: 1 1 auto;
     height: 100%;
     text-align: center;
-    /* align-self: center; */
-  
-    /* padding: 10px;
-    margin: 10px; */
-  
-    /* background-color: green;
-    border: 1px solid red; */
   }
 
   .borderFatSolidGreen {
