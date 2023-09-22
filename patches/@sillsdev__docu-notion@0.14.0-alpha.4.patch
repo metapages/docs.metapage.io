@@ -1,0 +1,13 @@
+diff --git a/dist/pull.js b/dist/pull.js
+index 9b397bd2e63588dc76c57cd6b752e6363af4df62..2a2a69afbbdaffad25fdff386649547d02a952db 100644
+--- a/dist/pull.js
++++ b/dist/pull.js
+@@ -183,7 +183,7 @@ function writePage(page, finalMarkdown) {
+     ++counts.output_normally;
+ }
+ const notionLimiter = new limiter_1.RateLimiter({
+-    tokensPerInterval: 3,
++    tokensPerInterval: 2,
+     interval: "second",
+ });
+ let notionClient;
