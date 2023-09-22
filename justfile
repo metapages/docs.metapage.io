@@ -15,7 +15,8 @@ APP_HREF                            := env_var_or_default("APP_HREF", "https://a
 NOTION_TOKEN                        := env_var_or_default("NOTION_TOKEN", "")
 NOTION_DOCUMENT_ROOT                := env_var_or_default("NOTION_DOCUMENT_ROOT", "")
 NOTION_BLOG_ROOT                    := env_var_or_default("NOTION_BLOG_ROOT", "")
-
+# This package is patched to reduce the rate limit
+DOCU_NOTION                         := "node node_modules/@sillsdev/docu-notion/dist/index.js"
 ###########################################################################
 # Formatting
 ###########################################################################
@@ -48,12 +49,12 @@ build: _ensure_npm_modules blog docs _build
 # Build blog from notion https://github.com/sillsdev/docu-notion
 blog: && (_rename_md_mdx "blog")
     rm -rf blog/*
-    npx @sillsdev/docu-notion@0.14.0-alpha.4 --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
+    {{DOCU_NOTION}} --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion
 docs: && (_rename_md_mdx "docs")
     rm -rf docs/*
-    npx @sillsdev/docu-notion@0.14.0-alpha.4 --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
+    {{DOCU_NOTION}} --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
 
 serve: build
     npm run serve

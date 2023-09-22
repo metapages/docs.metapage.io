@@ -62,5 +62,10 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@sillsdev/docu-notion@0.14.0-alpha.4": "patches/@sillsdev__docu-notion@0.14.0-alpha.4.patch"
+    }
   }
 }
