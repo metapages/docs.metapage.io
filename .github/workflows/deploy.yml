@@ -2,7 +2,7 @@ name: Auto Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: "20 * * * *"
+    - cron: "30 14,18,22 * * *"
 
 jobs:
   deploy:

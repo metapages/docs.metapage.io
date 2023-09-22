@@ -4,8 +4,10 @@ on:
   push:
     # only non-main (and non-master) branches
     branches:
-      - "**"
-      - "!main"
+      # Getting too many 502s from the Notion API
+      - disabled
+      # - "**"
+      # - "!main"
 
 jobs:
   test-deploy:
