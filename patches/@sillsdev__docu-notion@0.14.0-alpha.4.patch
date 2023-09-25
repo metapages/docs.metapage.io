@@ -1,5 +1,5 @@
 diff --git a/dist/pull.js b/dist/pull.js
-index 9b397bd2e63588dc76c57cd6b752e6363af4df62..2a2a69afbbdaffad25fdff386649547d02a952db 100644
+index 9b397bd2e63588dc76c57cd6b752e6363af4df62..166f1bab7a9c7b5d2021b5e72c232ff7397ec8c6 100644
 --- a/dist/pull.js
 +++ b/dist/pull.js
 @@ -183,7 +183,7 @@ function writePage(page, finalMarkdown) {
