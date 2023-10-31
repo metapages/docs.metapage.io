@@ -49,12 +49,12 @@ build: _ensure_npm_modules blog docs _build
 # Build blog from notion https://github.com/sillsdev/docu-notion
 blog: && (_rename_md_mdx "blog")
     rm -rf blog/*
-    {{DOCU_NOTION}} --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
+    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion
 docs: && (_rename_md_mdx "docs")
     rm -rf docs/*
-    {{DOCU_NOTION}} --log-level debug -n {{NOTION_TOKEN}} -r {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
+    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
 
 serve: build
     npm run serve
