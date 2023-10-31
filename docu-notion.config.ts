@@ -1,5 +1,6 @@
 import {
   correctNotionUrlsInMermaid,
+  embedToIframe,
   modifiedStandardInternalLinkConversion,
   notionColumnsUpgraded,
 } from '@metapages/docu-notion-plugins';
