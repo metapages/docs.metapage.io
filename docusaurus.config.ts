@@ -1,13 +1,13 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types';
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 const APP_HREF = process.env.APP_HREF || "https://app.metapage.io";
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config :Config = {
   title: "Metapages",
   tagline: "Simulations, workflows, and apps in the browser",
   url: "https://docs.metapage.io",
@@ -208,12 +208,13 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} metapages, LLC. Built with Docusaurus.`,
-      },
+      } satisfies Preset.ThemeConfig,
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['bash', 'json', 'python', 'typescript', 'javascript'],
       },
     }),
 };
 
-module.exports = config;
+export default config;

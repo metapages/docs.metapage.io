@@ -15,38 +15,39 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
-    "@docusaurus/preset-classic": "2.4.1",
-    "@docusaurus/theme-live-codeblock": "^2.4.1",
-    "@docusaurus/theme-mermaid": "^2.4.1",
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
+    "@docusaurus/theme-live-codeblock": "^3.0.0",
+    "@docusaurus/theme-mermaid": "^3.0.0",
     "@emotion/react": "11.10.5",
     "@mantine/core": "^5.8.3",
     "@mantine/hooks": "^5.8.3",
     "@mantine/styles": "^5.8.3",
-    "@mdx-js/react": "^1.6.22",
-    "@metapages/docu-notion-plugins": "^0.1.4",
-    "@metapages/metapage": "^0.13.11",
-    "@metapages/metapage-grid-react": "0.1.13",
+    "@mdx-js/react": "^3.0.0",
+    "@metapages/docu-notion-plugins": "^0.1.5",
+    "@metapages/metapage": "^0.13.12",
+    "@metapages/metapage-grid-react": "0.1.16",
     "@notionhq/client": "^2.2.3",
     "@sillsdev/docu-notion": "0.14.0-alpha.4",
     "clsx": "^1.2.1",
     "docusaurus2-dotenv": "^1.4.0",
     "he": "^1.2.0",
     "marked": "^4.0.17",
-    "prism-react-renderer": "^1.3.5",
+    "prism-react-renderer": "^2.3.0",
     "prismjs": "^1.29.0",
-    "react": "17.0.2",
-    "react-dom": "^17.0.2",
-    "react-player": "^2.11.0",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.13.0",
     "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.4.1",
-    "@docusaurus/types": "2.4.1",
-    "@tsconfig/docusaurus": "^1.0.6",
+    "@docusaurus/module-type-aliases": "3.0.0",
+    "@docusaurus/tsconfig": "^3.0.0",
+    "@docusaurus/types": "3.0.0",
+    "@types/react": "18.2",
     "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.1",
-    "typescript": "^4.7.4"
+    "typescript": "^5.2.2"
   },
   "browserslist": {
     "production": [
@@ -61,7 +62,7 @@
     ]
   },
   "engines": {
-    "node": ">=16.14"
+    "node": ">=18.0"
   },
   "pnpm": {
     "patchedDependencies": {

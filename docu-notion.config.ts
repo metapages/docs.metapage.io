@@ -39,9 +39,9 @@ export const embedMetapagesCorrectly: IPlugin = {
 
 const config: IDocuNotionConfig = {
   plugins: [
+    modifiedStandardInternalLinkConversion,
     notionColumnsUpgraded,
     correctNotionUrlsInMermaid(),
-    modifiedStandardInternalLinkConversion,
     embedToIframe,
     // embedMetapagesCorrectly,
   ],

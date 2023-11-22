@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
+
+import {
+  Metapage,
+  VersionsMetapage,
+} from '@metapages/metapage';
 import {
   MetaframeStandaloneComponent,
-  MetapageGridLayoutFromMetapage,
   MetapageGridLayoutFromDefinition,
-} from "@metapages/metapage-grid-react";
-import {
-  VersionsMetapage,
-  MetapageDefinitionV3,
-  Metapage,
-} from "@metapages/metapage";
-
-import Admonition from "@theme/Admonition";
+  MetapageGridLayoutFromMetapage,
+} from '@metapages/metapage-grid-react';
+import Admonition from '@theme/Admonition';
 
 const ButtonExample = (props) => (
   <button
@@ -36,7 +35,6 @@ const ReactLiveScope = {
   MetapageGridLayoutFromMetapage,
   MetapageGridLayoutFromDefinition,
   VersionsMetapage,
-  MetapageDefinitionV3,
   Metapage,
   Admonition,
 };

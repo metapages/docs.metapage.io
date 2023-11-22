@@ -1,5 +1,3 @@
-import React from "react";
-
 export const PaddedWidth = (props:any) => (
   <div style={{ display: "flex", justifyContent: "space-between" }}>
     <div style={{ minWidth: "50px" }}></div>
