@@ -44,8 +44,8 @@ dependencies:
     specifier: ^0.13.12
     version: 0.13.12
   '@metapages/metapage-grid-react':
-    specifier: 0.1.16
-    version: 0.1.16(@babel/core@7.23.3)(@chakra-ui/system@2.6.2)(@types/react@18.2.0)
+    specifier: 0.1.17
+    version: 0.1.17(@babel/core@7.23.3)(@chakra-ui/system@2.6.2)(@types/react@18.2.0)
   '@notionhq/client':
     specifier: ^2.2.3
     version: 2.2.3
@@ -3918,8 +3918,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@metapages/metapage-grid-react@0.1.16(@babel/core@7.23.3)(@chakra-ui/system@2.6.2)(@types/react@18.2.0):
-    resolution: {integrity: sha512-1/BeL2R7toQpwfQaTIvXDfeKqNQXmZtEmjdI5HCQGOVyoGZkwx2atMYdnryurlpvR1eDyqT5ZwKmvGJp97QjrQ==}
+  /@metapages/metapage-grid-react@0.1.17(@babel/core@7.23.3)(@chakra-ui/system@2.6.2)(@types/react@18.2.0):
+    resolution: {integrity: sha512-2To4iiOGhhP4l55m0O2kbYyi9y1+wZ+YF19JM3+Y/BeZLzgzVkbFa4Cyy/Mj23dIjeLaD22J1z8dRkdST9ZIdQ==}
     requiresBuild: true
     dependencies:
       '@chakra-ui/icons': 2.1.1(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -3987,7 +3987,7 @@ packages:
       '@motionone/easing': 10.16.3
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
-      tslib: 2.4.0
+      tslib: 2.6.2
     dev: false
 
   /@motionone/dom@10.16.4:
@@ -3998,14 +3998,14 @@ packages:
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
       hey-listen: 1.0.8
-      tslib: 2.4.0
+      tslib: 2.6.2
     dev: false
 
   /@motionone/easing@10.16.3:
     resolution: {integrity: sha512-HWTMZbTmZojzwEuKT/xCdvoMPXjYSyQvuVM6jmM0yoGU6BWzsmYMeB4bn38UFf618fJCNtP9XeC/zxtKWfbr0w==}
     dependencies:
       '@motionone/utils': 10.16.3
-      tslib: 2.4.0
+      tslib: 2.6.2
     dev: false
 
   /@motionone/generators@10.16.4:
@@ -4013,7 +4013,7 @@ packages:
     dependencies:
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
-      tslib: 2.4.0
+      tslib: 2.6.2
     dev: false
 
   /@motionone/types@10.16.3:
@@ -4025,7 +4025,7 @@ packages:
     dependencies:
       '@motionone/types': 10.16.3
       hey-listen: 1.0.8
-      tslib: 2.4.0
+      tslib: 2.6.2
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
