@@ -43,7 +43,6 @@ const config :Config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
@@ -68,7 +67,6 @@ const config :Config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       mermaid: {
         theme: {
@@ -212,7 +210,7 @@ const config :Config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['bash', 'json', 'python', 'typescript', 'javascript'],
+        additionalLanguages: ['bash', 'json', 'python', 'typescript', 'javascript', 'yaml', 'markdown', 'mermaid'],
       },
     }),
 };

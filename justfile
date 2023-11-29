@@ -52,9 +52,10 @@ blog: && (_rename_md_mdx "blog")
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion
-docs: && (_rename_md_mdx "docs")
+docs: && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs")
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
+    
 
 serve: build
     npm run serve
@@ -75,3 +76,10 @@ _install +args="":
 
 @_rename_md_mdx dir:
     find {{dir}} -iname '*.md' -exec bash -c 'mv -- "$1" "${1%.md}.mdx"' bash {} \; 
+
+# If the document is linked in a mermaid diagram, apply a class to the element
+_highlight_self_in_mermaid path:
+    #!/usr/bin/env -S deno run --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
+    import { highlightSelfInMermaidDiagramsAll } from "https://raw.githubusercontent.com/dionjwa/dionjwa.github.io/master/post-processing-scripts/mod.ts";
+    await highlightSelfInMermaidDiagramsAll({ path: "{{path}}"});
+    console.log("👍 highlighted mermaid self {{path}}")
