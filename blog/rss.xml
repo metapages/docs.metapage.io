@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sun, 17 Dec 2023 05:32:32 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Dec 2023 06:32:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[metapage URL schema]]></title>
             <link>https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97</link>
             <guid>https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:32 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:45 GMT</pubDate>
             <description><![CDATA[Links to resources]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GCtf" id="6562e6a9391e47459c62b51ca4705542">Links to resources<a href="https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97#6562e6a9391e47459c62b51ca4705542" class="hash-link" aria-label="Direct link to Links to resources" title="Direct link to Links to resources">​</a></h2>
 <ul>
@@ -55,7 +55,7 @@
             <title><![CDATA[How to get SharedArrayBuffer and cross-domain isolation with metapage.io]]></title>
             <link>https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392</link>
             <guid>https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:32 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:43 GMT</pubDate>
             <description><![CDATA[Guide]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GCtf" id="3f4d0b9c861841898be9dcf084a1317b">Guide<a href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392#3f4d0b9c861841898be9dcf084a1317b" class="hash-link" aria-label="Direct link to Guide" title="Direct link to Guide">​</a></h2>
 <p><a href="https://web.dev/cross-origin-isolation-guide/" target="_blank" rel="noopener noreferrer">https://web.dev/cross-origin-isolation-guide/</a></p>
@@ -77,7 +77,7 @@
             <title><![CDATA[Greatest Information Technology of Humans]]></title>
             <link>https://docs.metapage.io/blog/greatest-tech-in-time</link>
             <guid>https://docs.metapage.io/blog/greatest-tech-in-time</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:30 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:43 GMT</pubDate>
             <description><![CDATA[It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.]]></description>
             <content:encoded><![CDATA[
 <div class="theme-admonition theme-admonition-tip admonition_KPbE alert alert--success"><div class="admonitionHeading_dnXR"><span class="admonitionIcon_EdCj"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_uwAK"><p>It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.</p></div></div>
@@ -124,7 +124,7 @@
             <title><![CDATA[Metapages Deep Time]]></title>
             <link>https://docs.metapage.io/blog/metapages-are-deep-time-persistent</link>
             <guid>https://docs.metapage.io/blog/metapages-are-deep-time-persistent</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:29 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:41 GMT</pubDate>
             <description><![CDATA[The promise:]]></description>
             <content:encoded><![CDATA[<p>The promise:</p>
 <p>metapages, or objects derived from metapages, can be dehydrated (stored) and then re-hydrated and run <strong>forever</strong></p>
@@ -145,7 +145,7 @@
             <title><![CDATA[Metapages Origin]]></title>
             <link>https://docs.metapage.io/blog/metapages-history</link>
             <guid>https://docs.metapage.io/blog/metapages-history</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:28 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:40 GMT</pubDate>
             <description><![CDATA[Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.]]></description>
             <content:encoded><![CDATA[<p>Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.</p>
 <p>Problems and observations:</p>
@@ -201,7 +201,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:27 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:39 GMT</pubDate>
             <description><![CDATA[2023-11-26]]></description>
             <content:encoded><![CDATA[<p>2023-11-26</p>
 <!-- -->
@@ -239,9 +239,10 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Sun, 17 Dec 2023 05:32:26 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 06:32:38 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
+<!-- -->
 <!-- -->
 <!-- -->
 <h2 class="anchor anchorWithStickyNavbar_GCtf" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store large amounts of user configured data<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store large amounts of user configured data" title="Direct link to Use URL hash parameters to store large amounts of user configured data">​</a></h2>
@@ -275,6 +276,17 @@
 <p><strong>Edit:</strong>  click the top right in the embed above:</p>
 <p><img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABwCAYAAADymTVXAAABX2lDQ1BJQ0MgUHJvZmlsZQAAKJFtkEFLAlEUhc+UIaiEwSQtomYVBBai4cKdGVjgYjClElqMTxuDcXrMTES7fkBtItq3iX5A4CYqatMqgqCgNu36AYGbkuk+rUarB5f7cTj3vssB+kIa54YPQN10rHx2VlleKSn+VwQwBhnDGNeYzdOqmiMLvnvvaz5AEv1+SuySwxfJVPJ59+p85OaocCv99fe8QKVqM+ofVHHGLQeQYsTqlsMF7xDLFh1FfCBY7/CJ4HKHz9qeQj5DfEccZjWtQvxCHC136XoX141N9nWDuDFUNYuL1CNUo8ghCwVFGHBgQSOexxxl9P/MTHsmgw1wbJN/HTpqNKkgTQqnLVXiBZhgmEaUOI4YVUJk/TtDT7Mph9QefcU9bVUGTmvAIPO0iX1gKAhcl7hmaT/JSk2fvZaIdzjYAAYOXfdtCfBPAq1H131vuG7rGOh/Ai6bn8ozYiEqwW/KAAAAimVYSWZNTQAqAAAACAAEARoABQAAAAEAAAA+ARsABQAAAAEAAABGASgAAwAAAAEAAgAAh2kABAAAAAEAAABOAAAAAAAAAJAAAAABAAAAkAAAAAEAA5KGAAcAAAASAAAAeKACAAQAAAABAAAAaKADAAQAAAABAAAAcAAAAABBU0NJSQAAAFNjcmVlbnNob3RqGnWoAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB1mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj4xMTI8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+MTA0PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6VXNlckNvbW1lbnQ+U2NyZWVuc2hvdDwvZXhpZjpVc2VyQ29tbWVudD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CkbxoNYAAAAcaURPVAAAAAIAAAAAAAAAOAAAACgAAAA4AAAAOAAAAYL6+hHMAAABTklEQVR4AeyYoQrCUBhG/4XJgqwZtC9afQAffs8wk1lsYhgzKAgrS3+694RjGcKFezjHT9DmfL5+wxfWQGMgbJs/mIHYfcJABoIbgOO5IAPBDcDxXJCB4AbgeC7IQHADcDwXZCC4ATieCzIQ3AAczwUZCG4AjueCDAQ3AMdzQQaCG4DjuSADwQ3A8VyQgeAG4HguyEBwA3A8F2QguAE4ngsyENwAHM8FGQhuAI7nggwENwDHc0EGghuA47kgA8ENwPFckIHgBuB4LshAcANwvGILer2e8XjcY57fKCW7XRfH4xB9f0BxrTDFAt1uYyzLvN6LenbdPobhgmJaYYoFmqYxPh8DreKzz2KBqF9xbdvF6eRXXPYD47mNgWIL2tzr26QBAyVF1TpmoFrmk/caKCmq1jED1TKfvNdASVG1jhmolvnkvcUCUX+o0v+L+wEAAP//vJJ7+wAAAX1JREFU7ZghbkJBAAUXAUE0uArwSGwP0MP3DKCqSR2pICBa0wswCZNNOmiGt5lhSfiLw+H9Zwiv0+lj3G5XYenxifX6Zez3b4+DArGwAh2PH+N+L9CjTbVAl8vXOJ8/x/X6/egZn/r+5XI9drv92Gxen7pDP1wLRA/437kCTf4NKFCBJjcw+fG6QQWa3MDkx+sGFWhyA5MfT7tBs/5RXa3WY7vtj+roWRy7qtoN6lnc5IFm/YnrWRz74kT9GdB+4jLODBSIedOoAmmq2VCBmDeNKpCmmg0ViHnTqAJpqtlQgZg3jSqQppoNFYh506gCaarZUIGYN40qkKaaDRWIedOoAmmq2VCBmDeNKpCmmg0ViHnTqAJpqtlQgZg3jSqQppoNFYh506gCaarZUIGYN40qkKaaDRWIedOoAmmq2VCBmDeNKpCmmg0ViHnTqAJpqtlQgZg3jSqQppoNFYh506gCaarZUIGYN40qkKaaDRWIedOoAmmq2VCBmDeN+gWS8g5Q+tzf5AAAAABJRU5ErkJggg==" width="104" height="112" class="img_NxM7"></p>
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What is a metapage? What problems do they solve?]]></title>
+            <link>https://docs.metapage.io/blog/570973a3-94b9-4e14-9a89-b0455f53803e</link>
+            <guid>https://docs.metapage.io/blog/570973a3-94b9-4e14-9a89-b0455f53803e</guid>
+            <pubDate>Sun, 17 Dec 2023 06:32:35 GMT</pubDate>
+            <description><![CDATA[Write a good story]]></description>
+            <content:encoded><![CDATA[
+<p>Write a good story</p>
+<p>Use this for colored text with URLS</p>
+<p><a href="https://docs.google.com/document/d/1qr66VY9mZt3btiS9EhC1JEd7mDed9ULOGUyzbXGh6Ns/edit" target="_blank" rel="noopener noreferrer">https://docs.google.com/document/d/1qr66VY9mZt3btiS9EhC1JEd7mDed9ULOGUyzbXGh6Ns/edit</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
