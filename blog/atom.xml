@@ -2,16 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2023-12-18T15:32:46.937Z</updated>
+    <updated>2023-12-18T16:35:46.410Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Connect compute to my tasks- it’s too complicated]]></title>
+        <id>https://docs.metapage.io/blog/cloud-compute-too-complicated</id>
+        <link href="https://docs.metapage.io/blog/cloud-compute-too-complicated"/>
+        <updated>2023-12-18T16:35:46.410Z</updated>
+        <summary type="html"><![CDATA[2023-11-28]]></summary>
+        <content type="html"><![CDATA[<p>2023-11-28</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_GCtf" id="d6395cc828f44649b3e04738dfafc668">We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#d6395cc828f44649b3e04738dfafc668" class="hash-link" aria-label="Direct link to We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible" title="Direct link to We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible">​</a></h2>
+<p>I want to run some batch compute for some tasks, it might be big, it might be small. There are so many choices, and</p>
+<ul>
+<li>kubernetes</li>
+<li>slurm</li>
+<li>condor</li>
+<li>nomad</li>
+<li>AWS batch</li>
+<li>Google similar thing</li>
+<li>Azure (I don’t even know but surprised if they don’t have a similar thing)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_GCtf" id="7605962b12bc4f87b25b52bf767afd37">Problems<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#7605962b12bc4f87b25b52bf767afd37" class="hash-link" aria-label="Direct link to Problems" title="Direct link to Problems">​</a></h3>
+<ul>
+<li>they require infrastructure skills, or an institution or group that has that support</li>
+<li>adhoc solutions do not last</li>
+<li>the configurations are not transferable without significant work</li>
+<li>it’s unlikely that any single solution above will dominate, reducing the likelihood of simper solutions for individuals and researchers</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_GCtf" id="ac8127616c354e79870d58d9677b0517">Proposed solution<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#ac8127616c354e79870d58d9677b0517" class="hash-link" aria-label="Direct link to Proposed solution" title="Direct link to Proposed solution">​</a></h2>
+<p><strong>Users do not think much about where the compute is performed. It</strong> <em><strong>just works.</strong></em></p>
+<p>The batch compute job specification is entirely encoded in the URL. For example:</p>
+<p><code>https:</code> // <code>&lt;origin&gt;</code> / <code>#?</code> <code>definition=&lt;base64 encoded JSON&gt;</code></p>
+<p>The definition can start with simple docker container jobs:</p>
+<div class="language-yaml codeBlockContainer_FTKY theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_WiOc"><pre tabindex="0" class="prism-code language-yaml codeBlock_CTRV thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_z9rI"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">job</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">type</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> docker</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">image</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> &lt;image</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">name</span><span class="token punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">command</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> run</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">script.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">resources</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">cpu</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1000</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">memory</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 2gb</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">ttl</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 1h </span><br></span></code></pre><div class="buttonGroup_XtR1"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_wpyY" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_KukR"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_OB7q"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The minimal example above is encoded in the URL. The origin can be dynamically changed, and represents the location that will handle actual executing the above job definition.</p>
+<p>Job inputs and outputs? Handled by the <a href="https://docs.metapage.io/docs/npm-metapage" target="_blank" rel="noopener noreferrer">metapage library</a>.</p>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>You can click on the link, and immediately test, and edit the definition</li>
+<li>Agnostic of <em>where</em> the job is executed, as the origin can be changed without losing the definition</li>
+<li>The web is durable and everyone has a portal/environment (the browser) the will reliably view and execute the above definition</li>
+</ul>
+<p>The backend of exactly where the docker image is run is an implementation detail. For starting out, users can simply connect their own personal computers, test and iterate, then copy the link to a domain with access to more resources: <a href="https://docker.mtfm.io/#?tab=6" target="_blank" rel="noopener noreferrer">https://docker.mtfm.io/#?tab=6</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metaframes- websites as plug-and-play, editable, sharable components]]></title>
+        <id>https://docs.metapage.io/blog/metaframes</id>
+        <link href="https://docs.metapage.io/blog/metaframes"/>
+        <updated>2023-12-18T16:35:46.102Z</updated>
+        <summary type="html"><![CDATA[This will be a white paper about metaframes:]]></summary>
+        <content type="html"><![CDATA[
+<p>This will be a white paper about metaframes:</p>
+<ul>
+<li>what problem they solve</li>
+<li>how you use them</li>
+<li>how they work</li>
+<li>future capabilities</li>
+</ul>
+<h1>Problems they solve</h1>
+<ul>
+<li>When you find something you like on the internet, that is actually free or open for you to take and use and modify, there are many technical barriers preventing you from doing so</li>
+<li>A lot of “editable websites” are locked behind proprietary walls. Your work only exists at the whim of the business or entity, you don’t really own it in the sense that it will be around longer than e.g. the business<!-- -->
+<ul>
+<li>There is no deep-time strategy</li>
+</ul>
+</li>
+<li>Connecting useful things on the internet requires too much specialized knowledge and even with that knowledge, much time</li>
+<li>Connecting APIs can also involve third party services, another layer of cost, complexity, and risk</li>
+</ul>
+<h1>Why Browsers</h1>
+<h2 class="anchor anchorWithStickyNavbar_GCtf" id="25f7ea917279448eae91ffe61ad8d25e">Browser security is always improving, so users have a safe place to connect their compute resources to software<a href="https://docs.metapage.io/blog/metaframes#25f7ea917279448eae91ffe61ad8d25e" class="hash-link" aria-label="Direct link to Browser security is always improving, so users have a safe place to connect their compute resources to software" title="Direct link to Browser security is always improving, so users have a safe place to connect their compute resources to software">​</a></h2>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2023-12-18T15:32:46.937Z</updated>
+        <updated>2023-12-18T16:35:45.114Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <!-- -->
@@ -48,7 +118,7 @@
         <title type="html"><![CDATA[Sharable Simulations]]></title>
         <id>https://docs.metapage.io/blog/sharable-simulations</id>
         <link href="https://docs.metapage.io/blog/sharable-simulations"/>
-        <updated>2023-12-18T15:32:43.281Z</updated>
+        <updated>2023-12-18T16:35:41.070Z</updated>
         <summary type="html"><![CDATA[Placeholder for content about Sharable Simulations via Metapages]]></summary>
         <content type="html"><![CDATA[<p>Placeholder for content about Sharable Simulations via Metapages</p>
 ]]></content>
@@ -57,7 +127,7 @@
         <title type="html"><![CDATA[metapage URL schema]]></title>
         <id>https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97</id>
         <link href="https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97"/>
-        <updated>2023-12-18T15:32:42.729Z</updated>
+        <updated>2023-12-18T16:35:40.206Z</updated>
         <summary type="html"><![CDATA[Links to resources]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GCtf" id="6562e6a9391e47459c62b51ca4705542">Links to resources<a href="https://docs.metapage.io/blog/7965915b-b0e5-401d-b5ad-246e4812aa97#6562e6a9391e47459c62b51ca4705542" class="hash-link" aria-label="Direct link to Links to resources" title="Direct link to Links to resources">​</a></h2>
 <ul>
@@ -100,7 +170,7 @@
         <title type="html"><![CDATA[How to get SharedArrayBuffer and cross-domain isolation with metapage.io]]></title>
         <id>https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392</id>
         <link href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392"/>
-        <updated>2023-12-18T15:32:42.009Z</updated>
+        <updated>2023-12-18T16:35:38.866Z</updated>
         <summary type="html"><![CDATA[Guide]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GCtf" id="3f4d0b9c861841898be9dcf084a1317b">Guide<a href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392#3f4d0b9c861841898be9dcf084a1317b" class="hash-link" aria-label="Direct link to Guide" title="Direct link to Guide">​</a></h2>
 <p><a href="https://web.dev/cross-origin-isolation-guide/" target="_blank" rel="noopener noreferrer">https://web.dev/cross-origin-isolation-guide/</a></p>
@@ -122,7 +192,7 @@
         <title type="html"><![CDATA[Greatest Information Technology of Humans]]></title>
         <id>https://docs.metapage.io/blog/greatest-tech-in-time</id>
         <link href="https://docs.metapage.io/blog/greatest-tech-in-time"/>
-        <updated>2023-12-18T15:32:40.209Z</updated>
+        <updated>2023-12-18T16:35:37.618Z</updated>
         <summary type="html"><![CDATA[It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.]]></summary>
         <content type="html"><![CDATA[
 <div class="theme-admonition theme-admonition-tip admonition_KPbE alert alert--success"><div class="admonitionHeading_dnXR"><span class="admonitionIcon_EdCj"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_uwAK"><p>It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.</p></div></div>
@@ -169,7 +239,7 @@
         <title type="html"><![CDATA[Metapages Deep Time]]></title>
         <id>https://docs.metapage.io/blog/metapages-are-deep-time-persistent</id>
         <link href="https://docs.metapage.io/blog/metapages-are-deep-time-persistent"/>
-        <updated>2023-12-18T15:32:39.177Z</updated>
+        <updated>2023-12-18T16:35:36.570Z</updated>
         <summary type="html"><![CDATA[The promise:]]></summary>
         <content type="html"><![CDATA[<p>The promise:</p>
 <p>metapages, or objects derived from metapages, can be dehydrated (stored) and then re-hydrated and run <strong>forever</strong></p>
@@ -190,7 +260,7 @@
         <title type="html"><![CDATA[Metapages Origin]]></title>
         <id>https://docs.metapage.io/blog/metapages-history</id>
         <link href="https://docs.metapage.io/blog/metapages-history"/>
-        <updated>2023-12-18T15:32:38.965Z</updated>
+        <updated>2023-12-18T16:35:36.438Z</updated>
         <summary type="html"><![CDATA[Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.]]></summary>
         <content type="html"><![CDATA[<p>Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.</p>
 <p>Problems and observations:</p>
@@ -246,7 +316,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2023-12-18T15:32:37.037Z</updated>
+        <updated>2023-12-18T16:35:34.398Z</updated>
         <summary type="html"><![CDATA[2023-11-26]]></summary>
         <content type="html"><![CDATA[<p>2023-11-26</p>
 <!-- -->
@@ -284,7 +354,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2023-12-18T15:32:36.657Z</updated>
+        <updated>2023-12-18T16:35:34.162Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <!-- -->
@@ -325,7 +395,7 @@
         <title type="html"><![CDATA[What is a metapage? What problems do they solve?]]></title>
         <id>https://docs.metapage.io/blog/what-is-a-metapage</id>
         <link href="https://docs.metapage.io/blog/what-is-a-metapage"/>
-        <updated>2023-12-18T15:32:33.929Z</updated>
+        <updated>2023-12-18T16:35:31.717Z</updated>
         <summary type="html"><![CDATA[Write a good story]]></summary>
         <content type="html"><![CDATA[
 <p>Write a good story</p>
