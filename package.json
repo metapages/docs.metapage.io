@@ -15,10 +15,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.0.0",
-    "@docusaurus/preset-classic": "3.0.0",
-    "@docusaurus/theme-live-codeblock": "^3.0.0",
-    "@docusaurus/theme-mermaid": "^3.0.0",
+    "@docusaurus/core": "3.1.0",
+    "@docusaurus/preset-classic": "3.1.0",
+    "@docusaurus/theme-live-codeblock": "^3.1.0",
+    "@docusaurus/theme-mermaid": "^3.1.0",
     "@emotion/react": "11.10.5",
     "@mantine/core": "^5.8.3",
     "@mantine/hooks": "^5.8.3",
@@ -26,7 +26,7 @@
     "@mdx-js/react": "^3.0.0",
     "@metapages/docu-notion-plugins": "^0.1.5",
     "@metapages/metapage": "^0.13.12",
-    "@metapages/metapage-grid-react": "^0.1.18",
+    "@metapages/metapage-grid-react": "^0.1.19",
     "@notionhq/client": "^2.2.3",
     "@sillsdev/docu-notion": "0.14.0-alpha.4",
     "clsx": "^1.2.1",
@@ -41,9 +41,9 @@
     "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.0.0",
-    "@docusaurus/tsconfig": "^3.0.0",
-    "@docusaurus/types": "3.0.0",
+    "@docusaurus/module-type-aliases": "3.1.0",
+    "@docusaurus/tsconfig": "^3.1.0",
+    "@docusaurus/types": "3.1.0",
     "@types/react": "18.2",
     "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.1",
