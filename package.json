@@ -24,7 +24,7 @@
     "@mantine/hooks": "^5.8.3",
     "@mantine/styles": "^5.8.3",
     "@mdx-js/react": "^3.0.0",
-    "@metapages/docu-notion-plugins": "^0.1.5",
+    "@metapages/docu-notion-plugins": "^0.1.6",
     "@metapages/metapage": "^0.13.12",
     "@metapages/metapage-grid-react": "^0.1.19",
     "@notionhq/client": "^2.2.3",
