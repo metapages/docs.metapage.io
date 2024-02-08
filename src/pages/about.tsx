@@ -1,9 +1,10 @@
 import React from 'react';
+
 import clsx from 'clsx';
+
 import Link from '@docusaurus/Link';
+import { Redirect } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
@@ -26,16 +27,19 @@ function HomepageHeader() {
   );
 }
 
-export default function About(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Metapage docs and tutorials">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
-}
+// export default function About(): JSX.Element {
+//   const {siteConfig} = useDocusaurusContext();
+//   return (
+//     <Layout
+//       title={`${siteConfig.title}`}
+//       description="Metapage docs and tutorials">
+//       <HomepageHeader />
+//       <main>
+//         <HomepageFeatures />
+//       </main>
+//     </Layout>
+//   );
+// }
+
+const About: () => JSX.Element =  () =>  <Redirect to="/docs" />;
+export default About;

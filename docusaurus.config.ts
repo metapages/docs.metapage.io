@@ -9,7 +9,7 @@ const APP_HREF = process.env.APP_HREF || "https://app.metapage.io";
 
 const config :Config = {
   title: "Metapages",
-  tagline: "Simulations, workflows, and apps in the browser",
+  tagline: "Simulations, workflows, and apps in the browser. Accelerrated scientific and engineering collaboration.",
   url: "https://docs.metapage.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
