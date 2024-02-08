@@ -104,7 +104,7 @@ const config :Config = {
         items: [
           {
             type: "doc",
-            docId: "Introduction",
+            docId: "Getting-Started",
             position: "left",
             label: "Documentation",
           },
@@ -139,7 +139,7 @@ const config :Config = {
             title: "Docs",
             items: [
               {
-                label: "Introduction",
+                label: "Getting Started",
                 to: "/docs",
               },
               // {
