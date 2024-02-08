@@ -47,7 +47,7 @@ dev: _install
 build: _ensure_npm_modules blog docs _build
 
 # Build blog from notion https://github.com/sillsdev/docu-notion
-blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "docs")
+blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog")
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
 
