@@ -47,15 +47,14 @@ dev: _install
 build: _ensure_npm_modules blog docs _build
 
 # Build blog from notion https://github.com/sillsdev/docu-notion
-blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog")
+blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "docs")
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion
-docs: && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs")
+docs: && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
-    
 
 serve: build
     npm run serve
@@ -79,7 +78,56 @@ _install +args="":
 
 # If the document is linked in a mermaid diagram, apply a class to the element
 _highlight_self_in_mermaid path:
-    #!/usr/bin/env -S deno run --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
+    #!/usr/bin/env -S deno run --ext=ts --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
     import { highlightSelfInMermaidDiagramsAll } from "https://raw.githubusercontent.com/dionjwa/dionjwa.github.io/master/post-processing-scripts/mod.ts";
     await highlightSelfInMermaidDiagramsAll({ path: "{{path}}"});
     console.log("👍 highlighted mermaid self {{path}}")
+
+# Truncate markdown files after END PAGE
+_truncate_after_END_PAGE path:
+    #!/usr/bin/env -S deno run  --ext=ts --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
+    import { walk } from 'https://deno.land/std@0.182.0/fs/mod.ts';
+    const path = "{{path}}";
+    const regex = /([Ee][Nn][Dd]\s?[Pp][Aa][Gg][Ee])/;
+    async function truncateAfterRegex(filePath: string, regex: RegExp) {
+        regex.lastIndex = 0;
+        try {
+            // Read the file content
+            const decoder = new TextDecoder('utf-8');
+            const data = await Deno.readFile(filePath);
+            const content = decoder.decode(data);
+
+            // Find the match and its index
+            const match = content.match(regex);
+            if (match) {
+                const index = match.index || 0;
+                const truncatedContent = content.substring(0, index);
+    
+                // Write the truncated content back to the file
+                const encoder = new TextEncoder();
+                await Deno.writeFile(filePath, encoder.encode(truncatedContent));
+                console.log('File truncated successfully.');
+            } else {
+                console.log('No match found. File was not modified.');
+            }
+        } catch (error) {
+            console.error('Error truncating file:', error);
+        }
+    }
+    
+    const st = await Deno.stat(path);
+    if (st.isFile) {
+        truncateAfterRegex(path, regex);
+        Deno.exit(0);
+    }
+
+    for await (
+        const e of walk(path, {
+            includeDirs: false,
+            exts: [".md", ".mdx"],
+        })
+    ) {
+        if (e.isFile) {
+            truncateAfterRegex(e.path, regex);
+        }
+    }
