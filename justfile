@@ -50,14 +50,14 @@ build: _ensure_npm_modules docs blog _build
 @blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog")
     echo "Generating blog..."
     rm -rf blog/*
-    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/blog
+    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
     echo "👍 blog generated"
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion 
 @docs: && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")
     echo "Generating docs..."
     rm -rf docs/*
-    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag '*' --markdown-output-path $(pwd)/docs
+    {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
     echo "👍 docs generated"
 
 serve: build
@@ -113,9 +113,6 @@ _truncate_after_END_PAGE path:
                 // Write the truncated content back to the file
                 const encoder = new TextEncoder();
                 await Deno.writeFile(filePath, encoder.encode(truncatedContent));
-                console.log('File truncated successfully.');
-            } else {
-                console.log('No match found. File was not modified.');
             }
         } catch (error) {
             console.error('Error truncating file:', error);
