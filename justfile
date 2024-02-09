@@ -84,7 +84,7 @@ _install +args="":
 # If the document is linked in a mermaid diagram, apply a class to the element
 _highlight_self_in_mermaid path:
     #!/usr/bin/env -S deno run --ext=ts --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
-    import { highlightSelfInMermaidDiagramsAll } from "https://raw.githubusercontent.com/dionjwa/dionjwa.github.io/master/post-processing-scripts/mod.ts";
+    import { highlightSelfInMermaidDiagramsAll } from "https://raw.githubusercontent.com/dionjwa/dionjwa.github.io/f85eb37a/post-processing-scripts/mod.ts";
     console.log("starting highlighted mermaid self {{path}}...")
     await highlightSelfInMermaidDiagramsAll({ path: "{{path}}"});
     console.log("👍 highlighted mermaid self {{path}}")
