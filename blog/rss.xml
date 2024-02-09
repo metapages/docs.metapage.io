@@ -4,89 +4,17 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Fri, 09 Feb 2024 00:06:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Feb 2024 01:43:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Connect compute to my tasks- it’s too complicated]]></title>
-            <link>https://docs.metapage.io/blog/cloud-compute-too-complicated</link>
-            <guid>https://docs.metapage.io/blog/cloud-compute-too-complicated</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:15 GMT</pubDate>
-            <description><![CDATA[2023-11-28]]></description>
-            <content:encoded><![CDATA[<p>2023-11-28</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="d6395cc828f44649b3e04738dfafc668">We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#d6395cc828f44649b3e04738dfafc668" class="hash-link" aria-label="Direct link to We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible" title="Direct link to We have plenty of options for connecting compute to our tasks/simulations, but they are all complicated and not easily compatible">​</a></h2>
-<p>I want to run some batch compute for some tasks, it might be big, it might be small. There are so many choices, and</p>
-<ul>
-<li>kubernetes</li>
-<li>slurm</li>
-<li>condor</li>
-<li>nomad</li>
-<li>AWS batch</li>
-<li>Google similar thing</li>
-<li>Azure (I don’t even know but surprised if they don’t have a similar thing)</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_N13L" id="7605962b12bc4f87b25b52bf767afd37">Problems<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#7605962b12bc4f87b25b52bf767afd37" class="hash-link" aria-label="Direct link to Problems" title="Direct link to Problems">​</a></h3>
-<ul>
-<li>they require infrastructure skills, or an institution or group that has that support</li>
-<li>adhoc solutions do not last</li>
-<li>the configurations are not transferable without significant work</li>
-<li>it’s unlikely that any single solution above will dominate, reducing the likelihood of simper solutions for individuals and researchers</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="ac8127616c354e79870d58d9677b0517">Proposed solution<a href="https://docs.metapage.io/blog/cloud-compute-too-complicated#ac8127616c354e79870d58d9677b0517" class="hash-link" aria-label="Direct link to Proposed solution" title="Direct link to Proposed solution">​</a></h2>
-<p><strong>Users do not think much about where the compute is performed. It</strong> <em><strong>just works.</strong></em></p>
-<p>The batch compute job specification is entirely encoded in the URL. For example:</p>
-<p><code>https:</code> // <code>&lt;origin&gt;</code> / <code>#?</code> <code>definition=&lt;base64 encoded JSON&gt;</code></p>
-<p>The definition can start with simple docker container jobs:</p>
-<div class="language-yaml codeBlockContainer_DVU3 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_F7Z1"><pre tabindex="0" class="prism-code language-yaml codeBlock_FWEN thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_caY4"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">job</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">type</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> docker</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">image</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> &lt;image</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">name</span><span class="token punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">command</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> run</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">script.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">resources</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">cpu</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1000</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">memory</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 2gb</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">ttl</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 1h </span><br></span></code></pre><div class="buttonGroup_gG4I"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_k4P8" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_iZnS"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_HZQY"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>The minimal example above is encoded in the URL. The origin can be dynamically changed, and represents the location that will handle actual executing the above job definition.</p>
-<p>Job inputs and outputs? Handled by the <a href="https://docs.metapage.io/docs/npm-metapage" target="_blank" rel="noopener noreferrer">metapage library</a>.</p>
-<p><strong>Advantages:</strong></p>
-<ul>
-<li>You can click on the link, and immediately test, and edit the definition</li>
-<li>Agnostic of <em>where</em> the job is executed, as the origin can be changed without losing the definition</li>
-<li>The web is durable and everyone has a portal/environment (the browser) the will reliably view and execute the above definition</li>
-</ul>
-<p>The backend of exactly where the docker image is run is an implementation detail. For starting out, users can simply connect their own personal computers, test and iterate, then copy the link to a domain with access to more resources: <a href="https://docker.mtfm.io/#?tab=6" target="_blank" rel="noopener noreferrer">https://docker.mtfm.io/#?tab=6</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metaframes- websites as plug-and-play, editable, shareable components]]></title>
-            <link>https://docs.metapage.io/blog/metaframes</link>
-            <guid>https://docs.metapage.io/blog/metaframes</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:14 GMT</pubDate>
-            <description><![CDATA[This will be a white paper about metaframes:]]></description>
-            <content:encoded><![CDATA[
-<p>This will be a white paper about metaframes:</p>
-<ul>
-<li>what problem they solve</li>
-<li>how you use them</li>
-<li>how they work</li>
-<li>future capabilities</li>
-</ul>
-<h1>Problems they solve</h1>
-<ul>
-<li>When you find something you like on the internet, that is actually free or open for you to take and use and modify, there are many technical barriers preventing you from doing so</li>
-<li>A lot of “editable websites” are locked behind proprietary walls. Your work only exists at the whim of the business or entity, you don’t really own it in the sense that it will be around longer than e.g. the business<!-- -->
-<ul>
-<li>There is no deep-time strategy</li>
-</ul>
-</li>
-<li>Connecting useful things on the internet requires too much specialized knowledge and even with that knowledge, much time</li>
-<li>Connecting APIs can also involve third party services, another layer of cost, complexity, and risk</li>
-</ul>
-<h1>Why Browsers</h1>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="25f7ea917279448eae91ffe61ad8d25e">Browser security is always improving, so users have a safe place to connect their compute resources to software<a href="https://docs.metapage.io/blog/metaframes#25f7ea917279448eae91ffe61ad8d25e" class="hash-link" aria-label="Direct link to Browser security is always improving, so users have a safe place to connect their compute resources to software" title="Direct link to Browser security is always improving, so users have a safe place to connect their compute resources to software">​</a></h2>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:13 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 01:43:42 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
-<!-- -->
-<hr>
 <h1>Links are critical to deep-time knowledge preservation</h1>
 <!-- -->
 <p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
@@ -114,173 +42,17 @@
 </ul>
 <h1>References:</h1>
 <p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
-<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Shareable Simulations]]></title>
-            <link>https://docs.metapage.io/blog/shareable-simulations</link>
-            <guid>https://docs.metapage.io/blog/shareable-simulations</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:08 GMT</pubDate>
-            <description><![CDATA[---]]></description>
-            <content:encoded><![CDATA[
-<p><img loading="lazy" src="https://docs.metapage.io/assets/images/1940940595-17d15071d4ae13cfda87d456a30d3897.png" width="1024" height="1024" class="img_wj8U"></p>
-<hr>
+<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>
+<p>END PAGE</p>
 ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to get SharedArrayBuffer and cross-domain isolation with metapage.io]]></title>
-            <link>https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392</link>
-            <guid>https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:07 GMT</pubDate>
-            <description><![CDATA[Guide]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_N13L" id="3f4d0b9c861841898be9dcf084a1317b">Guide<a href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392#3f4d0b9c861841898be9dcf084a1317b" class="hash-link" aria-label="Direct link to Guide" title="Direct link to Guide">​</a></h2>
-<p><a href="https://web.dev/cross-origin-isolation-guide/" target="_blank" rel="noopener noreferrer">https://web.dev/cross-origin-isolation-guide/</a></p>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="5de1b86a22fe47fbb4674eac29a656f1">Main site must serve these headers:<a href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392#5de1b86a22fe47fbb4674eac29a656f1" class="hash-link" aria-label="Direct link to Main site must serve these headers:" title="Direct link to Main site must serve these headers:">​</a></h2>
-<ul>
-<li><code>Cross-Origin-Opener-Policy</code>: <code>same-origin</code></li>
-<li><code>Cross-Origin-Embedder-Policy</code>: <code>require-corp</code></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="2442d6ae453f45ee9b05da80821f055e">Iframe/metaframe site must serve these headers:<a href="https://docs.metapage.io/blog/590e31dd-740b-43ce-9667-a2879651a392#2442d6ae453f45ee9b05da80821f055e" class="hash-link" aria-label="Direct link to Iframe/metaframe site must serve these headers:" title="Direct link to Iframe/metaframe site must serve these headers:">​</a></h2>
-<ul>
-<li><code>Cross-Origin-Opener-Policy</code>: <code>same-origin</code></li>
-<li><code>Cross-Origin-Embedder-Policy</code>: <code>require-corp</code></li>
-<li><code>Cross-Origin-Resource-Policy</code>: <code>cross-origin</code></li>
-</ul>
-<p>When these stars are aligned, <code>ffmpeg.wasm</code> works in a metaframe:</p>
-<p><img loading="lazy" src="https://docs.metapage.io/assets/images/2030675540-bea8892e817cd75f6d5c66b3842f8a87.png" width="3392" height="1442" class="img_wj8U"></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Greatest Information Technology of Humans]]></title>
-            <link>https://docs.metapage.io/blog/greatest-tech-in-time</link>
-            <guid>https://docs.metapage.io/blog/greatest-tech-in-time</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:05 GMT</pubDate>
-            <description><![CDATA[It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.]]></description>
-            <content:encoded><![CDATA[
-<div class="theme-admonition theme-admonition-tip admonition_z0qS alert alert--success"><div class="admonitionHeading_OCI0"><span class="admonitionIcon_T1dl"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_MoYs"><p>It is unlikely that humans are the first to develop story-based deep-time cultural information persistence on this planet.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="cd01f6f926174670b3beb309162e0ddf">Problem: information degrades over time<a href="https://docs.metapage.io/blog/greatest-tech-in-time#cd01f6f926174670b3beb309162e0ddf" class="hash-link" aria-label="Direct link to Problem: information degrades over time" title="Direct link to Problem: information degrades over time">​</a></h2>
-<p>Human-created and biologically-evolved information systems have overlapping problems and have developed similar solutions.</p>
-<p>Hard-drives wear out, DNA sequences break and accumulate mutations, cosmic rays flib bits, DNA+RNA do not have 100% fidelity on copy, and so on.</p>
-<p><code>some cool pic here: stable diffusions???</code></p>
-<p>The solution is: <code>multiple copies</code></p>
-<p>While there are greater and lesser solutions at different stages and processes, duplication is the primary and most important mechanism for maintaining information consistency (right word?) over time.</p>
-<p>Cloud data storage maintains multiple copies of the data in different locations so that the loss of a hard-drive unit (which happens at some frequency) is handled (mostly) automatically by software+hardware systems.</p>
-<p>Biological systems use:</p>
-<ul>
-<li>DNA is double-stranded (the spare strand can be used for fixing errors)</li>
-<li>multiple copies of chromosomes</li>
-<li>Species are populations with multiple copies</li>
-</ul>
-<p>Cultural systems use:</p>
-<ul>
-<li>writing</li>
-<li>visual art</li>
-<li>music and spoken word</li>
-<li>places as physical anchors/markers/symbols</li>
-<li>others?</li>
-<li>digital storage of words, videos, sounds</li>
-</ul>
-<p>We think of think of written words as having more durability than spoken word but:</p>
-<ul>
-<li>languages evolve over time and reach a point where we cannot read the writing even if in stone (rosetta stone needed for Egyptian hieroglyphs)</li>
-<li>written word is archival unless read or spoken</li>
-<li>written/carved words can be burnt/destroyed/decayed by time</li>
-</ul>
-<p>As long as the words (stories and songs) are spoken and sung in each generation, then the persistence is potentially forever.</p>
-<p>Thus:</p>
-<ul>
-<li>deep time cultures must minimize large-scale wars as these cause genocide and thus erasure of deep-time information</li>
-<li>shallow-time cultures may not have the larger collective awareness of the long-term consequence of such loss events</li>
-<li>parasitic elements of deep time entities can consume the stored entropy of complex information (akin to, or literally, burning books for warmth)</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="a0c78e5a7bb44d96bf7c4c3ab6bb3a03">Calendars, human measurements of time<a href="https://docs.metapage.io/blog/greatest-tech-in-time#a0c78e5a7bb44d96bf7c4c3ab6bb3a03" class="hash-link" aria-label="Direct link to Calendars, human measurements of time" title="Direct link to Calendars, human measurements of time">​</a></h2>
-<p>Mayan calendar uses all visible planets, 49 year period</p>
-<p><a href="https://www.popularmechanics.com/science/archaeology/a43645858/how-the-mayan-calendar-works/" target="_blank" rel="noopener noreferrer">https://www.popularmechanics.com/science/archaeology/a43645858/how-the-mayan-calendar-works/</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metapages Deep Time]]></title>
-            <link>https://docs.metapage.io/blog/metapages-are-deep-time-persistent</link>
-            <guid>https://docs.metapage.io/blog/metapages-are-deep-time-persistent</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:04 GMT</pubDate>
-            <description><![CDATA[The promise:]]></description>
-            <content:encoded><![CDATA[<p>The promise:</p>
-<p>metapages, or objects derived from metapages, can be dehydrated (stored) and then re-hydrated and run <strong>forever</strong></p>
-<div class="theme-admonition theme-admonition-tip admonition_z0qS alert alert--success"><div class="admonitionHeading_OCI0"><span class="admonitionIcon_T1dl"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_MoYs"><p>A commitment to deep time is a promise to the future</p></div></div>
-<p>Individuals cannot make effective promises to the future, due to EOL/TTL, but groups and organizations can</p>
-<div class="theme-admonition theme-admonition-tip admonition_z0qS alert alert--success"><div class="admonitionHeading_OCI0"><span class="admonitionIcon_T1dl"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_MoYs"><p>Concentrated hierarchical power in organizations leads to instabilities: personalities overrides the distributed information flow that makes up long-term agreements and values</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="9a13c532c8ff476ca92ebc95cd95620a">forever<a href="https://docs.metapage.io/blog/metapages-are-deep-time-persistent#9a13c532c8ff476ca92ebc95cd95620a" class="hash-link" aria-label="Direct link to forever" title="Direct link to forever">​</a></h2>
-<p>Requires:</p>
-<ul>
-<li>object (data blob) storage</li>
-<li>DNS (serve content from addresses)</li>
-<li>scientifically critical software (e.g. libraries, tools) in object storage</li>
-<li>compute resources (virtual machines)</li>
-</ul>
-<p>These are not something this organization can do alone: it is a long-term, multi-organization endeavour. But <em>with</em> and building on those pre-requisites, the metapages organization aims to provide the tooling and infrastructure to provide deep-time durability</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Metapages Origin]]></title>
-            <link>https://docs.metapage.io/blog/metapages-history</link>
-            <guid>https://docs.metapage.io/blog/metapages-history</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:04 GMT</pubDate>
-            <description><![CDATA[Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.]]></description>
-            <content:encoded><![CDATA[<p>Metapages are a way to solve problems that arose repeatedly during my work in different multi-disciplinary scientific+software workplaces.</p>
-<p>Problems and observations:</p>
-<ul>
-<li>the time of software developers is a limited resource<!-- -->
-<ul>
-<li>but collaborations produce leaps instead of incremental steps</li>
-</ul>
-</li>
-<li>it's hard to share code and complex workflows<!-- -->
-<ul>
-<li>but when possible, progress accelerates</li>
-</ul>
-</li>
-<li>reproducing workflows and scientific processes can be too time-consuming to be practical<!-- -->
-<ul>
-<li>there is a tight relationship between durability, sharing, and reproducibility</li>
-</ul>
-</li>
-<li>sometimes you want to share a piece of a complex workflow/app but it's too tied up to be practical<!-- -->
-<ul>
-<li>isolating chunks of code into re-usable components is as-ever very useful when possible</li>
-</ul>
-</li>
-<li>mixing backend and front-end code is overly complex for one-off workflows<!-- -->
-<ul>
-<li>but is powerful</li>
-</ul>
-</li>
-<li>open-source software is key</li>
-</ul>
-<p>In most groups that I have been fortunate to work with, we ended up going down very similar paths, or at least, attempting to solve some of the same subset of problems.</p>
-<p>And new technical innovations can suddently change the landscape, such as docker, where previously it was impractical to share reproducible compute environments, then rapidly became trivial.</p>
-<h3 class="anchor anchorWithStickyNavbar_N13L" id="d834df68f5e24fa5b2ae093830d6e41c">Metapages<a href="https://docs.metapage.io/blog/metapages-history#d834df68f5e24fa5b2ae093830d6e41c" class="hash-link" aria-label="Direct link to Metapages" title="Direct link to Metapages">​</a></h3>
-<p>Metapages solves the following set of inter-related problems:</p>
-<ul>
-<li>How to share arbitrarily complex applications and workflows</li>
-<li>Sharing and storage are interconnected: how to store 👆</li>
-<li>How to lower the barriers of creating and editing</li>
-<li>How to automatically run apps and workflows in the future [deep-time-promise]</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_N13L" id="7a88c69baac141b89e458ae2bf0a6d99">Reference and footnotes<a href="https://docs.metapage.io/blog/metapages-history#7a88c69baac141b89e458ae2bf0a6d99" class="hash-link" aria-label="Direct link to Reference and footnotes" title="Direct link to Reference and footnotes">​</a></h2>
-<ul>
-<li><code>deep-time-promise</code></li>
-<li>How to empower scientists to share their ideas</li>
-<li>How to add add useful tools in the places where needed</li>
-<li>And all this</li>
-</ul>
-<p>Often, small pieces of code in just the right place is all that is needed to unblock and thus accelerate the workflow.</p>
-<p>But make and deploying software and code can be overly time-consuming and complex.o</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:01 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 01:43:38 GMT</pubDate>
             <description><![CDATA[2023-11-26]]></description>
             <content:encoded><![CDATA[<p>2023-11-26</p>
-<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
 <p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
 <ol>
@@ -309,17 +81,17 @@
 <h3 class="anchor anchorWithStickyNavbar_N13L" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
 <p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
 <h3 class="anchor anchorWithStickyNavbar_N13L" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>]]></content:encoded>
+<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
+<p>END PAGE</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Fri, 09 Feb 2024 00:06:00 GMT</pubDate>
+            <pubDate>Fri, 09 Feb 2024 01:43:38 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
-<!-- -->
-<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
 <div class="theme-admonition theme-admonition-tip admonition_z0qS alert alert--success"><div class="admonitionHeading_OCI0"><span class="admonitionIcon_T1dl"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_MoYs"><p>It gives users much more control and creativity over websites</p></div></div>
 <p>URLs can <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">safely and effectively store credentials</a> [1] (access to things). URLs can also store user created code or configuration. This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
@@ -358,24 +130,13 @@
 <p>In the example above, enough code was embedded in the link to describe a 3D with a bunch of complex behaviour. Someone else can take that URL, and directly modify it, run it, then share the modified URL.</p>
 <p>This way, apps can be both self-contained, but also highly configurable and shareable, allowing a high degree of direct collaboration not under centralized control.</p>
 <p><strong>Edit:</strong>  click the top right in the embed above:</p>
-<p><img loading="lazy" src="data:image/png;base64,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" width="104" height="112" class="img_wj8U"></p>
+<p><img loading="lazy" src="data:image/png;base64,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" width="116" height="112" class="img_wj8U"></p>
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
 <h1>References</h1>
-<p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[What is a metapage? What problems do they solve?]]></title>
-            <link>https://docs.metapage.io/blog/what-is-a-metapage</link>
-            <guid>https://docs.metapage.io/blog/what-is-a-metapage</guid>
-            <pubDate>Fri, 09 Feb 2024 00:05:57 GMT</pubDate>
-            <description><![CDATA[Write a good story]]></description>
-            <content:encoded><![CDATA[
-<p>Write a good story</p>
-<p>Right before a divider</p>
-<hr>
-<p>After the divider</p>
-<hr>
-<p>Another divider</p>]]></content:encoded>
+<p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>
+<p>END PAGE</p>
+<!-- -->
+]]></content:encoded>
         </item>
     </channel>
 </rss>
