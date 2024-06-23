@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sun, 23 Jun 2024 12:42:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Jun 2024 13:34:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Metapages vs Binder]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools-binder</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools-binder</guid>
-            <pubDate>Sun, 23 Jun 2024 12:42:06 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 13:34:18 GMT</pubDate>
             <description><![CDATA[Documentation]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" src="https://docs.metapage.io/assets/images/1503191761-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_wj8U"></p>
 <p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer">Documentation</a></p>
@@ -32,7 +32,7 @@
             <title><![CDATA[Comparison with other products/services/tools]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools</guid>
-            <pubDate>Sun, 23 Jun 2024 12:42:04 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 13:34:17 GMT</pubDate>
             <description><![CDATA[|                                                | Metapages | Binder                                      |]]></description>
             <content:encoded><![CDATA[<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
 <p>✅: supported</p>
@@ -51,7 +51,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Sun, 23 Jun 2024 12:42:03 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 13:34:16 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
 <h1>Links are critical to deep-time knowledge preservation</h1>
@@ -89,7 +89,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Sun, 23 Jun 2024 12:41:59 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 13:34:13 GMT</pubDate>
             <description><![CDATA[2023-11-26]]></description>
             <content:encoded><![CDATA[<p>2023-11-26</p>
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
@@ -132,7 +132,7 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Sun, 23 Jun 2024 12:41:59 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 13:34:11 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
@@ -176,10 +176,7 @@
 <p><img loading="lazy" src="data:image/png;base64,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" width="116" height="112" class="img_wj8U"></p>
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
 <h1>References</h1>
-<p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>
-<p>END PAGE</p>
-<!-- -->
-]]></content:encoded>
+<p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
