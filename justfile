@@ -38,15 +38,15 @@ _help:
     echo -e "   {{green}}NOTION_DOCUMENT_ROOT=${NOTION_DOCUMENT_ROOT}{{normal}}"
     echo -e "   {{green}}NOTION_BLOG_ROOT={{NOTION_BLOG_ROOT}}{{normal}}"
 
-# Run the dev server
+# Run the dev server (docs and blog are NOT generated from notion)
 dev: _install
     APP_HREF={{APP_HREF}} \
         pnpm run start --port {{DOCUSAURUS_PORT}}
 
-# build documentation
+# Build documentation (docs and blog from notion)
 build: _ensure_npm_modules docs blog _build
 
-# Build blog from notion https://github.com/sillsdev/docu-notion
+# Generate blog from notion https://github.com/sillsdev/docu-notion
 @blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog")
     echo "Generating blog..."
     rm -rf blog/*
@@ -60,12 +60,16 @@ build: _ensure_npm_modules docs blog _build
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
     echo "👍 docs generated"
 
-serve: build
+# Build docs and blog from notion, then serve
+serve: build open
     npm run serve
 
 # Open the docs in the browser
 open:
     deno run --allow-all --unstable https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
+
+clean:
+    rm -rf docs/* blog/*
 
 _build:
     APP_HREF={{APP_HREF}} \
