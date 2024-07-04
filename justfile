@@ -70,6 +70,9 @@ open:
 
 clean:
     rm -rf docs/* blog/*
+    rm -rf node_modules
+    rm -rf .docusaurus .cache-loader
+    rm -rf build
 
 _build:
     APP_HREF={{APP_HREF}} \

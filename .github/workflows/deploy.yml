@@ -23,15 +23,15 @@ jobs:
 
       - uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.x
+          deno-version: "1.44.0"
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22.x
 
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.6.7
+          version: "8.15.5"
 
       - name: Install dependencies
         run: just _install --frozen-lockfile
