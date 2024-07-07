@@ -60,7 +60,7 @@ const config :Config = {
           //   "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/notion-to-markdown-columns.css") ],
+          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/notion-to-markdown-columns.css"), require.resolve("./src/css/mpg.css"), ],
         },
       }),
     ],
@@ -128,7 +128,7 @@ const config :Config = {
             href: APP_HREF,
             position: "right",
             // Copied and modified the button from: https://cssbuttons.app/buttons/60
-            html: `<a href="${APP_HREF}/sign-up" style="background-color: #32AEE4; color: #ffffff;  font-weight: 600; position: relative; outline: none; border-radius: 6px; display: flex; justify-content: center; align-items: center; cursor: pointer; height: 40px; width: 120px;">Sign Up</a>`,
+            html: `<a href="${APP_HREF}/sign-up" style="background-color: #0F76D7; color: #FFF; font-weight: 600; position: relative; outline: none; border-radius: 6px; display: flex; justify-content: center; align-items: center; cursor: pointer; height: 40px; width: 120px;">Sign Up</a>`,
           },
         ],
       },
@@ -213,6 +213,31 @@ const config :Config = {
         additionalLanguages: ['bash', 'json', 'python', 'typescript', 'javascript', 'yaml', 'markdown', 'mermaid'],
       },
     }),
-};
+
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com',
+        }
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: 'true',
+        }
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap',
+        }
+      },
+    ]
+  };
 
 export default config;
