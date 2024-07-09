@@ -128,7 +128,7 @@ const config :Config = {
             href: APP_HREF,
             position: "right",
             // Copied and modified the button from: https://cssbuttons.app/buttons/60
-            html: `<a href="${APP_HREF}/sign-up" style="background-color: #0F76D7; color: #FFF; font-weight: 600; position: relative; outline: none; border-radius: 6px; display: flex; justify-content: center; align-items: center; cursor: pointer; height: 40px; width: 120px;">Sign Up</a>`,
+            html: `<a href="${APP_HREF}/sign-up" style="background-color: var(--color-cta-primary-background); color: var(--color-cta-primary-foreground); font-weight: var(--font-cta-primary-weight); position: relative; outline: none; border-radius: 6px; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 5px 30px;">Sign Up</a>`,
           },
         ],
       },
