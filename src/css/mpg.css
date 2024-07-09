@@ -2,30 +2,64 @@
  * Main palette.
  */
 
-body {
-    --color-background-light: #F3F3F3;
-    --color-body: #000;
-    --color-body-diminished: #52586D;
-    --color-body-disabled: #C0C5D5;
-    --color-cta_foreground: #fff;
-    --color-cta_background: #0085FF;
-    --color-link: #0F76D7;
-    --color-main-background: #fff;
-    --color-nav-item-active-foreground: #000;
+html {
+    --color-black: #000;
+    --color-gray-dark: #52586D;
+    --color-gray-very-light: #F3F3F3;
+    --color-blue-medium: #0F76D7;
+    --color-blue-very-light: #C0C5D5;
+    --color-white: #fff;
+
+    --color-background-light: var(--color-gray-very-light);
+    --color-body: var(--color-black);
+    --color-body-diminished: var(--color-gray-dark);
+    --color-body-disabled: var(--color-blue-very-light);
+    --color-cta-primary-foreground: var(--color-white);
+    --color-cta-primary-background: var(--color-blue-medium);
+    --color-footer-copyright: var(--color-gray-dark);
+    --color-footer-link: var(--color-blue-very-light);
+    --color-link: var(--color-blue-medium);
+    --color-main-background: var(--color-white);
+    --color-nav-item-active-foreground: var(--color-black);
     --color-nav-item-active-background: transparent;
-    --color-nav-item-normal-foreground: #000;
-    --color-navbar-background: #fff;
-    --color-nav-breadcrumbs-active-foreground: #000;
-    --color-nav-breadcrumbs-normal-foreground: #52586D;
+    --color-nav-item-normal-foreground: var(--color-black);
+    --color-navbar-background: var(--color-white);
+    --color-nav-secondary-active-foreground: var(--color-black);
+    --color-nav-secondary-normal-foreground: var(--color-gray-dark);
+
     --font-main: Inter;
+    --font-body-secondary-size: 0.85rem;
     --font-blog-header-size: 48px;
     --font-blog-body-h1-size: 32px;
     --font-blog-body-h2-size: 22px;
     --font-blog-body-h3-size: 16px;
+    --font-cta-primary-weight: 600;
     --font-nav-secondary-size: 0.85rem;
+}
 
+html[data-theme="dark"] {
+    --color-body: var(--color-white);
+    --color-body-diminished: var(--color-blue-very-light);
+    --color-main-background: var(--color-black);
+    --color-navbar-background: var(--color-black);
+    --color-nav-item-active-foreground: var(--color-white);
+    --color-nav-item-normal-foreground: var(--color-white);
+    --color-nav-secondary-active-foreground: var(--color-white);
+    --color-nav-secondary-normal-foreground: var(--color-blue-very-light);
+
+}
+
+/**
+ * General style overrides.
+ */
+
+body {
     color: var(--color-body);
     font-family: var(--font-main);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /**
@@ -118,6 +152,12 @@ aside li.theme-doc-sidebar-item-category a {
     color: var(--color-nav-item-normal-foreground) !important;
 }
 
+aside li[class*="sidebarItem"] a:hover,
+aside li.theme-doc-sidebar-item-link a:hover,
+aside li.theme-doc-sidebar-item-category a:hover {
+    text-decoration: underline;
+}
+
 aside li[class*="sidebarItem"] a[aria-current="page"],
 aside li.theme-doc-sidebar-item-link a[aria-current="page"],
 aside li.theme-doc-sidebar-item-link a[aria-current="page"],
@@ -134,13 +174,18 @@ aside .menu__list-item-collapsible--active {
 
 nav.theme-doc-breadcrumbs a,
 nav.theme-doc-breadcrumbs .breadcrumbs__link {
-    color: var(--color-nav-breadcrumbs-normal-foreground);
+    color: var(--color-nav-secondary-normal-foreground);
     font-size: var(--font-nav-secondary-size);
+}
+
+nav.theme-doc-breadcrumbs a.breadcrumbs__link:hover {
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 nav.theme-doc-breadcrumbs .breadcrumbs__item--active .breadcrumbs__link {
     font-weight: bold;
-    color: var(--color-nav-breadcrumbs-active-foreground);
+    color: var(--color-nav-secondary-active-foreground);
     background-color: transparent;
 }
 
@@ -149,16 +194,21 @@ nav.theme-doc-breadcrumbs .breadcrumbs__item--active .breadcrumbs__link {
  */
 
 .table-of-contents a,
+.table-of-contents a:hover,
 .table-of-contents a strong {
-    color: var(--color-nav-breadcrumbs-normal-foreground);
+    color: var(--color-nav-secondary-normal-foreground);
     font-size: var(--font-nav-secondary-size);
     font-weight: normal;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
 }
 
 .table-of-contents a.table-of-contents__link--active,
 .table-of-contents a.table-of-contents__link--active strong {
     font-weight: bold;
-    color: var(--color-nav-breadcrumbs-active-foreground);
+    color: var(--color-nav-secondary-active-foreground);
 }
 
 /**
@@ -173,4 +223,17 @@ header h2, header h2 a:link, header h2 a:visited {
     color: var(--color-body);
     font-size: var(--font-blog-header-size);
     font-weight: normal;
+}
+
+/**
+ * Footer.
+ */
+
+a.footer__link-item {
+    color: var(--color-footer-link);
+}
+
+.footer__copyright {
+    color: var(--color-footer-copyright);
+    font-size: var(--font-body-secondary-size);
 }
