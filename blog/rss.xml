@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Tue, 30 Jul 2024 05:34:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jul 2024 06:38:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Metapages vs Binder]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools-binder</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools-binder</guid>
-            <pubDate>Tue, 30 Jul 2024 05:34:55 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 06:38:02 GMT</pubDate>
             <description><![CDATA[Documentation]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" src="https://docs.metapage.io/assets/images/1503191761-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_wj8U"></p>
 <p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a></p>
@@ -32,7 +32,7 @@
             <title><![CDATA[Comparison with other products/services/tools]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools</guid>
-            <pubDate>Tue, 30 Jul 2024 05:34:54 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 06:38:01 GMT</pubDate>
             <description><![CDATA[|                                                | Metapages | Binder                                      |]]></description>
             <content:encoded><![CDATA[<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
 <p>✅: Supported</p>
@@ -49,7 +49,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Tue, 30 Jul 2024 05:34:52 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 06:37:59 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
 <h1>Links are critical to deep-time knowledge preservation</h1>
@@ -87,7 +87,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Tue, 30 Jul 2024 05:34:47 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 06:37:55 GMT</pubDate>
             <description><![CDATA[2023-11-26]]></description>
             <content:encoded><![CDATA[<p>2023-11-26</p>
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
@@ -130,7 +130,7 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Tue, 30 Jul 2024 05:34:47 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 06:37:54 GMT</pubDate>
             <description><![CDATA[2023-12-05]]></description>
             <content:encoded><![CDATA[<p>2023-12-05</p>
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
