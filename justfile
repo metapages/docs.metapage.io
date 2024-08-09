@@ -125,7 +125,7 @@ _truncate_after_END_PAGE path:
                 // Write the truncated content back to the file
                 const encoder = new TextEncoder();
                 await Deno.writeFile(filePath, encoder.encode(truncatedContent));
-                console.log("✂️ after END PAGE truncated: " + filePath);
+                console.log("  ✂️ after END PAGE truncated: " + filePath);
             }
         } catch (error) {
             console.error('Error truncating file:', error);
