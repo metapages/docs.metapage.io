@@ -120,6 +120,7 @@ _truncate_after_END_PAGE path:
                 // Write the truncated content back to the file
                 const encoder = new TextEncoder();
                 await Deno.writeFile(filePath, encoder.encode(truncatedContent));
+                console.log("✂️ after END PAGE truncated: " + filePath);
             }
         } catch (error) {
             console.error('Error truncating file:', error);
@@ -128,7 +129,7 @@ _truncate_after_END_PAGE path:
     
     const st = await Deno.stat(path);
     if (st.isFile) {
-        truncateAfterRegex(path, regex);
+        await truncateAfterRegex(path, regex);
         Deno.exit(0);
     }
 
@@ -139,7 +140,7 @@ _truncate_after_END_PAGE path:
         })
     ) {
         if (e.isFile) {
-            truncateAfterRegex(e.path, regex);
+            await truncateAfterRegex(e.path, regex);
         }
     }
     console.log("👍 truncated markdown files after END PAGE")
