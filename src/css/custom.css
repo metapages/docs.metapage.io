@@ -44,3 +44,7 @@
   font-weight: 400;
   text-align: center;
 }
+
+.toc {
+  display: none;
+}
