@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2024-08-09T20:34:19.237Z</updated>
+    <updated>2024-08-09T21:34:19.878Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Metapages vs Binder]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools-binder</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools-binder"/>
-        <updated>2024-08-09T20:34:19.237Z</updated>
+        <updated>2024-08-09T21:34:19.878Z</updated>
         <summary type="html"><![CDATA[Documentation]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" src="https://docs.metapage.io/assets/images/1503191761-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_wj8U"></p>
 <p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a></p>
@@ -31,7 +31,7 @@
         <title type="html"><![CDATA[Comparison with other products/services/tools]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools"/>
-        <updated>2024-08-09T20:34:17.419Z</updated>
+        <updated>2024-08-09T21:34:16.734Z</updated>
         <summary type="html"><![CDATA[|                                                | Metapages | Binder                                      |]]></summary>
         <content type="html"><![CDATA[<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
 <p>✅: Supported</p>
@@ -48,7 +48,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2024-08-09T20:34:15.373Z</updated>
+        <updated>2024-08-09T21:34:14.939Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <h1>Links are critical to deep-time knowledge preservation</h1>
@@ -84,9 +84,10 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2024-08-09T20:34:07.903Z</updated>
+        <updated>2024-08-09T21:34:06.164Z</updated>
         <summary type="html"><![CDATA[2023-11-26]]></summary>
         <content type="html"><![CDATA[<p>2023-11-26</p>
+<h2 class="anchor anchorWithStickyNavbar_N13L" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
 <p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
 <ol>
 <li>create a bucket or whatever it’s called in one of some cloud provider, doesn’t have to be the biggest name, they’re all very reliable</li>
@@ -100,7 +101,7 @@
 </ul>
 <p>At scale however, yes, you do have to think about cost, but those calculations are pretty straightforward business calculations. At anything below very large data, you don’t have to think much about it, and this makes it a <strong>solved problem</strong>.</p>
 <p>It’s a solved problem in a similar way that nature has solved storing information: replication, with automated mechanisms for damage repair/reconciliation [2].</p>
-<h1>Compute is not a solved problem</h1>
+<h2 class="anchor anchorWithStickyNavbar_N13L" id="7998c587d99540c98564ff6646cb9977">Compute is not a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7998c587d99540c98564ff6646cb9977" class="hash-link" aria-label="Direct link to Compute is not a solved problem" title="Direct link to Compute is not a solved problem">​</a></h2>
 <p>Because you have to think about it. What I want:</p>
 <p>I give you some application, some workflow, for example, a machine learning agent, some program I have created, some tool, and it requires from time to time, some level of computing power. You are able to automatically, safely, connect that application to the right level of compute resources as needed.</p>
 <ul>
@@ -124,7 +125,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2024-08-09T20:34:07.048Z</updated>
+        <updated>2024-08-09T21:34:03.909Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <h2 class="anchor anchorWithStickyNavbar_N13L" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
