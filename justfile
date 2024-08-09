@@ -51,7 +51,7 @@ dev: _install
 build: _ensure_npm_modules docs blog _build
 
 # Generate blog from notion https://github.com/sillsdev/docu-notion
-@blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog")
+@blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")
     echo "Generating blog..."
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
@@ -150,3 +150,11 @@ _truncate_after_END_PAGE path:
     }
     console.log("👍 truncated markdown files after END PAGE")
     Deno.exit(0);
+
+_remove-right-navigation-selected path:
+    #!/usr/bin/env -S deno run --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
+    import { applyFrontMatterModificationToAll, hideTableOfContents } from "https://raw.githubusercontent.com/dionjwa/dionjwa.github.io/f85eb37a/post-processing-scripts/mod.ts";
+    await applyFrontMatterModificationToAll({ path: "{{path}}", f: (frontMatter) => {
+        return hideTableOfContents(frontMatter);
+    }});
+    console.log("👍 removed right navigation from {{path}}")

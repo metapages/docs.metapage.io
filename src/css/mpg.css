@@ -30,9 +30,9 @@ html {
     --font-main: Inter;
     --font-body-secondary-size: 0.85rem;
     --font-blog-header-size: 48px;
-    --font-blog-body-h1-size: 32px;
-    --font-blog-body-h2-size: 22px;
-    --font-blog-body-h3-size: 16px;
+    --font-blog-body-h1-size: 38px;
+    --font-blog-body-h2-size: 32px;
+    --font-blog-body-h3-size: 20px;
     --font-cta-primary-weight: 600;
     --font-nav-secondary-size: 0.85rem;
 }
@@ -129,7 +129,7 @@ article h1 {
 
 article h2 {
     font-size: var(--font-blog-body-h2-size);
-    font-weight: normal;
+    font-weight: bold;
     color: var(--color-body);
 }
 

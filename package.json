@@ -15,10 +15,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.0",
-    "@docusaurus/preset-classic": "3.1.0",
-    "@docusaurus/theme-live-codeblock": "^3.1.0",
-    "@docusaurus/theme-mermaid": "^3.1.0",
+    "@docusaurus/core": "3.5.0",
+    "@docusaurus/preset-classic": "3.5.0",
+    "@docusaurus/theme-live-codeblock": "^3.5.0",
+    "@docusaurus/theme-mermaid": "^3.5.0",
     "@emotion/react": "11.10.5",
     "@mantine/core": "^5.8.3",
     "@mantine/hooks": "^5.8.3",
@@ -41,9 +41,9 @@
     "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.0",
-    "@docusaurus/tsconfig": "^3.1.0",
-    "@docusaurus/types": "3.1.0",
+    "@docusaurus/module-type-aliases": "3.5.0",
+    "@docusaurus/tsconfig": "^3.5.0",
+    "@docusaurus/types": "3.5.0",
     "@types/react": "18.2",
     "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.1",
