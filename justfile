@@ -35,8 +35,12 @@ _help:
     #!/usr/bin/env bash
     echo ""
     just --list --unsorted --list-heading $'📚 Commands for metapage docs:\n'
-    echo -e "   {{green}}NOTION_DOCUMENT_ROOT=${NOTION_DOCUMENT_ROOT}{{normal}}"
-    echo -e "   {{green}}NOTION_BLOG_ROOT={{NOTION_BLOG_ROOT}}{{normal}}"
+    echo -e ""
+    echo -e "       Deployed site: {{green}}https://docs.metapage.io/{{normal}}"
+    echo -e "       github repo:   {{green}}https://github.com/metapages/docs.metapage.io{{normal}}"
+    echo -e ""
+    echo -e "       {{green}}NOTION_DOCUMENT_ROOT=${NOTION_DOCUMENT_ROOT}{{normal}}"
+    echo -e "       {{green}}NOTION_BLOG_ROOT={{NOTION_BLOG_ROOT}}{{normal}}"
 
 # Run the dev server (docs and blog are NOT generated from notion)
 dev: _install
@@ -68,6 +72,7 @@ serve: build open
 open:
     deno run --allow-all --unstable https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
 
+# Delete all generated files, node_modules, caches, build directories
 clean:
     rm -rf docs/* blog/*
     rm -rf node_modules
