@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmetapage_docs=self.webpackChunkmetapage_docs||[]).push([[3237],{9013:(e,s,a)=>{a.r(s),a.d(s,{default:()=>d});a(959),a(1528);var c=a(8903);a(2390);var t=a(1527);const d=()=>(0,t.jsx)(c.l_,{to:"/docs"})}}]);
