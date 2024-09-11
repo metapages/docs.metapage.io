@@ -3433,7 +3433,7 @@ function forIn(object, iteratee) {
 
 
 /*
- * This module provides coordinate assignment based on Brandes and Köpf, "Fast
+ * This module provides coordinate assignment based on Brandes and KÃ¶pf, "Fast
  * and Simple Horizontal Coordinate Assignment."
  */
 
