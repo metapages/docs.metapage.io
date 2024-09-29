@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2024-09-29T04:36:32.702Z</updated>
+    <updated>2024-09-29T05:35:13.813Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Media Mentions]]></title>
         <id>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</id>
         <link href="https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f"/>
-        <updated>2024-09-29T04:36:32.702Z</updated>
+        <updated>2024-09-29T05:35:13.813Z</updated>
         <summary type="html"><![CDATA[Bits In Bio Global Mixer Presentation 15/08/2024]]></summary>
         <content type="html"><![CDATA[<p>Bits In Bio Global Mixer Presentation 15/08/2024</p>
 <div style="width:640px;height:360px"></div>]]></content>
@@ -20,7 +20,7 @@
         <title type="html"><![CDATA[Metapages vs Binder]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools-binder</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools-binder"/>
-        <updated>2024-09-29T04:36:31.146Z</updated>
+        <updated>2024-09-29T05:35:13.048Z</updated>
         <summary type="html"><![CDATA[Documentation]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/1503191761-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_RZJ2"></p>
 <p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a></p>
@@ -40,7 +40,7 @@
         <title type="html"><![CDATA[Comparison with other products/services/tools]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools"/>
-        <updated>2024-09-29T04:36:30.171Z</updated>
+        <updated>2024-09-29T05:35:11.954Z</updated>
         <summary type="html"><![CDATA[|                                                | Metapages | Binder                                      |]]></summary>
         <content type="html"><![CDATA[<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
 <p>✅: Supported</p>
@@ -57,7 +57,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2024-09-29T04:36:28.361Z</updated>
+        <updated>2024-09-29T05:35:10.676Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <h1>Links are critical to deep-time knowledge preservation</h1>
@@ -93,7 +93,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2024-09-29T04:36:25.059Z</updated>
+        <updated>2024-09-29T05:35:07.641Z</updated>
         <summary type="html"><![CDATA[Storage is a solved problem]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_tEzi" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
 <p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
@@ -133,7 +133,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2024-09-29T04:36:24.149Z</updated>
+        <updated>2024-09-29T05:35:06.794Z</updated>
         <summary type="html"><![CDATA[2023-12-05]]></summary>
         <content type="html"><![CDATA[<p>2023-12-05</p>
 <h2 class="anchor anchorWithStickyNavbar_tEzi" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
