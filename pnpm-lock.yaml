@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@sillsdev/docu-notion@0.14.0-alpha.4':
-    hash: ywga2gigynoblozcuu3tnxifja
+    hash: spar3b7abgw3ysyg5flyfwub6m
     path: patches/@sillsdev__docu-notion@0.14.0-alpha.4.patch
 
 importers:
@@ -54,7 +54,7 @@ importers:
         version: 2.2.3
       '@sillsdev/docu-notion':
         specifier: 0.14.0-alpha.4
-        version: 0.14.0-alpha.4(patch_hash=ywga2gigynoblozcuu3tnxifja)(@types/node@20.9.4)(typescript@5.2.2)
+        version: 0.14.0-alpha.4(patch_hash=spar3b7abgw3ysyg5flyfwub6m)(@types/node@20.9.4)(typescript@5.2.2)
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -9058,7 +9058,7 @@ snapshots:
 
   '@sideway/pinpoint@2.0.0': {}
 
-  '@sillsdev/docu-notion@0.14.0-alpha.4(patch_hash=ywga2gigynoblozcuu3tnxifja)(@types/node@20.9.4)(typescript@5.2.2)':
+  '@sillsdev/docu-notion@0.14.0-alpha.4(patch_hash=spar3b7abgw3ysyg5flyfwub6m)(@types/node@20.9.4)(typescript@5.2.2)':
     dependencies:
       '@notionhq/client': 2.2.3
       chalk: 4.1.2
