@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmetapage_docs=self.webpackChunkmetapage_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Metapages vs Binder","permalink":"/blog/comparison-with-other-tools-binder","unlisted":false,"date":"2024-10-05T18:36:51.648Z"}]}')}}]);

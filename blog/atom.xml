@@ -2,25 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2024-10-05T17:35:07.952Z</updated>
+    <updated>2024-10-05T18:36:51.648Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Media Mentions]]></title>
-        <id>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</id>
-        <link href="https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f"/>
-        <updated>2024-10-05T17:35:07.952Z</updated>
-        <summary type="html"><![CDATA[Bits In Bio Global Mixer Presentation 15/08/2024]]></summary>
-        <content type="html"><![CDATA[<p>Bits In Bio Global Mixer Presentation 15/08/2024</p>
-<div style="width:640px;height:360px"></div>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Metapages vs Binder]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools-binder</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools-binder"/>
-        <updated>2024-10-05T17:35:07.098Z</updated>
+        <updated>2024-10-05T18:36:51.648Z</updated>
         <summary type="html"><![CDATA[Documentation]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/1503191761-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_RZJ2"></p>
 <p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a></p>
@@ -35,148 +26,5 @@
 <p>However, there is no state management, so every binder instance is it’s own, since the source is the github repo.</p>
 <p>There is no searchable catalogue of shared binders, and binders are not composable, they are single stand-alone instances.</p>
 <p>The backend is built for kubernetes, which is the largest cluster manager by far, which is good, but you cannot simply plug in your own computer easily. Kubernetes is complex, so you need to have the support of a organization or highly technical individual to implement your own.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparison with other products/services/tools]]></title>
-        <id>https://docs.metapage.io/blog/comparison-with-other-tools</id>
-        <link href="https://docs.metapage.io/blog/comparison-with-other-tools"/>
-        <updated>2024-10-05T17:35:06.703Z</updated>
-        <summary type="html"><![CDATA[|                                                | Metapages | Binder                                      |]]></summary>
-        <content type="html"><![CDATA[<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
-<p>✅: Supported</p>
-<p>🧩: Partial</p>
-<p>❌: Not supported</p>
-<p>❓: Unknown</p>
-<p>🏗️: Planned to support</p>
-<h2 class="anchor anchorWithStickyNavbar_tEzi" id="837061433fab4aca9bf6abb716f0d17f">Detailed Comparisons<a href="https://docs.metapage.io/blog/comparison-with-other-tools#837061433fab4aca9bf6abb716f0d17f" class="hash-link" aria-label="Direct link to Detailed Comparisons" title="Direct link to Detailed Comparisons">​</a></h2>
-<ul>
-<li><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">vs binder</a></li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
-        <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
-        <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2024-10-05T17:35:01.119Z</updated>
-        <summary type="html"><![CDATA[2023-12-05]]></summary>
-        <content type="html"><![CDATA[<p>2023-12-05</p>
-<h1>Links are critical to deep-time knowledge preservation</h1>
-<!-- -->
-<p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
-<p>A critical part of the <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is recording and preserving links. When a link to a website dies for whatever reason, but then is preserved, we keep the underlying knowledge, since knowledge is distributed, just like how awareness of the environment is somehow kept in the patterns of neuron connections, not stored someone inside specific neurons.</p>
-<div class="theme-admonition theme-admonition-note admonition_Hh_o alert alert--secondary"><div class="admonitionHeading_hOJx"><span class="admonitionIcon_lpX8"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_dJDD"><p>Digital neurons store information patterns in the connections. Biological neurons are more complex, storing information in connections, cellular state, frequency of activation, hormones, among other places. But likely the most important part is the connections between neurons.</p></div></div>
-<div class="theme-admonition theme-admonition-note admonition_Hh_o alert alert--secondary"><div class="admonitionHeading_hOJx"><span class="admonitionIcon_lpX8"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_dJDD"><p>This is a massive simplification, since there are many examples e.g. snail neurons that store information in the neuronal cells in complex ways [1]</p></div></div>
-<hr>
-<h1>Links that store state in the URL help preserve websites through deep time</h1>
-<p><strong>The more state is stored in the URL directly, the more the website is able to be preserved and also retain functionality.</strong></p>
-<p>This has a number of advantages:</p>
-<ul>
-<li>The user state is stored in the URL and is:<!-- -->
-<ul>
-<li>user editable (in the future)</li>
-<li>machine readable</li>
-</ul>
-</li>
-<li>The origin can be modified dynamically to reroute to domains that are active, without modifying the core state (in the hash parameters of the URL)</li>
-<li>Much easier to store, since a URL is just a string<!-- -->
-<ul>
-<li>Assuming that the core libraries, assets, and modules are preserved, but that’s a separate concern</li>
-</ul>
-</li>
-<li>More complex applications can be preserved as <a href="https://docs.metapage.io/docs" target="_blank" rel="noopener noreferrer">metapages</a>, therefore allowing someone in the future to access a complex workflow, and use it immediately</li>
-</ul>
-<h1>References:</h1>
-<p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
-<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
-        <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
-        <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2024-10-05T17:34:57.760Z</updated>
-        <summary type="html"><![CDATA[Storage is a solved problem]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_tEzi" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
-<p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
-<ol>
-<li>create a bucket or whatever it’s called in one of some cloud provider, doesn’t have to be the biggest name, they’re all very reliable</li>
-<li>put stuff in</li>
-<li>get stuff out</li>
-</ol>
-<p>I don’t care where much it is. Why? Because it’s a <strong>solved problem</strong>. Remote blob storage is:</p>
-<ul>
-<li>very cheap, and getting cheaper</li>
-<li>reliable [1]</li>
-</ul>
-<p>At scale however, yes, you do have to think about cost, but those calculations are pretty straightforward business calculations. At anything below very large data, you don’t have to think much about it, and this makes it a <strong>solved problem</strong>.</p>
-<p>It’s a solved problem in a similar way that nature has solved storing information: replication, with automated mechanisms for damage repair/reconciliation [2].</p>
-<h2 class="anchor anchorWithStickyNavbar_tEzi" id="7998c587d99540c98564ff6646cb9977">Compute is not a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7998c587d99540c98564ff6646cb9977" class="hash-link" aria-label="Direct link to Compute is not a solved problem" title="Direct link to Compute is not a solved problem">​</a></h2>
-<p>Because you have to think about it. What I want:</p>
-<p>I give you some application, some workflow, for example, a machine learning agent, some program I have created, some tool, and it requires from time to time, some level of computing power. You are able to automatically, safely, connect that application to the right level of compute resources as needed.</p>
-<ul>
-<li>If the program is in the browser, I might be able to use the GPU, while the tab is open and running.</li>
-<li>If the program is downloaded and installed program, I have access to your entire computer, but due to that, security and parasitic programs become a problem.</li>
-<li>If I make available some cloud computing, it suddenly becomes complex, with lots of decisions, but with lots of scalable compute resources of different useful types.</li>
-</ul>
-<p>Computing resources are inherently valuable, and often able to be converted to $$ efficiently via automation.</p>
-<p>Obviously <code>storage !== compute</code> but if it were as easy, then I could distribute complex scientific simulations, and revive them years later, and they would “just work”.</p>
-<p>The team at <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a> aim to solve that problem: compute as a simple commodity.</p>
-<p>When we can treat compute as a commodity, we have more power over the compute providers. When they manage to get their system to be difficult to move from, you lose bargaining power.</p>
-<p>Personally, I default to <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">https://www.digitalocean.com/</a>. This isn’t a paid plug! They just do a great job of making plenty of options, at the right complexity/resolution, not too many, not too few.</p>
-<p>For my full stacks, I’m using AWS but not directly: my choice of platform vendor (<a href="https://nhost.io/" target="_blank" rel="noopener noreferrer">https://nhost.io</a>) makes that decision for me.</p>
-<h1>References</h1>
-<h3 class="anchor anchorWithStickyNavbar_tEzi" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
-<p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
-<h3 class="anchor anchorWithStickyNavbar_tEzi" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[URL Configured Websites]]></title>
-        <id>https://docs.metapage.io/blog/url-configured-websites</id>
-        <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2024-10-05T17:34:57.206Z</updated>
-        <summary type="html"><![CDATA[2023-12-05]]></summary>
-        <content type="html"><![CDATA[<p>2023-12-05</p>
-<h2 class="anchor anchorWithStickyNavbar_tEzi" id="99468beeddb741dfae03c3cdade858ed">Use URL hash parameters to store code / config / state<a href="https://docs.metapage.io/blog/url-configured-websites#99468beeddb741dfae03c3cdade858ed" class="hash-link" aria-label="Direct link to Use URL hash parameters to store code / config / state" title="Direct link to Use URL hash parameters to store code / config / state">​</a></h2>
-<div class="theme-admonition theme-admonition-tip admonition_Hh_o alert alert--success"><div class="admonitionHeading_hOJx"><span class="admonitionIcon_lpX8"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_dJDD"><p>It gives users much more control and creativity over websites</p></div></div>
-<p>URLs can <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">safely and effectively store credentials</a> [1] (access to things). URLs can also store user created code or configuration. This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
-<h3 class="anchor anchorWithStickyNavbar_tEzi" id="f45e2af1ccc34c4ea68ba2de23983d02">Example: diagrams stored in the URL<a href="https://docs.metapage.io/blog/url-configured-websites#f45e2af1ccc34c4ea68ba2de23983d02" class="hash-link" aria-label="Direct link to Example: diagrams stored in the URL" title="Direct link to Example: diagrams stored in the URL">​</a></h3>
-<p><strong>The url defines how it’s stored parameters as displayed</strong></p>
-<p>or: <strong>I can show simple things in complex powerful ways</strong></p>
-<p>or: <strong>Grown seeds express their powerful complexity</strong></p>
-<p><a href="https://mermaid.live/" target="_blank" rel="noopener noreferrer">https://mermaid.live/</a> is an excellent example. As soon as you go to that link, the link looks long: that’s because it has encoded the diagram it displays completely in the URL hash parameters:</p>
-<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/1164251445-22c3196ad34f615078e1c578723866b4.png" width="2090" height="1056" class="img_RZJ2"></p>
-<p>URL:</p>
-<p><a href="https://mermaid.live/edit#pako:eNpVjk2Lg0AMhv9KyGkL9Q94WGh1t5fCFurN6SFo7AztfDBGpKj_fcd62c0pvM_zhkzY-JYxx-7px0ZTFKhK5SDNoS50NL1Y6m-QZZ_ziQWsd_ya4fhx8tBrH4Jx993mH1cJium8agyijXssGyre_R_HM5T1mYL4cPtLqtHP8FWbi07n_xMdObW-647yjrKGIhQU3wru0XK0ZNr0_rQmCkWzZYV5WlvuaHiKQuWWpNIg_vpyDeYSB97jEFoSLg3dI9ktXH4B_cJWqw" target="_blank" rel="noopener noreferrer">https://mermaid.live/edit#pako<!-- -->:eNpVjk2Lg0AMhv9KyGkL9Q94WGh1t5fCFurN6SFo7AztfDBGpKj_fcd62c0pvM_zhkzY-JYxx-7px0ZTFKhK5SDNoS50NL1Y6m</a>… (I cut it for readability)</p>
-<p>What is happening?</p>
-<ul>
-<li>The code that describes the diagram is encoded and store in the hash parameters (after the <code>#</code>) of the URL.</li>
-<li>That URL can now be shared and directly edited</li>
-<li>No backend server is involved in storing the data, only for serving the assets (a <em><strong>static</strong></em> website)</li>
-<li>Everything after the <code>#</code> is <strong>NOT</strong> sent to the server</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_tEzi" id="1d532f2929214d90a333b147c9c0b770">Example 2: rich contextual and specific error messages when developing software<a href="https://docs.metapage.io/blog/url-configured-websites#1d532f2929214d90a333b147c9c0b770" class="hash-link" aria-label="Direct link to Example 2: rich contextual and specific error messages when developing software" title="Direct link to Example 2: rich contextual and specific error messages when developing software">​</a></h3>
-<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/2099585714-79232c3a492b8e8c67a575603c52b993.png" width="2226" height="1030" class="img_RZJ2"></p>
-<p>Unfortunately I cannot include the link here becuase</p>
-<p>The above is an error message given as a URL in javascript react. It’s great because the error specific to my code is embedded in further help and full documentation.</p>
-<h2 class="anchor anchorWithStickyNavbar_tEzi" id="d32c6439fe384d90b342350311b68d89">Modern browsers can handle very large URLs<a href="https://docs.metapage.io/blog/url-configured-websites#d32c6439fe384d90b342350311b68d89" class="hash-link" aria-label="Direct link to Modern browsers can handle very large URLs" title="Direct link to Modern browsers can handle very large URLs">​</a></h2>
-<p>In 2006, <a href="https://support.microsoft.com/en-us/kb/208427" target="_blank" rel="noopener noreferrer">IE8s URL limit was 2083 characters</a>. <a href="https://stackoverflow.com/questions/3721034/how-long-of-a-url-can-internet-explorer-9-take" target="_blank" rel="noopener noreferrer">IE9 has a similar limit</a>.</p>
-<p><a href="http://www.faqs.org/rfcs/rfc2616.html" target="_blank" rel="noopener noreferrer">The original HTTP/1.1 specification put no limit on the length of the URL</a></p>
-<p>In 2022, a new update was published <a href="https://www.rfc-editor.org/rfc/rfc9110#section-4.1-5" target="_blank" rel="noopener noreferrer">and says</a>:</p>
-<blockquote>
-<p>It is RECOMMENDED that all senders and recipients support, at a minimum, URIs with lengths of 8000 octets in protocol elements. Note that this implies some structures and on-wire representations (for example, the request line in HTTP/1.1) will necessarily be larger in some cases.</p>
-</blockquote>
-<p>However, this is talking about URLs over the wire. For the browser address bar itself, limits are much much higher:</p>
-<div class="language-text codeBlockContainer_ukZn theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_hRhe"><pre tabindex="0" class="prism-code language-text codeBlock_tLqg thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_hD9e"><span class="token-line" style="color:#393A34"><span class="token plain">Browser     Address bar   document.location</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                          or anchor tag</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">------------------------------------------</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Chrome          32779           &gt;64k</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Android          8192           &gt;64k</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Firefox          &gt;64k           &gt;64k</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Safari           &gt;64k           &gt;64k</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">IE11             2047           5120</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Edge 16          2047          10240</span><br></span></code></pre><div class="buttonGroup_cINo"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_NCU_" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_pYsP"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_eZi0"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Source: <a href="https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers</a></p>
-<h2 class="anchor anchorWithStickyNavbar_tEzi" id="852ea18949cc47ad9c89488cf81019ce">You can store large amounts of code in the hash parameters, and allow users to configure complex websites<a href="https://docs.metapage.io/blog/url-configured-websites#852ea18949cc47ad9c89488cf81019ce" class="hash-link" aria-label="Direct link to You can store large amounts of code in the hash parameters, and allow users to configure complex websites" title="Direct link to You can store large amounts of code in the hash parameters, and allow users to configure complex websites">​</a></h2>
-<p>Single metaframe pinned</p>
-<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://app.metapage.io/mf?mfk=CRCyFFm29e"></iframe>
-<p>In the example above, enough code was embedded in the link to describe a 3D with a bunch of complex behaviour. Someone else can take that URL, and directly modify it, run it, then share the modified URL.</p>
-<p>This way, apps can be both self-contained, but also highly configurable and shareable, allowing a high degree of direct collaboration not under centralized control.</p>
-<p><strong>Edit:</strong>  click the top right in the embed above:</p>
-<p><img decoding="async" loading="lazy" src="data:image/png;base64,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" width="116" height="112" class="img_RZJ2"></p>
-<p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
-<h1>References</h1>
-<p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content>
     </entry>
 </feed>
