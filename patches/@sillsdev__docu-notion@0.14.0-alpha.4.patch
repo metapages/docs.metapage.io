@@ -11,3 +11,15 @@ index 9b397bd2e63588dc76c57cd6b752e6363af4df62..166f1bab7a9c7b5d2021b5e72c232ff7
      interval: "second",
  });
  let notionClient;
+diff --git a/dist/transform.js b/dist/transform.js
+index 2cf0164846478c97a7a06f3a7a125e148b34776b..1d13264ceb40caa683dce00a16bc38b7062f7c90 100644
+--- a/dist/transform.js
++++ b/dist/transform.js
+@@ -196,6 +196,7 @@ function getFrontMatter(page) {
+     frontmatter += `slug: ${(_a = page.slug) !== null && _a !== void 0 ? _a : ""}\n`;
+     if (page.keywords)
+         frontmatter += `keywords: [${page.keywords}]\n`;
++    frontmatter += `date: ${page.getDateProperty("Date", "", true) ?? page.getDateProperty("PublishDate", "", false)}\n`;
+     frontmatter += "---\n";
+     return frontmatter;
+ }

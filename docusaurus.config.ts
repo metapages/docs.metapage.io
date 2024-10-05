@@ -52,7 +52,7 @@ const config :Config = {
           //   "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           postsPerPage: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
