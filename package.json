@@ -28,7 +28,7 @@
     "@metapages/metapage": "^0.13.12",
     "@metapages/metapage-grid-react": "^0.1.19",
     "@notionhq/client": "^2.2.3",
-    "@sillsdev/docu-notion": "0.14.0-alpha.4",
+    "@sillsdev/docu-notion": "0.16.1",
     "clsx": "^1.2.1",
     "docusaurus2-dotenv": "^1.4.0",
     "he": "^1.2.0",
@@ -66,7 +66,7 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "@sillsdev/docu-notion@0.14.0-alpha.4": "patches/@sillsdev__docu-notion@0.14.0-alpha.4.patch"
+      "@sillsdev/docu-notion@0.16.1": "patches/@sillsdev__docu-notion@0.16.1.patch"
     }
   }
 }

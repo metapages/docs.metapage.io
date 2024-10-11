@@ -60,7 +60,12 @@ const config :Config = {
           //   "https://github.com/metapages/docs.metapage.io/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/notion-to-markdown-columns.css"), require.resolve("./src/css/mpg.css"), ],
+          customCss: [
+            require.resolve("./src/css/custom.css"),
+            require.resolve("./src/css/notion-to-markdown-columns.css"),
+            require.resolve("./src/css/mpg.css"),
+            require.resolve("./src/css/docu-notion-styles.css"),
+          ],
         },
       }),
     ],

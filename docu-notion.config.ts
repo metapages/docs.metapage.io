@@ -34,9 +34,6 @@ export const embedMetapagesCorrectly: IPlugin = {
   ],
 };
 
-
-
-
 const config: IDocuNotionConfig = {
   plugins: [
     modifiedStandardInternalLinkConversion,

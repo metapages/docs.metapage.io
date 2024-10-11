@@ -1,0 +1,19 @@
+diff --git a/dist/transform.js b/dist/transform.js
+index 5dc53f7aea75381aaa78bb5179b1f955b7961d46..9d9195a2d89058e814281b617c7ccd408da4fbc1 100644
+--- a/dist/transform.js
++++ b/dist/transform.js
+@@ -207,6 +207,14 @@ function getFrontMatter(page) {
+     frontmatter += `slug: ${(_a = page.slug) !== null && _a !== void 0 ? _a : ""}\n`;
+     if (page.keywords)
+         frontmatter += `keywords: [${page.keywords}]\n`;
++    const dateProperty = page.getDateProperty("Date", "", true) || page.getDateProperty("PublishDate", "", true) || "";
++    if (dateProperty) {
++        frontmatter += `date: ${dateProperty}\n`;
++    }
++    const authorsProperty = page.getPlainTextProperty("Authors", "", true) || "";
++    if (authorsProperty) {
++        frontmatter += `authors: ${authorsProperty}\n`;
++    }
+     frontmatter += "---\n";
+     return frontmatter;
+ }

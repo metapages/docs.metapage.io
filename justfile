@@ -55,6 +55,7 @@ build: _ensure_npm_modules docs blog _build
     echo "Generating blog..."
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
+    cp src/authors.yml blog/
     echo "👍 blog generated"
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion 
@@ -65,7 +66,9 @@ build: _ensure_npm_modules docs blog _build
     echo "👍 docs generated"
 
 # Build docs and blog from notion, then serve
-serve: build open
+serve: build _serve
+
+_serve: open
     npm run serve
 
 # Open the docs in the browser
