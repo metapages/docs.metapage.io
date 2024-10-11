@@ -17,6 +17,7 @@ NOTION_DOCUMENT_ROOT                := env_var_or_default("NOTION_DOCUMENT_ROOT"
 NOTION_BLOG_ROOT                    := env_var_or_default("NOTION_BLOG_ROOT", "")
 # This package is patched to reduce the rate limit
 DOCU_NOTION                         := "node node_modules/@sillsdev/docu-notion/dist/index.js"
+PNPM                                := "npx pnpm --yes"
 ###########################################################################
 # Formatting
 ###########################################################################
@@ -45,7 +46,7 @@ _help:
 # Run the dev server (docs and blog are NOT generated from notion)
 dev: _install
     APP_HREF={{APP_HREF}} \
-        pnpm run start --port {{DOCUSAURUS_PORT}}
+        {{PNPM}} run start --port {{DOCUSAURUS_PORT}}
 
 # Build documentation (docs and blog from notion)
 build: _ensure_npm_modules docs blog _build
@@ -84,13 +85,13 @@ clean:
 
 _build:
     APP_HREF={{APP_HREF}} \
-        pnpm run build
+        {{PNPM}} run build
 
 _install +args="":
-    pnpm i {{args}}
+    {{PNPM}} i {{args}}
 
 @_ensure_npm_modules:
-    if [ ! -d node_modules ]; then pnpm i; fi
+    if [ ! -d node_modules ]; then {{PNPM}} i; fi
 
 @_rename_md_mdx dir:
     find {{dir}} -iname '*.md' -exec bash -c 'mv -- "$1" "${1%.md}.mdx"' bash {} \; 
