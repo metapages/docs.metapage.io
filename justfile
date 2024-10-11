@@ -17,7 +17,7 @@ NOTION_DOCUMENT_ROOT                := env_var_or_default("NOTION_DOCUMENT_ROOT"
 NOTION_BLOG_ROOT                    := env_var_or_default("NOTION_BLOG_ROOT", "")
 # This package is patched to reduce the rate limit
 DOCU_NOTION                         := "node node_modules/@sillsdev/docu-notion/dist/index.js"
-PNPM                                := "npx pnpm --yes"
+PNPM                                := "npx --yes pnpm"
 ###########################################################################
 # Formatting
 ###########################################################################
