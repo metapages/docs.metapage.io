@@ -109,7 +109,7 @@ const config :Config = {
         items: [
           {
             type: "doc",
-            docId: "Intro",
+            docId: "Introduction",
             position: "left",
             label: "Documentation",
           },
