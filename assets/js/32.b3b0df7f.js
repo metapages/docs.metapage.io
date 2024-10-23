@@ -3433,7 +3433,7 @@ function forIn(object, iteratee) {
 
 
 /*
- * This module provides coordinate assignment based on Brandes and KÃ¶pf, "Fast
+ * This module provides coordinate assignment based on Brandes and Köpf, "Fast
  * and Simple Horizontal Coordinate Assignment."
  */
 
@@ -9085,7 +9085,7 @@ const drawClass = function(elem, classDef, conf, diagObj) {
   }
   let isFirst = true;
   classDef.annotations.forEach(function(member) {
-    const titleText2 = title.append("tspan").text("Â«" + member + "Â»");
+    const titleText2 = title.append("tspan").text("«" + member + "»");
     if (!isFirst) {
       titleText2.attr("dy", conf.textHeight);
     }
