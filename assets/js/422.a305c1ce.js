@@ -2151,7 +2151,7 @@ const drawC4ShapeArray = function(currentBounds, diagram2, c4ShapeArray2, c4Shap
     let c4ShapeTypeConf = c4ShapeFont(conf, c4Shape.typeC4Shape.text);
     c4ShapeTypeConf.fontSize = c4ShapeTypeConf.fontSize - 2;
     c4Shape.typeC4Shape.width = (0,_mermaid_934d9bea_js__WEBPACK_IMPORTED_MODULE_4__.h)(
-      "«" + c4Shape.typeC4Shape.text + "»",
+      "Â«" + c4Shape.typeC4Shape.text + "Â»",
       c4ShapeTypeConf
     );
     c4Shape.typeC4Shape.height = c4ShapeTypeConf.fontSize + 2;
