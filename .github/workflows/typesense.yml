@@ -1,0 +1,25 @@
+name: Scrape docs into Typesense
+
+on:
+  schedule:
+    # Every half hour, at minute 15, and 45
+    # 10 mins after redeployment
+    - cron: "15,45 * * * *"
+
+jobs:
+  scrape:
+    name: Scrape and index docs into Typesense
+    runs-on: self-hosted
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
+    
+      - name: Scrape website
+        run: just scrape/run
+        env:
+          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+          TYPESENSE_HOST: 7ezxj9aubktd13l8p-1.a1.typesense.net
+          TYPESENSE_PORT: 443
+          TYPESENSE_PROTOCOL: https
