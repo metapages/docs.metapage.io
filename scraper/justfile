@@ -1,0 +1,23 @@
+# just docs: https://github.com/casey/just
+###########################################################################
+set shell                           := ["bash", "-c"]
+set dotenv-load                     := true
+set export                          := true
+
+TYPESENSE_API_KEY                   := env_var_or_default("TYPESENSE_API_KEY", "")
+TYPESENSE_HOST                      := env_var_or_default("TYPESENSE_HOST", "")
+TYPESENSE_PORT                      := env_var_or_default("TYPESENSE_PORT", "")
+TYPESENSE_PROTOCOL                  := env_var_or_default("TYPESENSE_PROTOCOL", "")
+
+###########################################################################
+# Begin commands
+###########################################################################
+_help:
+    #!/usr/bin/env bash
+    echo ""
+    just --list --unsorted --list-heading $'Scrape the docs.metapage.io into typesense:\n'
+
+
+# Run typesense/docsearch-scraper
+run:
+    docker run -it --env-file=.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.11.0
