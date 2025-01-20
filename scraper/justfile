@@ -19,5 +19,11 @@ _help:
 
 
 # Run typesense/docsearch-scraper
-run:
-    docker run -it --env-file=.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.11.0
+@run:
+    docker run -it \
+      -e TYPESENSE_API_KEY={{TYPESENSE_API_KEY}} \
+      -e TYPESENSE_HOST={{TYPESENSE_HOST}} \
+      -e TYPESENSE_PORT={{TYPESENSE_PORT}} \
+      -e TYPESENSE_PROTOCOL={{TYPESENSE_PROTOCOL}} \
+      -e "CONFIG=$(cat config.json | jq -r tostring)" \
+      typesense/docsearch-scraper:0.11.0
