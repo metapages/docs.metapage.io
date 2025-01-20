@@ -20,7 +20,7 @@ jobs:
           fetch-depth: '0'
     
       - name: Scrape website
-        run: just scrape/run
+        run: just scraper/run
         env:
           TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
           TYPESENSE_HOST: 7ezxj9aubktd13l8p-1.a1.typesense.net
