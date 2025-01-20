@@ -5,9 +5,6 @@ on:
     # Every half hour, at minute 15, and 45
     # 10 mins after redeployment
     - cron: "15,45 * * * *"
-  push:
-    branches:
-      - main
 
 jobs:
   scrape:
