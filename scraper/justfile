@@ -20,7 +20,7 @@ _help:
 
 # Run typesense/docsearch-scraper
 @run:
-    docker run -it \
+    docker run --rm -t \
       -e TYPESENSE_API_KEY={{TYPESENSE_API_KEY}} \
       -e TYPESENSE_HOST={{TYPESENSE_HOST}} \
       -e TYPESENSE_PORT={{TYPESENSE_PORT}} \
