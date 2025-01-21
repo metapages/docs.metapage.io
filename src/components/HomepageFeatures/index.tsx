@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        The <a href="https://app.metapage.io">metapage application</a> is a storehouse of shared knowledge and techniques.
+        The <a href="https://metapage.io">metapage application</a> is a storehouse of shared knowledge and techniques.
         It is the fastest way to iterate on technical ideas, especially when collaborating with others.
       </>
     ),

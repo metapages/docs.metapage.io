@@ -17,7 +17,7 @@ import { Logo } from "./Logo";
 type LinkTarget = "app" | "docs" | "internal";
 
 const DEVELOPMENT = false;
-const URL_APP = DEVELOPMENT ? "https://app.metapage.localhost:8776" : "https://app.metapage.io";
+const URL_APP = DEVELOPMENT ? "https://metapage.localhost:8776" : "https://metapage.io";
 const URL_DOCS = DEVELOPMENT ?  "http://localhost:3000" : "https://docs.metapage.io";
 
 export const Navbar: React.FC = () => {

@@ -4,7 +4,7 @@ export const ButtonSignUp: React.FC = () => (
   <Button
     colorScheme="blue"
     as="a"
-    href="https://app.metapage.io/sign-up"
+    href="https://metapage.io/sign-up"
     aria-label="sign up"
     maxW="200px"
   >
