@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Mon, 03 Feb 2025 23:10:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Feb 2025 23:38:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Media Mentions]]></title>
             <link>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</link>
             <guid>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:27 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:32 GMT</pubDate>
             <description><![CDATA[Bits In Bio Global Mixer Presentation]]></description>
             <content:encoded><![CDATA[<p>Bits In Bio Global Mixer Presentation</p>
 <!-- -->
@@ -22,7 +22,7 @@
             <title><![CDATA[When Does Data Expire?]]></title>
             <link>https://docs.metapage.io/blog/deep-time-data-expiration</link>
             <guid>https://docs.metapage.io/blog/deep-time-data-expiration</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:27 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:32 GMT</pubDate>
             <description><![CDATA[Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.]]></description>
             <content:encoded><![CDATA[<p>Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.</p>
 <!-- -->
@@ -42,7 +42,7 @@
             <title><![CDATA[Metapages vs Binder]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools-binder</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools-binder</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:23 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:27 GMT</pubDate>
             <description><![CDATA[Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.]]></description>
             <content:encoded><![CDATA[<p>Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.</p>
 <!-- -->
@@ -63,7 +63,7 @@
             <title><![CDATA[Comparison with other products/services/tools]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:23 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:27 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
 <table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
@@ -81,7 +81,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:22 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:26 GMT</pubDate>
             <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
             <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -117,7 +117,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:19 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:23 GMT</pubDate>
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -159,7 +159,7 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Mon, 03 Feb 2025 23:10:18 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2025 23:38:23 GMT</pubDate>
             <description><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></description>
             <content:encoded><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
