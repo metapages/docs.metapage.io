@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap"><link rel="stylesheet" href="/assets/css/styles.98dc36a8.css">
-<script src="/assets/js/runtime~main.7643acaf.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.a37c9b85.js" defer="defer"></script>
 <script src="/assets/js/main.48e4af37.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -44,11 +44,38 @@
 </ul>
 <p><img decoding="async" loading="lazy" src="/assets/images/working-with-docker-metaframes.9250c8dd-475b-41b9-aa91-3b81f7e6a6ae-fa2a8d4a5a0b94f9bc7b1d58b5297ff6.png" width="1996" height="1914" class="img_ev3q"></p>
 <ul>
+<li><strong>Step 3 - Connect Metaframes:</strong> The ”Word Cloud Text” and “Python Code” metaframe will provide the text and the python code to the “docker” metaframe which will run this code to create the word cloud. The “docker” metaframe will then use this to produce an image that will be sent to the “Show Image” metaframe to be displayed. Let’s now create the necessary data connections between the metaframes. To do this, follow the steps below.</li>
+<li><strong>Word Cloud Text —&gt; docker:</strong> We first want to connect the input text from “Word Cloud Text” to “docker”.<!-- -->
+<ul>
+<li>To do this, first go to the Data Flow menu by clicking the “Data Flow” tab at the top of the page.</li>
+<li>Inside the diagram that appears click on the box labeled “Word Cloud Text”.</li>
+<li>Inside the modal that appears you should see a dotted line pointing from “Word Cloud Text” to “docker” (if the arrow is pointing to another box, click on “docker” to select it as the output target).</li>
+</ul>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/working-with-docker-metaframes.18af8321-63a8-4532-a091-e98b6a228688-70cf785ea3b31901df24a68f248c6a7c.png" width="1882" height="1592" class="img_ev3q"></p>
+<ul>
+<li>Now click on “Create Connection” then enter “text” for the field on the left and “input.txt” for the field on the right.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/working-with-docker-metaframes.7b143c2c-9138-4875-acb5-be1dba47d265-cbf970c43895144e1cf7c6921e25b202.png" width="1524" height="554" class="img_ev3q"></p>
+<ul>
 <li>
-<p><strong>Step 3 - Connect Metaframes:</strong> The ”Word Cloud Text” and “Python Code” metaframe will provide the text and the python code to the “docker” metaframe which will run this code to create the word cloud. The “docker” metaframe will then use this to produce an image that will be sent to the “Show Image” metaframe to be displayed. Let’s now create the necessary data connections between the metaframes. To do this, follow the steps below.</p>
+<p>Click OK, then Save.</p>
 </li>
 <li>
-<p><strong>Text Editor —&gt; Docker:</strong> We first want to connect the input text from “Text Editor” to “Docker”. To do this, first click on the Data Flow button in the hove menu for “Text Editor” to open its connection dialog box.</p>
+<p><strong>Python Code —&gt; docker:</strong> Repeat the previous steps to connect “Python Code” to “docker”.</p>
+<ul>
+<li>Click the “Python Code” box</li>
+<li>With “docker” selected as the output target (orange) click “Create Connection”</li>
+<li>Enter “text” for the Source pipe field and “generate_wordcloud.py”</li>
+</ul>
+</li>
+<li>
+<p>Now  here, click on the “Inputs” tab and then click on  on the square labeled “docker”.</p>
+</li>
+<li></li>
+<li>
+<p>Inside the button in the hove menu for “Text Editor” to open its connection dialog box.</p>
 <p><img decoding="async" loading="lazy" src="/assets/images/working-with-docker-metaframes.8fd01244-ed13-4a5c-b571-f919fcb78b89-8adf0538d4ed4eab74b5b4870d6ea898.png" width="1030" height="500" class="img_ev3q"></p>
 <p>We will provide the text to Docker as an input file called “input.txt”.  With the Outputs tab selected, click on Docker in the top section to select it as a target. Then click “Create Connection”. In the dialog box that appears type “text” in the “Source pipe, file, or glob” field, and “input.txt” into the “Target file or folder” field. Then click OK. This will save the text output of the text editor to a file called input.txt in the Docker metaframe.</p>
 <p><img decoding="async" loading="lazy" src="/assets/images/working-with-docker-metaframes.7f6d187d-a8e1-4520-bfd8-2072ea6681db-84e78cd5eed9eaec4736712c41fd8329.png" width="1660" height="612" class="img_ev3q"></p>
