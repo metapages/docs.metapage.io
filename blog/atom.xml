@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-06T02:52:09.591Z</updated>
+    <updated>2025-02-06T03:12:09.456Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Media Mentions]]></title>
         <id>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</id>
         <link href="https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f"/>
-        <updated>2025-02-06T02:52:09.591Z</updated>
+        <updated>2025-02-06T03:12:09.456Z</updated>
         <summary type="html"><![CDATA[Bits In Bio Global Mixer Presentation]]></summary>
         <content type="html"><![CDATA[<p>Bits In Bio Global Mixer Presentation</p>
 <!-- -->
@@ -21,14 +21,14 @@
         <title type="html"><![CDATA[When Does Data Expire?]]></title>
         <id>https://docs.metapage.io/blog/deep-time-data-expiration</id>
         <link href="https://docs.metapage.io/blog/deep-time-data-expiration"/>
-        <updated>2025-02-06T02:52:09.283Z</updated>
+        <updated>2025-02-06T03:12:09.218Z</updated>
         <summary type="html"><![CDATA[Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.]]></summary>
         <content type="html"><![CDATA[<p>Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.</p>
 <!-- -->
 <p>Data retention / expiration is often something thought about only when needed (which makes sense!). But if you decide ahead of time when and what data expires, your entire data lifecycle now has clear boundaries.</p>
 <table><thead><tr><th>Data object</th><th>Expiration</th></tr></thead><tbody><tr><td>Metapage definitions</td><td>Active account: never</td></tr><tr><td></td><td>Inactive account: 10 years unless otherwise by law</td></tr><tr><td></td><td>Permanent page: 100 years</td></tr><tr><td>Metapage definition backups</td><td>Time machine schedule</td></tr><tr><td>Metapage states</td><td>Time machine schedule</td></tr><tr><td>Metapage files</td><td>Active account: never</td></tr><tr><td></td><td></td></tr></tbody></table>
 <h1>Permanence</h1>
-<p>If you can keep something forever without undue cognitive or energy cost, then</p>
+<p>To keep metapages past the 100 year mark, then simply share them. The 100 year span starts then anew. Of course, you can also store your own metapages.</p>
 <h1>Time machine schedule</h1>
 <ul>
 <li>All within the last minute</li>
@@ -43,7 +43,7 @@
         <title type="html"><![CDATA[Metapages vs Binder]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools-binder</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools-binder"/>
-        <updated>2025-02-06T02:52:07.961Z</updated>
+        <updated>2025-02-06T03:12:07.378Z</updated>
         <summary type="html"><![CDATA[Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.]]></summary>
         <content type="html"><![CDATA[<p>Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.</p>
 <!-- -->
@@ -64,7 +64,7 @@
         <title type="html"><![CDATA[Comparison with other products/services/tools]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools"/>
-        <updated>2025-02-06T02:52:07.444Z</updated>
+        <updated>2025-02-06T03:12:06.864Z</updated>
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
 <table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
@@ -82,7 +82,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-02-06T02:52:06.444Z</updated>
+        <updated>2025-02-06T03:12:04.303Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -118,7 +118,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-02-06T02:52:02.630Z</updated>
+        <updated>2025-02-06T03:11:59.697Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -160,7 +160,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-02-06T02:52:01.215Z</updated>
+        <updated>2025-02-06T03:11:58.869Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
