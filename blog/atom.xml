@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-06T22:46:50.370Z</updated>
+    <updated>2025-02-06T23:10:41.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Media Mentions]]></title>
         <id>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</id>
         <link href="https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f"/>
-        <updated>2025-02-06T22:46:50.370Z</updated>
+        <updated>2025-02-06T23:10:41.317Z</updated>
         <summary type="html"><![CDATA[Bits In Bio Global Mixer Presentation]]></summary>
         <content type="html"><![CDATA[<p>Bits In Bio Global Mixer Presentation</p>
 <!-- -->
@@ -21,9 +21,10 @@
         <title type="html"><![CDATA[When Does Data Expire?]]></title>
         <id>https://docs.metapage.io/blog/deep-time-data-expiration</id>
         <link href="https://docs.metapage.io/blog/deep-time-data-expiration"/>
-        <updated>2025-02-06T22:46:49.869Z</updated>
+        <updated>2025-02-06T23:10:41.049Z</updated>
         <summary type="html"><![CDATA[Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.]]></summary>
         <content type="html"><![CDATA[<p>Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.</p>
+<!-- -->
 <p>Data retention / expiration is often something thought about only when needed (which makes sense!). But if you decide ahead of time when and what data expires, your entire data lifecycle now has clear boundaries.</p>
 <p>This is not yet implemented, it’s our first draft of a multiple-lifespans policy, so this is a starting point for a conversation.</p>
 <table><thead><tr><th>Data object</th><th>Expiration</th></tr></thead><tbody><tr><td>Metapage definitions</td><td>Active account: never</td></tr><tr><td></td><td>Inactive account: 10 years unless otherwise by law</td></tr><tr><td></td><td>Published: never</td></tr><tr><td></td><td>Public but not published: 100 years</td></tr><tr><td>Metapage definition backups</td><td>Time machine schedule</td></tr><tr><td>Metapage states</td><td>Time machine schedule</td></tr><tr><td>Metapage files</td><td>Active account: never</td></tr><tr><td></td><td>Inactive account: tbd, depends on size</td></tr></tbody></table>
@@ -44,7 +45,7 @@
         <title type="html"><![CDATA[Metapages vs Binder]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools-binder</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools-binder"/>
-        <updated>2025-02-06T22:46:48.822Z</updated>
+        <updated>2025-02-06T23:10:35.991Z</updated>
         <summary type="html"><![CDATA[Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.]]></summary>
         <content type="html"><![CDATA[<p>Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.</p>
 <!-- -->
@@ -65,7 +66,7 @@
         <title type="html"><![CDATA[Comparison with other products/services/tools]]></title>
         <id>https://docs.metapage.io/blog/comparison-with-other-tools</id>
         <link href="https://docs.metapage.io/blog/comparison-with-other-tools"/>
-        <updated>2025-02-06T22:46:48.319Z</updated>
+        <updated>2025-02-06T23:10:35.584Z</updated>
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
 <table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
@@ -83,7 +84,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-02-06T22:46:47.174Z</updated>
+        <updated>2025-02-06T23:10:32.439Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -119,7 +120,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-02-06T22:46:39.924Z</updated>
+        <updated>2025-02-06T23:10:29.904Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -161,7 +162,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-02-06T22:46:37.327Z</updated>
+        <updated>2025-02-06T23:10:28.924Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -208,17 +209,19 @@
         <title type="html"><![CDATA[Community Showcase]]></title>
         <id>https://docs.metapage.io/blog/community-showcase</id>
         <link href="https://docs.metapage.io/blog/community-showcase"/>
-        <updated>2025-02-06T22:46:31.339Z</updated>
+        <updated>2025-02-06T23:10:24.114Z</updated>
         <summary type="html"><![CDATA[Coming soon!]]></summary>
-        <content type="html"><![CDATA[<p>Coming soon!</p>]]></content>
+        <content type="html"><![CDATA[<p>Coming soon!</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Interactive Data Visualization Challenge]]></title>
         <id>https://docs.metapage.io/blog/competition-1</id>
         <link href="https://docs.metapage.io/blog/competition-1"/>
-        <updated>2025-02-06T22:46:30.911Z</updated>
-        <summary type="html"><![CDATA[🚀 Welcome to the first Metapages Weekly Science Challenge!]]></summary>
-        <content type="html"><![CDATA[<p>🚀 <strong>Welcome to the first</strong> <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer"><strong>Metapages</strong></a> <strong>Weekly Science Challenge!</strong></p>
+        <updated>2025-02-06T23:10:23.911Z</updated>
+        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
+        <content type="html"><![CDATA[
+<p>🚀 <strong>Welcome to the first</strong> <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer"><strong>Metapages</strong></a> <strong>Weekly Science Challenge!</strong></p>
 <p>We're excited to launch our first weekly (in a series) challenge focused on creating engaging, interactive scientific visualizations. For this first challenge, we offer using classic datasets.</p>
 <p>The goal is to expose this open science platform to users, showcasing it’s powerful browser-based computation and visualization capabilities and learning what users can create with it.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="ef5d646f323246d6bd79e7174d407ca2">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1#ef5d646f323246d6bd79e7174d407ca2" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge">​</a></h3>
