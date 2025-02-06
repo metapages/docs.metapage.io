@@ -9,6 +9,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
+    "postinstall": "patch-package",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
@@ -48,6 +49,7 @@
     "@types/react": "18.2",
     "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.4",
+    "patch-package": "^8.0.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {

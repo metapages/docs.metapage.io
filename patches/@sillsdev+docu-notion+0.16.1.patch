@@ -1,7 +1,7 @@
-diff --git a/dist/transform.js b/dist/transform.js
-index 5dc53f7aea75381aaa78bb5179b1f955b7961d46..9d9195a2d89058e814281b617c7ccd408da4fbc1 100644
---- a/dist/transform.js
-+++ b/dist/transform.js
+diff --git a/node_modules/@sillsdev/docu-notion/dist/transform.js b/node_modules/@sillsdev/docu-notion/dist/transform.js
+index 5dc53f7..9d9195a 100644
+--- a/node_modules/@sillsdev/docu-notion/dist/transform.js
++++ b/node_modules/@sillsdev/docu-notion/dist/transform.js
 @@ -207,6 +207,14 @@ function getFrontMatter(page) {
      frontmatter += `slug: ${(_a = page.slug) !== null && _a !== void 0 ? _a : ""}\n`;
      if (page.keywords)
