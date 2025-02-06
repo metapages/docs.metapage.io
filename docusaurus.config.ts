@@ -198,7 +198,7 @@ const config :Config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/MVUsXgg5",
+                href: "https://discord.gg/ATvFWMGKVZ",
               },
             ],
           },
