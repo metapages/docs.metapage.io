@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Thu, 06 Feb 2025 22:17:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Feb 2025 22:39:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Media Mentions]]></title>
             <link>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</link>
             <guid>https://docs.metapage.io/blog/a4b101dd-6baf-424c-a2ce-be9d5727281f</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:57 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:24 GMT</pubDate>
             <description><![CDATA[Bits In Bio Global Mixer Presentation]]></description>
             <content:encoded><![CDATA[<p>Bits In Bio Global Mixer Presentation</p>
 <!-- -->
@@ -22,7 +22,7 @@
             <title><![CDATA[When Does Data Expire?]]></title>
             <link>https://docs.metapage.io/blog/deep-time-data-expiration</link>
             <guid>https://docs.metapage.io/blog/deep-time-data-expiration</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:56 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:24 GMT</pubDate>
             <description><![CDATA[Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.]]></description>
             <content:encoded><![CDATA[<p>Our data expiration policy takes a long term view: some data never expires while our organization lives, some data lives a very long time, and some data expires relatively rapidly.</p>
 <p>Data retention / expiration is often something thought about only when needed (which makes sense!). But if you decide ahead of time when and what data expires, your entire data lifecycle now has clear boundaries.</p>
@@ -45,7 +45,7 @@
             <title><![CDATA[Metapages vs Binder]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools-binder</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools-binder</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:54 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:20 GMT</pubDate>
             <description><![CDATA[Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.]]></description>
             <content:encoded><![CDATA[<p>Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.</p>
 <!-- -->
@@ -66,7 +66,7 @@
             <title><![CDATA[Comparison with other products/services/tools]]></title>
             <link>https://docs.metapage.io/blog/comparison-with-other-tools</link>
             <guid>https://docs.metapage.io/blog/comparison-with-other-tools</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:54 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:19 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
 <table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
@@ -84,7 +84,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:52 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:18 GMT</pubDate>
             <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
             <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -120,7 +120,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:47 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:14 GMT</pubDate>
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -162,7 +162,7 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Thu, 06 Feb 2025 22:17:46 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2025 22:39:13 GMT</pubDate>
             <description><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></description>
             <content:encoded><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -204,6 +204,123 @@
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
 <h1>References</h1>
 <p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Community Showcase]]></title>
+            <link>https://docs.metapage.io/blog/community-showcase</link>
+            <guid>https://docs.metapage.io/blog/community-showcase</guid>
+            <pubDate>Thu, 06 Feb 2025 22:39:08 GMT</pubDate>
+            <description><![CDATA[Coming soon!]]></description>
+            <content:encoded><![CDATA[<p>Coming soon!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Data Visualization Challenge]]></title>
+            <link>https://docs.metapage.io/blog/competition-1</link>
+            <guid>https://docs.metapage.io/blog/competition-1</guid>
+            <pubDate>Thu, 06 Feb 2025 22:39:08 GMT</pubDate>
+            <description><![CDATA[🚀 Welcome to the first Metapages Weekly Science Challenge!]]></description>
+            <content:encoded><![CDATA[<p>🚀 <strong>Welcome to the first</strong> <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer"><strong>Metapages</strong></a> <strong>Weekly Science Challenge!</strong></p>
+<p>We're excited to launch our first weekly (in a series) challenge focused on creating engaging, interactive scientific visualizations. For this first challenge, we offer using classic datasets.</p>
+<p>The goal is to expose this open science platform to users, showcasing it’s powerful browser-based computation and visualization capabilities and learning what users can create with it.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ef5d646f323246d6bd79e7174d407ca2">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1#ef5d646f323246d6bd79e7174d407ca2" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge">​</a></h3>
+<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> platform, create an interactive scientific visualization workflow using one of three classic datasets. Your creation should combine compelling visual storytelling with meaningful user interaction to reveal insights within the data.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b3492816d7d646a5b68816fecb7eb883">📊 Dataset Options<a href="https://docs.metapage.io/blog/competition-1#b3492816d7d646a5b68816fecb7eb883" class="hash-link" aria-label="Direct link to 📊 Dataset Options" title="Direct link to 📊 Dataset Options">​</a></h3>
+<p>Choose <strong>one</strong> of the following classic datasets:</p>
+<ol>
+<li><strong>Palmer Penguins Dataset</strong>
+<ul>
+<li>Contains measurements for three penguin species</li>
+<li>Features: body mass, flipper length, bill dimensions, and more</li>
+<li>Perfect for exploring relationships between physical characteristics</li>
+<li>[Download Link: <a href="https://archive.ics.uci.edu/dataset/690/palmer+penguins-3" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/690/palmer+penguins-3</a>]</li>
+</ul>
+</li>
+<li><strong>Restaurant Tips Dataset</strong>
+<ul>
+<li>Real-world tipping behavior in restaurants</li>
+<li>Features: total bill, tip amount, day of week, time of day, party size</li>
+<li>Perfect for exploring customer behavior patterns and service economics</li>
+<li>Available via seaborn.load_dataset('tips')</li>
+</ul>
+</li>
+<li><strong>Air Quality Dataset</strong>
+<ul>
+<li>Hourly measurements of air pollutants in an Italian city</li>
+<li>Features: CO, NO2, temperature, humidity, and other pollutants</li>
+<li>Perfect for temporal analysis and environmental pattern discovery</li>
+<li>[Download Link: <a href="https://archive.ics.uci.edu/dataset/360/air+quality" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/360/air+quality</a>]</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ce9bc2a67d384e359126069ecd8c0c21">📋 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1#ce9bc2a67d384e359126069ecd8c0c21" class="hash-link" aria-label="Direct link to 📋 Evaluation Criteria" title="Direct link to 📋 Evaluation Criteria">​</a></h3>
+<p>Submissions will be judged on:</p>
+<ul>
+<li><strong>Technical Implementation</strong></li>
+<li><strong>Visual Design</strong></li>
+<li><strong>Scientific Insight</strong></li>
+<li><strong>Creativity</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fbb02186a0b749e091348e56d5b342ff">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1#fbb02186a0b749e091348e56d5b342ff" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes">​</a></h3>
+<ul>
+<li><strong>First Place:</strong>
+<ul>
+<li>$100 Amazon Gift Card</li>
+<li>Featured spotlight on <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">Metapages</a> homepage</li>
+<li>Recognition in Metapages community showcase</li>
+</ul>
+</li>
+<li><strong>Runner Up:</strong>
+<ul>
+<li>$50 Amazon Gift Card</li>
+<li>Recognition in Metapages community showcase</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="89dd08a1e8874d6dbb23414cb6de29bf">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1#89dd08a1e8874d6dbb23414cb6de29bf" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline">​</a></h3>
+<ul>
+<li><strong>Start Date:</strong> Thursday, February 6, 2025</li>
+<li><strong>Submission Deadline:</strong> Wednesday, February 12, 2025 (11:59 PM GMT)</li>
+<li><strong>Winners Announced:</strong> Sunday, February 16, 2025</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4a94093c81624970891c7bddc258f07a">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1#4a94093c81624970891c7bddc258f07a" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit">​</a></h3>
+<ol>
+<li>Create your workflow on the metapage platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a></li>
+<li>When finished, make sure it's publicly accessible</li>
+<li>Submit via the competition to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer">competition@metapage.io</a> including:<!-- -->
+<ul>
+<li>The public URL to your workflow</li>
+<li>Optional:<!-- -->
+<ul>
+<li>Very brief description (max 300 words)<!-- -->
+<ul>
+<li>If you want, a brief technical overview of implementation</li>
+<li>Any feedback about your experience with the platform</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="41ba13566ae34a11ac87fa1fed39ecd2">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1#41ba13566ae34a11ac87fa1fed39ecd2" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started">​</a></h3>
+<p>Visit our <a href="https://docs.metapage.io/docs/getting-started" target="_blank" rel="noopener noreferrer">[Quick Start Guide]</a> for:</p>
+<ul>
+<li>Basic workflow templates</li>
+<li>Dataset loading examples</li>
+<li>Component communication tutorials</li>
+<li>Visualization best practices</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="f40a0eaebc0948bca781b7b36faaaf2a">🛠️ Important Note<a href="https://docs.metapage.io/blog/competition-1#f40a0eaebc0948bca781b7b36faaaf2a" class="hash-link" aria-label="Direct link to 🛠️ Important Note" title="Direct link to 🛠️ Important Note">​</a></h3>
+<p><a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> is an evolving platform currently in alpha. While you might encounter quirks along the way, we're committed to helping you succeed! If you run into any issues or have questions, please reach out to <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer">support@metapage.io</a> - your feedback and questions help us improve the platform for everyone.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="576f6c81d9894784855dbdcaa0691582">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1#576f6c81d9894784855dbdcaa0691582" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?">​</a></h3>
+<p>Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> community for:</p>
+<ul>
+<li>Technical support</li>
+<li>Dataset questions</li>
+<li>General discussion</li>
+</ul>
+<hr>
+<p>Good luck to all participants! We're excited to see your creative visualizations and scientific insights! 🎉</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
