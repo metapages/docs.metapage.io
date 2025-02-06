@@ -193,17 +193,13 @@ const config :Config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/metapages",
+                label: "Bluesky",
+                href: "https://bsky.app/profile/metapages.bsky.social",
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/ATvFWMGKVZ",
+                href: "https://discord.gg/MVUsXgg5",
               },
-              // {
-              //   label: "Twitter",
-              //   href: "https://twitter.com/metapagesapp",
-              // },
             ],
           },
           {
