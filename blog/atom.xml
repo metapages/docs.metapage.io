@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-07T20:38:34.280Z</updated>
+    <updated>2025-02-07T21:10:13.079Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[FAIR Principles]]></title>
         <id>https://docs.metapage.io/blog/fair-principles</id>
         <link href="https://docs.metapage.io/blog/fair-principles"/>
-        <updated>2025-02-07T20:38:34.280Z</updated>
+        <updated>2025-02-07T21:10:13.079Z</updated>
         <summary type="html"><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></summary>
         <content type="html"><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
@@ -184,9 +184,15 @@
         <updated>2025-02-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The metapage organization and platform is guided by FAIR principles. However the FAIR principles are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.]]></summary>
         <content type="html"><![CDATA[<p>The metapage organization and platform <a href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>. However the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
-<p>Or maybe we need another set of principles.</p>
-<p>It’s one thing to have access to data, but it’s another thing to have code AND THEN a reliable, reproducible way to run the code that operations on, or does something to that data.</p>
-<p>It’s not enough to just serve blobs of data, we also need principles around HOW we process that data.</p>]]></content>
+<p>It’s one thing to have access to data, but it’s another thing to have code <em>and also</em> a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.</p>
+<p>Data often doesn’t live on it’s own, it often requires extra tooling. For example, The Protein Data Bank <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">https://www.rcsb.org/</a>: it serves various protein structures and complexes, but also has multiple ways to display and interact with the 3D structures:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-806f-bdf2-e7f51bf8b2c1-825f61188237a5872f9ae58c4da2d5dd.png" width="469" height="341" class="img_ev3q"></p>
+<p>Simply having a database serving files is not enough. Researchers need tools integrated with with data to be able to view, summarize, search, etc.</p>
+<h1>Towards principles for FAIR-aligned computation</h1>
+<p>The goal is that given some definition, a user can automatically reproduce and use a compute environment and run some code in that environment, operating on (FAIR 😀) data.</p>
+<p>Since this is compute not data, the principles are overlapping, yet different:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580a7b138f1d5bf35075b">Given a definition a user can easily recreate an exact replica of a given compute environment<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb580a7b138f1d5bf35075b" class="hash-link" aria-label="Direct link to Given a definition a user can easily recreate an exact replica of a given compute environment" title="Direct link to Given a definition a user can easily recreate an exact replica of a given compute environment">​</a></h3>
+<p>In today’s world, this would be docker containers, or some variant of docker</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>dion@metapage.io</email>
