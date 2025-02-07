@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-06T00:00:00.000Z</updated>
+    <updated>2025-02-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[POSI Principles]]></title>
+        <id>https://docs.metapage.io/blog/posi-principles</id>
+        <link href="https://docs.metapage.io/blog/posi-principles"/>
+        <updated>2025-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The POSI principles are a set of goals to promote open scholarly infrastructure. They guide the metapage platform:]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener noreferrer">The POSI principles</a> are a set of goals to promote open scholarly infrastructure. They guide the metapage platform:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580469aedc90c74f46268"><strong>The metapage platform will seek to be a worker owned enterprise:</strong><a href="https://docs.metapage.io/blog/posi-principles#193018579bb580469aedc90c74f46268" class="hash-link" aria-label="Direct link to 193018579bb580469aedc90c74f46268" title="Direct link to 193018579bb580469aedc90c74f46268">​</a></h3>
+<p>We aim to have transparent governance, with input and visibility from our users.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58092bfc2d8882ae79981">Metapage resources (workflows) will always run, even if the organization is wound down<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58092bfc2d8882ae79981" class="hash-link" aria-label="Direct link to Metapage resources (workflows) will always run, even if the organization is wound down" title="Direct link to Metapage resources (workflows) will always run, even if the organization is wound down">​</a></h3>
+<p>We will save user data as long as there are resources, and will enable users to take their workflows with them, in their entirety, and run them simply with a public, open-source, static browser (that users can also take and fork).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58016884bc00ca48bcc22">The metapage organization aims for healthy financial sustainabilty<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58016884bc00ca48bcc22" class="hash-link" aria-label="Direct link to The metapage organization aims for healthy financial sustainabilty" title="Direct link to The metapage organization aims for healthy financial sustainabilty">​</a></h3>
+<p>Based on services, not data or compute.</p>
+<p>We specifically store data at cost, and provide computation resoru</p>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Community Showcase]]></title>
         <id>https://docs.metapage.io/blog/community-showcase</id>
