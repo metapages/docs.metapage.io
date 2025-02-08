@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sat, 08 Feb 2025 03:21:49 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Feb 2025 03:39:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[FAIR Principles]]></title>
             <link>https://docs.metapage.io/blog/fair-principles</link>
             <guid>https://docs.metapage.io/blog/fair-principles</guid>
-            <pubDate>Sat, 08 Feb 2025 03:21:49 GMT</pubDate>
+            <pubDate>Sat, 08 Feb 2025 03:39:12 GMT</pubDate>
             <description><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></description>
             <content:encoded><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
@@ -171,15 +171,15 @@
             <link>https://docs.metapage.io/blog/fair-data-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/fair-data-what-about-compute</guid>
             <pubDate>Wed, 05 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[The metapage organization and platform is guided by FAIR principles. However the FAIR principles are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.]]></description>
-            <content:encoded><![CDATA[<p>The metapage organization and platform <a href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>. However the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
+            <description><![CDATA[It’s one thing to have access to data, but it’s another thing to have code and also a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.]]></description>
+            <content:encoded><![CDATA[<p>It’s one thing to have access to data, but it’s another thing to have code <em>and also</em> a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.</p>
 <!-- -->
-<p>It’s one thing to have access to data, but it’s another thing to have code <em>and also</em> a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.</p>
 <p>Data often doesn’t live on it’s own, it often requires extra tooling. For example, The Protein Data Bank <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">https://www.rcsb.org/</a>: it serves various protein structures and complexes, but also has multiple ways to display and interact with the 3D structures:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-806f-bdf2-e7f51bf8b2c1-825f61188237a5872f9ae58c4da2d5dd.png" width="469" height="341" class="img_ev3q"></p>
 <p>Simply having a database serving files is not enough. Researchers need tools integrated with with data to be able to view, summarize, search, etc.</p>
 <h1>Towards principles for FAIR-aligned computation</h1>
-<p>The goal is that given some definition, a user can automatically reproduce and use a compute environment and run some code in that environment, operating on (FAIR 😀) data.</p>
+<p>The <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
+<p>Ideally given some definition, a user can automatically reproduce and use a compute environment and run some code in that environment, operating on (FAIR 😀) data.</p>
 <p>Since this is compute not data, the principles are overlapping, yet different:</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58033b274fc6868f09851"><strong>Findable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb58033b274fc6868f09851" class="hash-link" aria-label="Direct link to 193018579bb58033b274fc6868f09851" title="Direct link to 193018579bb58033b274fc6868f09851">​</a></h3>
 <p>This property is not as important as for data, because compute environments are inherently ephemeral. The underlying libraries and code to build the environments must be accessible.</p>
@@ -206,9 +206,16 @@
 <li><strong>R1.</strong> A compute environment running some code can be used for running different, but compatible code. Where possible, environments can be re-used for efficiency.</li>
 </ul>
 <h1>The metapage platform solution</h1>
-<p>We represent docker containers and code as URLs:</p>
+<p>The metapage organization and platform <a href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>, and we have developed an open source platform and API for representing docker containers and code as URLs:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-80ec-9915-f915048ca263-ed97a3cf94bffedf7143cad05849420d.png" width="1233" height="372" class="img_ev3q"></p>
 <p><a href="https://docs.metapage.io/blog/url-configured-websites">We like URLs encoding state here!</a></p>
+<p>The URL encodes the full definition of:</p>
+<ul>
+<li>The <code>Dockerfile</code>, or docker image</li>
+<li>Optionally a git repository for building the docker image</li>
+<li>Optionally scripts to mount into the container at runtime</li>
+</ul>
+<p>We provide a worker agent the user runs on their own computer or cluster or workstation. The worker takes the docker image definition, and builds the image, then runs the code+data in the container environment. This browser client is actually a component, and can be connected to other browser components to exchange data.</p>
 <p>For a complete example showing a docker container running a ML workflow and producing visual output: <a href="https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668" target="_blank" rel="noopener noreferrer">https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668</a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="194018579bb580be8653efea408daf81">User experience<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb580be8653efea408daf81" class="hash-link" aria-label="Direct link to User experience" title="Direct link to User experience">​</a></h2>
 <p>As long as there is compute resources attached, users then do not have to manually install anything, or worry about their host system: the definition defined in the URL contains everything needed to reproduce the compute environment, and connectable from the browser.</p>
