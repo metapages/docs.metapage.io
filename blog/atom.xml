@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-07T23:38:25.793Z</updated>
+    <updated>2025-02-08T00:31:32.015Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[FAIR Principles]]></title>
         <id>https://docs.metapage.io/blog/fair-principles</id>
         <link href="https://docs.metapage.io/blog/fair-principles"/>
-        <updated>2025-02-07T23:38:25.793Z</updated>
+        <updated>2025-02-08T00:31:32.015Z</updated>
         <summary type="html"><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></summary>
         <content type="html"><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
@@ -200,6 +200,7 @@
 <li><strong>A1</strong> The metadata describing how to build the environment must suffice for the majority of tools and systems used to run the environments.</li>
 <li><strong>A2</strong> The tools used to build the environment must be <strong>open, free, and universally implementable</strong> (e.g., Git, DockerHub, OCI registries).</li>
 <li><strong>A3.</strong> <strong>Metadata remains accessible</strong> even if the code or environment is deprecated, providing references to alternative implementations or archived versions.</li>
+<li><strong>A4.</strong> Where possible, compute environments are not prohibitive in resources to build unless specifically requirements dictate that necessity.</li>
 </ul>
 <hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580d78c45f459b7311267"><strong>Interoperable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb580d78c45f459b7311267" class="hash-link" aria-label="Direct link to 193018579bb580d78c45f459b7311267" title="Direct link to 193018579bb580d78c45f459b7311267">​</a></h3>
@@ -212,7 +213,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb5807cb410fa8a20dddd2c"><strong>Reusable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb5807cb410fa8a20dddd2c" class="hash-link" aria-label="Direct link to 193018579bb5807cb410fa8a20dddd2c" title="Direct link to 193018579bb5807cb410fa8a20dddd2c">​</a></h3>
 <p>Code and compute environments should be designed to be replicable and adaptable for future research.</p>
 <ul>
-<li><strong>R1.</strong> A compute environment running some code can be used for running different, but compatible code. I</li>
+<li><strong>R1.</strong> A compute environment running some code can be used for running different, but compatible code. Where possible, environments can be re-used for efficiency.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580a7b138f1d5bf35075b">1. Given a definition a user can easily recreate an exact replica of a given compute environment<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb580a7b138f1d5bf35075b" class="hash-link" aria-label="Direct link to 1. Given a definition a user can easily recreate an exact replica of a given compute environment" title="Direct link to 1. Given a definition a user can easily recreate an exact replica of a given compute environment">​</a></h3>
 <p>In today’s world, this would be docker containers, or some variant of docker e.g <a href="https://podman.io/" target="_blank" rel="noopener noreferrer">podman</a>.</p>
