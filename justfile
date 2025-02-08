@@ -51,6 +51,14 @@ dev: _install
 # Build documentation (docs and blog from notion)
 build: _ensure_npm_modules docs blog _build
 
+# Concatenate all blog and docs posts into a single file, for LLMs
+@concat-all file="all-for-llms.md":
+    rm -rf {{file}}
+    find docs/ -type f -name "*.mdx" -exec cat {} + >> {{file}}
+    find blog/ -type f -name "*.mdx" -exec cat {} + >> {{file}}
+    echo "👍 {{file}} generated"
+
+
 # Generate blog from notion https://github.com/sillsdev/docu-notion
 @blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")
     echo "Generating blog..."

@@ -202,6 +202,10 @@ const config :Config = {
                 label: "Discord",
                 href: "https://discord.gg/ATvFWMGKVZ",
               },
+              {
+                label: "Public Roadmap",
+                href: "https://github.com/orgs/metapages/projects/1",
+              },
             ],
           },
           {
