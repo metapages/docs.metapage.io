@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sat, 08 Feb 2025 03:11:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Feb 2025 03:21:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[FAIR Principles]]></title>
             <link>https://docs.metapage.io/blog/fair-principles</link>
             <guid>https://docs.metapage.io/blog/fair-principles</guid>
-            <pubDate>Sat, 08 Feb 2025 03:11:06 GMT</pubDate>
+            <pubDate>Sat, 08 Feb 2025 03:21:49 GMT</pubDate>
             <description><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></description>
             <content:encoded><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
@@ -174,7 +174,6 @@
             <description><![CDATA[The metapage organization and platform is guided by FAIR principles. However the FAIR principles are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.]]></description>
             <content:encoded><![CDATA[<p>The metapage organization and platform <a href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>. However the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
 <!-- -->
-<!-- -->
 <p>It’s one thing to have access to data, but it’s another thing to have code <em>and also</em> a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.</p>
 <p>Data often doesn’t live on it’s own, it often requires extra tooling. For example, The Protein Data Bank <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">https://www.rcsb.org/</a>: it serves various protein structures and complexes, but also has multiple ways to display and interact with the 3D structures:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-806f-bdf2-e7f51bf8b2c1-825f61188237a5872f9ae58c4da2d5dd.png" width="469" height="341" class="img_ev3q"></p>
@@ -219,7 +218,8 @@
 <p>We provide an open and open-source compute queue API layer, where any user can create their own secure queue, connect their computer, and run docker containers and code all defined in a single URL.</p>
 <p>The URL contains the <code>Dockerfile</code>  definition, or a publicly accessible docker image, optionally code, optionally a github repository to build from.</p>
 <p>This way, the mechanism to build a reproducible compute environment is simply a URL, where users simply add their own commodity compute resources (their laptop, workstation, cluster, almost anything that can run docker containers).</p>
-<p>If the user wanted to run their own complete system that is different, they can, because the definition of the compute environment is encoded into the URL, thus available for all.</p>]]></content:encoded>
+<p>If the user wanted to run their own complete system that is different, they can, because the definition of the compute environment is encoded into the URL, thus available for all.</p>
+]]></content:encoded>
             <author>dion@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
@@ -307,7 +307,6 @@
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
-<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
 <p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
 <ol>
@@ -340,7 +339,8 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
 <p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>]]></content:encoded>
+<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
+]]></content:encoded>
             <author>dion@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
