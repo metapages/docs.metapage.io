@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sat, 08 Feb 2025 04:10:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Feb 2025 04:39:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[FAIR Principles]]></title>
             <link>https://docs.metapage.io/blog/fair-principles</link>
             <guid>https://docs.metapage.io/blog/fair-principles</guid>
-            <pubDate>Sat, 08 Feb 2025 04:10:50 GMT</pubDate>
+            <pubDate>Sat, 08 Feb 2025 04:39:15 GMT</pubDate>
             <description><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></description>
             <content:encoded><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
@@ -221,7 +221,7 @@
 <p>As long as there is compute resources attached, users then do not have to manually install anything, or worry about their host system: the definition defined in the URL contains everything needed to reproduce the compute environment, and connectable from the browser.</p>
 <p>Users can then take existing compute environments, complete with code, and directly modify, copy, and share these environments, directly as you would any other URL, or via our <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">index of components</a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="194018579bb5806aae41ee7529a1f9cf">How it works<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb5806aae41ee7529a1f9cf" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
-<p><strong>[Problem Internal Link]</strong></p>
+<p><a href="https://docs.metapage.io/docs/containers" target="_blank" rel="noopener noreferrer">See here for detailed instructions</a></p>
 <p>We provide an open and open-source compute queue API layer, where any user can create their own secure queue, connect their computer, and run docker containers and code all defined in a single URL.</p>
 <p>The URL contains the <code>Dockerfile</code>  definition, or a publicly accessible docker image, optionally code, optionally a github repository to build from.</p>
 <p>This way, the mechanism to build a reproducible compute environment is simply a URL, where users simply add their own commodity compute resources (their laptop, workstation, cluster, almost anything that can run docker containers).</p>
