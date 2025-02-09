@@ -51,6 +51,30 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Running workflows in perpetuity]]></title>
+        <id>https://docs.metapage.io/blog/workflows-forever</id>
+        <link href="https://docs.metapage.io/blog/workflows-forever"/>
+        <updated>2025-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Regardless of what happens to individuals or organizations, your workflows will run]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="195018579bb5801ca9c6f8375fb3808d">Regardless of what happens to individuals or organizations, your workflows will run<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb5801ca9c6f8375fb3808d" class="hash-link" aria-label="Direct link to Regardless of what happens to individuals or organizations, your workflows will run" title="Direct link to Regardless of what happens to individuals or organizations, your workflows will run">​</a></h2>
+<p>Metapage workflows require three things to run:</p>
+<ol>
+<li>A website serving the <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer">standalone metapage app</a></li>
+<li>A website serving the <a href="https://container.mtfm.io/" target="_blank" rel="noopener noreferrer">metaframe container client</a></li>
+<li>A <a href="https://github.com/metapages/compute-queues/releases/" target="_blank" rel="noopener noreferrer">metaframe container worker agent</a> running locally connecting to 2.</li>
+</ol>
+<p>Currently 1. is the main <a href="http://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> app. If the organization is no longer functional, we will wind down and convert the domain metapage.io into the standalone app <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer">open-sourced here</a>.</p>
+<p>You will be able to simply paste your workflows, or include the link to the definition in the URL, and the definition will be loaded.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="195018579bb58097bdadcc2bd6afa2d2">Immutable archived metapages are already a reality<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb58097bdadcc2bd6afa2d2" class="hash-link" aria-label="Direct link to Immutable archived metapages are already a reality" title="Direct link to Immutable archived metapages are already a reality">​</a></h2>
+<p>When a metapage is published, we store it in an immutable database that we will be available for the long term. We aim to make this archive part of a public record, with a commitment to make the public resources always searchable and available.</p>
+<p>This is an ongoing effort. Contributions and ideas welcome.</p>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Community Showcase]]></title>
         <id>https://docs.metapage.io/blog/community-showcase</id>
         <link href="https://docs.metapage.io/blog/community-showcase"/>
