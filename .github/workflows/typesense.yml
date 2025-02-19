@@ -10,6 +10,7 @@ jobs:
   scrape:
     name: Scrape and index docs into Typesense
     runs-on: self-hosted
+    timeout-minutes: 20
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
