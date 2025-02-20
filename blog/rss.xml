@@ -196,7 +196,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb580d494dad167127f58c9"><a href="https://docs.metapage.io/blog/competition-1-1">Round 1</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb580d494dad167127f58c9" class="hash-link" aria-label="Direct link to 1a0018579bb580d494dad167127f58c9" title="Direct link to 1a0018579bb580d494dad167127f58c9">​</a></h2>
 <p>2025-02-20</p>
 <p>David Lee won the first round with this visualization:</p>
-<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
 ]]></content:encoded>
             <author>dion@metapage.io (Dion Whitehead)</author>
         </item>
@@ -613,7 +613,7 @@
 <p>Source: <a href="https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers</a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="852ea18949cc47ad9c89488cf81019ce">You can store large amounts of code in the hash parameters, and allow users to configure complex websites<a href="https://docs.metapage.io/blog/url-configured-websites#852ea18949cc47ad9c89488cf81019ce" class="hash-link" aria-label="Direct link to You can store large amounts of code in the hash parameters, and allow users to configure complex websites" title="Direct link to You can store large amounts of code in the hash parameters, and allow users to configure complex websites">​</a></h2>
 <p>Single metaframe pinned</p>
-<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://app.metapage.io/mf/CRCyFFm29e"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://app.metapage.io/mf/CRCyFFm29e"></iframe>
 <p>In the example above, enough code was embedded in the link to describe a 3D with a bunch of complex behaviour. Someone else can take that URL, and directly modify it, run it, then share the modified URL.</p>
 <p>This way, apps can be both self-contained, but also highly configurable and shareable, allowing a high degree of direct collaboration not under centralized control.</p>
 <p><strong>Edit:</strong>  click the top right in the embed above:</p>
