@@ -2,11 +2,137 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-07T00:00:00.000Z</updated>
+    <updated>2025-02-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Competition 1.2]]></title>
+        <id>https://docs.metapage.io/blog/competition-1-2</id>
+        <link href="https://docs.metapage.io/blog/competition-1-2"/>
+        <updated>2025-02-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to announce our second weekly science challenge, focusing on biological data visualization! This week, we're exploring gene expression data analysis, showcasing how Metapages can handle scientific workflows in your browser.]]></summary>
+        <content type="html"><![CDATA[<p>We're excited to announce our second weekly science challenge, focusing on biological data visualization! This week, we're exploring gene expression data analysis, showcasing how Metapages can handle scientific workflows in your browser.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="84f5d3dbcb1c4dc5aac9f43789d4b3eb">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1-2#84f5d3dbcb1c4dc5aac9f43789d4b3eb" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge">​</a></h2>
+<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">Metapages platform</a>, create an interactive visualization workflow that explores differential gene expression patterns. Your creation should help researchers understand expression differences between conditions (e.g., disease vs. healthy, treated vs. untreated, developmental stages) while providing an intuitive, interactive interface.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1c2e20b3b2a845ddb32f49bb8572f5b7">📊 Dataset Guidelines<a href="https://docs.metapage.io/blog/competition-1-2#1c2e20b3b2a845ddb32f49bb8572f5b7" class="hash-link" aria-label="Direct link to 📊 Dataset Guidelines" title="Direct link to 📊 Dataset Guidelines">​</a></h2>
+<p>You can use <strong>any gene expression dataset</strong> of your choice. Your dataset should:</p>
+<ul>
+<li>Contain gene expression measurements</li>
+<li>Be publicly available or properly licensed for use</li>
+<li>Include sufficient samples for meaningful visualization (typically &gt;10 samples)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b19c7277856b407b8b25a13b94934a3f">💡 Example Data Sources<a href="https://docs.metapage.io/blog/competition-1-2#b19c7277856b407b8b25a13b94934a3f" class="hash-link" aria-label="Direct link to 💡 Example Data Sources" title="Direct link to 💡 Example Data Sources">​</a></h3>
+<p>If you're looking for a place to start, here are some suggested resources:</p>
+<ol>
+<li><strong>Gene Expression Omnibus (GEO)</strong>
+<ul>
+<li>Vast repository of expression datasets</li>
+<li>Many cancer and disease studies</li>
+<li>Various organism and tissue types</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/geo/</a></li>
+</ul>
+</li>
+<li><strong>The Cancer Genome Atlas (TCGA)</strong>
+<ul>
+<li>Comprehensive cancer genomics data</li>
+<li>Multiple cancer types</li>
+<li>Rich clinical metadata</li>
+<li><a href="https://portal.gdc.cancer.gov/" target="_blank" rel="noopener noreferrer">https://portal.gdc.cancer.gov/</a></li>
+</ul>
+</li>
+<li><strong>Example Starter Dataset</strong>
+<ul>
+<li>COVID-19 patient transcriptomics (GSE152075)</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7bf2d120fbcd455787ffc9d59a98557e">📋 Suggested Visualizations<a href="https://docs.metapage.io/blog/competition-1-2#7bf2d120fbcd455787ffc9d59a98557e" class="hash-link" aria-label="Direct link to 📋 Suggested Visualizations" title="Direct link to 📋 Suggested Visualizations">​</a></h2>
+<p>Your workflow could include:</p>
+<ul>
+<li>Interactive heatmaps</li>
+<li>Volcano plots of differential expression</li>
+<li>PCA or t-SNE dimensionality reduction plots</li>
+<li>Gene expression boxplots</li>
+<li>Custom visualizations of your design</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="802301851bd74b7ba5fc118168b778e0">🎨 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1-2#802301851bd74b7ba5fc118168b778e0" class="hash-link" aria-label="Direct link to 🎨 Evaluation Criteria" title="Direct link to 🎨 Evaluation Criteria">​</a></h2>
+<p>Submissions will be judged on:</p>
+<ul>
+<li><strong>Technical Implementation</strong>: Effective use of Metapages features</li>
+<li><strong>Visual Design</strong>: Clear, intuitive, and aesthetically pleasing</li>
+<li><strong>Biological Insight</strong>: Meaningful exploration of the data</li>
+<li><strong>Interactivity</strong>: User-friendly interface and meaningful interactions</li>
+<li><strong>Innovation</strong>: Creative approaches to visualization</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="98220f0b4def439981929ad370b006b5">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1-2#98220f0b4def439981929ad370b006b5" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes">​</a></h2>
+<ul>
+<li><strong>First Place:</strong>
+<ul>
+<li>$200 Amazon Gift Card</li>
+<li>Featured spotlight on Metapages homepage</li>
+<li>Recognition in Metapages community showcase</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="857a7969c21849d693d61530d756333d">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1-2#857a7969c21849d693d61530d756333d" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline">​</a></h2>
+<ul>
+<li><strong>Start Date:</strong> Thurday, February 20, 2025</li>
+<li><strong>Submission Deadline:</strong> Wednesday, February 26, 2025 (11:59 PM GMT)</li>
+<li><strong>Winners Announced:</strong> Thursday, February 27, 2025</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bafb99e5a7d2445e90da3e6dc1c04358">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1-2#bafb99e5a7d2445e90da3e6dc1c04358" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit">​</a></h2>
+<ol>
+<li>Create your workflow on the Metapages platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a></li>
+<li>Ensure your workflow is publicly accessible</li>
+<li>Submit to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer">competition@metapage.io</a> including:<!-- -->
+<ul>
+<li>Your workflow's public URL</li>
+<li>Your name</li>
+<li>Optional:<!-- -->
+<ul>
+<li>LinkedIn Profile (encouraged)</li>
+<li>Brief description of your visualization approach (max 300 words)</li>
+<li>Technical implementation details</li>
+<li>Platform feedback</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="52402423251a45c492981f1cd8ef2805">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1-2#52402423251a45c492981f1cd8ef2805" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started">​</a></h2>
+<p>Visit our Quick Start Guide for:</p>
+<ul>
+<li>Dataset loading examples</li>
+<li>Basic visualization templates</li>
+<li>Component communication tutorials</li>
+<li>Bioinformatics workflow examples</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7fe8a449643f447fb4aec151cfb07830">🛠️ Important Notes<a href="https://docs.metapage.io/blog/competition-1-2#7fe8a449643f447fb4aec151cfb07830" class="hash-link" aria-label="Direct link to 🛠️ Important Notes" title="Direct link to 🛠️ Important Notes">​</a></h2>
+<ul>
+<li>The platform is in alpha - reach out if you encounter any issues</li>
+<li>Focus on creating clear, intuitive visualizations</li>
+<li>No prior bioinformatics experience required</li>
+<li>We encourage creative approaches!</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bf6387bf9fac4254b731a9df1e69c2a4">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1-2#bf6387bf9fac4254b731a9df1e69c2a4" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?">​</a></h2>
+<ul>
+<li>Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer">Discord</a> community for technical support</li>
+<li>Email <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer">support@metapage.io</a> for platform-specific questions</li>
+<li>Connect on <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> for general discussion</li>
+</ul>
+<p>Good luck! We're excited to see your creative approaches to biological data visualization! 🧬 ✨</p>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+        <author>
+            <name>Karl Lundquist</name>
+            <uri>https://klundquist.github.io/portfolio/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FAIR Principles]]></title>
         <id>https://docs.metapage.io/blog/fair-principles</id>
@@ -79,8 +205,13 @@
         <id>https://docs.metapage.io/blog/community-showcase</id>
         <link href="https://docs.metapage.io/blog/community-showcase"/>
         <updated>2025-02-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Coming soon!]]></summary>
-        <content type="html"><![CDATA[<p>Coming soon!</p>
+        <summary type="html"><![CDATA[Round 2]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb5802398b9caeb74604eb8"><a href="https://docs.metapage.io/blog/competition-1-2">Round 2</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb5802398b9caeb74604eb8" class="hash-link" aria-label="Direct link to 1a0018579bb5802398b9caeb74604eb8" title="Direct link to 1a0018579bb5802398b9caeb74604eb8">​</a></h2>
+<p>Underway!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb580d494dad167127f58c9"><a href="https://docs.metapage.io/blog/competition-1-1">Round 1</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb580d494dad167127f58c9" class="hash-link" aria-label="Direct link to 1a0018579bb580d494dad167127f58c9" title="Direct link to 1a0018579bb580d494dad167127f58c9">​</a></h2>
+<p>2025-02-20</p>
+<p>David Lee won the first round with this visualization:</p>
+<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
 ]]></content>
         <author>
             <name>Dion Whitehead</name>
@@ -269,6 +400,57 @@
             <name>Dion Whitehead</name>
             <email>dion@metapage.io</email>
             <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Competion 1.1]]></title>
+        <id>https://docs.metapage.io/blog/competition-1-1</id>
+        <link href="https://docs.metapage.io/blog/competition-1-1"/>
+        <updated>2025-02-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This competition is closed! Click here for the winner]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb5800e93a1e0717297692c">This competition is closed! <a href="https://docs.metapage.io/blog/community-showcase">Click here for the winner</a><a href="https://docs.metapage.io/blog/competition-1-1#1a0018579bb5800e93a1e0717297692c" class="hash-link" aria-label="Direct link to 1a0018579bb5800e93a1e0717297692c" title="Direct link to 1a0018579bb5800e93a1e0717297692c">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58178a715f2bb8d10461d">🚀 <strong>Announcing the Metapages Weekly Science Challenges!</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58178a715f2bb8d10461d" class="hash-link" aria-label="Direct link to 192018579bb58178a715f2bb8d10461d" title="Direct link to 192018579bb58178a715f2bb8d10461d">​</a></h3>
+<p>Calling all scientists, data enthusiasts, and innovators! 🎉</p>
+<p>Over the next 10 weeks, we’re hosting a series of science-focused interactive challenges to showcase the incredible potential of Metapages. Each week, you’ll tackle a new topic, explore exciting datasets, and build workflows that engage and inform.</p>
+<p><strong>🧪 What’s the Goal?</strong></p>
+<p>Create a scientifically rigorous and visually stunning workflow using Metapages that combines interactivity, analysis, and visualization. Impress the judges, engage users, and win big!</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5813a851bd18a873cbf0c"><strong>This Week’s Challenge:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb5813a851bd18a873cbf0c" class="hash-link" aria-label="Direct link to 192018579bb5813a851bd18a873cbf0c" title="Direct link to 192018579bb5813a851bd18a873cbf0c">​</a></h3>
+<p><strong>🌍 Topic:</strong> Climate Science Explorer</p>
+<p><strong>📊 Recommended Datasets:</strong></p>
+<ul>
+<li><a href="https://www.ncei.noaa.gov/access/monitoring/global-temperature-anomalies" target="_blank" rel="noopener noreferrer">Global Land and Ocean Temperature Index (NOAA)</a></li>
+<li><a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions" target="_blank" rel="noopener noreferrer">Global CO2 Emissions by Country (Our World in Data)</a></li>
+<li><a href="https://www.iea.org/reports/renewables-2021" target="_blank" rel="noopener noreferrer">Renewable Energy Generation (IEA)</a></li>
+</ul>
+<p><strong>🎯 Your Mission:</strong></p>
+<p>Build an <strong>interactive tool</strong> that analyzes climate data, explores CO2 emissions and renewable energy adoption, and communicates actionable insights through clear visualizations.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58116b444fb68c372ea08"><strong>🏆 Prizes</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58116b444fb68c372ea08" class="hash-link" aria-label="Direct link to 192018579bb58116b444fb68c372ea08" title="Direct link to 192018579bb58116b444fb68c372ea08">​</a></h3>
+<ul>
+<li><strong>$100 Amazon gift card</strong>.</li>
+<li>Recognition on Metapages and social media.</li>
+<li>Premium access to Metapages features.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58159a906e6ec4d6ecb2d"><strong>📅 How to Participate:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58159a906e6ec4d6ecb2d" class="hash-link" aria-label="Direct link to 192018579bb58159a906e6ec4d6ecb2d" title="Direct link to 192018579bb58159a906e6ec4d6ecb2d">​</a></h3>
+<ol>
+<li>Visit <a href="http://metapages.io/" target="_blank" rel="noopener noreferrer">metapages.io</a>.</li>
+<li>Build your workflow using Metapages, incorporating interactivity and analysis.</li>
+<li>Submit your entry as a public link by <strong>Sunday, 11:59 PM GMT</strong>.</li>
+</ol>
+<hr>
+<p>Don’t miss this chance to explore, innovate, and make an impact! 🌟</p>
+<p>Start building today, and let your creativity shine!</p>
+<hr>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+        <author>
+            <name>Karl Lundquist</name>
+            <uri>https://klundquist.github.io/portfolio/</uri>
         </author>
     </entry>
     <entry>
