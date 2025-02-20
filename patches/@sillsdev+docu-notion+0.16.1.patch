@@ -12,7 +12,7 @@ index 5dc53f7..9d9195a 100644
 +    }
 +    const authorsProperty = page.getPlainTextProperty("Authors", "", true) || "";
 +    if (authorsProperty) {
-+        frontmatter += `authors: ${authorsProperty}\n`;
++        frontmatter += `authors: [${authorsProperty.split(",").map(author => `"${author.trim()}"`).join(",")}]\n`;
 +    }
      frontmatter += "---\n";
      return frontmatter;

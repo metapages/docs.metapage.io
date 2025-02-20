@@ -60,7 +60,7 @@ build: _ensure_npm_modules docs blog _build
 
 
 # Generate blog from notion https://github.com/sillsdev/docu-notion
-@blog: && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")
+@blog: _ensure_npm_modules && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")
     echo "Generating blog..."
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
@@ -68,7 +68,7 @@ build: _ensure_npm_modules docs blog _build
     echo "👍 blog generated"
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion 
-@docs: && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")
+@docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")
     echo "Generating docs..."
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
