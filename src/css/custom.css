@@ -48,3 +48,43 @@
 .toc {
   display: none;
 }
+
+/* Minimal mode */
+
+/* Hide the navbar, sidebar, and footer completely */
+[data-minimal="true"] .navbar, 
+[data-minimal="true"] .menu,
+[data-minimal="true"] .footer,
+[data-minimal="true"] .theme-doc-breadcrumbs,
+[data-minimal="true"] .pagination-nav,
+[data-minimal="true"] .theme-doc-breadcrumbs-container,
+[data-minimal="true"] .theme-doc-sidebar-container {
+  display: none !important;
+}
+
+/* Ensure the main documentation content expands to full width */
+[data-minimal="true"] .theme-doc-main {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+
+/* Override Docusaurus flexbox to prevent empty sidebar space */
+[data-minimal="true"] .theme-doc-layout {
+  display: block !important; /* Change from flex to block */
+}
+
+[data-minimal="true"] .main-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+[data-minimal="true"] .docMainContainer {
+  margin-left: 0 !important; /* Remove margin if needed */
+  width: 100% !important;  /* Make content take full width */
+}
+[data-minimal="true"] .docSidebarContainer {
+  width: 0 !important;
+  overflow: hidden !important;
+  display: none !important;
+}
