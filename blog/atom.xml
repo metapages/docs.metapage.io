@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-21T11:10:57.092Z</updated>
+    <updated>2025-02-21T11:38:21.752Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Test video]]></title>
         <id>https://docs.metapage.io/blog/1a101857-9bb5-8027-aa74-f09525cf38f2</id>
         <link href="https://docs.metapage.io/blog/1a101857-9bb5-8027-aa74-f09525cf38f2"/>
-        <updated>2025-02-21T11:10:57.092Z</updated>
+        <updated>2025-02-21T11:38:21.752Z</updated>
         <summary type="html"><![CDATA[Embed]]></summary>
         <content type="html"><![CDATA[<p>Embed</p>
 <p>&lt;div style="padding:60.23% 0 0 0;position<!-- -->:relative<!-- -->;"&gt;&lt;iframe src="<a href="https://player.vimeo.com/video/1055209267?badge=0&amp;amp%3Bautopause=0&amp;amp%3Bplayer_id=0&amp;amp%3Bapp_id=58479" target="_blank" rel="noopener noreferrer">https://player.vimeo.com/video/1055209267?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479</a>" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position<!-- -->:absolute<!-- -->;top:0;left:0;width:100%;height:100%;" title="metapages search"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src="<a href="https://player.vimeo.com/api/player.js" target="_blank" rel="noopener noreferrer">https://player.vimeo.com/api/player.js</a>"&gt;&lt;/script&gt;</p>
