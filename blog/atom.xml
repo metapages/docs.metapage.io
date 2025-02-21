@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-21T20:48:48.640Z</updated>
+    <updated>2025-02-21T21:21:34.340Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,10 +11,13 @@
         <title type="html"><![CDATA[Test video]]></title>
         <id>https://docs.metapage.io/blog/1a101857-9bb5-8027-aa74-f09525cf38f2</id>
         <link href="https://docs.metapage.io/blog/1a101857-9bb5-8027-aa74-f09525cf38f2"/>
-        <updated>2025-02-21T20:48:48.640Z</updated>
+        <updated>2025-02-21T21:21:34.340Z</updated>
         <summary type="html"><![CDATA[Link]]></summary>
         <content type="html"><![CDATA[<p>Link</p>
 <p>This should autoplay</p>
+<p>This?</p>
+<div style="width:640px;height:360px"></div>
+<p>But it doesn’t</p>
 <div style="width:640px;height:360px"></div>
 <p>Not autoplaying</p>
 <div style="width:640px;height:360px"></div>]]></content>
