@@ -58,12 +58,27 @@
 [data-minimal="true"] .theme-doc-breadcrumbs,
 [data-minimal="true"] .pagination-nav,
 [data-minimal="true"] .theme-doc-breadcrumbs-container,
+[data-minimal="true"] .theme-doc-header,
+[data-minimal="true"] .theme-blog-page,
+[data-minimal="true"] .col--3,
 [data-minimal="true"] .theme-doc-sidebar-container {
   display: none !important;
 }
 
 /* Ensure the main documentation content expands to full width */
 [data-minimal="true"] .theme-doc-main {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+/* Ensure blog content takes full width */
+[data-minimal="true"] .theme-blog-layout,
+[data-minimal="true"] .col--9 {
+  display: block !important; /* Remove flexbox layout */
+}
+
+/* Ensure blog posts use full width */
+[data-minimal="true"] .theme-blog-container {
   width: 100% !important;
   max-width: 100% !important;
   margin-left: 0 !important;
