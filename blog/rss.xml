@@ -4,10 +4,24 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Thu, 20 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Beyond Jupyter Notebooks]]></title>
+            <link>https://docs.metapage.io/blog/compare-to-jupyter-notebooks</link>
+            <guid>https://docs.metapage.io/blog/compare-to-jupyter-notebooks</guid>
+            <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Beyond jupyter notebooks]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a1018579bb580a7a7eccc24cbba377a">Beyond jupyter notebooks<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a1018579bb580a7a7eccc24cbba377a" class="hash-link" aria-label="Direct link to Beyond jupyter notebooks" title="Direct link to Beyond jupyter notebooks">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb5806eac6ee182142f8343">Jupyter Notebooks are widespread<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5806eac6ee182142f8343" class="hash-link" aria-label="Direct link to Jupyter Notebooks are widespread" title="Direct link to Jupyter Notebooks are widespread">​</a></h3>
+<p>Jupyter notebooks have become the <a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank" rel="noopener noreferrer">de-facto standard for data scientists</a>. They combine code, data, and visualization, and can be shared via e.g. github. Many companies, such as <a href="https://netflixtechblog.com/notebook-innovation-591ee3221233" target="_blank" rel="noopener noreferrer">Netflix</a>, <a href="https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091" target="_blank" rel="noopener noreferrer">Airbnb</a>, <a href="https://wiki.latch.bio/pods/getting-started#3-access-rstudio-and-jupyter-labs" target="_blank" rel="noopener noreferrer">Latchbio</a>, use jupyter notebooks successfully to manage their complex data needs.</p>
+<ul>
+<li><a href="https://erikjandevries.medium.com/when-and-how-jupyter-notebooks-fail-and-what-to-use-instead-a52c27dbaa4c" target="_blank" rel="noopener noreferrer">They can often fail</a>, for reasons listed above</li>
+</ul>]]></content:encoded>
+            <author>dion@metapage.io (Dion Whitehead)</author>
+        </item>
         <item>
             <title><![CDATA[Competition 1.2]]></title>
             <link>https://docs.metapage.io/blog/competition-1-2</link>
