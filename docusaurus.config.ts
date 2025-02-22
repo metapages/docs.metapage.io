@@ -199,8 +199,8 @@ const config :Config = {
                 href: "https://bsky.app/profile/metapages.bsky.social",
               },
               {
-                label: "Discord",
-                href: "https://discord.gg/ATvFWMGKVZ",
+                label: "Substack",
+                href: "https://substack.metapage.io/",
               },
               {
                 label: "Public Roadmap",
@@ -228,6 +228,10 @@ const config :Config = {
           {
             title: "More",
             items: [
+              {
+                label: "Discord",
+                href: "https://discord.gg/ATvFWMGKVZ",
+              },
               {
                 label: "Blog",
                 to: "/blog",
