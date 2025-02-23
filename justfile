@@ -60,7 +60,7 @@ build: _ensure_npm_modules docs blog _build
 
 
 # Generate blog from notion https://github.com/sillsdev/docu-notion
-@blog: _ensure_npm_modules && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")
+@blog: _ensure_npm_modules && (_rename_md_mdx "blog") (_highlight_self_in_mermaid "blog") (_truncate_after_END_PAGE "blog") (_remove-right-navigation-selected "blog")  (_replace_img_with_markdown "blog")
     echo "Generating blog..."
     rm -rf blog/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
@@ -68,7 +68,7 @@ build: _ensure_npm_modules docs blog _build
     echo "👍 blog generated"
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion 
-@docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")
+@docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")  (_replace_img_with_markdown "docs")
     echo "Generating docs..."
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
@@ -158,6 +158,62 @@ _truncate_after_END_PAGE path:
     ) {
         if (e.isFile) {
             await truncateAfterRegex(e.path, regex);
+        }
+    }
+    console.log("👍 truncated markdown files after END PAGE")
+    Deno.exit(0);
+
+# Replace HTML img tags with markdown image syntax
+_replace_img_with_markdown path:
+    #!/usr/bin/env -S deno run  --ext=ts --allow-read={{justfile_directory()}} --allow-write={{justfile_directory()}}
+    import { walk } from 'https://deno.land/std@0.182.0/fs/mod.ts';
+    console.log("Begin replacing img with markdown...")
+    const path = "{{path}}";
+    const regex = /<img[^>]*?\balt\s*=\s*(['"])([^'"]*)\1[^>]*?\bsrc\s*=\s*(['"])([^'"]*)\3[^>]*>|<img[^>]*?\bsrc\s*=\s*(['"])([^'"]*)\5[^>]*?\balt\s*=\s*(['"])([^'"]*)\7[^>]*>|<img[^>]*?\bsrc\s*=\s*(['"])([^'"]*)\9[^>]*>/mg;
+    async function replaceImgWithMarkdown(filePath: string, regex: RegExp) {
+        regex.lastIndex = 0;
+        try {
+            // Read the file content
+            const decoder = new TextDecoder('utf-8');
+            const data = await Deno.readFile(filePath);
+            const content = decoder.decode(data);
+
+            // Replace all img tags with markdown format
+            const newContent = content.replaceAll(regex, (match, q1, alt1, q2, src1, q3, src2, q4, alt2, q5, src3) => {
+                const alt = alt1 || alt2 || '';
+                const src = src1 || src2 || src3;
+                if (alt.startsWith("http")) {
+                    return `\n[![](${src})](${alt})\n`;
+                } else {
+                    return `\n![${alt}](${src})\n`;
+                }
+            });
+
+            if (content !== newContent) {
+                // Write the modified content back to the file
+                const encoder = new TextEncoder();
+                await Deno.writeFile(filePath, encoder.encode(newContent));
+                console.log(`  🔄 replaced img tags in: ${filePath}`);
+            }
+        } catch (error) {
+            console.error('Error truncating file:', error);
+        }
+    }
+
+    const st = await Deno.stat(path);
+    if (st.isFile) {
+        await truncateAfterRegex(path, regex);
+        Deno.exit(0);
+    }
+
+    for await (
+        const e of walk(path, {
+            includeDirs: false,
+            exts: [".md", ".mdx"],
+        })
+    ) {
+        if (e.isFile) {
+            await replaceImgWithMarkdown(e.path, regex);
         }
     }
     console.log("👍 truncated markdown files after END PAGE")
