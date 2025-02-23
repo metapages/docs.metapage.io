@@ -25,9 +25,10 @@
     "@mantine/hooks": "^7.16.1",
     "@mantine/styles": "^6.0.22",
     "@mdx-js/react": "^3.1.0",
-    "@metapages/docu-notion-plugins": "^0.1.9",
+    "@metapages/docu-notion-plugins": "^0.1.6",
+    "@metapages/hash-query": "^0.8.5",
     "@metapages/metapage": "^1.5.2",
-    "@metapages/metapage-grid-react": "^0.2.0",
+    "@metapages/metapage-grid-react": "^0.3.2",
     "@notionhq/client": "^2.2.15",
     "@sillsdev/docu-notion": "0.16.1",
     "clsx": "^2.1.1",
@@ -40,7 +41,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-player": "^2.16.0",
-    "sanitize-html": "^2.14.0"
+    "sanitize-html": "^2.14.0",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
