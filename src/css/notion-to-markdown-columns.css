@@ -8,13 +8,17 @@
     
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .custom-docunotion-row-cell {
-    /* Allow shrinkage */
-    flex: 1 1 auto;
+    /* Change from flex: 1 1 auto to flex: 1 */
+    flex: 1;
+    /* Add width: 0 to force equal distribution */
+    width: 0;
     height: 100%;
+    /* Add align-self to ensure individual cells align to the top */
+    align-self: flex-start;
     /* text-align: center; */
   }
 
