@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-21T00:00:00.000Z</updated>
+    <updated>2025-02-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[10 minutes to integrate a brand new bio AI model]]></title>
+        <id>https://docs.metapage.io/blog/model-bioemu</id>
+        <link href="https://docs.metapage.io/blog/model-bioemu"/>
+        <updated>2025-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There are new bio AI models coming out every week. Last week is was bioemu:]]></summary>
+        <content type="html"><![CDATA[<p>There are new bio AI models coming out every week. Last week is was <code>bioemu</code>:</p>
+<p><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</a></p>
+<p>How to keep up?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a7018579bb580e897ebd28c7e04bb21">Metapages allow rapid integration of any new open-source tools, models, codebases<a href="https://docs.metapage.io/blog/model-bioemu#1a7018579bb580e897ebd28c7e04bb21" class="hash-link" aria-label="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases" title="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases">​</a></h2>
+<p>It took me 10 minutes to create the docker image, get the installation working, and add a molecule viewer. I published it with one click, and now it’s available to everyone to add to their own workflows with a few clicks.</p>
+<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Check it out on the app</a> or the embedded workflow below:</p>
+<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/biomolecular-emulator-bioemu--551d582261f943168bcfe729fba84312/embed"></iframe>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond Jupyter Notebooks]]></title>
         <id>https://docs.metapage.io/blog/compare-to-jupyter-notebooks</id>
