@@ -12,17 +12,17 @@
         <id>https://docs.metapage.io/blog/model-bioemu</id>
         <link href="https://docs.metapage.io/blog/model-bioemu"/>
         <updated>2025-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are new bio AI models coming out every week. Last week is was bioemu:]]></summary>
-        <content type="html"><![CDATA[<p>There are new bio AI models coming out every week. Last week is was <code>bioemu</code>:</p>
+        <summary type="html"><![CDATA[Check out the workflow on the app-551d582261f943168bcfe729fba84312)]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Check out the workflow on the app</a></p>
+<p>There are new bio AI models coming out every week. Last week is was <code>bioemu</code>:</p>
 <p><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</a></p>
 <p>How to keep up?</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a7018579bb580e897ebd28c7e04bb21">Metapages allow rapid integration of any new open-source tools, models, codebases<a href="https://docs.metapage.io/blog/model-bioemu#1a7018579bb580e897ebd28c7e04bb21" class="hash-link" aria-label="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases" title="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases">​</a></h2>
 <p>It took me 10 minutes to create the docker image, get the installation working, and add a molecule viewer. I published it with one click, and now it’s available to everyone to add to their own workflows with a few clicks.</p>
-<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Check it out on the app</a> or the embedded workflow below:</p>
-<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-80f7-b3ae-fd11e09709c8-066b3f9fd82beeb3c4795e877dda86b9.png" width="1086" height="599" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-807e-9cf0-c2d482c6ecc3-e5f5973f6100b2e7f4b24429a1a9ed5f.png" width="1376" height="697" class="img_ev3q"></p>
+<p>Metapages allows the sharing of containerized components that are then connectable to your workflows, so you can prototype at the speed of thought.</p>
+<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-807e-9cf0-c2d482c6ecc3-e5f5973f6100b2e7f4b24429a1a9ed5f.png" width="1376" height="697" class="img_ev3q"></p><p></p></div><div class="custom-docunotion-row-cell"><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-80f7-b3ae-fd11e09709c8-066b3f9fd82beeb3c4795e877dda86b9.png" width="1086" height="599" class="img_ev3q"></p><p></p></div></div>
 <p><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">[Source paper]</a></p>
-<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">[Source Metapage]</a></p>]]></content>
+<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">[Source Metapage Workflow]</a></p>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>dion@metapage.io</email>
