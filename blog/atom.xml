@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-02-27T00:00:00.000Z</updated>
+    <updated>2025-02-28T18:14:35.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Organization Lifespan]]></title>
+        <id>https://docs.metapage.io/blog/organization-lifespan</id>
+        <link href="https://docs.metapage.io/blog/organization-lifespan"/>
+        <updated>2025-02-28T18:14:35.687Z</updated>
+        <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
+        <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
+<p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
+<p>Our public stated plan in this eventuality:</p>
+<ul>
+<li>All currently non-open assets and code will be open-sourced</li>
+<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
+<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
+</ul>
+<p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
+<p>We welcome community input in the process, in this eventuality.</p>
+<hr>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>dion@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 minutes to integrate a brand new bio AI model]]></title>
         <id>https://docs.metapage.io/blog/model-bioemu</id>
