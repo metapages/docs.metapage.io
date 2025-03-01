@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Sat, 01 Mar 2025 06:11:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Mar 2025 06:43:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Organization Lifespan]]></title>
             <link>https://docs.metapage.io/blog/organization-lifespan</link>
             <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
-            <pubDate>Sat, 01 Mar 2025 06:11:57 GMT</pubDate>
+            <pubDate>Sat, 01 Mar 2025 06:43:02 GMT</pubDate>
             <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
             <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
