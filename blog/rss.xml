@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Mon, 03 Mar 2025 21:55:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Mar 2025 22:13:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Organization Lifespan]]></title>
             <link>https://docs.metapage.io/blog/organization-lifespan</link>
             <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
-            <pubDate>Mon, 03 Mar 2025 21:55:12 GMT</pubDate>
+            <pubDate>Mon, 03 Mar 2025 22:13:59 GMT</pubDate>
             <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
             <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -49,7 +49,8 @@
 <ul>
 <li><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">Source paper</a></li>
 <li><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Source Metapage Workflow</a></li>
-</ul>]]></content:encoded>
+</ul>
+<iframe scrolling="no" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/bioinformatic-examples-rachel-elizabeth-ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>]]></content:encoded>
             <author>dion@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
