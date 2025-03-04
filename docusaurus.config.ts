@@ -71,6 +71,7 @@ const config :Config = {
             require.resolve("./src/css/notion-to-markdown-columns.css"),
             require.resolve("./src/css/mpg.css"),
             require.resolve("./src/css/docu-notion-styles.css"),
+            require.resolve("./src/css/video.css"),
           ],
         },
       }),

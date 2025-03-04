@@ -34,12 +34,29 @@ export const embedMetapagesCorrectly: IPlugin = {
   ],
 };
 
+export const modifyVideoEmbedding = {
+  name: "Modify video embedding to use AutoplayReactPlayer",
+  regexMarkdownModifications: [
+    {
+      regex: /<ReactPlayer\s+(controls)?\s+url=\"([^\"]+)\"[^>]*\/>/,
+      getReplacement: async (
+        context:IDocuNotionContext,
+        match:RegExpExecArray
+      ) => {
+        const url = match[2];
+        return `<AutoplayReactPlayer url=\"${url}\" />`;
+      },
+    },
+  ],
+};
+
 const config: IDocuNotionConfig = {
   plugins: [
     modifiedStandardInternalLinkConversion,
     notionColumnsUpgraded,
     correctNotionUrlsInMermaid(),
     embedToIframe,
+    modifyVideoEmbedding,
     // embedMetapagesCorrectly,
   ],
 };
