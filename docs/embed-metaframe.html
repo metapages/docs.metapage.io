@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap"><link rel="stylesheet" href="/assets/css/styles.c7544c00.css">
-<script src="/assets/js/runtime~main.c577f897.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.41774785.js" defer="defer"></script>
 <script src="/assets/js/main.0a670db3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -55,12 +55,13 @@
       &lt;Admonition type=&quot;tip&quot; title=&quot;Text output from the embedded metaframe&quot;&gt;
         {text}
       &lt;/Admonition&gt;
-
-      &lt;MetaframeStandaloneComponent
-        url={url}
-        inputs={{ text }}
-        onOutputs={onOutputs}
-      /&gt;
+			&lt;div style={{ width: &quot;100%&quot;, height: &quot;200px&quot; }}&gt;
+	      &lt;MetaframeStandaloneComponent
+	        url={url}
+	        inputs={{ text }}
+	        onOutputs={onOutputs}
+	      /&gt;
+      &lt;/div&gt;
     &lt;/&gt;
   );
 }
