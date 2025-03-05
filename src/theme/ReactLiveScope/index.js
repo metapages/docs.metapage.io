@@ -2,7 +2,6 @@ import React from 'react';
 
 import {
   Metapage,
-  VersionsMetapage,
 } from '@metapages/metapage';
 import {
   MetaframeStandaloneComponent,
