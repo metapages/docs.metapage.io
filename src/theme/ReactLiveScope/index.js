@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
+import { MetaframeStandaloneComponent } from "@metapages/metapage-react";
+import { MetaframeIframe } from "@metapages/metapage-react/components";
 
 import {
   Metapage,
 } from '@metapages/metapage';
 import {
-  MetaframeStandaloneComponent,
   MetapageGridLayoutFromDefinition,
   MetapageGridLayoutFromMetapage,
+  MetaframeWrapperEditoverlay,
 } from '@metapages/metapage-grid-react';
 import Admonition from '@theme/Admonition';
 
@@ -28,12 +30,15 @@ const ButtonExample = (props) => (
 // Add react-live imports you need here
 const ReactLiveScope = {
   React,
+  useState,
+  useCallback,
   ...React,
   ButtonExample,
+  MetaframeIframe,
   MetaframeStandaloneComponent,
   MetapageGridLayoutFromMetapage,
   MetapageGridLayoutFromDefinition,
-  VersionsMetapage,
+  MetaframeWrapperEditoverlay,
   Metapage,
   Admonition,
 };
