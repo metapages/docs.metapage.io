@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap"><link rel="stylesheet" href="/assets/css/styles.c7544c00.css">
-<script src="/assets/js/runtime~main.6706ac11.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.c778838f.js" defer="defer"></script>
 <script src="/assets/js/main.0a670db3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -42,13 +42,12 @@
 <p>First imports:</p>
 <pre><code class="language-typescript">import { MetapageGridLayoutFromDefinition } from &quot;@metapages/metapage-grid-react&quot;;
 </code></pre>
-<p>You can copy the metapage JSON (blue button) and paste in <a href="https://app.metapages.org/">https://app.metapages.org/</a> to see the live app.</p>
-<pre><code class="language-jsx" metastring="live">function ExampleEmbedMetapage() {
+<pre><code class="language-typescript">function ExampleEmbedMetapage() {
   const [definition, setDefinition] = useState();
 
   useEffect(() =&gt; {
 		(async () =&gt; {
-				var resp = await fetch(&quot;https://app.metapage.io/dion/example-hello-world-b4dc42b55df94364a1ebac10e8e91f32/metapage.json&quot;);
+				var resp = await fetch(&quot;https://metapage.io/dion/example-hello-world-b4dc42b55df94364a1ebac10e8e91f32/metapage.json&quot;);
 				var metapageJson = await resp.json();
 				setDefinition(metapageJson);
 		})();
