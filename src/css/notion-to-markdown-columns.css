@@ -22,6 +22,14 @@
     /* text-align: center; */
   }
 
+  /* Add styles to ensure images maintain their aspect ratio */
+  .custom-docunotion-row-cell img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
   .borderFatSolidGreen {
     border: 5px solid green;
   }
