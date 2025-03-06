@@ -1,12 +1,12 @@
 name: Auto Deploy to GitHub Pages
 
-# on:
-#   schedule:
-#     # Every half hour, at minute 5, and 35
-#     - cron: "5,35 * * * *"
-#   push:
-#     branches:
-#       - main
+on:
+  schedule:
+    # Every half hour, at minute 5, and 35
+    - cron: "5,35 * * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   test_on_push:
