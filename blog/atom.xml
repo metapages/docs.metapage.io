@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-04-30T01:46:02.120Z</updated>
+    <updated>2025-04-30T02:44:34.985Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-04-30T01:46:02.120Z</updated>
+        <updated>2025-04-30T02:44:34.985Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -47,7 +47,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-04-30T01:45:52.322Z</updated>
+        <updated>2025-04-30T02:44:32.810Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -95,7 +95,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-04-30T01:45:51.690Z</updated>
+        <updated>2025-04-30T02:44:32.283Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -147,7 +147,7 @@
         <title type="html"><![CDATA[Organization Lifespan]]></title>
         <id>https://docs.metapage.io/blog/organization-lifespan</id>
         <link href="https://docs.metapage.io/blog/organization-lifespan"/>
-        <updated>2025-04-30T01:45:12.034Z</updated>
+        <updated>2025-04-30T02:43:55.427Z</updated>
         <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
         <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
