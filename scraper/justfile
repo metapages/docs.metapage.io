@@ -4,10 +4,10 @@ set shell                           := ["bash", "-c"]
 set dotenv-load                     := true
 set export                          := true
 
-TYPESENSE_API_KEY                   := env_var_or_default("TYPESENSE_API_KEY", "")
-TYPESENSE_HOST                      := env_var_or_default("TYPESENSE_HOST", "")
-TYPESENSE_PORT                      := env_var_or_default("TYPESENSE_PORT", "")
-TYPESENSE_PROTOCOL                  := env_var_or_default("TYPESENSE_PROTOCOL", "")
+TYPESENSE_API_KEY                   := env_var_or_default("TYPESENSE_API_KEY", "typesense-key")
+TYPESENSE_HOST                      := env_var_or_default("TYPESENSE_HOST", "localhost")
+TYPESENSE_PORT                      := env_var_or_default("TYPESENSE_PORT", "8108")
+TYPESENSE_PROTOCOL                  := env_var_or_default("TYPESENSE_PROTOCOL", "http")
 
 ###########################################################################
 # Begin commands
@@ -19,8 +19,8 @@ _help:
 
 
 # Run typesense/docsearch-scraper
-@run:
-    docker run --rm -t \
+run:
+    docker run --rm -t --net host \
       -e TYPESENSE_API_KEY={{TYPESENSE_API_KEY}} \
       -e TYPESENSE_HOST={{TYPESENSE_HOST}} \
       -e TYPESENSE_PORT={{TYPESENSE_PORT}} \
