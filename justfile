@@ -66,12 +66,21 @@ build: _ensure_npm_modules docs blog _build
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_BLOG_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/blog
     cp src/authors.yml blog/
     echo "👍 blog generated"
-
+  
 # Generate docs from notion https://github.com/sillsdev/docu-notion 
-@docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")  (_replace_img_with_markdown "docs")
+docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs")  (_replace_img_with_markdown "docs")
+    #!/usr/bin/env bash
     echo "Generating docs..."
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
+    cat > docs/summary-llm.mdx << EOF
+    ---
+    title: LLM summary
+    slug: /llm-summary
+    hide_table_of_contents: true
+    ---
+    EOF
+    cat summary-llm.md >> docs/summary-llm.mdx
     echo "👍 docs generated"
 
 # Build docs and blog from notion, then serve
@@ -226,3 +235,10 @@ _remove-right-navigation-selected path:
         return hideTableOfContents(frontMatter);
     }});
     console.log("👍 removed right navigation from {{path}}")
+
+
+@summarize-for-llm:
+    claude -p "create a compressed, LLM-optimized summary of this  application. the documenation and blogs are located in the docs and blog directory. Get all markdown (md and mdx) files, generate the one or two page summary. For each topic, write a paragraph or two. ALthough it is a summary, it should be comprehensive and cover all topics" > summary.md
+    cat summary-llm.md
+
+    
