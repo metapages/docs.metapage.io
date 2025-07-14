@@ -3,7 +3,7 @@ dion:
   title: Creator of Metapages
   url: https://github.com/metapages
   image_url: https://github.com/dionjwa.png
-  email: dion@metapage.io
+  email: hey@metapage.io
   socials:
     github: dionjwa
 
@@ -11,6 +11,7 @@ karl:
   name: Karl Lundquist
   title: Metapages Contributor
   url: https://klundquist.github.io/portfolio/
-  image_url: https://klundquist.github.io/portfolio/authors/admin/avatar_hu4c76da95166fe1eee0f769257974be20_562963_270x270_fill_lanczos_center_3.png
+  image_url: https://github.com/klundquist.png
   socials:
     github: klundquist
+    
