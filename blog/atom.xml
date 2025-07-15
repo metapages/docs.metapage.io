@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-07-14T18:21:57.640Z</updated>
+    <updated>2025-07-15T03:43:47.095Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-07-14T18:21:57.640Z</updated>
+        <updated>2025-07-15T03:43:47.095Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -47,7 +47,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-07-14T18:21:51.180Z</updated>
+        <updated>2025-07-15T03:43:41.784Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -87,7 +87,7 @@
 ]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -95,7 +95,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-07-14T18:21:46.653Z</updated>
+        <updated>2025-07-15T03:43:41.189Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -139,7 +139,7 @@
 <p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -147,7 +147,7 @@
         <title type="html"><![CDATA[Organization Lifespan]]></title>
         <id>https://docs.metapage.io/blog/organization-lifespan</id>
         <link href="https://docs.metapage.io/blog/organization-lifespan"/>
-        <updated>2025-07-14T18:21:20.197Z</updated>
+        <updated>2025-07-15T03:43:21.026Z</updated>
         <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
         <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -165,7 +165,7 @@
 <hr>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -174,11 +174,26 @@
         <id>https://docs.metapage.io/blog/mesh</id>
         <link href="https://docs.metapage.io/blog/mesh"/>
         <updated>2025-07-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Make sure this works]]></summary>
-        <content type="html"><![CDATA[<p>Make sure this works</p>]]></content>
+        <summary type="html"><![CDATA[In progress, but here because the link needs to be tested]]></summary>
+        <content type="html"><![CDATA[<p>In progress, but here because the link needs to be tested</p>
+<p>Migrate from: <a href="https://www.notion.so/metapages/The-Molecular-Leaderboard-Commons-228018579bb580ad9238c462448c83af" target="_blank" rel="noopener noreferrer">https://www.notion.so/metapages/The-Molecular-Leaderboard-Commons-228018579bb580ad9238c462448c83af?source=copy_link</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="230018579bb5801ba255ce13be9f7dbf">Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality<a href="https://docs.metapage.io/blog/mesh#230018579bb5801ba255ce13be9f7dbf" class="hash-link" aria-label="Direct link to Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality" title="Direct link to Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality">​</a></h2>
+<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-8077-8071-e16c42108c33-5bbf0fdc7a90758ca1f6b89daf3c867f.png" width="390" height="122" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80a2-9a14-d40e4a1af6dd-fd7b163eafd297d19a4ea40314d7b76b.png" width="2776" height="1022" class="img_ev3q"></p>
+<p>For an a <a href="https://foundry.adaptyvbio.com/competition?design=65d6fe3c-b74c-4b9d-8804-931d52830f65" target="_blank" rel="noopener noreferrer">given leaderboard entry</a>, the display is great, with an interactive molecule</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80b4-8d09-dd7ddfd8def4-52b7db4c10c146840c7585711437b661.png" width="3248" height="1554" class="img_ev3q"></p>
+<p>But the design is simply a text description with a lot of the process unavailable, meaning other researchers don’t really have access to the workflow:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80d2-b1bf-de9ff5902be6-4ce767178e3fdca277c7ad6a7c53cf0d.png" width="2164" height="256" class="img_ev3q"></p>
+<p><strong>References</strong></p>
+<p>Competition with dashboard</p>
+<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
+<p><a href="https://beta.adaptyvbio.com/benchbb" target="_blank" rel="noopener noreferrer">https://beta.adaptyvbio.com/benchbb</a></p>
+<p><a href="https://polarishub.io/blog/antiviral-competition" target="_blank" rel="noopener noreferrer">https://polarishub.io/blog/antiviral-competition</a></p>
+<p><a href="https://paperswithcode.com/method/clip" target="_blank" rel="noopener noreferrer">https://paperswithcode.com/method/clip</a></p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
         <author>
@@ -209,7 +224,7 @@
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/bioinformatic-examples-rachel-elizabeth-ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -269,7 +284,7 @@
 <p>This will generate a permanent URL, with a sha256 hash of the workflow, similar to how git creates a hash of each commit. This URL will work, even if the underlying workflow is unpublished or deleted.</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -330,7 +345,7 @@
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -453,7 +468,7 @@
 <p>Good luck! We're excited to see your creative approaches to biological data visualization! 🧬 ✨</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
         <author>
@@ -499,7 +514,7 @@
 <hr>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -524,7 +539,7 @@
 <p>This is an ongoing effort. Contributions and ideas welcome.</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -544,7 +559,7 @@
 ]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -660,7 +675,7 @@
 <p>Good luck to all participants! We're excited to see your creative visualizations and scientific insights! 🎉</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -727,7 +742,7 @@
 ]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -775,7 +790,7 @@
 <hr>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
         <author>
@@ -808,7 +823,7 @@
 </ul>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -834,7 +849,7 @@
 <p>The backend is built for kubernetes, which is the largest cluster manager by far, which is good, but you cannot simply plug in your own computer easily. Kubernetes is complex, so you need to have the support of a organization or highly technical individual to implement your own.</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -849,7 +864,7 @@
 <div class="video-container"><div style="width:100%;height:100%"></div></div>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>
@@ -872,7 +887,7 @@
 </ul>]]></content>
         <author>
             <name>Dion Whitehead</name>
-            <email>dion@metapage.io</email>
+            <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
     </entry>

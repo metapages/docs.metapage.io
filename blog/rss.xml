@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Mon, 14 Jul 2025 18:21:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jul 2025 03:43:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Mon, 14 Jul 2025 18:21:57 GMT</pubDate>
+            <pubDate>Tue, 15 Jul 2025 03:43:47 GMT</pubDate>
             <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
             <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -48,7 +48,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Mon, 14 Jul 2025 18:21:51 GMT</pubDate>
+            <pubDate>Tue, 15 Jul 2025 03:43:41 GMT</pubDate>
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -86,13 +86,13 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
 <p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
 ]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Mon, 14 Jul 2025 18:21:46 GMT</pubDate>
+            <pubDate>Tue, 15 Jul 2025 03:43:41 GMT</pubDate>
             <description><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></description>
             <content:encoded><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -134,13 +134,13 @@
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
 <h1>References</h1>
 <p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Organization Lifespan]]></title>
             <link>https://docs.metapage.io/blog/organization-lifespan</link>
             <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
-            <pubDate>Mon, 14 Jul 2025 18:21:20 GMT</pubDate>
+            <pubDate>Tue, 15 Jul 2025 03:43:21 GMT</pubDate>
             <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
             <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -156,16 +156,31 @@
 <p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
 <p>We welcome community input in the process, in this eventuality.</p>
 <hr>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[MESH (Molecular Evaluation Science Hub)]]></title>
             <link>https://docs.metapage.io/blog/mesh</link>
             <guid>https://docs.metapage.io/blog/mesh</guid>
             <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Make sure this works]]></description>
-            <content:encoded><![CDATA[<p>Make sure this works</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <description><![CDATA[In progress, but here because the link needs to be tested]]></description>
+            <content:encoded><![CDATA[<p>In progress, but here because the link needs to be tested</p>
+<p>Migrate from: <a href="https://www.notion.so/metapages/The-Molecular-Leaderboard-Commons-228018579bb580ad9238c462448c83af" target="_blank" rel="noopener noreferrer">https://www.notion.so/metapages/The-Molecular-Leaderboard-Commons-228018579bb580ad9238c462448c83af?source=copy_link</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="230018579bb5801ba255ce13be9f7dbf">Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality<a href="https://docs.metapage.io/blog/mesh#230018579bb5801ba255ce13be9f7dbf" class="hash-link" aria-label="Direct link to Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality" title="Direct link to Competition Dashbashboards: bespoke, impractical to replicate, or limited in functionality">​</a></h2>
+<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-8077-8071-e16c42108c33-5bbf0fdc7a90758ca1f6b89daf3c867f.png" width="390" height="122" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80a2-9a14-d40e4a1af6dd-fd7b163eafd297d19a4ea40314d7b76b.png" width="2776" height="1022" class="img_ev3q"></p>
+<p>For an a <a href="https://foundry.adaptyvbio.com/competition?design=65d6fe3c-b74c-4b9d-8804-931d52830f65" target="_blank" rel="noopener noreferrer">given leaderboard entry</a>, the display is great, with an interactive molecule</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80b4-8d09-dd7ddfd8def4-52b7db4c10c146840c7585711437b661.png" width="3248" height="1554" class="img_ev3q"></p>
+<p>But the design is simply a text description with a lot of the process unavailable, meaning other researchers don’t really have access to the workflow:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80d2-b1bf-de9ff5902be6-4ce767178e3fdca277c7ad6a7c53cf0d.png" width="2164" height="256" class="img_ev3q"></p>
+<p><strong>References</strong></p>
+<p>Competition with dashboard</p>
+<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
+<p><a href="https://beta.adaptyvbio.com/benchbb" target="_blank" rel="noopener noreferrer">https://beta.adaptyvbio.com/benchbb</a></p>
+<p><a href="https://polarishub.io/blog/antiviral-competition" target="_blank" rel="noopener noreferrer">https://polarishub.io/blog/antiviral-competition</a></p>
+<p><a href="https://paperswithcode.com/method/clip" target="_blank" rel="noopener noreferrer">https://paperswithcode.com/method/clip</a></p>]]></content:encoded>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[10 minutes to integrate a brand new bio AI model]]></title>
@@ -188,7 +203,7 @@
 <li><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Source Metapage Workflow</a></li>
 </ul>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/bioinformatic-examples-rachel-elizabeth-ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[A new way to publish interactive data and visualizations]]></title>
@@ -244,7 +259,7 @@
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-803c-a73d-d2d9720bdc48-f860ada11de06e72e0175526207e2cdb.png" width="348" height="469" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="data:image/png;base64,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" width="185" height="8" class="img_ev3q"></p>
 <p>This will generate a permanent URL, with a sha256 hash of the workflow, similar to how git creates a hash of each commit. This URL will work, even if the underlying workflow is unpublished or deleted.</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Beyond Jupyter Notebooks]]></title>
@@ -301,7 +316,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb580ba833df64ba0e01706">A example embedded metapage<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb580ba833df64ba0e01706" class="hash-link" aria-label="Direct link to A example embedded metapage" title="Direct link to A example embedded metapage">​</a></h2>
 <p>Here is a very basic simple example of what you would also do in a jupyter notebook (run some code and visualize). Unlike a notebook, it runs in the browser without needing to spin up a specific compute instance, and (unlike a jupyter notebook) you can immediately copy, edit, share.</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Competition 1.2]]></title>
@@ -420,7 +435,7 @@
 <li>Connect on <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> for general discussion</li>
 </ul>
 <p>Good luck! We're excited to see your creative approaches to biological data visualization! 🧬 ✨</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[FAIR Principles]]></title>
@@ -458,7 +473,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58038baade8dae8f4d2fe">Insurance: metapage resources (workflows) will always run, even if the organization is wound down<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58038baade8dae8f4d2fe" class="hash-link" aria-label="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down" title="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down">​</a></h3>
 <p>We will save user data as long as there are resources, and will enable users to take their workflows with them, in their entirety, and run them simply with a public, open-source, static browser (that users can also take and fork).</p>
 <hr>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Running workflows in perpetuity]]></title>
@@ -479,7 +494,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="195018579bb58097bdadcc2bd6afa2d2">Immutable archived metapages are already a reality<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb58097bdadcc2bd6afa2d2" class="hash-link" aria-label="Direct link to Immutable archived metapages are already a reality" title="Direct link to Immutable archived metapages are already a reality">​</a></h2>
 <p>When a metapage is published, we store it in an immutable database that we will be available for the long term. We aim to make this archive part of a public record, with a commitment to make the public resources always searchable and available.</p>
 <p>This is an ongoing effort. Contributions and ideas welcome.</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Community Showcase]]></title>
@@ -495,7 +510,7 @@
 <p>David Lee won the first round with this visualization:</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
 ]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Interactive Data Visualization Challenge]]></title>
@@ -607,7 +622,7 @@
 </ul>
 <hr>
 <p>Good luck to all participants! We're excited to see your creative visualizations and scientific insights! 🎉</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[FAIR principles apply to data- what about compute]]></title>
@@ -670,7 +685,7 @@
 <p>This way, the mechanism to build a reproducible compute environment is simply a URL, where users simply add their own commodity compute resources (their laptop, workstation, cluster, almost anything that can run docker containers).</p>
 <p>If the user wanted to run their own complete system that is different, they can, because the definition of the compute environment is encoded into the URL, thus available for all.</p>
 ]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Competion 1.1]]></title>
@@ -714,7 +729,7 @@
 <p>Don’t miss this chance to explore, innovate, and make an impact! 🌟</p>
 <p>Start building today, and let your creativity shine!</p>
 <hr>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[When Does Data Expire?]]></title>
@@ -739,7 +754,7 @@
 <li>Last 30 days: one per week</li>
 <li>Last 12 months: one per month</li>
 </ul>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Metapages vs Binder]]></title>
@@ -761,7 +776,7 @@
 <p>However, there is no state management, so every binder instance is it’s own, since the source is the github repo.</p>
 <p>There is no searchable catalogue of shared binders, and binders are not composable, they are single stand-alone instances.</p>
 <p>The backend is built for kubernetes, which is the largest cluster manager by far, which is good, but you cannot simply plug in your own computer easily. Kubernetes is complex, so you need to have the support of a organization or highly technical individual to implement your own.</p>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Media Mentions]]></title>
@@ -772,7 +787,7 @@
             <content:encoded><![CDATA[<p>Bits In Bio Global Mixer Presentation</p>
 <!-- -->
 <div class="video-container"><div style="width:100%;height:100%"></div></div>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
             <title><![CDATA[Comparison with other products/services/tools]]></title>
@@ -791,7 +806,7 @@
 <ul>
 <li><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">vs binder</a></li>
 </ul>]]></content:encoded>
-            <author>dion@metapage.io (Dion Whitehead)</author>
+            <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
     </channel>
 </rss>
