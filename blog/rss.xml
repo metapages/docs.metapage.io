@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Thu, 24 Jul 2025 02:53:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 03:45:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Thu, 24 Jul 2025 02:53:02 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 03:45:34 GMT</pubDate>
             <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
             <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -48,7 +48,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Thu, 24 Jul 2025 02:53:00 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 03:45:27 GMT</pubDate>
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -92,7 +92,7 @@
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Thu, 24 Jul 2025 02:52:57 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 03:45:25 GMT</pubDate>
             <description><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></description>
             <content:encoded><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -140,7 +140,7 @@
             <title><![CDATA[Organization Lifespan]]></title>
             <link>https://docs.metapage.io/blog/organization-lifespan</link>
             <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
-            <pubDate>Thu, 24 Jul 2025 02:52:23 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 03:44:36 GMT</pubDate>
             <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
             <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -163,19 +163,11 @@
             <link>https://docs.metapage.io/blog/mesh</link>
             <guid>https://docs.metapage.io/blog/mesh</guid>
             <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Jump to the examples:]]></description>
-            <content:encoded><![CDATA[<p>Jump to the examples:</p>
-<table><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr><tr><td>df</td></tr></tbody></table>
-<ul>
-<li><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example leaderboard framework</a></li>
-</ul>
-<table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table>
-<p>The examples are:</p>
-<ul>
-<li>open source, all source code embedded in the workflow</li>
-<li>copyable with a single click (when logged in)</li>
-<li>computation containers just work, no installation needed, just runs in the browser</li>
-</ul>
+            <description><![CDATA[Metapage examples:]]></description>
+            <content:encoded><![CDATA[<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>Metapage examples:</p></div><div class="custom-docunotion-row-cell"><table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" title="null" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" title="null" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table></div></div>
+<hr>
+<p>6</p>
+<h1>Introducing a New Initiative for Collaborative AI Competitions in Molecular Biology</h1>
 <p>There's excitement in the molecular biology scientific community around potentially transformative new AI models applied to molecular structure prediction, binding predictions, and molecular dynamics simulations. It feels like every week on Linkedin there is a new exciting generative model or molecular simulation prediction tool released. This sparks a desire among researchers to collaboratively explore and evaluate these extremely promising cutting edge tools.</p>
 <p>Public competitions can be an excellent way to learn from each other and channel resources. <a href="https://www.biomlsociety.org/challenge" target="_blank" rel="noopener noreferrer">Bits to Binders</a> was one of a recent number of new challenges/competitions. Myself and 4 others  joined this challenge to form a team that would generate a protein binder to a specific immune cell receptor. This designed molecule has the potential to treat some cancers. Our team had access to GPU resources, the target, and a brand new generative AI model for protein design: <a href="https://www.bakerlab.org/2023/07/11/diffusion-model-for-protein-design/" target="_blank" rel="noopener noreferrer">RFDiffusion</a>. None of us previously knew each other, and all come with different backgrounds and experience and technology</p>
 <p><img decoding="async" loading="lazy" alt="https://www.biomlsociety.org/challenge" src="https://docs.metapage.io/assets/images/mesh.23101857-9bb5-8022-91b2-d766ea04ce62-ab5c837289fa4368284fb66808bf33c6.png" width="3052" height="688" class="img_ev3q"></p>
@@ -200,6 +192,13 @@
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80b4-8d09-dd7ddfd8def4-52b7db4c10c146840c7585711437b661.png" width="3248" height="1554" class="img_ev3q"></p>
 <p>But the design is simply a text description with a lot of the process unavailable, meaning other researchers don’t really have access to the workflow:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23001857-9bb5-80d2-b1bf-de9ff5902be6-4ce767178e3fdca277c7ad6a7c53cf0d.png" width="2164" height="256" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23a018579bb580928271f4e8f87d97bd">Examples<a href="https://docs.metapage.io/blog/mesh#23a018579bb580928271f4e8f87d97bd" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h2>
+<ul>
+<li>open source, all source code embedded in the workflow</li>
+<li>copyable with a single click (when logged in)</li>
+<li>computation containers just work, no installation needed, just runs in the browser</li>
+</ul>
+<table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table>
 <p><strong>References</strong></p>
 <p>Competition with dashboard</p>
 <p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
