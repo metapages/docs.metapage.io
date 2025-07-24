@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-07-24T03:45:34.908Z</updated>
+    <updated>2025-07-24T04:28:54.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-07-24T03:45:34.908Z</updated>
+        <updated>2025-07-24T04:28:54.083Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -47,7 +47,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-07-24T03:45:27.809Z</updated>
+        <updated>2025-07-24T04:28:51.987Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -95,7 +95,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-07-24T03:45:25.608Z</updated>
+        <updated>2025-07-24T04:28:50.067Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -147,7 +147,7 @@
         <title type="html"><![CDATA[Organization Lifespan]]></title>
         <id>https://docs.metapage.io/blog/organization-lifespan</id>
         <link href="https://docs.metapage.io/blog/organization-lifespan"/>
-        <updated>2025-07-24T03:44:36.196Z</updated>
+        <updated>2025-07-24T04:28:21.446Z</updated>
         <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
         <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -174,10 +174,10 @@
         <id>https://docs.metapage.io/blog/mesh</id>
         <link href="https://docs.metapage.io/blog/mesh"/>
         <updated>2025-07-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Metapage examples:]]></summary>
-        <content type="html"><![CDATA[<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>Metapage examples:</p></div><div class="custom-docunotion-row-cell"><table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" title="null" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" title="null" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table></div></div>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>Examples:</p><br></div><div class="custom-docunotion-row-cell"><table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" title="null" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" title="null" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table></div></div>
 <hr>
-<p>6</p>
 <h1>Introducing a New Initiative for Collaborative AI Competitions in Molecular Biology</h1>
 <p>There's excitement in the molecular biology scientific community around potentially transformative new AI models applied to molecular structure prediction, binding predictions, and molecular dynamics simulations. It feels like every week on Linkedin there is a new exciting generative model or molecular simulation prediction tool released. This sparks a desire among researchers to collaboratively explore and evaluate these extremely promising cutting edge tools.</p>
 <p>Public competitions can be an excellent way to learn from each other and channel resources. <a href="https://www.biomlsociety.org/challenge" target="_blank" rel="noopener noreferrer">Bits to Binders</a> was one of a recent number of new challenges/competitions. Myself and 4 others  joined this challenge to form a team that would generate a protein binder to a specific immune cell receptor. This designed molecule has the potential to treat some cancers. Our team had access to GPU resources, the target, and a brand new generative AI model for protein design: <a href="https://www.bakerlab.org/2023/07/11/diffusion-model-for-protein-design/" target="_blank" rel="noopener noreferrer">RFDiffusion</a>. None of us previously knew each other, and all come with different backgrounds and experience and technology</p>
