@@ -2,90 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-07-24T20:17:49.306Z</updated>
+    <updated>2025-07-24T20:46:06.298Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Organization Lifespan]]></title>
-        <id>https://docs.metapage.io/blog/organization-lifespan</id>
-        <link href="https://docs.metapage.io/blog/organization-lifespan"/>
-        <updated>2025-07-24T20:17:49.306Z</updated>
-        <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
-        <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
-<p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
-<p>Our public stated plan in this eventuality:</p>
-<ul>
-<li>All currently non-open assets and code will be open-sourced</li>
-<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
-<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
-</ul>
-<p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
-<p>We welcome community input in the process, in this eventuality.</p>
-<hr>]]></content>
-        <author>
-            <name>Dion Whitehead</name>
-            <email>hey@metapage.io</email>
-            <uri>https://github.com/metapages</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
-        <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
-        <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-07-24T20:17:49.305Z</updated>
-        <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
-        <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
-<p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
-<ol>
-<li>create a bucket or whatever it’s called in one of some cloud provider, doesn’t have to be the biggest name, they’re all very reliable</li>
-<li>put stuff in</li>
-<li>get stuff out</li>
-</ol>
-<p>I don’t care where much it is. Why? Because it’s a <strong>solved problem</strong>. Remote blob storage is:</p>
-<ul>
-<li>very cheap, and getting cheaper</li>
-<li>reliable [1]</li>
-</ul>
-<p>At scale however, yes, you do have to think about cost, but those calculations are pretty straightforward business calculations. At anything below very large data, you don’t have to think much about it, and this makes it a <strong>solved problem</strong>.</p>
-<p>It’s a solved problem in a similar way that nature has solved storing information: replication, with automated mechanisms for damage repair/reconciliation [2].</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7998c587d99540c98564ff6646cb9977">Compute is not a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7998c587d99540c98564ff6646cb9977" class="hash-link" aria-label="Direct link to Compute is not a solved problem" title="Direct link to Compute is not a solved problem">​</a></h2>
-<p>Because you have to think about it. What I want:</p>
-<p>I give you some application, some workflow, for example, a machine learning agent, some program I have created, some tool, and it requires from time to time, some level of computing power. You are able to automatically, safely, connect that application to the right level of compute resources as needed.</p>
-<ul>
-<li>If the program is in the browser, I might be able to use the GPU, while the tab is open and running.</li>
-<li>If the program is downloaded and installed program, I have access to your entire computer, but due to that, security and parasitic programs become a problem.</li>
-<li>If I make available some cloud computing, it suddenly becomes complex, with lots of decisions, but with lots of scalable compute resources of different useful types.</li>
-</ul>
-<p>Computing resources are inherently valuable, and often able to be converted to $$ efficiently via automation.</p>
-<p>Obviously <code>storage !== compute</code> but if it were as easy, then I could distribute complex scientific simulations, and revive them years later, and they would “just work”.</p>
-<p>The team at <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a> aim to solve that problem: compute as a simple commodity.</p>
-<p>When we can treat compute as a commodity, we have more power over the compute providers. When they manage to get their system to be difficult to move from, you lose bargaining power.</p>
-<p>Personally, I default to <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">https://www.digitalocean.com/</a>. This isn’t a paid plug! They just do a great job of making plenty of options, at the right complexity/resolution, not too many, not too few.</p>
-<p>For my full stacks, I’m using AWS but not directly: my choice of platform vendor (<a href="https://nhost.io/" target="_blank" rel="noopener noreferrer">https://nhost.io</a>) makes that decision for me.</p>
-<h1>References</h1>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
-<p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
-]]></content>
-        <author>
-            <name>Dion Whitehead</name>
-            <email>hey@metapage.io</email>
-            <uri>https://github.com/metapages</uri>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
         <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-07-24T20:17:49.305Z</updated>
+        <updated>2025-07-24T20:46:06.298Z</updated>
         <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
         <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -118,10 +44,36 @@
 <p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Organization Lifespan]]></title>
+        <id>https://docs.metapage.io/blog/organization-lifespan</id>
+        <link href="https://docs.metapage.io/blog/organization-lifespan"/>
+        <updated>2025-07-24T20:46:06.298Z</updated>
+        <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
+        <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
+<p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
+<p>Our public stated plan in this eventuality:</p>
+<ul>
+<li>All currently non-open assets and code will be open-sourced</li>
+<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
+<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
+</ul>
+<p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
+<p>We welcome community input in the process, in this eventuality.</p>
+<hr>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>hey@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-07-24T20:17:49.305Z</updated>
+        <updated>2025-07-24T20:46:06.298Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -163,6 +115,54 @@
 <p>and you will be able to directly edit the code running, and copy and reuse it yourself.</p>
 <h1>References</h1>
 <p><a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/</a></p>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>hey@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
+        <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
+        <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
+        <updated>2025-07-24T20:46:06.297Z</updated>
+        <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
+        <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
+<p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
+<ol>
+<li>create a bucket or whatever it’s called in one of some cloud provider, doesn’t have to be the biggest name, they’re all very reliable</li>
+<li>put stuff in</li>
+<li>get stuff out</li>
+</ol>
+<p>I don’t care where much it is. Why? Because it’s a <strong>solved problem</strong>. Remote blob storage is:</p>
+<ul>
+<li>very cheap, and getting cheaper</li>
+<li>reliable [1]</li>
+</ul>
+<p>At scale however, yes, you do have to think about cost, but those calculations are pretty straightforward business calculations. At anything below very large data, you don’t have to think much about it, and this makes it a <strong>solved problem</strong>.</p>
+<p>It’s a solved problem in a similar way that nature has solved storing information: replication, with automated mechanisms for damage repair/reconciliation [2].</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7998c587d99540c98564ff6646cb9977">Compute is not a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7998c587d99540c98564ff6646cb9977" class="hash-link" aria-label="Direct link to Compute is not a solved problem" title="Direct link to Compute is not a solved problem">​</a></h2>
+<p>Because you have to think about it. What I want:</p>
+<p>I give you some application, some workflow, for example, a machine learning agent, some program I have created, some tool, and it requires from time to time, some level of computing power. You are able to automatically, safely, connect that application to the right level of compute resources as needed.</p>
+<ul>
+<li>If the program is in the browser, I might be able to use the GPU, while the tab is open and running.</li>
+<li>If the program is downloaded and installed program, I have access to your entire computer, but due to that, security and parasitic programs become a problem.</li>
+<li>If I make available some cloud computing, it suddenly becomes complex, with lots of decisions, but with lots of scalable compute resources of different useful types.</li>
+</ul>
+<p>Computing resources are inherently valuable, and often able to be converted to $$ efficiently via automation.</p>
+<p>Obviously <code>storage !== compute</code> but if it were as easy, then I could distribute complex scientific simulations, and revive them years later, and they would “just work”.</p>
+<p>The team at <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a> aim to solve that problem: compute as a simple commodity.</p>
+<p>When we can treat compute as a commodity, we have more power over the compute providers. When they manage to get their system to be difficult to move from, you lose bargaining power.</p>
+<p>Personally, I default to <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">https://www.digitalocean.com/</a>. This isn’t a paid plug! They just do a great job of making plenty of options, at the right complexity/resolution, not too many, not too few.</p>
+<p>For my full stacks, I’m using AWS but not directly: my choice of platform vendor (<a href="https://nhost.io/" target="_blank" rel="noopener noreferrer">https://nhost.io</a>) makes that decision for me.</p>
+<h1>References</h1>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
+<p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
+]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>hey@metapage.io</email>
