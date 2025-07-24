@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Thu, 24 Jul 2025 21:16:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 21:44:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
             <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
             <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Thu, 24 Jul 2025 21:16:33 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 21:44:58 GMT</pubDate>
             <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
             <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -53,32 +53,10 @@
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
-            <title><![CDATA[Organization Lifespan]]></title>
-            <link>https://docs.metapage.io/blog/organization-lifespan</link>
-            <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
-            <pubDate>Thu, 24 Jul 2025 21:16:33 GMT</pubDate>
-            <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
-            <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
-<p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
-<p>Our public stated plan in this eventuality:</p>
-<ul>
-<li>All currently non-open assets and code will be open-sourced</li>
-<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
-<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
-</ul>
-<p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
-<p>We welcome community input in the process, in this eventuality.</p>
-<hr>]]></content:encoded>
-            <author>hey@metapage.io (Dion Whitehead)</author>
-        </item>
-        <item>
             <title><![CDATA[The Internet Archive and URL configured websites]]></title>
             <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Thu, 24 Jul 2025 21:16:33 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 21:44:58 GMT</pubDate>
             <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
             <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
 <!-- -->
@@ -111,10 +89,32 @@
 <p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Organization Lifespan]]></title>
+            <link>https://docs.metapage.io/blog/organization-lifespan</link>
+            <guid>https://docs.metapage.io/blog/organization-lifespan</guid>
+            <pubDate>Thu, 24 Jul 2025 21:44:58 GMT</pubDate>
+            <description><![CDATA[We have a plan for the lifecycle of the organization.]]></description>
+            <content:encoded><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
+<p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
+<p>Our public stated plan in this eventuality:</p>
+<ul>
+<li>All currently non-open assets and code will be open-sourced</li>
+<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
+<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
+</ul>
+<p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
+<p>We welcome community input in the process, in this eventuality.</p>
+<hr>]]></content:encoded>
+            <author>hey@metapage.io (Dion Whitehead)</author>
+        </item>
+        <item>
             <title><![CDATA[URL Configured Websites]]></title>
             <link>https://docs.metapage.io/blog/url-configured-websites</link>
             <guid>https://docs.metapage.io/blog/url-configured-websites</guid>
-            <pubDate>Thu, 24 Jul 2025 21:16:33 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 21:44:58 GMT</pubDate>
             <description><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></description>
             <content:encoded><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
