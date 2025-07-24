@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-07-24T18:51:42.551Z</updated>
+    <updated>2025-07-24T19:17:16.841Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
         <id>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</id>
         <link href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute"/>
-        <updated>2025-07-24T18:51:42.551Z</updated>
+        <updated>2025-07-24T19:17:16.841Z</updated>
         <summary type="html"><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></summary>
         <content type="html"><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
 <!-- -->
@@ -56,10 +56,46 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
+        <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
+        <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
+        <updated>2025-07-24T19:17:16.841Z</updated>
+        <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
+        <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
+<!-- -->
+<!-- -->
+<p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
+<p>A critical part of the <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is recording and preserving links. When a link to a website dies for whatever reason, but then is preserved, we keep the underlying knowledge, since knowledge is distributed, just like how awareness of the environment is somehow kept in the patterns of neuron connections, not stored someone inside specific neurons.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Digital neurons store information patterns in the connections. Biological neurons are more complex, storing information in connections, cellular state, frequency of activation, hormones, among other places. But likely the most important part is the connections between neurons.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This is a massive simplification, since there are many examples e.g. snail neurons that store information in the neuronal cells in complex ways [1]</p></div></div>
+<hr>
+<h1>Links that store state in the URL help preserve websites through deep time</h1>
+<p><strong>The more state is stored in the URL directly, the more the website is able to be preserved and also retain functionality.</strong></p>
+<p>This has a number of advantages:</p>
+<ul>
+<li>The user state is stored in the URL and is:<!-- -->
+<ul>
+<li>user editable (in the future)</li>
+<li>machine readable</li>
+</ul>
+</li>
+<li>The origin can be modified dynamically to reroute to domains that are active, without modifying the core state (in the hash parameters of the URL)</li>
+<li>Much easier to store, since a URL is just a string<!-- -->
+<ul>
+<li>Assuming that the core libraries, assets, and modules are preserved, but that’s a separate concern</li>
+</ul>
+</li>
+<li>More complex applications can be preserved as <a href="https://docs.metapage.io/docs" target="_blank" rel="noopener noreferrer">metapages</a>, therefore allowing someone in the future to access a complex workflow, and use it immediately</li>
+</ul>
+<h1>References:</h1>
+<p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
+<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Organization Lifespan]]></title>
         <id>https://docs.metapage.io/blog/organization-lifespan</id>
         <link href="https://docs.metapage.io/blog/organization-lifespan"/>
-        <updated>2025-07-24T18:51:42.551Z</updated>
+        <updated>2025-07-24T19:17:16.841Z</updated>
         <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
         <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
@@ -85,7 +121,7 @@
         <title type="html"><![CDATA[URL Configured Websites]]></title>
         <id>https://docs.metapage.io/blog/url-configured-websites</id>
         <link href="https://docs.metapage.io/blog/url-configured-websites"/>
-        <updated>2025-07-24T18:51:42.549Z</updated>
+        <updated>2025-07-24T19:17:16.840Z</updated>
         <summary type="html"><![CDATA[URLs can safely and effectively store user created code or configuration (even credentials [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to edit.]]></summary>
         <content type="html"><![CDATA[<p>URLs can safely and effectively store user created code or configuration (even <a href="https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/" target="_blank" rel="noopener noreferrer">credentials</a> [1]) (access to things). URLs can also . This allows anyone with the link to not only view the created resources but also to <strong>edit.</strong></p>
 <!-- -->
@@ -132,42 +168,6 @@
             <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
-        <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
-        <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2025-07-24T18:51:42.548Z</updated>
-        <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
-        <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
-<!-- -->
-<!-- -->
-<p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
-<p>A critical part of the <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is recording and preserving links. When a link to a website dies for whatever reason, but then is preserved, we keep the underlying knowledge, since knowledge is distributed, just like how awareness of the environment is somehow kept in the patterns of neuron connections, not stored someone inside specific neurons.</p>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Digital neurons store information patterns in the connections. Biological neurons are more complex, storing information in connections, cellular state, frequency of activation, hormones, among other places. But likely the most important part is the connections between neurons.</p></div></div>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This is a massive simplification, since there are many examples e.g. snail neurons that store information in the neuronal cells in complex ways [1]</p></div></div>
-<hr>
-<h1>Links that store state in the URL help preserve websites through deep time</h1>
-<p><strong>The more state is stored in the URL directly, the more the website is able to be preserved and also retain functionality.</strong></p>
-<p>This has a number of advantages:</p>
-<ul>
-<li>The user state is stored in the URL and is:<!-- -->
-<ul>
-<li>user editable (in the future)</li>
-<li>machine readable</li>
-</ul>
-</li>
-<li>The origin can be modified dynamically to reroute to domains that are active, without modifying the core state (in the hash parameters of the URL)</li>
-<li>Much easier to store, since a URL is just a string<!-- -->
-<ul>
-<li>Assuming that the core libraries, assets, and modules are preserved, but that’s a separate concern</li>
-</ul>
-</li>
-<li>More complex applications can be preserved as <a href="https://docs.metapage.io/docs" target="_blank" rel="noopener noreferrer">metapages</a>, therefore allowing someone in the future to access a complex workflow, and use it immediately</li>
-</ul>
-<h1>References:</h1>
-<p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
-<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[MESH (Molecular Evaluation Science Hub)]]></title>
