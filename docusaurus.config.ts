@@ -71,7 +71,7 @@ const config: Config = {
         blog: {
           showReadingTime: false,
           postsPerPage: "ALL",
-          blogSidebarTitle: "All Blog Posts",
+          blogSidebarTitle: "All Posts",
           blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

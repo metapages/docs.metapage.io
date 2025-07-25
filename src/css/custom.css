@@ -77,10 +77,48 @@
   display: block !important; /* Remove flexbox layout */
 }
 
+/* Only apply sidebar width changes on the main blog list page */
+/* body.custom-blog-list-page .theme-blog-sidebar-container {
+  width: 40em;
+  flex: 0 0 40em;
+  padding-left: 1rem;
+} */
+
+/* Optionally reduce the left margin/padding */
+/* body.custom-blog-list-page .container {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+/* Only on the /blog list page */
+body.custom-blog-list-page .col.col--3 {
+  flex: 0 0 60em !important;
+  max-width: 60em !important;
+}
+
+/* Adjust the main content column (col--9) to fill remaining space */
+body.custom-blog-list-page .col.col--9 {
+  flex: 1 1 auto !important;
+  max-width: none !important;
+}
+
+/* For newer versions */
+/* Make the blog sidebar wider */
+/* .blog-wrapper .col.col--3 {
+  flex: 0 0 50em;  
+  max-width: 50em;
+} */
+
+/* Limit blog post width */
+.blog-wrapper .container {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
 /* Ensure blog posts use full width */
 [data-minimal="true"] .theme-blog-container {
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 60em !important;
+  max-width: 60em !important;
   margin-left: 0 !important;
 }
 
