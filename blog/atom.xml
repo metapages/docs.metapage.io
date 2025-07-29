@@ -34,6 +34,12 @@
 <p>Due to the <a href="https://github.com/metapages/compute-queues" target="_blank" rel="noopener noreferrer">public compute grid infrastructure</a>, all workflows can be run by anyone, provided they have sufficient compute resources attached to their own compute queues.</p>
 <p><strong>The workflows are all shareable URLs</strong></p>
 <p>Not installation needed, no configuration. Provided you have sufficient computation resources, the workflows run without any complex time-intensive steps, directly in the browser. Heavy compute is abstracted away.</p>
+<p>In Summary:</p>
+<ul>
+<li>open source, all source code embedded in the workflow</li>
+<li>copyable with a single click (when logged in)</li>
+<li>computation containers just work, no installation needed, just runs in the browser</li>
+</ul>
 <hr>
 <p>The future of human collaboration requires automation and open-sharing infrastructure.</p>
 ]]></content>
@@ -79,20 +85,17 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <p>A central part of our vision is developing the collective set of open-source tools that express workflows directly in the browser: <a href="https://docs.metapage.io/" target="_blank" rel="noopener noreferrer">metapage workflows</a>, combined with existing proven social structures for efficient idea exploration and refinement: public competitions and leaderboards that can rapidly and efficiently evaluate and spread to target communities novel and powerful molecular dynamics software tools, in a form they can immediately use.</p>
 <p>The <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapages</a> platform and tools allow researchers to easily create persistent, durable, yet flexible leaderboards. These leaderboards aren't just static records; they are dynamic, adaptable workflows that researchers can easily manipulate, extend, and incorporate into their own workflows, in whole or in by parts. By leveraging a public compute grid, researchers can effortlessly connect their own or others computational resources, whether their own laptop, HPC clusters, or turn-key cloud solutions. This makes shared workflows independent of where they run (as long as you have or we provide the necessary compute resources), thus enhancing accessibility and reducing the barriers to participation and collaboration.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="233018579bb580d49e8be47c60d06c01">Example workflow in the browser<a href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01" class="hash-link" aria-label="Direct link to Example workflow in the browser" title="Direct link to Example workflow in the browser">​</a></h3>
-<p>Here is an example that was quickly put together to test a tool, shared among the team, that we can share with the entire world simply via a url or embedding anwhere where URLs can be: <a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">https://metapage.io/m/71990da894774ebca5a4ad2895201a5c</a></p>
-<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23301857-9bb5-8043-8b62-ef6e2621cbaf-0cc7eb5fa0fb2bb7d5d7881ece48ef5d.png" width="2482" height="1224" class="img_ev3q"></p>
-<p>The outputs of this workflow tool can be connected to other workflows, and copied with a single click, replicating all the code and data.</p>
+<p>We have created an <a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example dynamic leaderboard workflow</a>, described in more detail <a href="https://docs.metapage.io/blog/dynamic-leaderboards">here</a>.</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23f01857-9bb5-8031-bd45-c36d5b9f56c4-aac89d8c2bbe741591ad8c5873fdb98d.png" width="3360" height="1132" class="img_ev3q"></p>
+<p>The leaderboard is fully dynamic. It can dynamically update all entries inputs, re-run the workflows directly from the browser, and automatically collates the results.</p>
+<p>A leaderboard workflow of workflows!</p>
+<hr>
 <p>This initiative is in the house of <a href="https://omsf.io/" target="_blank" rel="noopener noreferrer">The Open Molecular Software Foundation</a> whose <a href="https://omsf.io/about/mission/" target="_blank" rel="noopener noreferrer">mission statement</a> is a succinct superset of ours. Our particular alignment is especially about accelerating progress. We envision empowering researchers of all technical backgrounds to seamlessly integrate innovations in molecular dynamics AI models developed by one group into the workflows of another, and they will be able to do this because they will be able to rely on tools that are more reliable, as the tools will have been (and can continue to be evaluated by a community. This democratization of AI tools and knowledge will unlock previously constrained collaboration potential, fueling advancements and discoveries across the molecular biology and broader scientific community.</p>
 <p>We will follow up with a post about the technical differences between metapage workflows and other comparable stacks such as Jupyter Notebooks and workflow systems such as Nextflow.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23a018579bb580928271f4e8f87d97bd">Examples<a href="https://docs.metapage.io/blog/mesh#23a018579bb580928271f4e8f87d97bd" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h2>
-<ul>
-<li>open source, all source code embedded in the workflow</li>
-<li>copyable with a single click (when logged in)</li>
-<li>computation containers just work, no installation needed, just runs in the browser</li>
-</ul>
-<table><thead><tr><th><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example leaderboard framework</a></th></tr></thead><tbody><tr><td><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">protein-ligand docking workflow</a></td></tr></tbody></table>
 <p><strong>References</strong></p>
-<p>Competition with dashboard</p>
+<p><a href="https://docs.metapage.io/blog/dynamic-leaderboards">Example leaderboard workflow</a></p>
+<p><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">Example docking workflow</a></p>
+<p>Competitions with dashboards</p>
 <p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
 <p><a href="https://beta.adaptyvbio.com/benchbb" target="_blank" rel="noopener noreferrer">https://beta.adaptyvbio.com/benchbb</a></p>
 <p><a href="https://polarishub.io/blog/antiviral-competition" target="_blank" rel="noopener noreferrer">https://polarishub.io/blog/antiviral-competition</a></p>
