@@ -43,7 +43,11 @@
 </ul>
 <hr>
 <p>The future of human collaboration requires automation and open-sharing infrastructure.</p>
-]]></content:encoded>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23f018579bb580249934cca0e7579fbb">Links<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb580249934cca0e7579fbb" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links">​</a></h2>
+<ul>
+<li><a href="https://docs.metapage.io/blog/mesh">Dynamic Leaderboards of Workflows</a></li>
+</ul>]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
@@ -52,7 +56,7 @@
             <guid>https://docs.metapage.io/blog/mesh</guid>
             <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[[jump to examples]]]></description>
-            <content:encoded><![CDATA[<p>[<a href="https://docs.metapage.io/blog/mesh#23a018579bb580928271f4e8f87d97bd">jump to examples</a>]</p>
+            <content:encoded><![CDATA[<p>[<a href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01">jump to examples</a>]</p>
 <p>Every week on Linkedin and other social media there is a new exciting generative model or molecular simulation or binding prediction tool released (<a href="https://metapages.notion.site/LinkedIn-Stream-of-AI-Biotech-Molecular-Modeling-232018579bb580838900d1cd65b4655e" target="_blank" rel="noopener noreferrer">click here to see just my stream</a>). Exciting times!</p>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-8003-876d-c2c1c9eea251-3cd56fabb3c831384b859d3793735a20.png" width="1098" height="340" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80cd-a1df-f675a24f83da-30ad219388596ba8e31706cc185e8fe9.png" width="1144" height="514" class="img_ev3q"></p><p></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80e8-b9ad-d7f9990d40a4-9608deb0243e4c431de5142e5faf0a52.png" width="1146" height="318" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80dc-baba-ec1474f54d00-4ae9c1cddb5cb8776ae0c684fcba9aac.png" width="1160" height="1074" class="img_ev3q"></p><p></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80d5-906c-ecff7bee90cd-646d151a0151babcf11bd94b35a29577.png" width="1130" height="378" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80a0-8696-c52d324c5027-d8d9fef78d5cdfeff7dd90892510a191.gif" width="640" height="360" class="img_ev3q"></p><p></p></div></div>
 <p>It’s hard to keep up! New tools require testing and evaluation, and while we can work to automate a lot of the evaluation, at some point humans need to experiment with and test these tools in their own workflows.</p>
@@ -86,6 +90,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23f01857-9bb5-8031-bd45-c36d5b9f56c4-aac89d8c2bbe741591ad8c5873fdb98d.png" width="3360" height="1132" class="img_ev3q"></p>
 <p>The leaderboard is fully dynamic. It can dynamically update all entries inputs, re-run the workflows directly from the browser, and automatically collates the results.</p>
 <p>A leaderboard workflow of workflows!</p>
+<p>All open-source, all re-usable, all running without any installation steps</p>
 <hr>
 <p>This initiative is in the house of <a href="https://omsf.io/" target="_blank" rel="noopener noreferrer">The Open Molecular Software Foundation</a> whose <a href="https://omsf.io/about/mission/" target="_blank" rel="noopener noreferrer">mission statement</a> is a succinct superset of ours. Our particular alignment is especially about accelerating progress. We envision empowering researchers of all technical backgrounds to seamlessly integrate innovations in molecular dynamics AI models developed by one group into the workflows of another, and they will be able to do this because they will be able to rely on tools that are more reliable, as the tools will have been (and can continue to be evaluated by a community. This democratization of AI tools and knowledge will unlock previously constrained collaboration potential, fueling advancements and discoveries across the molecular biology and broader scientific community.</p>
 <p>We will follow up with a post about the technical differences between metapage workflows and other comparable stacks such as Jupyter Notebooks and workflow systems such as Nextflow.</p>
