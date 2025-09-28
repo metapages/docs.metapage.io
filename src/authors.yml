@@ -14,4 +14,22 @@ karl:
   image_url: https://github.com/klundquist.png
   socials:
     github: klundquist
+
+miend:
+  name: Michael Endsley
+  title: Metapages Contributor
+  url: https://www.linkedin.com/in/michael-endsley-7021ab58/
+  image_url: https://github.com/miend.png
+  socials:
+    github: miend
+    
+ronen:
+  name: Ronen Tamari
+  title: Founder of Cosmik
+  url: https://ronentk.me/
+  image_url: https://ronentk.me/authors/admin/avatar_hu60aaaab386835bba3052540ae62159e0_905681_270x270_fill_q90_lanczos_center.jpg
+  socials:
+    github: ronentk
+
+
     
