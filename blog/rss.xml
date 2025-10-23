@@ -4,10 +4,60 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[A public compute grid for the age of AI]]></title>
+            <link>https://docs.metapage.io/blog/public-compute-grid</link>
+            <guid>https://docs.metapage.io/blog/public-compute-grid</guid>
+            <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+            <author>hey@metapage.io (Dion Whitehead)</author>
+        </item>
+        <item>
+            <title><![CDATA[Publishing for the web and social media]]></title>
+            <link>https://docs.metapage.io/blog/publishing-for-the-web</link>
+            <guid>https://docs.metapage.io/blog/publishing-for-the-web</guid>
+            <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Communicate directly in visualizations/workflows/simulations]]></description>
+            <content:encoded><![CDATA[<p><strong>Communicate directly in visualizations/workflows/simulations</strong></p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5800b8fa4cb86b43aed9b">It’s still really difficult to share code<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5800b8fa4cb86b43aed9b" class="hash-link" aria-label="Direct link to It’s still really difficult to share code" title="Direct link to It’s still really difficult to share code">​</a></h2>
+<p>20 years ago I hit this problem: I was working with biologists who had carefully created a giant data set of plant responses to stresses. I was tasked with creating analyses and decided that interactive visualizations would help the researchers. I wanted to simply use the web, but the tools were not yet mature.</p>
+<p>Today it’s still pretty difficult to simply distribute code to someone else that Just Runs**™**. Your main options are:</p>
+<ul>
+<li>dump the code in a git repo, a bit of a README.md, and leave it to the reader</li>
+<li><a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks" target="_blank" rel="noopener noreferrer">make a Jupyter Notebook</a></li>
+<li>a lot of other painful, proprietary workarounds</li>
+</ul>
+<p>That early experience shaped what I wanted to do: simply give someone code that runs and is interactive, they the end user can keep and modify.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media">​</a></h3>
+<p>Metapages look great as bookmarks, and implement the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>. The title, description, and image are all customized by the user:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-80c7-ad39-cf37f394c4fd-bbef1b146ea9dc1d2195598f24226526.png" width="1734" height="308" class="img_ev3q"></p>
+<p>They look good this way posted to social media, twitter, Bluesky, anywhere that understand the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>.</p>
+<p>Share via Slack, text messages, social media, your blog.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb58073add3ceb1872541e9">QR Codes for posters, presentations and your phone<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58073add3ceb1872541e9" class="hash-link" aria-label="Direct link to QR Codes for posters, presentations and your phone" title="Direct link to QR Codes for posters, presentations and your phone">​</a></h3>
+<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>You can get the QR code of any metapage via the share menu. Copy the image into your <strong>poster</strong>, your <strong>presentation</strong>, your website, now anyone can immediately view and interact with your data, your visualization, right there and then. Also just show someone the QR Code via your phone: now you are communicating directly in models, simulations, and workflows.</p><br></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-8023-a83a-e832f463c1a6-e3ffdf1119fb838d11caae56ce14e14f.png" width="1034" height="1288" class="img_ev3q"></p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5807fa8f7cdd1d66505ab">Embed in Notion (and other note tools)<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5807fa8f7cdd1d66505ab" class="hash-link" aria-label="Direct link to Embed in Notion (and other note tools)" title="Direct link to Embed in Notion (and other note tools)">​</a></h2>
+<p>Metapages work out of the box with Notion. Paste the URL and choose “Embed”:</p>
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-804e-b3af-fae40d0a2c51-1f095f19edac7333682c26c3a02bed5c.png" width="1662" height="498" class="img_ev3q"></p>
+<p>Then you get a workflow running directly, fully interactive, fully self-contained, and immediately useable and shareable by your readers:</p>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d"></iframe>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb58023bff0d5f460b2780b">Embed in your own webpage<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58023bff0d5f460b2780b" class="hash-link" aria-label="Direct link to Embed in your own webpage" title="Direct link to Embed in your own webpage">​</a></h2>
+<p>Advanced use case:</p>
+<ul>
+<li>directly <a href="https://docs.metapage.io/docs/embed" target="_blank" rel="noopener noreferrer">embed runnable workflows in your own website</a> in plain javascript</li>
+<li>directly <a href="https://docs.metapage.io/docs/embed-metapage" target="_blank" rel="noopener noreferrer">embed runnable workflows in your own website</a> in React</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5808fbea7c731228fb7b5">Have I forgotten any way to distribute?<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5808fbea7c731228fb7b5" class="hash-link" aria-label="Direct link to Have I forgotten any way to distribute?" title="Direct link to Have I forgotten any way to distribute?">​</a></h2>
+<p>Let us know on <a href="https://discord.gg/gNX6t2K8Jz" target="_blank" rel="noopener noreferrer">discord</a>! We aim to be able share any and all ways</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580afad21d8eef36d2f4f">How it works<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580afad21d8eef36d2f4f" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
+<p>There are two pieces of technology that are needed and need to work together: browsers and (docker) containers. Browsers for running the orchestration anywhere safely with human interaction, and containers for the big, weird, or complex computation that a browser cannot (yet) do on it’s own.</p>
+<p>The bit part to solve was the <strong>[Problem Internal Link]</strong>.</p>]]></content:encoded>
+            <author>hey@metapage.io (Dion Whitehead)</author>
+        </item>
         <item>
             <title><![CDATA[Dynamic Configurable Live Leaderboards of Workflows]]></title>
             <link>https://docs.metapage.io/blog/dynamic-leaderboards</link>
@@ -260,7 +310,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <p>There will always be times when a notebook interface is more appropriate.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb580ba833df64ba0e01706">A example embedded metapage<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb580ba833df64ba0e01706" class="hash-link" aria-label="Direct link to A example embedded metapage" title="Direct link to A example embedded metapage">​</a></h2>
 <p>Here is a very basic simple example of what you would also do in a jupyter notebook (run some code and visualize). Unlike a notebook, it runs in the browser without needing to spin up a specific compute instance, and (unlike a jupyter notebook) you can immediately copy, edit, share.</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>]]></content:encoded>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
@@ -751,86 +801,6 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <ul>
 <li><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">vs binder</a></li>
 </ul>]]></content:encoded>
-            <author>hey@metapage.io (Dion Whitehead)</author>
-        </item>
-        <item>
-            <title><![CDATA[The Internet Archive and URL configured websites]]></title>
-            <link>https://docs.metapage.io/blog/internet-archive-url-configured-websites</link>
-            <guid>https://docs.metapage.io/blog/internet-archive-url-configured-websites</guid>
-            <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Links are critical to deep-time knowledge preservation]]></description>
-            <content:encoded><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
-<!-- -->
-<!-- -->
-<p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
-<p>A critical part of the <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is recording and preserving links. When a link to a website dies for whatever reason, but then is preserved, we keep the underlying knowledge, since knowledge is distributed, just like how awareness of the environment is somehow kept in the patterns of neuron connections, not stored someone inside specific neurons.</p>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Digital neurons store information patterns in the connections. Biological neurons are more complex, storing information in connections, cellular state, frequency of activation, hormones, among other places. But likely the most important part is the connections between neurons.</p></div></div>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This is a massive simplification, since there are many examples e.g. snail neurons that store information in the neuronal cells in complex ways [1]</p></div></div>
-<hr>
-<h1>Links that store state in the URL help preserve websites through deep time</h1>
-<p><strong>The more state is stored in the URL directly, the more the website is able to be preserved and also retain functionality.</strong></p>
-<p>This has a number of advantages:</p>
-<ul>
-<li>The user state is stored in the URL and is:<!-- -->
-<ul>
-<li>user editable (in the future)</li>
-<li>machine readable</li>
-</ul>
-</li>
-<li>The origin can be modified dynamically to reroute to domains that are active, without modifying the core state (in the hash parameters of the URL)</li>
-<li>Much easier to store, since a URL is just a string<!-- -->
-<ul>
-<li>Assuming that the core libraries, assets, and modules are preserved, but that’s a separate concern</li>
-</ul>
-</li>
-<li>More complex applications can be preserved as <a href="https://docs.metapage.io/docs" target="_blank" rel="noopener noreferrer">metapages</a>, therefore allowing someone in the future to access a complex workflow, and use it immediately</li>
-</ul>
-<h1>References:</h1>
-<p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
-<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Blob storage is a solved problem- what about compute?]]></title>
-            <link>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</link>
-            <guid>https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute</guid>
-            <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.]]></description>
-            <content:encoded><![CDATA[<p>Cheap and simple data blob storage is widely available and relatively easy to access and use. However, easily applying the right kind of compute is still laborious with too many complex barriers, arcane commands, hard to understand costs, and psychological anxiety that interrupts flow state when prototyping, analyzing, and generally doing data intensive research and engineering.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="391abf3711fb4cdc989cd95a352c95d3">Storage is a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#391abf3711fb4cdc989cd95a352c95d3" class="hash-link" aria-label="Direct link to Storage is a solved problem" title="Direct link to Storage is a solved problem">​</a></h2>
-<p>Storing blobs of data for your web application used to be more involved, I had to <em>think</em> about it. Now I don’t (much): when I build an app or website, that needs some blob storage my thoughts are:</p>
-<ol>
-<li>create a bucket or whatever it’s called in one of some cloud provider, doesn’t have to be the biggest name, they’re all very reliable</li>
-<li>put stuff in</li>
-<li>get stuff out</li>
-</ol>
-<p>I don’t care where much it is. Why? Because it’s a <strong>solved problem</strong>. Remote blob storage is:</p>
-<ul>
-<li>very cheap, and getting cheaper</li>
-<li>reliable [1]</li>
-</ul>
-<p>At scale however, yes, you do have to think about cost, but those calculations are pretty straightforward business calculations. At anything below very large data, you don’t have to think much about it, and this makes it a <strong>solved problem</strong>.</p>
-<p>It’s a solved problem in a similar way that nature has solved storing information: replication, with automated mechanisms for damage repair/reconciliation [2].</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7998c587d99540c98564ff6646cb9977">Compute is not a solved problem<a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7998c587d99540c98564ff6646cb9977" class="hash-link" aria-label="Direct link to Compute is not a solved problem" title="Direct link to Compute is not a solved problem">​</a></h2>
-<p>Because you have to think about it. What I want:</p>
-<p>I give you some application, some workflow, for example, a machine learning agent, some program I have created, some tool, and it requires from time to time, some level of computing power. You are able to automatically, safely, connect that application to the right level of compute resources as needed.</p>
-<ul>
-<li>If the program is in the browser, I might be able to use the GPU, while the tab is open and running.</li>
-<li>If the program is downloaded and installed program, I have access to your entire computer, but due to that, security and parasitic programs become a problem.</li>
-<li>If I make available some cloud computing, it suddenly becomes complex, with lots of decisions, but with lots of scalable compute resources of different useful types.</li>
-</ul>
-<p>Computing resources are inherently valuable, and often able to be converted to $$ efficiently via automation.</p>
-<p>Obviously <code>storage !== compute</code> but if it were as easy, then I could distribute complex scientific simulations, and revive them years later, and they would “just work”.</p>
-<p>The team at <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a> aim to solve that problem: compute as a simple commodity.</p>
-<p>When we can treat compute as a commodity, we have more power over the compute providers. When they manage to get their system to be difficult to move from, you lose bargaining power.</p>
-<p>Personally, I default to <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">https://www.digitalocean.com/</a>. This isn’t a paid plug! They just do a great job of making plenty of options, at the right complexity/resolution, not too many, not too few.</p>
-<p>For my full stacks, I’m using AWS but not directly: my choice of platform vendor (<a href="https://nhost.io/" target="_blank" rel="noopener noreferrer">https://nhost.io</a>) makes that decision for me.</p>
-<h1>References</h1>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5ff5b92126b14c0cb53ba25f3a9f00d3">[1] <strong>How data is lost in the cloud</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#5ff5b92126b14c0cb53ba25f3a9f00d3" class="hash-link" aria-label="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3" title="Direct link to 5ff5b92126b14c0cb53ba25f3a9f00d3">​</a></h3>
-<p><a href="https://spanning.com/blog/how-data-is-lost-in-the-cloud/" target="_blank" rel="noopener noreferrer">https://spanning.com/blog/how-data-is-lost-in-the-cloud/</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7d4f1319505a45ddb4c4b1a2e8c47ceb">[2] <strong>Mechanisms of ionizing-radiation resistance</strong><a href="https://docs.metapage.io/blog/blob-storage-is-solved-but-what-about-compute#7d4f1319505a45ddb4c4b1a2e8c47ceb" class="hash-link" aria-label="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb" title="Direct link to 7d4f1319505a45ddb4c4b1a2e8c47ceb">​</a></h3>
-<p><a href="https://en.wikipedia.org/wiki/Deinococcus_radiodurans" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Deinococcus_radiodurans</a></p>
-]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
     </channel>
