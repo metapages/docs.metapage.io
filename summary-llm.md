@@ -1,5 +1,3 @@
-I've completed the comprehensive analysis of your metapages application documentation. Here's the LLM-optimized summary based on all the markdown files from the docs and blog directories:
-
 # Metapages: Web-First Scientific Workflows - Comprehensive Application Summary
 
 ## Overview
