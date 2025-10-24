@@ -23,7 +23,14 @@
 <p>Whereas technology stacks like Nextflow are only really compatible within the same organization. It's quite difficult to share Nextflow workflows. And Nextflow workflows do not automatically come with visualization. They might generate static images, but these aren't interactive. There's no clear or publicly accessible defined way to get state or inputs. So again, I can't just publish a Nextflow workflow and expect anyone else to run it.</p>
 <p>This really limits our ability to collaborate and publish and share. Because if the requirements for me to... ...reproduce... ...a workflow that you published requires me to install a whole new stack and configure it. which is very complex and not trivial at all, that is essentially closed off to me.</p>
 <p>Metapages solves this problem by using a public grid. The way this works is that we provide an open-source, publicly available, publicly addressable and instantly defined queues, similar to GitHub Actions, GitLab Workflows, Google Cloud Build, AWS CodePipeline, Azure Pipelines  if you've used those before, but with with long-term deep time persistence and execution of science as the focus.</p>
-<p>The goal is to be able to represent scientific computation in a way that requires no setup, runs in the browser, and requires little to no setup (depending on your use case). The only decision the user might need to make is to add resources ($$) for large-scale expensive computation, so a simple dial.</p>]]></content:encoded>
+<p>The goal is to be able to represent scientific computation in a way that requires no setup, runs in the browser, and requires little to no setup (depending on your use case). The only decision the user might need to make is to add resources ($$) for large-scale expensive computation, so a simple dial.</p>
+<p>Additional design decisions:</p>
+<p>A unit of code and the context is defined as a URL, where everything is represented via a URL</p>
+<p>Jobs are addressable by the sha of the definition</p>
+<p>Jobs and outputs expire after a month</p>
+<p>But you can use your own queue or implement or serve your own queue</p>
+<p>This is an efficient way to serve a public good, where the data expires after some defined time, and the service is very efficient, and users can supply their own resources</p>
+<p>This allows interesting possibilities such as safely and transparently sharing expensive compute resources among small groups of researchers/engineers</p>]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
