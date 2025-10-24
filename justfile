@@ -73,14 +73,6 @@ docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid
     echo "Generating docs..."
     rm -rf docs/*
     {{DOCU_NOTION}} --log-level debug --notion-token {{NOTION_TOKEN}} --root-page {{NOTION_DOCUMENT_ROOT}} --status-tag 'Publish' --markdown-output-path $(pwd)/docs
-    cat > docs/summary-llm.mdx << EOF
-    ---
-    title: LLM summary
-    slug: /llm-summary
-    hide_table_of_contents: true
-    ---
-    EOF
-    cat summary-llm.md >> docs/summary-llm.mdx
     echo "👍 docs generated"
 
 # Build docs and blog from notion, then serve
