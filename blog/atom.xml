@@ -8,6 +8,28 @@
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[A public compute grid for the age of AI and scientific social media]]></title>
+        <id>https://docs.metapage.io/blog/public-compute-grid</id>
+        <link href="https://docs.metapage.io/blog/public-compute-grid"/>
+        <updated>2025-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[link_preview]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://github.com/metapages/public-compute-grid" target="_blank" rel="noopener noreferrer">link_preview</a></p>
+<p>llm transcription:</p>
+<p>An unsolved problem in scientific computing is that despite the enormous amount of resources theoretically available, These resources are in many ways not compatible or accessed in such a way that it is extraordinarily onerous and time-consuming to share, compute heavy or requiring workflows between collaborators with different types of compute resources even if they have the equivalent resources Thanks.</p>
+<p>In other words, I can't just give you a scientific workflow and expect you to run it out of the box.</p>
+<p>There's some work or progress in the space, for example, Jupyter Notebooks and Nextflow. But these different tech stacks are not built for sharing the compute resources between individuals not in the same institution.</p>
+<p>Jupiter notebooks do not define their compute environment in a way that avoids... It's not automated, or there's a lot of extra machinery to automate Jupiter notebooks that are a whole other stack and process on themselves.</p>
+<p>Whereas technology stacks like Nextflow are only really compatible within the same organization. It's quite difficult to share Nextflow workflows. And Nextflow workflows do not automatically come with visualization. They might generate static images, but these aren't interactive. There's no clear or publicly accessible defined way to get state or inputs. So again, I can't just publish a Nextflow workflow and expect anyone else to run it.</p>
+<p>This really limits our ability to collaborate and publish and share. Because if the requirements for me to... ...reproduce... ...a workflow that you published requires me to install a whole new stack and configure it. which is very complex and not trivial at all, that is essentially closed off to me.</p>
+<p>Metapages solves this problem by using a public grid. The way this works is that we provide an open-source, publicly available, publicly addressable and instantly defined queues, similar to GitHub Actions, GitLab Workflows, Google Cloud Build, AWS CodePipeline, Azure Pipelines  if you've used those before, but with with long-term deep time persistence and execution of science as the focus.</p>
+<p>The goal is to be able to represent scientific computation in a way that requires no setup, runs in the browser, and requires little to no setup (depending on your use case). The only decision the user might need to make is to add resources ($$) for large-scale expensive computation, so a simple dial.</p>]]></content>
+        <author>
+            <name>Dion Whitehead</name>
+            <email>hey@metapage.io</email>
+            <uri>https://github.com/metapages</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Publishing for the web and social media]]></title>
         <id>https://docs.metapage.io/blog/publishing-for-the-web</id>
         <link href="https://docs.metapage.io/blog/publishing-for-the-web"/>
@@ -25,6 +47,10 @@
 </ul>
 <p>That early experience shaped what I wanted to do: simply give someone code that runs and is interactive, they the end user can keep and modify.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are">​</a></h2>
+<p>The metapage open-source library and platform are built specifically to address this problem: write connected code, visualization, attach data, and share this with others where they can edit and modify, take whatever they need, publish themselves, all in the browser, with the psychological assurance that this code will run in the future, without any installations.</p>
+<p>A simple example of python and visualization, embedded right here in this page:</p>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d/embed?showTitle=true"></iframe>
+<p>You can click the pencil icon in the top right, and then you can copy, edit: you have everything.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media">​</a></h3>
 <p>Metapages look great as bookmarks, and implement the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>. The title, description, and image are all customized by the user:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-80c7-ad39-cf37f394c4fd-bbef1b146ea9dc1d2195598f24226526.png" width="1734" height="308" class="img_ev3q"></p>
@@ -879,41 +905,5 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
             <email>hey@metapage.io</email>
             <uri>https://github.com/metapages</uri>
         </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Internet Archive and URL configured websites]]></title>
-        <id>https://docs.metapage.io/blog/internet-archive-url-configured-websites</id>
-        <link href="https://docs.metapage.io/blog/internet-archive-url-configured-websites"/>
-        <updated>2023-12-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Links are critical to deep-time knowledge preservation]]></summary>
-        <content type="html"><![CDATA[<p>Links are critical to deep-time knowledge preservation</p>
-<!-- -->
-<!-- -->
-<p>The <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is a critical piece of the internet. By recording the past, it allows us to understand the past and therefore the future, preventing deception and allowing culture to grow and develop in deep time.</p>
-<p>A critical part of the <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive</a> is recording and preserving links. When a link to a website dies for whatever reason, but then is preserved, we keep the underlying knowledge, since knowledge is distributed, just like how awareness of the environment is somehow kept in the patterns of neuron connections, not stored someone inside specific neurons.</p>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Digital neurons store information patterns in the connections. Biological neurons are more complex, storing information in connections, cellular state, frequency of activation, hormones, among other places. But likely the most important part is the connections between neurons.</p></div></div>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This is a massive simplification, since there are many examples e.g. snail neurons that store information in the neuronal cells in complex ways [1]</p></div></div>
-<hr>
-<h1>Links that store state in the URL help preserve websites through deep time</h1>
-<p><strong>The more state is stored in the URL directly, the more the website is able to be preserved and also retain functionality.</strong></p>
-<p>This has a number of advantages:</p>
-<ul>
-<li>The user state is stored in the URL and is:<!-- -->
-<ul>
-<li>user editable (in the future)</li>
-<li>machine readable</li>
-</ul>
-</li>
-<li>The origin can be modified dynamically to reroute to domains that are active, without modifying the core state (in the hash parameters of the URL)</li>
-<li>Much easier to store, since a URL is just a string<!-- -->
-<ul>
-<li>Assuming that the core libraries, assets, and modules are preserved, but that’s a separate concern</li>
-</ul>
-</li>
-<li>More complex applications can be preserved as <a href="https://docs.metapage.io/docs" target="_blank" rel="noopener noreferrer">metapages</a>, therefore allowing someone in the future to access a complex workflow, and use it immediately</li>
-</ul>
-<h1>References:</h1>
-<p>[1] <strong>Snails reveal how two brain cells can hold the key to decision making</strong></p>
-<p><a href="https://www.sciencedaily.com/releases/2016/06/160603071655.htm" target="_blank" rel="noopener noreferrer">https://www.sciencedaily.com/releases/2016/06/160603071655.htm</a></p>]]></content>
     </entry>
 </feed>
