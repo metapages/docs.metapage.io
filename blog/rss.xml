@@ -51,19 +51,21 @@
             <content:encoded><![CDATA[<p><strong>Communicate directly in visualizations/workflows/simulations</strong></p>
 <!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5800b8fa4cb86b43aed9b">It’s still really difficult to share code<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5800b8fa4cb86b43aed9b" class="hash-link" aria-label="Direct link to It’s still really difficult to share code" title="Direct link to It’s still really difficult to share code">​</a></h2>
-<p>20 years ago I hit this problem: I was working with biologists who had carefully created a giant data set of plant responses to stresses. I was tasked with creating analyses and decided that interactive visualizations would help the researchers. I wanted to simply use the web, but the tools were not yet mature.</p>
-<p>Today it’s still pretty difficult to simply distribute code to someone else that Just Runs**™**. Your main options are:</p>
+<p>20 years ago I hit this problem: I was working with biologists who had carefully created a giant data set (plant response to stresses). I was tasked with creating analyses and decided that interactive visualizations would help the researchers. I wanted to simply use the web, but the tools were not yet mature.</p>
+<p>Today it’s still more difficult that is should be to simply distribute code to someone else that Just Runs. Your main options are:</p>
 <ul>
 <li>dump the code in a git repo, a bit of a README.md, and leave it to the reader</li>
 <li><a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks" target="_blank" rel="noopener noreferrer">make a Jupyter Notebook</a></li>
-<li>a lot of other painful, proprietary workarounds</li>
+<li>a lot of other painful, or proprietary workarounds</li>
 </ul>
+<p>but most existing solutions require some work. Why? I just want you to run my code.</p>
 <p>That early experience shaped what I wanted to do: simply give someone code that runs and is interactive, they the end user can keep and modify.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are">​</a></h2>
-<p>The metapage open-source library and platform are built specifically to address this problem: write connected code, visualization, attach data, and share this with others where they can edit and modify, take whatever they need, publish themselves, all in the browser, with the psychological assurance that this code will run in the future, without any installations.</p>
+<p>The metapage open-source library and platform are built specifically to address this problem: write code, connect data flow, create visualizations, attach data, and share this with others where they can edit and modify, take whatever they need, publish themselves, all in the browser, with the psychological assurance that this code will run in the future, without any installations.</p>
 <p>A simple example of python and visualization, embedded right here in this page:</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d/embed?showTitle=true"></iframe>
-<p>You can click the pencil icon in the top right, and then you can copy, edit: you have everything.</p>
+<p>You can click the pencil icon in the top right, and then you can copy, edit: you have everything. The embedded workflow above is the embedded form: a minimal rendering of a workflow that runs in the browser. A workflow build of interoperable code chunks, editable directly in the browser, runnable anywhere, and embeddable anywhere you can put a link.</p>
+<h1>How you can share workflows and visualizations over social media and the web</h1>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media">​</a></h3>
 <p>Metapages look great as bookmarks, and implement the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>. The title, description, and image are all customized by the user:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-80c7-ad39-cf37f394c4fd-bbef1b146ea9dc1d2195598f24226526.png" width="1734" height="308" class="img_ev3q"></p>
