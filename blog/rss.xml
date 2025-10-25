@@ -30,7 +30,16 @@
 <p>Jobs and outputs expire after a month</p>
 <p>But you can use your own queue or implement or serve your own queue</p>
 <p>This is an efficient way to serve a public good, where the data expires after some defined time, and the service is very efficient, and users can supply their own resources</p>
-<p>This allows interesting possibilities such as safely and transparently sharing expensive compute resources among small groups of researchers/engineers</p>]]></content:encoded>
+<p>This allows interesting possibilities such as safely and transparently sharing expensive compute resources among small groups of researchers/engineers</p>
+<p>This public grid has the following properties</p>
+<p>It's open source, which means of course you can take take it and run it yourself</p>
+<p>But it's also deployed to a public endpoint And it's a new kind of open source system where it provides at low cost a publicly accessible resource, auto-scaling queues.</p>
+<p>It's a public access point to separate what you need to run from where it runs.</p>
+<p>This way resources can be provided in a multitude of different ways and we always aim to provide a local access equivalent.</p>
+<p>This way, users have more control and power over their own data. It's trivial to add all kinds of OAuth and different kinds of access over the top of these public queues. And if the system is taken up, then organizations some organizations will have their own implementation of these cues for resource access and security reasons. This allows organizations to maintain ownership of what resources run on their system and what resources might have access to. But it also allows safe interoperability with user-defined code and visualization.</p>
+<p>It allows users both safe and easy access to serious amounts of compute resources. Yet also makes these resources expressible in a form that is pub can be publicly shared if desired. Even if these resources weren't connected with other similar components, which is the goal here, is that this is kind of a web tile. Even if not shared, it is a extremely convenient recording of a way to reproduce the code in a given environment.</p>
+<p>Lacking a consistent definition of how to build an environment to run code involves an enormous amount of manual process. We believe that the way to express a unit of computation is tied into how that is expressed. And in this case it is URLs and web containers. We believe that it is easy to replace the implementation, if desired, while providing a way to publicly specify how to build and run.</p>
+<p>Here are some examples.</p>]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
