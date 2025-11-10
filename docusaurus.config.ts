@@ -32,7 +32,10 @@ const config: Config = {
     locales: ["en"],
   },
 
-  plugins: ["docusaurus2-dotenv"],
+  plugins: [
+    "docusaurus2-dotenv",
+    require.resolve("./plugins/webpack-config.js"),
+  ],
 
   // referenceSidebar: ['reference'],
   markdown: {
