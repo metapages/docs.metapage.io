@@ -2,43 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-10-23T00:00:00.000Z</updated>
+    <updated>2025-11-10T17:14:09.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
     <icon>https://docs.metapage.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[A public compute grid for the age of AI and scientific social media]]></title>
-        <id>https://docs.metapage.io/blog/public-compute-grid</id>
-        <link href="https://docs.metapage.io/blog/public-compute-grid"/>
-        <updated>2025-10-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[link_preview]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://github.com/metapages/public-compute-grid" target="_blank" rel="noopener noreferrer">link_preview</a></p>
-<p>llm transcription:</p>
-<p>An unsolved problem in scientific computing is that despite the enormous amount of resources theoretically available, These resources are in many ways not compatible or accessed in such a way that it is extraordinarily onerous and time-consuming to share, compute heavy or requiring workflows between collaborators with different types of compute resources even if they have the equivalent resources Thanks.</p>
-<p>In other words, I can't just give you a scientific workflow and expect you to run it out of the box.</p>
-<p>There's some work or progress in the space, for example, Jupyter Notebooks and Nextflow. But these different tech stacks are not built for sharing the compute resources between individuals not in the same institution.</p>
-<p>Jupiter notebooks do not define their compute environment in a way that avoids... It's not automated, or there's a lot of extra machinery to automate Jupiter notebooks that are a whole other stack and process on themselves.</p>
-<p>Whereas technology stacks like Nextflow are only really compatible within the same organization. It's quite difficult to share Nextflow workflows. And Nextflow workflows do not automatically come with visualization. They might generate static images, but these aren't interactive. There's no clear or publicly accessible defined way to get state or inputs. So again, I can't just publish a Nextflow workflow and expect anyone else to run it.</p>
-<p>This really limits our ability to collaborate and publish and share. Because if the requirements for me to... ...reproduce... ...a workflow that you published requires me to install a whole new stack and configure it. which is very complex and not trivial at all, that is essentially closed off to me.</p>
-<p>Metapages solves this problem by using a public grid. The way this works is that we provide an open-source, publicly available, publicly addressable and instantly defined queues, similar to GitHub Actions, GitLab Workflows, Google Cloud Build, AWS CodePipeline, Azure Pipelines  if you've used those before, but with with long-term deep time persistence and execution of science as the focus.</p>
-<p>The goal is to be able to represent scientific computation in a way that requires no setup, runs in the browser, and requires little to no setup (depending on your use case). The only decision the user might need to make is to add resources ($$) for large-scale expensive computation, so a simple dial.</p>
-<p>Additional design decisions:</p>
-<p>A unit of code and the context is defined as a URL, where everything is represented via a URL</p>
-<p>Jobs are addressable by the sha of the definition</p>
-<p>Jobs and outputs expire after a month</p>
-<p>But you can use your own queue or implement or serve your own queue</p>
-<p>This is an efficient way to serve a public good, where the data expires after some defined time, and the service is very efficient, and users can supply their own resources</p>
-<p>This allows interesting possibilities such as safely and transparently sharing expensive compute resources among small groups of researchers/engineers</p>
-<p>This public grid has the following properties</p>
-<p>It's open source, which means of course you can take take it and run it yourself</p>
-<p>But it's also deployed to a public endpoint And it's a new kind of open source system where it provides at low cost a publicly accessible resource, auto-scaling queues.</p>
-<p>It's a public access point to separate what you need to run from where it runs.</p>
-<p>This way resources can be provided in a multitude of different ways and we always aim to provide a local access equivalent.</p>
-<p>This way, users have more control and power over their own data. It's trivial to add all kinds of OAuth and different kinds of access over the top of these public queues. And if the system is taken up, then organizations some organizations will have their own implementation of these cues for resource access and security reasons. This allows organizations to maintain ownership of what resources run on their system and what resources might have access to. But it also allows safe interoperability with user-defined code and visualization.</p>
-<p>It allows users both safe and easy access to serious amounts of compute resources. Yet also makes these resources expressible in a form that is pub can be publicly shared if desired. Even if these resources weren't connected with other similar components, which is the goal here, is that this is kind of a web tile. Even if not shared, it is a extremely convenient recording of a way to reproduce the code in a given environment.</p>
-<p>Lacking a consistent definition of how to build an environment to run code involves an enormous amount of manual process. We believe that the way to express a unit of computation is tied into how that is expressed. And in this case it is URLs and web containers. We believe that it is easy to replace the implementation, if desired, while providing a way to publicly specify how to build and run.</p>
-<p>Here are some examples.</p>]]></content>
+        <title type="html"><![CDATA[Boltzgen- Universal Binder Design]]></title>
+        <id>https://docs.metapage.io/blog/boltzgen</id>
+        <link href="https://docs.metapage.io/blog/boltzgen"/>
+        <updated>2025-11-10T17:14:09.347Z</updated>
+        <summary type="html"><![CDATA[BoltzGen is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
+</blockquote>
+<!-- -->
+<p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/boltzgen.2a701857-9bb5-8044-a5b0-ed816e18814a-4d80a3fac67caf3b313f492c2a6c3185.png" width="4160" height="1365" class="img_ev3q"></p>
+<p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class="">https://boltz.bio/boltzgen</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580f49352d8c3422fe0f1">Now an embeddable, shareable, editable web workflow<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580f49352d8c3422fe0f1" class="hash-link" aria-label="Direct link to Now an embeddable, shareable, editable web workflow" title="Direct link to Now an embeddable, shareable, editable web workflow" translate="no">​</a></h2>
+<p><a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a</a></p>
+<p>The embedded workflow below only shows a portion of the full workflow, click on the pencil icon on the right to see the <a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">full workflow</a></p>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a/embed?showTitle=true&amp;height=450px"></iframe>
+<div class="video-container"><div style="width:100%;height:100%"></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580b690b6c9a5b31dd86e">What’s happening here?<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580b690b6c9a5b31dd86e" class="hash-link" aria-label="Direct link to What’s happening here?" title="Direct link to What’s happening here?" translate="no">​</a></h3>
+<p>Metapages are workflows (visualization and containers) built for the web, sharing and publishing. Boltzgen is a new AI model for generating molecular structures for binding, and we have containerized boltzgen in a web format.</p>
+<p>This means you can experiment with it immediately, and quickly add your own analyses and visualizations (just clone the metapage).</p>
+<p>Where is compute done? <a href="https://docs.metapage.io/docs/containers" target="_blank" rel="noopener noreferrer" class="">On our public compute grid</a>.</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>hey@metapage.io</email>
@@ -53,43 +42,43 @@
         <summary type="html"><![CDATA[Communicate directly in visualizations/workflows/simulations]]></summary>
         <content type="html"><![CDATA[<p><strong>Communicate directly in visualizations/workflows/simulations</strong></p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5800b8fa4cb86b43aed9b">It’s still really difficult to share code<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5800b8fa4cb86b43aed9b" class="hash-link" aria-label="Direct link to It’s still really difficult to share code" title="Direct link to It’s still really difficult to share code">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb5800b8fa4cb86b43aed9b">It’s still really difficult to share code<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5800b8fa4cb86b43aed9b" class="hash-link" aria-label="Direct link to It’s still really difficult to share code" title="Direct link to It’s still really difficult to share code" translate="no">​</a></h2>
 <p>20 years ago I hit this problem: I was working with biologists who had carefully created a giant data set (plant response to stresses). I was tasked with creating analyses and decided that interactive visualizations would help the researchers. I wanted to simply use the web, but the tools were not yet mature.</p>
 <p>Today it’s still more difficult that is should be to simply distribute code to someone else that Just Runs. Your main options are:</p>
 <ul>
-<li>dump the code in a git repo, a bit of a README.md, and leave it to the reader</li>
-<li><a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks" target="_blank" rel="noopener noreferrer">make a Jupyter Notebook</a></li>
-<li>a lot of other painful, or proprietary workarounds</li>
+<li class="">dump the code in a git repo, a bit of a README.md, and leave it to the reader</li>
+<li class=""><a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks" target="_blank" rel="noopener noreferrer" class="">make a Jupyter Notebook</a></li>
+<li class="">a lot of other painful, or proprietary workarounds</li>
 </ul>
 <p>but most existing solutions require some work. Why? I just want you to run my code.</p>
 <p>That early experience shaped what I wanted to do: simply give someone code that runs and is interactive, they the end user can keep and modify.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" translate="no">​</a></h2>
 <p>The metapage open-source library and platform are built specifically to address this problem: write code, connect data flow, create visualizations, attach data, and share this with others where they can edit and modify, take whatever they need, publish themselves, all in the browser, with the psychological assurance that this code will run in the future, without any installations.</p>
 <p>A simple example of python and visualization, embedded right here in this page:</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d/embed?showTitle=true"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.localhost:3000/m/87ae11673508447e883b598bf7da9c5d/embed"></iframe>
 <p>You can click the pencil icon in the top right, and then you can copy, edit: you have everything. The embedded workflow above is the embedded form: a minimal rendering of a workflow that runs in the browser. A workflow build of interoperable code chunks, editable directly in the browser, runnable anywhere, and embeddable anywhere you can put a link.</p>
 <h1>How you can share workflows and visualizations over social media and the web</h1>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media">​</a></h3>
-<p>Metapages look great as bookmarks, and implement the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>. The title, description, and image are all customized by the user:</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media" translate="no">​</a></h3>
+<p>Metapages look great as bookmarks, and implement the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer" class="">Open Graph Protocol</a>. The title, description, and image are all customized by the user:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-80c7-ad39-cf37f394c4fd-bbef1b146ea9dc1d2195598f24226526.png" width="1734" height="308" class="img_ev3q"></p>
-<p>They look good this way posted to social media, twitter, Bluesky, anywhere that understand the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer">Open Graph Protocol</a>.</p>
+<p>They look good this way posted to social media, twitter, Bluesky, anywhere that understand the <a href="https://ogp.me/" target="_blank" rel="noopener noreferrer" class="">Open Graph Protocol</a>.</p>
 <p>Share via Slack, text messages, social media, your blog.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb58073add3ceb1872541e9">QR Codes for posters, presentations and your phone<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58073add3ceb1872541e9" class="hash-link" aria-label="Direct link to QR Codes for posters, presentations and your phone" title="Direct link to QR Codes for posters, presentations and your phone">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb58073add3ceb1872541e9">QR Codes for posters, presentations and your phone<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58073add3ceb1872541e9" class="hash-link" aria-label="Direct link to QR Codes for posters, presentations and your phone" title="Direct link to QR Codes for posters, presentations and your phone" translate="no">​</a></h3>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>You can get the QR code of any metapage via the share menu. Copy the image into your <strong>poster</strong>, your <strong>presentation</strong>, your website, now anyone can immediately view and interact with your data, your visualization, right there and then. Also just show someone the QR Code via your phone: now you are communicating directly in models, simulations, and workflows.</p><br></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-8023-a83a-e832f463c1a6-e3ffdf1119fb838d11caae56ce14e14f.png" width="1034" height="1288" class="img_ev3q"></p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5807fa8f7cdd1d66505ab">Embed in Notion (and other note tools)<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5807fa8f7cdd1d66505ab" class="hash-link" aria-label="Direct link to Embed in Notion (and other note tools)" title="Direct link to Embed in Notion (and other note tools)">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb5807fa8f7cdd1d66505ab">Embed in Notion (and other note tools)<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5807fa8f7cdd1d66505ab" class="hash-link" aria-label="Direct link to Embed in Notion (and other note tools)" title="Direct link to Embed in Notion (and other note tools)" translate="no">​</a></h2>
 <p>Metapages work out of the box with Notion. Paste the URL and choose “Embed”:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-804e-b3af-fae40d0a2c51-1f095f19edac7333682c26c3a02bed5c.png" width="1662" height="498" class="img_ev3q"></p>
 <p>Then you get a workflow running directly, fully interactive, fully self-contained, and immediately useable and shareable by your readers:</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d"></iframe>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb58023bff0d5f460b2780b">Embed in your own webpage<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58023bff0d5f460b2780b" class="hash-link" aria-label="Direct link to Embed in your own webpage" title="Direct link to Embed in your own webpage">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb58023bff0d5f460b2780b">Embed in your own webpage<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58023bff0d5f460b2780b" class="hash-link" aria-label="Direct link to Embed in your own webpage" title="Direct link to Embed in your own webpage" translate="no">​</a></h2>
 <p>Advanced use case:</p>
 <ul>
-<li>directly <a href="https://docs.metapage.io/docs/embed" target="_blank" rel="noopener noreferrer">embed runnable workflows in your own website</a> in plain javascript</li>
-<li>directly <a href="https://docs.metapage.io/docs/embed-metapage" target="_blank" rel="noopener noreferrer">embed runnable workflows in your own website</a> in React</li>
+<li class="">directly <a href="https://docs.metapage.io/docs/embed" target="_blank" rel="noopener noreferrer" class="">embed runnable workflows in your own website</a> in plain javascript</li>
+<li class="">directly <a href="https://docs.metapage.io/docs/embed-metapage" target="_blank" rel="noopener noreferrer" class="">embed runnable workflows in your own website</a> in React</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb5808fbea7c731228fb7b5">Have I forgotten any way to distribute?<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5808fbea7c731228fb7b5" class="hash-link" aria-label="Direct link to Have I forgotten any way to distribute?" title="Direct link to Have I forgotten any way to distribute?">​</a></h2>
-<p>Let us know on <a href="https://discord.gg/gNX6t2K8Jz" target="_blank" rel="noopener noreferrer">discord</a>! We aim to be able share any and all ways</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="295018579bb580afad21d8eef36d2f4f">How it works<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580afad21d8eef36d2f4f" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb5808fbea7c731228fb7b5">Have I forgotten any way to distribute?<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb5808fbea7c731228fb7b5" class="hash-link" aria-label="Direct link to Have I forgotten any way to distribute?" title="Direct link to Have I forgotten any way to distribute?" translate="no">​</a></h2>
+<p>Let us know on <a href="https://discord.gg/gNX6t2K8Jz" target="_blank" rel="noopener noreferrer" class="">discord</a>! We aim to be able share any and all ways</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb580afad21d8eef36d2f4f">How it works<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580afad21d8eef36d2f4f" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works" translate="no">​</a></h2>
 <p>There are two pieces of technology that are needed and need to work together: browsers and (docker) containers. Browsers for running the orchestration anywhere safely with human interaction, and containers for the big, weird, or complex computation that a browser cannot (yet) do on it’s own.</p>
 <p>The bit part to solve was the <strong>[Problem Internal Link]</strong>.</p>]]></content>
         <author>
@@ -106,15 +95,15 @@
         <summary type="html"><![CDATA[Problem: evaluating AI models and similar tools is time consuming, often bespoke, replicates work done by others, and is difficult to update.]]></summary>
         <content type="html"><![CDATA[<p><strong>Problem:</strong> evaluating AI models and similar tools is time consuming, often bespoke, replicates work done by others, and is difficult to update.</p>
 <p><strong>Solution:</strong> <em>web-first,</em> automated, dynamic leaderboards, where the leaderboard entries are fully functional workflows, and the results are automatically collated and presented. The leaderboard is itself a dynamic, live, workflow.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23f018579bb580588e87d950e132d8c2">Example web-first, dynamic live leaderboard<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb580588e87d950e132d8c2" class="hash-link" aria-label="Direct link to Example web-first, dynamic live leaderboard" title="Direct link to Example web-first, dynamic live leaderboard">​</a></h2>
-<p><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="23f018579bb580588e87d950e132d8c2">Example web-first, dynamic live leaderboard<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb580588e87d950e132d8c2" class="hash-link" aria-label="Direct link to Example web-first, dynamic live leaderboard" title="Direct link to Example web-first, dynamic live leaderboard" translate="no">​</a></h2>
+<p><a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583</a></p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/dynamic-leaderboards.23f01857-9bb5-80d7-98d0-d64308174b08-82a7c5ccc1ce121d1f0f9c169a892483.png" width="3344" height="1136" class="img_ev3q"></p>
 <p>This example compares two methods of predicting a protein structure only using a FASTA file as a reference, using custom AI models. The two methods are:</p>
 <ul>
-<li><a href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer">esmfold</a></li>
-<li><a href="https://github.com/HeliXonProtein/OmegaFold/" target="_blank" rel="noopener noreferrer">OmegaFold</a></li>
+<li class=""><a href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer" class="">esmfold</a></li>
+<li class=""><a href="https://github.com/HeliXonProtein/OmegaFold/" target="_blank" rel="noopener noreferrer" class="">OmegaFold</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="23f018579bb5809cac13e3bce12122bf">Notable features<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb5809cac13e3bce12122bf" class="hash-link" aria-label="Direct link to Notable features" title="Direct link to Notable features">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="23f018579bb5809cac13e3bce12122bf">Notable features<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb5809cac13e3bce12122bf" class="hash-link" aria-label="Direct link to Notable features" title="Direct link to Notable features" translate="no">​</a></h3>
 <p><strong>Dynamic competition inputs</strong></p>
 <p>This leaderboard provides the target input sequence. This input is dynamic, if it changes, then all downstream workflows have their input updated</p>
 <p><strong>Dynamic workflow entries</strong></p>
@@ -122,21 +111,21 @@
 <p><strong>All source code and running containers are fully available and are self-contained components</strong></p>
 <p>Unlike other leaderboards that at most might point to a github repo of code, all components are either self-contained javascript, or self-contained docker containers. Every component can be copied and taken individually, so that everyone benefits from the work of everyone else.</p>
 <p><strong>The leaderboard can be copied and run on your own workstations/infrastructure</strong></p>
-<p>Due to the <a href="https://github.com/metapages/compute-queues" target="_blank" rel="noopener noreferrer">public compute grid infrastructure</a>, all workflows can be run by anyone, provided they have sufficient compute resources attached to their own compute queues.</p>
+<p>Due to the <a href="https://github.com/metapages/compute-queues" target="_blank" rel="noopener noreferrer" class="">public compute grid infrastructure</a>, all workflows can be run by anyone, provided they have sufficient compute resources attached to their own compute queues.</p>
 <p><strong>The workflows are all shareable URLs</strong></p>
 <p>Not installation needed, no configuration. Provided you have sufficient computation resources, the workflows run without any complex time-intensive steps, directly in the browser. Heavy compute is abstracted away.</p>
 <p>In Summary:</p>
 <ul>
-<li>open source, all source code embedded in the workflow</li>
-<li>copyable with a single click (when logged in)</li>
-<li>computation containers just work, no installation needed, just runs in the browser</li>
+<li class="">open source, all source code embedded in the workflow</li>
+<li class="">copyable with a single click (when logged in)</li>
+<li class="">computation containers just work, no installation needed, just runs in the browser</li>
 </ul>
 <hr>
 <p>The future of human collaboration requires automation and open-sharing infrastructure.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23f018579bb580249934cca0e7579fbb">Links<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb580249934cca0e7579fbb" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links">​</a></h2>
+<div class="container_hPZg">Loading diagram...</div>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="23f018579bb580249934cca0e7579fbb">Links<a href="https://docs.metapage.io/blog/dynamic-leaderboards#23f018579bb580249934cca0e7579fbb" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links" translate="no">​</a></h2>
 <ul>
-<li><a href="https://docs.metapage.io/blog/mesh">Dynamic Leaderboards of Workflows</a></li>
+<li class=""><a class="" href="https://docs.metapage.io/blog/mesh">Dynamic Leaderboards of Workflows</a></li>
 </ul>]]></content>
         <author>
             <name>Dion Whitehead</name>
@@ -150,53 +139,53 @@
         <link href="https://docs.metapage.io/blog/mesh"/>
         <updated>2025-07-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[[jump to examples]]]></summary>
-        <content type="html"><![CDATA[<p>[<a href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01">jump to examples</a>]</p>
-<p>Every week on Linkedin and other social media there is a new exciting generative model or molecular simulation or binding prediction tool released (<a href="https://metapages.notion.site/LinkedIn-Stream-of-AI-Biotech-Molecular-Modeling-232018579bb580838900d1cd65b4655e" target="_blank" rel="noopener noreferrer">click here to see just my stream</a>). Exciting times!</p>
+        <content type="html"><![CDATA[<p>[<a class="" href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01">jump to examples</a>]</p>
+<p>Every week on Linkedin and other social media there is a new exciting generative model or molecular simulation or binding prediction tool released (<a href="https://metapages.notion.site/LinkedIn-Stream-of-AI-Biotech-Molecular-Modeling-232018579bb580838900d1cd65b4655e" target="_blank" rel="noopener noreferrer" class="">click here to see just my stream</a>). Exciting times!</p>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-8003-876d-c2c1c9eea251-3cd56fabb3c831384b859d3793735a20.png" width="1098" height="340" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80cd-a1df-f675a24f83da-30ad219388596ba8e31706cc185e8fe9.png" width="1144" height="514" class="img_ev3q"></p><p></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80e8-b9ad-d7f9990d40a4-9608deb0243e4c431de5142e5faf0a52.png" width="1146" height="318" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80dc-baba-ec1474f54d00-4ae9c1cddb5cb8776ae0c684fcba9aac.png" width="1160" height="1074" class="img_ev3q"></p><p></p><br></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80d5-906c-ecff7bee90cd-646d151a0151babcf11bd94b35a29577.png" width="1130" height="378" class="img_ev3q"></p><p></p><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80a0-8696-c52d324c5027-d8d9fef78d5cdfeff7dd90892510a191.gif" width="640" height="360" class="img_ev3q"></p><p></p></div></div>
 <p>It’s hard to keep up! New tools require testing and evaluation, and while we can work to automate a lot of the evaluation, at some point humans need to experiment with and test these tools in their own workflows.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23a018579bb58085bb67d239bf741d52">Competitions: complex tools require social-technical collective evaluation<a href="https://docs.metapage.io/blog/mesh#23a018579bb58085bb67d239bf741d52" class="hash-link" aria-label="Direct link to Competitions: complex tools require social-technical collective evaluation" title="Direct link to Competitions: complex tools require social-technical collective evaluation">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="23a018579bb58085bb67d239bf741d52">Competitions: complex tools require social-technical collective evaluation<a href="https://docs.metapage.io/blog/mesh#23a018579bb58085bb67d239bf741d52" class="hash-link" aria-label="Direct link to Competitions: complex tools require social-technical collective evaluation" title="Direct link to Competitions: complex tools require social-technical collective evaluation" translate="no">​</a></h2>
 <p>Academic and industry groups have used competitions to leverage our collective focus. They bring people together with both competitive fun, and collective learning. Some recent examples:</p>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-8069-8106-fedad0b2a017-243d14d853c9ca452f78d955ce629b03.png" width="2762" height="1244" class="img_ev3q"></p><p></p><p>rotein designers from all around the world to designed a new binding protein against EGFR, a transmembrane protein that plays a critical role in cell growth, differentiation, and surviva</p><p></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-8002-aa01-f9c0908b6448-4fb9a377c9cd90e144a3bf5af52637c3.png" width="1692" height="1142" class="img_ev3q"></p><p></p><p><a href="https://asapdiscovery.org/" title="null" rel="noopener noreferrer">ASAP Discovery</a>
 is an NIH-funded consortium leveraging open science for antiviral drug discovery, aiming for equitable and affordable global access to  effective antivirals</p><p></p></div></div>
-<p>Public competitions are an excellent way to learn from each other and channel resources. <a href="https://www.biomlsociety.org/challenge" target="_blank" rel="noopener noreferrer">Bits to Binders</a> was another one of these kinds new challenges/competitions, and I threw my hat in the ring!</p>
+<p>Public competitions are an excellent way to learn from each other and channel resources. <a href="https://www.biomlsociety.org/challenge" target="_blank" rel="noopener noreferrer" class="">Bits to Binders</a> was another one of these kinds new challenges/competitions, and I threw my hat in the ring!</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23101857-9bb5-8022-91b2-d766ea04ce62-ab5c837289fa4368284fb66808bf33c6.png" width="3052" height="688" class="img_ev3q"></p>
 <p>Myself and 4 others  joined this challenge to form a team that would generate a protein binder to a specific immune cell receptor, where a binder that would bind <em>just right</em> (not too much, not too little) would have the potential to treat some specific cancers.</p>
-<p>Our team had access to GPU resources, the target, and a brand new generative AI model for protein design: <a href="https://www.bakerlab.org/2023/07/11/diffusion-model-for-protein-design/" target="_blank" rel="noopener noreferrer">RFDiffusion</a>. None of us previously knew each other, and all come with different backgrounds and experience and technology</p>
+<p>Our team had access to GPU resources, the target, and a brand new generative AI model for protein design: <a href="https://www.bakerlab.org/2023/07/11/diffusion-model-for-protein-design/" target="_blank" rel="noopener noreferrer" class="">RFDiffusion</a>. None of us previously knew each other, and all come with different backgrounds and experience and technology</p>
 <p>However, despite our enthusiasm, our team, and many like ours, encountered significant struggles. Internally within group, we struggled to effectively share workflows and results. The organizers of the competition had done a great job to gather sponsors and organizations who collectively provided a significant number of valuable GPU resources.</p>
 <p>We could only utilize a very tiny fraction of available GPUs due to both mundane and complex technical and logistical challenges. There was simply a lack of infrastructure to support this social-technical phenomenon. We wanted a vibrant community, and the organizers did an absolutely fantastic job, but the outcome of the competition specifically in respect to sharing the methodologies was hampered by a lack of suitable infrastructure.</p>
 <p>Put simply, there is no universal, straightforward way to share a computational workflow that requires visualization and interactivity (due to molecular structures) also connected to GPUs running AI models and simulations, running seamlessly on whatever GPU resources are available to you. While workflow systems like Nextflow and others can be a piece of the puzzle, they lack specific features around sharing and publishing due to the inherent technical tradeoffs.</p>
 <p>This missing connection means that innovation remained isolated in the groups and labs of origin, regardless of the desire to share them.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="23a018579bb580c2a6c2d2d8b3b72350">What about the competition leaderboard examples you posted<a href="https://docs.metapage.io/blog/mesh#23a018579bb580c2a6c2d2d8b3b72350" class="hash-link" aria-label="Direct link to What about the competition leaderboard examples you posted" title="Direct link to What about the competition leaderboard examples you posted">​</a></h2>
-<p>The <a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">Adaptyv Bio</a> competition website looks fantastic, significant work and thought went into the design and infrastructure:</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="23a018579bb580c2a6c2d2d8b3b72350">What about the competition leaderboard examples you posted<a href="https://docs.metapage.io/blog/mesh#23a018579bb580c2a6c2d2d8b3b72350" class="hash-link" aria-label="Direct link to What about the competition leaderboard examples you posted" title="Direct link to What about the competition leaderboard examples you posted" translate="no">​</a></h2>
+<p>The <a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer" class="">Adaptyv Bio</a> competition website looks fantastic, significant work and thought went into the design and infrastructure:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-80d7-9625-d695eb075957-8dfdbcf827a7691f671d07b323d244f1.png" width="3228" height="1588" class="img_ev3q"></p>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>But digging into the well-designed pages and you find that the actual design process are not embedded, and often not available:</p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-8010-b9ce-f174c74ba82e-5cc02f1366b236c3272b1286defe9ab1.png" width="1594" height="312" class="img_ev3q"></p></div></div>
 <p>And that is part of the problem. Though well-designed, the competition site is a bespoke presentation, often not containing the methods, and results that are difficult to incorporate or evaluate systematically, and in the example above, there are no methods for you to copy and test yourself.</p>
 <hr>
-<p>For the <a href="https://polarishub.io/competitions/asap-discovery/antiviral-drug-discovery-2025#competiton-results" target="_blank" rel="noopener noreferrer">ASAP Discovery</a> competition, for <em>some</em> entries there is code, but the <code>&lt;/&gt; code</code> link is simply to a github repository. That means a lot of custom, bespoke work to understand, and possibly use those methods:</p>
+<p>For the <a href="https://polarishub.io/competitions/asap-discovery/antiviral-drug-discovery-2025#competiton-results" target="_blank" rel="noopener noreferrer" class="">ASAP Discovery</a> competition, for <em>some</em> entries there is code, but the <code>&lt;/&gt; code</code> link is simply to a github repository. That means a lot of custom, bespoke work to understand, and possibly use those methods:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23a01857-9bb5-806a-8bf4-ec8cf2c8cffc-f81cd9f07f3b86d663f54837910628ff.png" width="3140" height="1348" class="img_ev3q"></p>
 <p>So in summary: you often cannot get methods and tools, and if you can the code is in a form that requires significant work just to run yourself. It’s too slow and limited, and this limits our ability to share and learn from each other, and it wastes a lot of repeated work, as everyone who wants to use a given tool has to do the same work (wasting significant effort) getting it working.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="231018579bb58024b701eb2117104dc9">MESH (Molecular Evaluation Science Hub)<a href="https://docs.metapage.io/blog/mesh#231018579bb58024b701eb2117104dc9" class="hash-link" aria-label="Direct link to MESH (Molecular Evaluation Science Hub)" title="Direct link to MESH (Molecular Evaluation Science Hub)">​</a></h2>
-<p>Recognizing these limitations, we propose a <em>socio-technical</em> initiative: MESH. Using some recent breakthroughs in <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">publishing scientific workflows</a>, we aim to harness the very best aspects of human collaboration: shared innovation and collective learning, and in this particular space, via leaderboards of workflows. These workflows are run and expressed in the browser, even if they are only headless workflows. The workflows can be shared, modified, and run entirely in the browser, even though there are backend containers running on some grid or cluster.</p>
-<p>A central part of our vision is developing the collective set of open-source tools that express workflows directly in the browser: <a href="https://docs.metapage.io/" target="_blank" rel="noopener noreferrer">metapage workflows</a>, combined with existing proven social structures for efficient idea exploration and refinement: public competitions and leaderboards that can rapidly and efficiently evaluate and spread to target communities novel and powerful molecular dynamics software tools, in a form they can immediately use.</p>
-<p>The <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapages</a> platform and tools allow researchers to easily create persistent, durable, yet flexible leaderboards. These leaderboards aren't just static records; they are dynamic, adaptable workflows that researchers can easily manipulate, extend, and incorporate into their own workflows, in whole or in by parts. By leveraging a public compute grid, researchers can effortlessly connect their own or others computational resources, whether their own laptop, HPC clusters, or turn-key cloud solutions. This makes shared workflows independent of where they run (as long as you have or we provide the necessary compute resources), thus enhancing accessibility and reducing the barriers to participation and collaboration.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="233018579bb580d49e8be47c60d06c01">Example workflow in the browser<a href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01" class="hash-link" aria-label="Direct link to Example workflow in the browser" title="Direct link to Example workflow in the browser">​</a></h3>
-<p>We have created an <a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer">example dynamic leaderboard workflow</a>, described in more detail <a href="https://docs.metapage.io/blog/dynamic-leaderboards">here</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="231018579bb58024b701eb2117104dc9">MESH (Molecular Evaluation Science Hub)<a href="https://docs.metapage.io/blog/mesh#231018579bb58024b701eb2117104dc9" class="hash-link" aria-label="Direct link to MESH (Molecular Evaluation Science Hub)" title="Direct link to MESH (Molecular Evaluation Science Hub)" translate="no">​</a></h2>
+<p>Recognizing these limitations, we propose a <em>socio-technical</em> initiative: MESH. Using some recent breakthroughs in <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">publishing scientific workflows</a>, we aim to harness the very best aspects of human collaboration: shared innovation and collective learning, and in this particular space, via leaderboards of workflows. These workflows are run and expressed in the browser, even if they are only headless workflows. The workflows can be shared, modified, and run entirely in the browser, even though there are backend containers running on some grid or cluster.</p>
+<p>A central part of our vision is developing the collective set of open-source tools that express workflows directly in the browser: <a href="https://docs.metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapage workflows</a>, combined with existing proven social structures for efficient idea exploration and refinement: public competitions and leaderboards that can rapidly and efficiently evaluate and spread to target communities novel and powerful molecular dynamics software tools, in a form they can immediately use.</p>
+<p>The <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapages</a> platform and tools allow researchers to easily create persistent, durable, yet flexible leaderboards. These leaderboards aren't just static records; they are dynamic, adaptable workflows that researchers can easily manipulate, extend, and incorporate into their own workflows, in whole or in by parts. By leveraging a public compute grid, researchers can effortlessly connect their own or others computational resources, whether their own laptop, HPC clusters, or turn-key cloud solutions. This makes shared workflows independent of where they run (as long as you have or we provide the necessary compute resources), thus enhancing accessibility and reducing the barriers to participation and collaboration.</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="233018579bb580d49e8be47c60d06c01">Example workflow in the browser<a href="https://docs.metapage.io/blog/mesh#233018579bb580d49e8be47c60d06c01" class="hash-link" aria-label="Direct link to Example workflow in the browser" title="Direct link to Example workflow in the browser" translate="no">​</a></h3>
+<p>We have created an <a href="https://metapage.io/m/ab7a2dc814fa46fabb2aafac75061583" target="_blank" rel="noopener noreferrer" class="">example dynamic leaderboard workflow</a>, described in more detail <a class="" href="https://docs.metapage.io/blog/dynamic-leaderboards">here</a>.</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/mesh.23f01857-9bb5-8031-bd45-c36d5b9f56c4-aac89d8c2bbe741591ad8c5873fdb98d.png" width="3360" height="1132" class="img_ev3q"></p>
 <p>The leaderboard is fully dynamic. It can dynamically update all entries inputs, re-run the workflows directly from the browser, and automatically collates the results.</p>
 <p>A leaderboard workflow of workflows!</p>
 <p>All open-source, all re-usable, all running without any installation steps</p>
 <hr>
-<p>This initiative is in the house of <a href="https://omsf.io/" target="_blank" rel="noopener noreferrer">The Open Molecular Software Foundation</a> whose <a href="https://omsf.io/about/mission/" target="_blank" rel="noopener noreferrer">mission statement</a> is a succinct superset of ours. Our particular alignment is especially about accelerating progress. We envision empowering researchers of all technical backgrounds to seamlessly integrate innovations in molecular dynamics AI models developed by one group into the workflows of another, and they will be able to do this because they will be able to rely on tools that are more reliable, as the tools will have been (and can continue to be evaluated by a community. This democratization of AI tools and knowledge will unlock previously constrained collaboration potential, fueling advancements and discoveries across the molecular biology and broader scientific community.</p>
+<p>This initiative is in the house of <a href="https://omsf.io/" target="_blank" rel="noopener noreferrer" class="">The Open Molecular Software Foundation</a> whose <a href="https://omsf.io/about/mission/" target="_blank" rel="noopener noreferrer" class="">mission statement</a> is a succinct superset of ours. Our particular alignment is especially about accelerating progress. We envision empowering researchers of all technical backgrounds to seamlessly integrate innovations in molecular dynamics AI models developed by one group into the workflows of another, and they will be able to do this because they will be able to rely on tools that are more reliable, as the tools will have been (and can continue to be evaluated by a community. This democratization of AI tools and knowledge will unlock previously constrained collaboration potential, fueling advancements and discoveries across the molecular biology and broader scientific community.</p>
 <p>We will follow up with a post about the technical differences between metapage workflows and other comparable stacks such as Jupyter Notebooks and workflow systems such as Nextflow.</p>
 <p><strong>References</strong></p>
-<p><a href="https://docs.metapage.io/blog/dynamic-leaderboards">Example leaderboard workflow</a></p>
-<p><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer">Example docking workflow</a></p>
+<p><a class="" href="https://docs.metapage.io/blog/dynamic-leaderboards">Example leaderboard workflow</a></p>
+<p><a href="https://metapage.io/m/71990da894774ebca5a4ad2895201a5c" target="_blank" rel="noopener noreferrer" class="">Example docking workflow</a></p>
 <p>Competitions with dashboards</p>
-<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer">https://foundry.adaptyvbio.com/competition</a></p>
-<p><a href="https://beta.adaptyvbio.com/benchbb" target="_blank" rel="noopener noreferrer">https://beta.adaptyvbio.com/benchbb</a></p>
-<p><a href="https://polarishub.io/blog/antiviral-competition" target="_blank" rel="noopener noreferrer">https://polarishub.io/blog/antiviral-competition</a></p>
-<p><a href="https://paperswithcode.com/method/clip" target="_blank" rel="noopener noreferrer">https://paperswithcode.com/method/clip</a></p>
-]]></content>
+<p><a href="https://foundry.adaptyvbio.com/competition" target="_blank" rel="noopener noreferrer" class="">https://foundry.adaptyvbio.com/competition</a></p>
+<p><a href="https://beta.adaptyvbio.com/benchbb" target="_blank" rel="noopener noreferrer" class="">https://beta.adaptyvbio.com/benchbb</a></p>
+<p><a href="https://polarishub.io/blog/antiviral-competition" target="_blank" rel="noopener noreferrer" class="">https://polarishub.io/blog/antiviral-competition</a></p>
+<p><a href="https://paperswithcode.com/method/clip" target="_blank" rel="noopener noreferrer" class="">https://paperswithcode.com/method/clip</a></p>
+<div class="container_hPZg">Loading diagram...</div>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>hey@metapage.io</email>
@@ -215,14 +204,14 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <summary type="html"><![CDATA[We have a plan for the lifecycle of the organization.]]></summary>
         <content type="html"><![CDATA[<p>We have a plan for the lifecycle of the organization.</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a8018579bb580469fb6e7fd6f854628">We aim for a worker owned business entity<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb580469fb6e7fd6f854628" class="hash-link" aria-label="Direct link to We aim for a worker owned business entity" title="Direct link to We aim for a worker owned business entity" translate="no">​</a></h2>
 <p>For scientific data, long-term durability requires a model where the investor class is not the primary holder of power within the organization, as there is a rich history of investors buying companies dealing with scientific data, and maximizing profit at all costs. Profitability is required, but if the main driving force, then the organization lifecycle is a shorter lifespan.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a8018579bb5800a8b21c68a082d26c1">What is the plan if the metapages organizations is wound down?<a href="https://docs.metapage.io/blog/organization-lifespan#1a8018579bb5800a8b21c68a082d26c1" class="hash-link" aria-label="Direct link to What is the plan if the metapages organizations is wound down?" title="Direct link to What is the plan if the metapages organizations is wound down?" translate="no">​</a></h2>
 <p>Our public stated plan in this eventuality:</p>
 <ul>
-<li>All currently non-open assets and code will be open-sourced</li>
-<li>All public pages and components will be available at the same URL address, but immutable (if not already)</li>
-<li>We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
+<li class="">All currently non-open assets and code will be open-sourced</li>
+<li class="">All public pages and components will be available at the same URL address, but immutable (if not already)</li>
+<li class="">We will transition the stewardship of the organization to a volunteer organization or under an umbrella foundation, with input from the community</li>
 </ul>
 <p>Our promise: regardless of what happens to the metapages organization, your workflows will still be able to run, far into the future.</p>
 <p>We welcome community input in the process, in this eventuality.</p>
@@ -239,19 +228,19 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/model-bioemu"/>
         <updated>2025-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Check out the workflow on the app-551d582261f943168bcfe729fba84312)]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Check out the workflow on the app</a></p>
+        <content type="html"><![CDATA[<p><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer" class="">Check out the workflow on the app</a></p>
 <p>There are new bio AI models coming out every week. Last week is was <code>bioemu</code>:</p>
-<p><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</a></p>
+<p><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer" class="">https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</a></p>
 <p>How to keep up?</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a7018579bb580e897ebd28c7e04bb21">Metapages allow rapid integration of any new open-source tools, models, codebases<a href="https://docs.metapage.io/blog/model-bioemu#1a7018579bb580e897ebd28c7e04bb21" class="hash-link" aria-label="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases" title="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a7018579bb580e897ebd28c7e04bb21">Metapages allow rapid integration of any new open-source tools, models, codebases<a href="https://docs.metapage.io/blog/model-bioemu#1a7018579bb580e897ebd28c7e04bb21" class="hash-link" aria-label="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases" title="Direct link to Metapages allow rapid integration of any new open-source tools, models, codebases" translate="no">​</a></h2>
 <p>It took me 10 minutes to create the docker image, get the installation working, and add a molecule viewer. I published it with one click, and now it’s available to everyone to add to their own workflows with a few clicks.</p>
 <p>Metapages allows the sharing of containerized components that are then connectable to your workflows, so you can prototype at the speed of thought.</p>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-807e-9cf0-c2d482c6ecc3-e5f5973f6100b2e7f4b24429a1a9ed5f.png" width="1376" height="697" class="img_ev3q"></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/model-bioemu.1a701857-9bb5-80f7-b3ae-fd11e09709c8-066b3f9fd82beeb3c4795e877dda86b9.png" width="1086" height="599" class="img_ev3q"></p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sources">Sources<a href="https://docs.metapage.io/blog/model-bioemu#sources" class="hash-link" aria-label="Direct link to Sources" title="Direct link to Sources">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="sources">Sources<a href="https://docs.metapage.io/blog/model-bioemu#sources" class="hash-link" aria-label="Direct link to Sources" title="Direct link to Sources" translate="no">​</a></h2>
 <ul>
-<li><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer">Source paper</a></li>
-<li><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer">Source Metapage Workflow</a></li>
+<li class=""><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer" class="">Source paper</a></li>
+<li class=""><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer" class="">Source Metapage Workflow</a></li>
 </ul>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap"></iframe>]]></content>
         <author>
@@ -270,47 +259,47 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <!-- -->
 <p>The most common solution is to publish a jupyter notebook somewhere. There are a number of platforms that</p>
 <ol>
-<li>Take a jupyter notebook</li>
-<li>Run it, get the outputs</li>
-<li>Convert the notebook and outputs into a static web page</li>
+<li class="">Take a jupyter notebook</li>
+<li class="">Run it, get the outputs</li>
+<li class="">Convert the notebook and outputs into a static web page</li>
 </ol>
-<p>For example, <a href="https://next.jupyterbook.org/" target="_blank" rel="noopener noreferrer">jupyterbook</a> (using the <a href="https://myst-nb.readthedocs.io/" target="_blank" rel="noopener noreferrer">myst-nb</a> extension) compiles a jupyter notebook, with text and images, into a page for publishing. If you want to run the notebook yourself, you might be able to via <a href="https://mybinder.org/" target="_blank" rel="noopener noreferrer">binder</a> or <a href="https://jupyter.org/hub" target="_blank" rel="noopener noreferrer">jupyterhub</a>.</p>
+<p>For example, <a href="https://next.jupyterbook.org/" target="_blank" rel="noopener noreferrer" class="">jupyterbook</a> (using the <a href="https://myst-nb.readthedocs.io/" target="_blank" rel="noopener noreferrer" class="">myst-nb</a> extension) compiles a jupyter notebook, with text and images, into a page for publishing. If you want to run the notebook yourself, you might be able to via <a href="https://mybinder.org/" target="_blank" rel="noopener noreferrer" class="">binder</a> or <a href="https://jupyter.org/hub" target="_blank" rel="noopener noreferrer" class="">jupyterhub</a>.</p>
 <p>So, it looks like this is a solved problem? Actually, there are many limitations with these kinds of solutions, and they stem from starting with something not built for the web, and bolting on pieces to make it web-friendly. It works, but it ends up being complicated, and starts to show limitations.</p>
 <h1>Problems and limitations</h1>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb580bbb52ee2d022207cee">Problem: the content is static<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580bbb52ee2d022207cee" class="hash-link" aria-label="Direct link to Problem: the content is static" title="Direct link to Problem: the content is static">​</a></h2>
-<p>The above platforms generate the content for a fixed, static website. There are some options to run the notebook on <a href="https://mybinder.org/" target="_blank" rel="noopener noreferrer">binder</a> or <a href="https://jupyter.org/hub" target="_blank" rel="noopener noreferrer">jupyterhub</a>, but those platforms are ephemeral, and greatly limit the kind of compute instances the notebooks run on. Any data generated is lost unless specific ad-hoc steps are taken to keep generated outputs. What if I didn’t want to run the notebook on those platforms, for lots of reasons (not enough compute, storage, persistence, security), then I don’t have other options.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb580bbb52ee2d022207cee">Problem: the content is static<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580bbb52ee2d022207cee" class="hash-link" aria-label="Direct link to Problem: the content is static" title="Direct link to Problem: the content is static" translate="no">​</a></h2>
+<p>The above platforms generate the content for a fixed, static website. There are some options to run the notebook on <a href="https://mybinder.org/" target="_blank" rel="noopener noreferrer" class="">binder</a> or <a href="https://jupyter.org/hub" target="_blank" rel="noopener noreferrer" class="">jupyterhub</a>, but those platforms are ephemeral, and greatly limit the kind of compute instances the notebooks run on. Any data generated is lost unless specific ad-hoc steps are taken to keep generated outputs. What if I didn’t want to run the notebook on those platforms, for lots of reasons (not enough compute, storage, persistence, security), then I don’t have other options.</p>
 <p>While some notebook visualizations are dynamic in some sense, as you can interact with e.g. javascript plots, it becomes complicated or limited if you want to perform computation in the final published notebook.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb580089277eaab89f9f7d3">Limitation: you cannot easily take all or a part of the notebook for your own workflows<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580089277eaab89f9f7d3" class="hash-link" aria-label="Direct link to Limitation: you cannot easily take all or a part of the notebook for your own workflows" title="Direct link to Limitation: you cannot easily take all or a part of the notebook for your own workflows">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb580089277eaab89f9f7d3">Limitation: you cannot easily take all or a part of the notebook for your own workflows<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580089277eaab89f9f7d3" class="hash-link" aria-label="Direct link to Limitation: you cannot easily take all or a part of the notebook for your own workflows" title="Direct link to Limitation: you cannot easily take all or a part of the notebook for your own workflows" translate="no">​</a></h2>
 <p>Jupyter notebooks run on a single kernel, with all the visualization libraries built into the monolith kernel.</p>
 <p>If I wanted to swap out one visualization library for another (e.g. matplotlib for plotly.js) it’s quite a bit of coding.</p>
 <p>There’s no ability for users to publish components, and re-use those components in different notebooks. Each notebook is a monolith, unless you publish a separate library, which comes with it’s own friction and cost.</p>
 <p>You don’t just publish and share code and visualization snippets for others. Instead, you have to manually copy and paste and finagle any code from one notebook to another. And everyone has this same barrier.</p>
 <p>There is considerable friction in sharing and re-using notebooks and parts of notebooks.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb5804eb280ef88019b4d12">Limitation: a single kernel, not always containerized<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5804eb280ef88019b4d12" class="hash-link" aria-label="Direct link to Limitation: a single kernel, not always containerized" title="Direct link to Limitation: a single kernel, not always containerized">​</a></h2>
-<p>Jupyter notebooks define their kernels, but without much automation to build those kernels. Take a look at <a href="https://colab.research.google.com/github/pablo-arantes/making-it-rain/blob/main/BioEmu.ipynb#scrollTo=Fk9bZi5MiD8h" target="_blank" rel="noopener noreferrer">this example of a recent published model for predicting structure distributions of a protein</a>: each step requires the user input, and data is stored in Google Drive only. Interaction is via the notebook interface, so integrating the code into your own workflow is a manual process that every single person must repeat, if they want to use the model in their own workflows.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb5804eb280ef88019b4d12">Limitation: a single kernel, not always containerized<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5804eb280ef88019b4d12" class="hash-link" aria-label="Direct link to Limitation: a single kernel, not always containerized" title="Direct link to Limitation: a single kernel, not always containerized" translate="no">​</a></h2>
+<p>Jupyter notebooks define their kernels, but without much automation to build those kernels. Take a look at <a href="https://colab.research.google.com/github/pablo-arantes/making-it-rain/blob/main/BioEmu.ipynb#scrollTo=Fk9bZi5MiD8h" target="_blank" rel="noopener noreferrer" class="">this example of a recent published model for predicting structure distributions of a protein</a>: each step requires the user input, and data is stored in Google Drive only. Interaction is via the notebook interface, so integrating the code into your own workflow is a manual process that every single person must repeat, if they want to use the model in their own workflows.</p>
 <p>I would like to not have to ever manually install anything. Workflows should contain all instructions for how to build their required computation environments, and those instructions should be automated by default.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb5803dbbefd761cabc34ea">Limitation: you cannot easily collaborate real time<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5803dbbefd761cabc34ea" class="hash-link" aria-label="Direct link to Limitation: you cannot easily collaborate real time" title="Direct link to Limitation: you cannot easily collaborate real time">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb5803dbbefd761cabc34ea">Limitation: you cannot easily collaborate real time<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5803dbbefd761cabc34ea" class="hash-link" aria-label="Direct link to Limitation: you cannot easily collaborate real time" title="Direct link to Limitation: you cannot easily collaborate real time" translate="no">​</a></h2>
 <p>The platforms for sharing notebooks are meant as publishing as a final step. Making it easier to publish is a good thing, but publishing is really only a step in a sequence: you might want to publish so that others might be able to use your work. This process might go back and forth, but since publishing is treated as a final step, the collaborative aspect, which is often the bulk of the work, is neglected. The final published product is not easily integrated into others workflows without significant human labour.</p>
 <p>Putting a notebook in a git repository is helpful, but not sufficient.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb58007abd7de693c0ee709">Problem: the complexity of the layers introduces more places for bugs and failures<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb58007abd7de693c0ee709" class="hash-link" aria-label="Direct link to Problem: the complexity of the layers introduces more places for bugs and failures" title="Direct link to Problem: the complexity of the layers introduces more places for bugs and failures">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb58007abd7de693c0ee709">Problem: the complexity of the layers introduces more places for bugs and failures<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb58007abd7de693c0ee709" class="hash-link" aria-label="Direct link to Problem: the complexity of the layers introduces more places for bugs and failures" title="Direct link to Problem: the complexity of the layers introduces more places for bugs and failures" translate="no">​</a></h2>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p>Because the notebooks may not be properly containerized, it’s more likely to get build errors. The public platforms to host jupyter notebooks are by necessity limited, and it’s some work to run them yourself, so the surface area for bugs and incompatibilities is large.</p><br></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-80fb-b4bf-f58e086545e3-2d060fe7a037fc30d4185caf7b9deeef.png" width="1112" height="952" class="img_ev3q"></p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a7018579bb580fda0d0f3b85369e4e4">Where to publish your code/data/visualization?<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1a7018579bb580fda0d0f3b85369e4e4" class="hash-link" aria-label="Direct link to Where to publish your code/data/visualization?" title="Direct link to Where to publish your code/data/visualization?">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a7018579bb580fda0d0f3b85369e4e4">Where to publish your code/data/visualization?<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1a7018579bb580fda0d0f3b85369e4e4" class="hash-link" aria-label="Direct link to Where to publish your code/data/visualization?" title="Direct link to Where to publish your code/data/visualization?" translate="no">​</a></h2>
 <p>So that other researchers can actually use them? Publishing your work doesn’t automatically mean it can be found. There is no one place to search for code and data and workflows, so finding code snippets or visualization relevant for your problems is ad-hoc and a manual process.</p>
 <h1>Metapages: publish and embed complete scientific workflows, when you want, where you want, how you want</h1>
 <p>Metapages are web-first scientific workflows.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb580cc83c9c45761effee1">Publish in two clicks<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580cc83c9c45761effee1" class="hash-link" aria-label="Direct link to Publish in two clicks" title="Direct link to Publish in two clicks">​</a></h2>
-<p>You don’t need a complicated separate build/process/embed publish step required of e.g. <a href="https://next.jupyterbook.org/" target="_blank" rel="noopener noreferrer">jupyterbook</a>. You just click <code>Share</code> → <code>Public</code> and your workflow is immediately published for everyone:</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb580cc83c9c45761effee1">Publish in two clicks<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580cc83c9c45761effee1" class="hash-link" aria-label="Direct link to Publish in two clicks" title="Direct link to Publish in two clicks" translate="no">​</a></h2>
+<p>You don’t need a complicated separate build/process/embed publish step required of e.g. <a href="https://next.jupyterbook.org/" target="_blank" rel="noopener noreferrer" class="">jupyterbook</a>. You just click <code>Share</code> → <code>Public</code> and your workflow is immediately published for everyone:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-8071-9889-e0cfaa16cff7-f0183abc8bbbc6a1180b68fcb7b99586.png" width="605" height="334" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb5802ca540c1804650788d">Embed anywhere<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5802ca540c1804650788d" class="hash-link" aria-label="Direct link to Embed anywhere" title="Direct link to Embed anywhere">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb5802ca540c1804650788d">Embed anywhere<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5802ca540c1804650788d" class="hash-link" aria-label="Direct link to Embed anywhere" title="Direct link to Embed anywhere" translate="no">​</a></h2>
 <p>If you want to embed the workflow into your own notes or page or website or notion or anywhere, simply <code>Share</code> → <code>Embed</code> and paste the link or HTML snippet where you want. It can contain a link for navigating to the original</p>
 <p>Here is an interactive workflow embedded. You can access (then copy and edit) the entire workflow with the menu button on the left, without any installation steps:</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/87ae11673508447e883b598bf7da9c5d/embed-frame?frame=visualize+and+interact&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb580a48296cd907bf9b829">Permissions: collaborate with anyone<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580a48296cd907bf9b829" class="hash-link" aria-label="Direct link to Permissions: collaborate with anyone" title="Direct link to Permissions: collaborate with anyone">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb580a48296cd907bf9b829">Permissions: collaborate with anyone<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580a48296cd907bf9b829" class="hash-link" aria-label="Direct link to Permissions: collaborate with anyone" title="Direct link to Permissions: collaborate with anyone" translate="no">​</a></h2>
 <p>In a few seconds, grant permissions to your collaborators, they can now read or edit your workflow, upload/download data, and real-time work with you</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-80c9-9dfe-c3cc6128678c-56a7fe31878a4e687e1887f0836f2cb3.png" width="522" height="238" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1ab018579bb58062b01aee0560fb4d6e">Publish permanent versions forever<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb58062b01aee0560fb4d6e" class="hash-link" aria-label="Direct link to Publish permanent versions forever" title="Direct link to Publish permanent versions forever">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb58062b01aee0560fb4d6e">Publish permanent versions forever<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb58062b01aee0560fb4d6e" class="hash-link" aria-label="Direct link to Publish permanent versions forever" title="Direct link to Publish permanent versions forever" translate="no">​</a></h2>
 <div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent_BuS1"><p>This feature is in beta</p></div></div>
-<p>When you want a permanent copy for publishing or archiving, simply create an archive, and we will store it <a href="https://docs.metapage.io/blog/deep-time-data-expiration">forever</a></p>
+<p>When you want a permanent copy for publishing or archiving, simply create an archive, and we will store it <a class="" href="https://docs.metapage.io/blog/deep-time-data-expiration">forever</a></p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-803c-a73d-d2d9720bdc48-f860ada11de06e72e0175526207e2cdb.png" width="348" height="469" class="img_ev3q"></p>
 <p><img decoding="async" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALkAAAAICAYAAAClO16MAAAKrGlDQ1BJQ0MgUHJvZmlsZQAASImVlwdUk9kSgO//pzdaQihSQm+CdAJICaGF3puNkIQQSoyBIGBXFldwLYiIgLqgqxQF1wLIWhBRLCyKDfuCLArKulgQFcv7gUPY3Xfee+fNf+bc75/MnZl7z7058wNAoXElknRYCYAMcZY0ws+LERefwMANAwgoAhKwARQuL1PCCgsLAojMjH+X93cRb0RuWU7G+vff/6so8wWZPACgMIST+Jm8DIRPIPqKJ5FmAYA6gNgNlmdJJvkywjQpUiDCjyZZOM2jk5w0xWj0lE9UBBthdQDwZC5XKgSAbIjYGdk8IRKH7I2wtZgvEiOMvAP3jIylfISRvMAU8ZEgPBmfmfSXOMK/xUySx+RyhXKeXsuU4L1FmZJ0bu7/uR3/WzLSZTM5jBElp0j9I5CRjuzZvbSlgXIWJ4WEzrCIP+U/xSky/+gZ5mWyE2aYz/UOlM9NDwma4WSRL0ceJ4sTNcOCTJ/IGZYujZDnSpayWTPMlc7mlaVFy+0pAo48fl5KVOwMZ4tiQmY4My0ycNaHLbdLZRHy+gViP6/ZvL7ytWdk/mW9Io58blZKlL987dzZ+gVi1mzMzDh5bXyBt8+sT7TcX5LlJc8lSQ+T+wvS/eT2zOxI+dws5EDOzg2T72EqNyBshoE38AFByMMAkcAWOCHqAJBqswQ5k2cUsJdKcqUiYUoWg4XcMgGDI+ZZzWXYWts6ADB5Z6ePxNt7U3cRouNnbRnIeXY4jRjtZ2381wC0IuedMjBrM5QBoLgNgA5VnkyaPW2bvE4AA4jIvwENaAAdYABMgSVSmyNwBZ5IxQEgFESBeLAY8EAKyABSsBysBOtAASgC28BOUA72gf2gBhwBx0AzOA3Og0vgGrgB7oCHoA8MgpdgFLwHExAE4SAKRIU0IF3ICLKAbCEm5A75QEFQBBQPJUJCSAzJoJXQBqgIKobKoSqoFvoZOgWdh65APdB9qB8aht5An2AUTIZpsDZsDM+DmTALDoSj4EWwEF4G58H58Ba4DK6GD8NN8Hn4GnwH7oNfwmMogCKh6Cg9lCWKiWKjQlEJqGSUFLUaVYgqRVWjGlCtqE7ULVQfagT1EY1FU9EMtCXaFe2Pjkbz0MvQq9Gb0eXoGnQTugN9C92PHkV/xVAwWhgLjAuGg4nDCDHLMQWYUsxBzEnMRcwdzCDmPRaLpWNNsE5Yf2w8NhW7ArsZuwfbiG3D9mAHsGM4HE4DZ4Fzw4XiuLgsXAFuN+4w7hzuJm4Q9wFPwuvibfG++AS8GL8eX4qvw5/F38Q/x08QlAhGBBdCKIFPyCVsJRwgtBKuEwYJE0RlognRjRhFTCWuI5YRG4gXiY+Ib0kkkj7JmRROEpHWkspIR0mXSf2kj2QVsjmZTV5IlpG3kA+R28j3yW8pFIoxxZOSQMmibKHUUi5QnlA+KFAVrBQ4CnyFNQoVCk0KNxVeKRIUjRRZiosV8xRLFY8rXlccUSIoGSuxlbhKq5UqlE4p9SqNKVOVbZRDlTOUNyvXKV9RHlLBqRir+KjwVfJV9qtcUBmgoqgGVDaVR91APUC9SB2kYWkmNA4tlVZEO0Lrpo2qqqjaq8ao5qhWqJ5R7aOj6MZ0Dj2dvpV+jH6X/klNW42lJlDbpNagdlNtXH2Ouqe6QL1QvVH9jvonDYaGj0aaxnaNZo3HmmhNc81wzeWaezUvao7Moc1xncObUzjn2JwHWrCWuVaE1gqt/VpdWmPaOtp+2hLt3doXtEd06DqeOqk6JTpndYZ1qbruuiLdEt1zui8YqgwWI51RxuhgjOpp6fnryfSq9Lr1JvRN9KP11+s36j82IBowDZINSgzaDUYNdQ2DDVca1hs+MCIYMY1SjHYZdRqNG5sYxxpvNG42HjJRN+GY5JnUmzwypZh6mC4zrTa9bYY1Y5qlme0xu2EOmzuYp5hXmF+3gC0cLUQWeyx65mLmOs8Vz62e22tJtmRZZlvWW/Zb0a2CrNZbNVu9mmc4L2He9nmd875aO1inWx+wfmijYhNgs96m1eaNrbktz7bC9rYdxc7Xbo1di91rewt7gf1e+3sOVIdgh40O7Q5fHJ0cpY4NjsNOhk6JTpVOvUwaM4y5mXnZGePs5bzG+bTzRxdHlyyXYy5/ulq6prnWuQ7NN5kvmH9g/oCbvhvXrcqtz53hnuj+o3ufh54H16Pa46mngSff86Dnc5YZK5V1mPXKy9pL6nXSa5ztwl7FbvNGeft5F3p3+6j4RPuU+zzx1fcV+tb7jvo5+K3wa/PH+Af6b/fv5WhzeJxazmiAU8CqgI5AcmBkYHng0yDzIGlQazAcHBC8I/hRiFGIOKQ5FIRyQneEPg4zCVsW9ks4NjwsvCL8WYRNxMqIzkhq5JLIusj3UV5RW6MeRptGy6LbYxRjFsbUxozHescWx/bFzYtbFXctXjNeFN+SgEuISTiYMLbAZ8HOBYMLHRYWLLy7yGRRzqIrizUXpy8+s0RxCXfJ8URMYmxiXeJnbii3mjuWxEmqTBrlsXm7eC/5nvwS/rDATVAseJ7sllycPCR0E+4QDqd4pJSmjIjYonLR61T/1H2p42mhaYfSvqXHpjdm4DMSM06JVcRp4o6lOktzlvZILCQFkr5lLst2LhuVBkoPZkKZizJbsmhIc9QlM5V9J+vPds+uyP6wPGb58RzlHHFOV6557qbc53m+eT+tQK/grWhfqbdy3cr+VaxVVauh1Umr29cYrMlfM7jWb23NOuK6tHW/rrdeX7z+3YbYDa352vlr8we+8/uuvkChQFrQu9F1477v0d+Lvu/eZLdp96avhfzCq0XWRaVFnzfzNl/9weaHsh++bUne0r3Vcevebdht4m13t3tsrylWLs4rHtgRvKOphFFSWPJu55KdV0rtS/ftIu6S7eorCypr2W24e9vuz+Up5XcqvCoaK7UqN1WO7+HvubnXc2/DPu19Rfs+/Sj68V6VX1VTtXF16X7s/uz9zw7EHOj8iflT7UHNg0UHvxwSH+qriajpqHWqra3TqttaD9fL6ocPLzx844j3kZYGy4aqRnpj0VFwVHb0xc+JP989Fnis/TjzeMMJoxOVJ6knC5ugptym0eaU5r6W+JaeUwGn2ltdW0/+YvXLodN6pyvOqJ7ZepZ4Nv/st3N558baJG0j54XnB9qXtD+8EHfhdkd4R/fFwIuXL/leutDJ6jx32e3y6SsuV05dZV5tvuZ4ranLoevkrw6/nux27G667nS95Ybzjdae+T1nb3rcPH/L+9al25zb1+6E3Om5G333Xu/C3r57/HtD99Pvv36Q/WDi4dpHmEeFj5Uelz7RelL9m9lvjX2OfWf6vfu7nkY+fTjAG3j5e+bvnwfzn1GelT7XfV47ZDt0eth3+MaLBS8GX0peTowU/KH8R+Ur01cn/vT8s2s0bnTwtfT1tzeb32q8PfTO/l37WNjYk/cZ7yfGCz9ofKj5yPzY+Sn20/OJ5Z9xn8u+mH1p/Rr49dG3jG/fJFwpd6oVQCEKJycD8OYQ0jfEA0C9AQBxwXRPPSXQ9HfAFIH/xNN995Q4AlDrCUBkGwDhyGsVwoYIKyAahnCUJ4Dt7OQ60/9O9eqTonQY6YqsfQLigp62qoF/ynQf/5e6/zkCedS/jf8CRvQFZ+JygKcAAABWZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAOShgAHAAAAEgAAAESgAgAEAAAAAQAAALmgAwAEAAAAAQAAAAgAAAAAQVNDSUkAAABTY3JlZW5zaG90vqyDSwAAAdRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+ODwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xODU8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpVc2VyQ29tbWVudD5TY3JlZW5zaG90PC9leGlmOlVzZXJDb21tZW50PgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KeM60YAAAAENJREFUWAnt0gENACAQw0DAv+eHIKO5OWjXPW/LGAgbOGE2aAx8AyIXQt6AyPMXAxS5BvIGRJ6/GKDINZA3IPL8xQAvD0UEDIZmMTgAAAAASUVORK5CYII=" width="185" height="8" class="img_ev3q"></p>
 <p>This will generate a permanent URL, with a sha256 hash of the workflow, similar to how git creates a hash of each commit. This URL will work, even if the underlying workflow is unpublished or deleted.</p>]]></content>
@@ -326,53 +315,53 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks"/>
         <updated>2025-02-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Beyond jupyter notebooks]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a1018579bb580a7a7eccc24cbba377a">Beyond jupyter notebooks<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a1018579bb580a7a7eccc24cbba377a" class="hash-link" aria-label="Direct link to Beyond jupyter notebooks" title="Direct link to Beyond jupyter notebooks">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a1018579bb580a7a7eccc24cbba377a">Beyond jupyter notebooks<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a1018579bb580a7a7eccc24cbba377a" class="hash-link" aria-label="Direct link to Beyond jupyter notebooks" title="Direct link to Beyond jupyter notebooks" translate="no">​</a></h2>
 <!-- -->
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb5806eac6ee182142f8343">Jupyter Notebooks are widespread<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5806eac6ee182142f8343" class="hash-link" aria-label="Direct link to Jupyter Notebooks are widespread" title="Direct link to Jupyter Notebooks are widespread">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb5806eac6ee182142f8343">Jupyter Notebooks are widespread<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5806eac6ee182142f8343" class="hash-link" aria-label="Direct link to Jupyter Notebooks are widespread" title="Direct link to Jupyter Notebooks are widespread" translate="no">​</a></h3>
 <div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/compare-to-jupyter-notebooks.1a201857-9bb5-8047-a3c8-c048980a79f5-a52937b63ed4ca56254dac2649ed91f1.png" width="1260" height="734" class="img_ev3q"></p></div><div class="custom-docunotion-row-cell"><p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/compare-to-jupyter-notebooks.1a201857-9bb5-805a-8bce-fdba82c6ff2f-fdd46f1cb0be30aaa8d97d9c4504aa6d.png" width="885" height="627" class="img_ev3q"></p></div></div>
-<p>Jupyter notebooks have become the <a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank" rel="noopener noreferrer">de-facto standard for data scientists</a>. They combine code, data, and visualization, and can be shared via e.g. github. Many companies, such as <a href="https://netflixtechblog.com/notebook-innovation-591ee3221233" target="_blank" rel="noopener noreferrer">Netflix</a>, <a href="https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091" target="_blank" rel="noopener noreferrer">Airbnb</a>, <a href="https://wiki.latch.bio/pods/getting-started#3-access-rstudio-and-jupyter-labs" target="_blank" rel="noopener noreferrer">Latchbio</a>, use jupyter notebooks successfully to manage their complex data needs.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb5805c830fecb1e8fcf3af">But they have some severe limitations<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5805c830fecb1e8fcf3af" class="hash-link" aria-label="Direct link to But they have some severe limitations" title="Direct link to But they have some severe limitations">​</a></h3>
+<p>Jupyter notebooks have become the <a href="https://www.nature.com/articles/d41586-018-07196-1" target="_blank" rel="noopener noreferrer" class="">de-facto standard for data scientists</a>. They combine code, data, and visualization, and can be shared via e.g. github. Many companies, such as <a href="https://netflixtechblog.com/notebook-innovation-591ee3221233" target="_blank" rel="noopener noreferrer" class="">Netflix</a>, <a href="https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091" target="_blank" rel="noopener noreferrer" class="">Airbnb</a>, <a href="https://wiki.latch.bio/pods/getting-started#3-access-rstudio-and-jupyter-labs" target="_blank" rel="noopener noreferrer" class="">Latchbio</a>, use jupyter notebooks successfully to manage their complex data needs.</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb5805c830fecb1e8fcf3af">But they have some severe limitations<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5805c830fecb1e8fcf3af" class="hash-link" aria-label="Direct link to But they have some severe limitations" title="Direct link to But they have some severe limitations" translate="no">​</a></h3>
 <ul>
-<li><a href="https://erikjandevries.medium.com/when-and-how-jupyter-notebooks-fail-and-what-to-use-instead-a52c27dbaa4c" target="_blank" rel="noopener noreferrer">They can often fail</a>, for many reasons</li>
-<li><a href="https://www.reddit.com/r/Python/comments/spxim1/notebooks_suck_change_my_mind/" target="_blank" rel="noopener noreferrer">Common complaints</a>: good for exploring, but when you need to do “real work” you go elsewhere</li>
-<li><a href="https://dev.to/chainguns/the-five-worst-things-about-jupyter-notebooks-5d4o" target="_blank" rel="noopener noreferrer">Scaling or using different or multiple machines for heavy compute</a> is not practical or impossible</li>
-<li>Sharing is usually limited to posting in github, no centralized search, difficult for teams to work together on a single notebook</li>
-<li>All code runs in a single kernel, tying all the code to a single instance. If you want to run someone else’s notebook, you have to use a specialized service with limitations and problems with data, or you need to manually install libraries, or run a docker container, and again, where to store the data outputs is left to you</li>
+<li class=""><a href="https://erikjandevries.medium.com/when-and-how-jupyter-notebooks-fail-and-what-to-use-instead-a52c27dbaa4c" target="_blank" rel="noopener noreferrer" class="">They can often fail</a>, for many reasons</li>
+<li class=""><a href="https://www.reddit.com/r/Python/comments/spxim1/notebooks_suck_change_my_mind/" target="_blank" rel="noopener noreferrer" class="">Common complaints</a>: good for exploring, but when you need to do “real work” you go elsewhere</li>
+<li class=""><a href="https://dev.to/chainguns/the-five-worst-things-about-jupyter-notebooks-5d4o" target="_blank" rel="noopener noreferrer" class="">Scaling or using different or multiple machines for heavy compute</a> is not practical or impossible</li>
+<li class="">Sharing is usually limited to posting in github, no centralized search, difficult for teams to work together on a single notebook</li>
+<li class="">All code runs in a single kernel, tying all the code to a single instance. If you want to run someone else’s notebook, you have to use a specialized service with limitations and problems with data, or you need to manually install libraries, or run a docker container, and again, where to store the data outputs is left to you</li>
 </ul>
 <p>Jupyter notebooks grew from solving a particular set of problems, and its growth is constrained by those technical origins.</p>
 <p>Notebooks are tightly coupled systems: it’s all or nothing.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb5805dbc01eefe7d572604">Jupyter Notebooks Reimagined<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5805dbc01eefe7d572604" class="hash-link" aria-label="Direct link to Jupyter Notebooks Reimagined" title="Direct link to Jupyter Notebooks Reimagined">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb5805dbc01eefe7d572604">Jupyter Notebooks Reimagined<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb5805dbc01eefe7d572604" class="hash-link" aria-label="Direct link to Jupyter Notebooks Reimagined" title="Direct link to Jupyter Notebooks Reimagined" translate="no">​</a></h3>
 <p>Imagine if you could</p>
 <ul>
-<li>write code in any language</li>
-<li>combine it seamlessly with browser interactive visualization (without complicated bridging code)</li>
-<li>share and publish <em>instantly</em> with your team or audience, and know that they will be able to instantly re-run the computation, if needed, without installation</li>
-<li>re-use any component that will reliable connect to your own workflow without complicated and time-consuming finessing</li>
-<li>run on any computer or cluster, and never have to perform complicated setups when running other workflows</li>
+<li class="">write code in any language</li>
+<li class="">combine it seamlessly with browser interactive visualization (without complicated bridging code)</li>
+<li class="">share and publish <em>instantly</em> with your team or audience, and know that they will be able to instantly re-run the computation, if needed, without installation</li>
+<li class="">re-use any component that will reliable connect to your own workflow without complicated and time-consuming finessing</li>
+<li class="">run on any computer or cluster, and never have to perform complicated setups when running other workflows</li>
 </ul>
-<p>That’s the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapage platform</a>:</p>
-<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><a href="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/compare-to-jupyter-notebooks.1a201857-9bb5-8023-9b70-e5b3b8f98b60-8b9054702c7e9b659f67d698d8cf9e54.png" width="2528" height="1250" class="img_ev3q"></a></p></div><div class="custom-docunotion-row-cell"><p>In the example workflow, you have python code generating a plotly diagram. Unlike a jupyter notebook, you can simply copy this immediately and start modifying code. There is no complex setup, and you can published in a single click.</p></div></div>
+<p>That’s the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapage platform</a>:</p>
+<div class="custom-docunotion-row"><div class="custom-docunotion-row-cell"><p><a href="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/compare-to-jupyter-notebooks.1a201857-9bb5-8023-9b70-e5b3b8f98b60-8b9054702c7e9b659f67d698d8cf9e54.png" width="2528" height="1250" class="img_ev3q"></a></p></div><div class="custom-docunotion-row-cell"><p>In the example workflow, you have python code generating a plotly diagram. Unlike a jupyter notebook, you can simply copy this immediately and start modifying code. There is no complex setup, and you can published in a single click.</p></div></div>
 <p><strong>Metapages</strong> are web-first workflows. They consist of components, that are <em>also</em> webpages. So a jupyter notebook consists of “cells” which are code blocks executing in the same “kernel” (computer process).</p>
-<p>Metapage components, called meta_frames,_ are also websites. The parent page uses an <a href="https://www.npmjs.com/package/@metapages/metapage" target="_blank" rel="noopener noreferrer">open-source module</a> to connect the frames via data pipes. Since the components are webpages, they can be anything.</p>
+<p>Metapage components, called meta_frames,_ are also websites. The parent page uses an <a href="https://www.npmjs.com/package/@metapages/metapage" target="_blank" rel="noopener noreferrer" class="">open-source module</a> to connect the frames via data pipes. Since the components are webpages, they can be anything.</p>
 <p>For example, one component runs docker containers. A docker container can be represented as a URL, where the URL contains everything needed to defined a docker image, build the docker image, and run the container.</p>
 <p>This way, components (jupyter’s cells) are completely independent of each other, and thus can be published independently, and immediately found and used by your audience.</p>
 <p>They are a new way of doing data science, and we hope they will foster a new age of sharing, communication and collaboration, by removing the drudgery and making sharing code, data, and compute happen at the speed of thought.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb58042899df256b4f54689">Sharing<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb58042899df256b4f54689" class="hash-link" aria-label="Direct link to Sharing" title="Direct link to Sharing">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb58042899df256b4f54689">Sharing<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb58042899df256b4f54689" class="hash-link" aria-label="Direct link to Sharing" title="Direct link to Sharing" translate="no">​</a></h3>
 <p>Sharing code and data is the lifeblood of (data) science. Jupyter notebooks do not address this need directly, instead, you can kindof share code by publishing the notebook in a fixed repository like github.</p>
 <p>And there it becomes a static artifact. You cannot share back and forth easily, or share only parts, or share data with the notebook where the data is modified.</p>
 <p>Metapages are web-first, shareable with a single click, and not only the pages, but the components also can be independently shared and published. You can then embed</p>
 <table><thead><tr><th></th><th>Jupyter Notebooks</th><th>Metapages</th></tr></thead><tbody><tr><td>Languages</td><td>Many, but only a single kernel per notebook</td><td>Any, each cell can potentially have their own container</td></tr><tr><td>Sharing</td><td>Limited to once</td><td>Immediate with one click, real-time, customizable</td></tr><tr><td>Data</td><td>Usually has to be mounted in from some defined remote storage, vendor lock-in limits data sharing, too many solutions prevent ease of sharing</td><td>All metapages come with a scoped file system, also can consume any cloud storage. Copying a metapage copies all data instantly.</td></tr><tr><td>Visualization</td><td>Complex bridge code, visualization libraries need to be installed on the browser, visualizations are not easily shared, they are tied to the notebook</td><td>Any visualization library can be added by any user, and immediately be shared to the world.</td></tr><tr><td>Computation</td><td>Notebook runs on a single instance, the instance needs to be configured, or accessed by a specific vendor, creating lock-in</td><td>Metapages run in the browser, but the compute runs on any computer or cluster, and each cell connects independently. Compute is abstracted away from the workflow</td></tr><tr><td>Search</td><td>There is no global index of searchable notebooks</td><td>Metapages includes search-as-you-type of all workflows, and components</td></tr><tr><td>AI</td><td>Notebooks have no specific AI integration</td><td>AI is directly integrating into creating code, so you don’t have to copy/paste, and all the code and data context is there automatically.</td></tr><tr><td>Durability</td><td>Notebooks can be persisted to github, but if they do not have an associated docker image defined, setup can be time-consuming.</td><td>Metapages are designed to be durable: the core runs in the browser, the most reliablely common compute environment, and all other compute runs in docker containers. We want them to run automatically in 50 years time</td></tr><tr><td>Collaboration</td><td>None</td><td>Real-time collaboration is built in</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a3018579bb580dabca2f3782d6ea2b6">Are metapages always a replacement for jupyter notebooks?<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a3018579bb580dabca2f3782d6ea2b6" class="hash-link" aria-label="Direct link to Are metapages always a replacement for jupyter notebooks?" title="Direct link to Are metapages always a replacement for jupyter notebooks?">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a3018579bb580dabca2f3782d6ea2b6">Are metapages always a replacement for jupyter notebooks?<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a3018579bb580dabca2f3782d6ea2b6" class="hash-link" aria-label="Direct link to Are metapages always a replacement for jupyter notebooks?" title="Direct link to Are metapages always a replacement for jupyter notebooks?" translate="no">​</a></h2>
 <p>No. Metapages are closer to applications, or workflows, but they are not notebooks.</p>
 <p><strong>Metapages:</strong></p>
 <ul>
-<li>are not linear (although they can be)</li>
-<li>are not built to present lots of text with some visualization, rather the opposite: visualization first, text optional</li>
-<li>are easily embeddable, and able to embed other tools</li>
-<li>currently have less integration with tools like debuggers</li>
+<li class="">are not linear (although they can be)</li>
+<li class="">are not built to present lots of text with some visualization, rather the opposite: visualization first, text optional</li>
+<li class="">are easily embeddable, and able to embed other tools</li>
+<li class="">currently have less integration with tools like debuggers</li>
 </ul>
 <p>There will always be times when a notebook interface is more appropriate.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a2018579bb580ba833df64ba0e01706">A example embedded metapage<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb580ba833df64ba0e01706" class="hash-link" aria-label="Direct link to A example embedded metapage" title="Direct link to A example embedded metapage">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb580ba833df64ba0e01706">A example embedded metapage<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb580ba833df64ba0e01706" class="hash-link" aria-label="Direct link to A example embedded metapage" title="Direct link to A example embedded metapage" translate="no">​</a></h2>
 <p>Here is a very basic simple example of what you would also do in a jupyter notebook (run some code and visualize). Unlike a notebook, it runs in the browser without needing to spin up a specific compute instance, and (unlike a jupyter notebook) you can immediately copy, edit, share.</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>
 <p>So take this, run it, and run with it. Once you open and clone it, it’s yours forever.</p>]]></content>
@@ -390,113 +379,113 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <summary type="html"><![CDATA[We're excited to announce our second weekly science challenge, focusing on biological data visualization! This week, we're exploring gene expression data analysis, showcasing how Metapages can handle scientific workflows in your browser.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to announce our second weekly science challenge, focusing on biological data visualization! This week, we're exploring gene expression data analysis, showcasing how Metapages can handle scientific workflows in your browser.</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="84f5d3dbcb1c4dc5aac9f43789d4b3eb">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1-2#84f5d3dbcb1c4dc5aac9f43789d4b3eb" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge">​</a></h2>
-<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">Metapages platform</a>, create an interactive visualization workflow that explores differential gene expression patterns. Your creation should help researchers understand expression differences between conditions (e.g., disease vs. healthy, treated vs. untreated, developmental stages) while providing an intuitive, interactive interface.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1c2e20b3b2a845ddb32f49bb8572f5b7">📊 Dataset Guidelines<a href="https://docs.metapage.io/blog/competition-1-2#1c2e20b3b2a845ddb32f49bb8572f5b7" class="hash-link" aria-label="Direct link to 📊 Dataset Guidelines" title="Direct link to 📊 Dataset Guidelines">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="84f5d3dbcb1c4dc5aac9f43789d4b3eb">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1-2#84f5d3dbcb1c4dc5aac9f43789d4b3eb" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge" translate="no">​</a></h2>
+<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">Metapages platform</a>, create an interactive visualization workflow that explores differential gene expression patterns. Your creation should help researchers understand expression differences between conditions (e.g., disease vs. healthy, treated vs. untreated, developmental stages) while providing an intuitive, interactive interface.</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1c2e20b3b2a845ddb32f49bb8572f5b7">📊 Dataset Guidelines<a href="https://docs.metapage.io/blog/competition-1-2#1c2e20b3b2a845ddb32f49bb8572f5b7" class="hash-link" aria-label="Direct link to 📊 Dataset Guidelines" title="Direct link to 📊 Dataset Guidelines" translate="no">​</a></h2>
 <p>You can use <strong>any gene expression dataset</strong> of your choice. Your dataset should:</p>
 <ul>
-<li>Contain gene expression measurements</li>
-<li>Be publicly available or properly licensed for use</li>
-<li>Include sufficient samples for meaningful visualization (typically &gt;10 samples)</li>
+<li class="">Contain gene expression measurements</li>
+<li class="">Be publicly available or properly licensed for use</li>
+<li class="">Include sufficient samples for meaningful visualization (typically &gt;10 samples)</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b19c7277856b407b8b25a13b94934a3f">💡 Example Data Sources<a href="https://docs.metapage.io/blog/competition-1-2#b19c7277856b407b8b25a13b94934a3f" class="hash-link" aria-label="Direct link to 💡 Example Data Sources" title="Direct link to 💡 Example Data Sources">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="b19c7277856b407b8b25a13b94934a3f">💡 Example Data Sources<a href="https://docs.metapage.io/blog/competition-1-2#b19c7277856b407b8b25a13b94934a3f" class="hash-link" aria-label="Direct link to 💡 Example Data Sources" title="Direct link to 💡 Example Data Sources" translate="no">​</a></h3>
 <p>If you're looking for a place to start, here are some suggested resources:</p>
 <ol>
-<li><strong>Gene Expression Omnibus (GEO)</strong>
+<li class=""><strong>Gene Expression Omnibus (GEO)</strong>
 <ul>
-<li>Vast repository of expression datasets</li>
-<li>Many cancer and disease studies</li>
-<li>Various organism and tissue types</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/geo/</a></li>
+<li class="">Vast repository of expression datasets</li>
+<li class="">Many cancer and disease studies</li>
+<li class="">Various organism and tissue types</li>
+<li class=""><a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" rel="noopener noreferrer" class="">https://www.ncbi.nlm.nih.gov/geo/</a></li>
 </ul>
 </li>
-<li><strong>The Cancer Genome Atlas (TCGA)</strong>
+<li class=""><strong>The Cancer Genome Atlas (TCGA)</strong>
 <ul>
-<li>Comprehensive cancer genomics data</li>
-<li>Multiple cancer types</li>
-<li>Rich clinical metadata</li>
-<li><a href="https://portal.gdc.cancer.gov/" target="_blank" rel="noopener noreferrer">https://portal.gdc.cancer.gov/</a></li>
+<li class="">Comprehensive cancer genomics data</li>
+<li class="">Multiple cancer types</li>
+<li class="">Rich clinical metadata</li>
+<li class=""><a href="https://portal.gdc.cancer.gov/" target="_blank" rel="noopener noreferrer" class="">https://portal.gdc.cancer.gov/</a></li>
 </ul>
 </li>
-<li><strong>Example Starter Dataset</strong>
+<li class=""><strong>Example Starter Dataset</strong>
 <ul>
-<li>COVID-19 patient transcriptomics (GSE152075)</li>
+<li class="">COVID-19 patient transcriptomics (GSE152075)</li>
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7bf2d120fbcd455787ffc9d59a98557e">📋 Suggested Visualizations<a href="https://docs.metapage.io/blog/competition-1-2#7bf2d120fbcd455787ffc9d59a98557e" class="hash-link" aria-label="Direct link to 📋 Suggested Visualizations" title="Direct link to 📋 Suggested Visualizations">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="7bf2d120fbcd455787ffc9d59a98557e">📋 Suggested Visualizations<a href="https://docs.metapage.io/blog/competition-1-2#7bf2d120fbcd455787ffc9d59a98557e" class="hash-link" aria-label="Direct link to 📋 Suggested Visualizations" title="Direct link to 📋 Suggested Visualizations" translate="no">​</a></h2>
 <p>Your workflow could include:</p>
 <ul>
-<li>Interactive heatmaps</li>
-<li>Volcano plots of differential expression</li>
-<li>PCA or t-SNE dimensionality reduction plots</li>
-<li>Gene expression boxplots</li>
-<li>Custom visualizations of your design</li>
+<li class="">Interactive heatmaps</li>
+<li class="">Volcano plots of differential expression</li>
+<li class="">PCA or t-SNE dimensionality reduction plots</li>
+<li class="">Gene expression boxplots</li>
+<li class="">Custom visualizations of your design</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="802301851bd74b7ba5fc118168b778e0">🎨 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1-2#802301851bd74b7ba5fc118168b778e0" class="hash-link" aria-label="Direct link to 🎨 Evaluation Criteria" title="Direct link to 🎨 Evaluation Criteria">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="802301851bd74b7ba5fc118168b778e0">🎨 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1-2#802301851bd74b7ba5fc118168b778e0" class="hash-link" aria-label="Direct link to 🎨 Evaluation Criteria" title="Direct link to 🎨 Evaluation Criteria" translate="no">​</a></h2>
 <p>Submissions will be judged on:</p>
 <ul>
-<li><strong>Technical Implementation</strong>: Effective use of Metapages features</li>
-<li><strong>Visual Design</strong>: Clear, intuitive, and aesthetically pleasing</li>
-<li><strong>Biological Insight</strong>: Meaningful exploration of the data</li>
-<li><strong>Interactivity</strong>: User-friendly interface and meaningful interactions</li>
-<li><strong>Innovation</strong>: Creative approaches to visualization</li>
+<li class=""><strong>Technical Implementation</strong>: Effective use of Metapages features</li>
+<li class=""><strong>Visual Design</strong>: Clear, intuitive, and aesthetically pleasing</li>
+<li class=""><strong>Biological Insight</strong>: Meaningful exploration of the data</li>
+<li class=""><strong>Interactivity</strong>: User-friendly interface and meaningful interactions</li>
+<li class=""><strong>Innovation</strong>: Creative approaches to visualization</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="98220f0b4def439981929ad370b006b5">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1-2#98220f0b4def439981929ad370b006b5" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="98220f0b4def439981929ad370b006b5">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1-2#98220f0b4def439981929ad370b006b5" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes" translate="no">​</a></h2>
 <ul>
-<li><strong>First Place:</strong>
+<li class=""><strong>First Place:</strong>
 <ul>
-<li>$200 Amazon Gift Card</li>
-<li>Featured spotlight on Metapages homepage</li>
-<li>Recognition in Metapages community showcase</li>
+<li class="">$200 Amazon Gift Card</li>
+<li class="">Featured spotlight on Metapages homepage</li>
+<li class="">Recognition in Metapages community showcase</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="857a7969c21849d693d61530d756333d">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1-2#857a7969c21849d693d61530d756333d" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="857a7969c21849d693d61530d756333d">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1-2#857a7969c21849d693d61530d756333d" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline" translate="no">​</a></h2>
 <ul>
-<li><strong>Start Date:</strong> Thurday, February 20, 2025</li>
-<li><strong>Submission Deadline:</strong> Wednesday, February 26, 2025 (11:59 PM GMT)</li>
-<li><strong>Winners Announced:</strong> Thursday, February 27, 2025</li>
+<li class=""><strong>Start Date:</strong> Thurday, February 20, 2025</li>
+<li class=""><strong>Submission Deadline:</strong> Wednesday, February 26, 2025 (11:59 PM GMT)</li>
+<li class=""><strong>Winners Announced:</strong> Thursday, February 27, 2025</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bafb99e5a7d2445e90da3e6dc1c04358">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1-2#bafb99e5a7d2445e90da3e6dc1c04358" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="bafb99e5a7d2445e90da3e6dc1c04358">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1-2#bafb99e5a7d2445e90da3e6dc1c04358" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit" translate="no">​</a></h2>
 <ol>
-<li>Create your workflow on the Metapages platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a></li>
-<li>Ensure your workflow is publicly accessible</li>
-<li>Submit to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer">competition@metapage.io</a> including:<!-- -->
+<li class="">Create your workflow on the Metapages platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">https://metapage.io</a></li>
+<li class="">Ensure your workflow is publicly accessible</li>
+<li class="">Submit to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer" class="">competition@metapage.io</a> including:<!-- -->
 <ul>
-<li>Your workflow's public URL</li>
-<li>Your name</li>
-<li>Optional:<!-- -->
+<li class="">Your workflow's public URL</li>
+<li class="">Your name</li>
+<li class="">Optional:<!-- -->
 <ul>
-<li>LinkedIn Profile (encouraged)</li>
-<li>Brief description of your visualization approach (max 300 words)</li>
-<li>Technical implementation details</li>
-<li>Platform feedback</li>
+<li class="">LinkedIn Profile (encouraged)</li>
+<li class="">Brief description of your visualization approach (max 300 words)</li>
+<li class="">Technical implementation details</li>
+<li class="">Platform feedback</li>
 </ul>
 </li>
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="52402423251a45c492981f1cd8ef2805">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1-2#52402423251a45c492981f1cd8ef2805" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="52402423251a45c492981f1cd8ef2805">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1-2#52402423251a45c492981f1cd8ef2805" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started" translate="no">​</a></h2>
 <p>Visit our Quick Start Guide for:</p>
 <ul>
-<li>Dataset loading examples</li>
-<li>Basic visualization templates</li>
-<li>Component communication tutorials</li>
-<li>Bioinformatics workflow examples</li>
+<li class="">Dataset loading examples</li>
+<li class="">Basic visualization templates</li>
+<li class="">Component communication tutorials</li>
+<li class="">Bioinformatics workflow examples</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7fe8a449643f447fb4aec151cfb07830">🛠️ Important Notes<a href="https://docs.metapage.io/blog/competition-1-2#7fe8a449643f447fb4aec151cfb07830" class="hash-link" aria-label="Direct link to 🛠️ Important Notes" title="Direct link to 🛠️ Important Notes">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="7fe8a449643f447fb4aec151cfb07830">🛠️ Important Notes<a href="https://docs.metapage.io/blog/competition-1-2#7fe8a449643f447fb4aec151cfb07830" class="hash-link" aria-label="Direct link to 🛠️ Important Notes" title="Direct link to 🛠️ Important Notes" translate="no">​</a></h2>
 <ul>
-<li>The platform is in alpha - reach out if you encounter any issues</li>
-<li>Focus on creating clear, intuitive visualizations</li>
-<li>No prior bioinformatics experience required</li>
-<li>We encourage creative approaches!</li>
+<li class="">The platform is in alpha - reach out if you encounter any issues</li>
+<li class="">Focus on creating clear, intuitive visualizations</li>
+<li class="">No prior bioinformatics experience required</li>
+<li class="">We encourage creative approaches!</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bf6387bf9fac4254b731a9df1e69c2a4">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1-2#bf6387bf9fac4254b731a9df1e69c2a4" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="bf6387bf9fac4254b731a9df1e69c2a4">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1-2#bf6387bf9fac4254b731a9df1e69c2a4" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?" translate="no">​</a></h2>
 <ul>
-<li>Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer">Discord</a> community for technical support</li>
-<li>Email <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer">support@metapage.io</a> for platform-specific questions</li>
-<li>Connect on <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> for general discussion</li>
+<li class="">Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer" class="">Discord</a> community for technical support</li>
+<li class="">Email <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer" class="">support@metapage.io</a> for platform-specific questions</li>
+<li class="">Connect on <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer" class="">Bluesky</a> for general discussion</li>
 </ul>
 <p>Good luck! We're excited to see your creative approaches to biological data visualization! 🧬 ✨</p>]]></content>
         <author>
@@ -515,11 +504,11 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/fair-principles"/>
         <updated>2025-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Metapages supports, aligns, and hopes to even extend the FAIR principles, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we discuss how they could be extended here.]]></summary>
-        <content type="html"><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
+        <content type="html"><![CDATA[<p>Metapages supports, aligns, and hopes to even extend the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer" class="">FAIR principles</a>, with the caveat that metapages are about connecting code and compute to data, with our emphasis on code and compute. So some of these principles are not quite applicable and we <a class="" href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss how they could be extended here</a>.</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment">​</a></h2>
-<table><thead><tr><th>FAIR Principle</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/" target="_blank" rel="noopener noreferrer"><strong>F1: (Meta) data are assigned globally unique and persistent identifiers</strong></a></td><td>✅</td><td>Metapages and metaframes get globally unique and persistent unique ids in the URLs. E.g. <a href="https://metapage.io/dion/drug-discovery-ab59f026e2094069ab4aea83a2c30797" target="_blank" rel="noopener noreferrer">https://metapage.io/dion/ab59f026e2094069ab4aea83a2c30797</a>. See <a href="https://docs.metapage.io/docs/url-structure" target="_blank" rel="noopener noreferrer">here for URL structure</a></td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/" target="_blank" rel="noopener noreferrer"> <strong>F2: Data are described with rich metadata</strong></a></td><td>✅</td><td>Metapage resources include name, description, authors, tags, dates, provenance (which metapage this was cloned from), in a simple JSON format (see <a href="https://metapage.io/dion/drug-discovery-ab59f026e2094069ab4aea83a2c30797/metapage.json" target="_blank" rel="noopener noreferrer">this example</a>). The metapage workflow components include similar metadata, and all code and embedded data can be machine inspected. We will add any metadata that we have overlooked that researchers could use.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f3-metadata-clearly-explicitly-include-identifier-data-describe/" target="_blank" rel="noopener noreferrer"><strong>F3: Metadata clearly and explicitly include the identifier of the data they describe</strong></a></td><td>🏗️&nbsp;<a href="https://github.com/orgs/metapages/projects/1?pane=issue&amp;itemId=97035755&amp;issue=metapages%7Cdocs.metapage.io%7C16" target="_blank" rel="noopener noreferrer">On our roadmap</a></td><td>Although the URL contains the identifier, currently the metadata does not also have it embedded.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/" target="_blank" rel="noopener noreferrer"><strong>F4: (Meta)data are registered or indexed in a searchable resource</strong></a></td><td>✅</td><td>All metadata is indexed immediately and available for search-as-you-type!</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/metadata-retrievable-identifier-standardised-communication-protocol/" target="_blank" rel="noopener noreferrer"><strong>A1: (Meta)data are retrievable by their identifier using a standardised communication protocol</strong></a></td><td>✅</td><td>Metapages are workflows that live in the browser, all communication is via over standard HTTPS</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/" target="_blank" rel="noopener noreferrer"><strong>A1.1: The protocol is open, free and universally implementable</strong></a></td><td>✅</td><td>See above</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a1-2-protocol-allows-authentication-authorisation-required/" target="_blank" rel="noopener noreferrer"><strong>A1.2: The protocol allows for an authentication and authorisation procedure where necessary</strong></a></td><td>✅</td><td>Our resources have a layered permissions model, allowing public, private, per user, per group, and  sharing, where authentication is then required for non-public resources.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a2-metadata-accessible-even-data-no-longer-available/" target="_blank" rel="noopener noreferrer"><strong>A2: Metadata should be accessible even when the data is no longer available</strong></a></td><td>✅</td><td>We keep metapage definitions around <a href="https://docs.metapage.io/blog/deep-time-data-expiration" target="_blank" rel="noopener noreferrer">forever if published</a>, which contains the metadata.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/" target="_blank" rel="noopener noreferrer"><strong>I1: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</strong></a></td><td>✅</td><td>The resource metadata (<a href="https://docs.metapage.io/docs/metapage-json" target="_blank" rel="noopener noreferrer">metapage JSON definitions</a>) are in a simple JSON format, with descriptions and types in an <a href="https://www.npmjs.com/package/@metapages/metapage" target="_blank" rel="noopener noreferrer">open source published package</a></td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/" target="_blank" rel="noopener noreferrer"><strong>I2: (Meta)data use vocabularies that follow the FAIR principles</strong></a></td><td>Not applicable</td><td>Metapage metadata currently does not use any vocabularies that require identifiers</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/" target="_blank" rel="noopener noreferrer"><strong>I3: (Meta)data include qualified references to other (meta)data</strong></a></td><td>✅&nbsp;with caveats</td><td>This applies to data, however metapages is about code and compute connecting data. We <a href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss this here</a>. For metapage resources, we link to other internal resources and store provenance and history</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/" target="_blank" rel="noopener noreferrer"><strong>R1: (Meta)data are richly described with a plurality of accurate and relevant attributes</strong></a></td><td>Not applicable</td><td>This is strictly about generated or experimental data, which is what metapages operate on, but do not themselves generate.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/" target="_blank" rel="noopener noreferrer"><strong>R1.1: (Meta)data are released with a clear and accessible data usage license</strong></a></td><td>🏗️&nbsp;<a href="https://github.com/orgs/metapages/projects/1?pane=issue&amp;itemId=97032431&amp;issue=metapages%7Cdocs.metapage.io%7C15" target="_blank" rel="noopener noreferrer">On our roadmap</a></td><td>We plan to implement simple and transparent attachments of licenses to user created workflows</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/" target="_blank" rel="noopener noreferrer"><strong>R1.2: (Meta)data are associated with detailed provenance</strong></a></td><td>✅</td><td>Copied metapages store the origin metapage, and resources contain the owner, creation date, etc</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/" target="_blank" rel="noopener noreferrer"><strong>R1.3: (Meta)data meet domain-relevant community standards</strong></a></td><td>👀&nbsp;Not <em>yet</em> applicable</td><td>There are currently no relevant community standards, we hope to establish one</td></tr></tbody></table>
-<p>The goal of the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> is to</p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="192018579bb5807e80c9d56f09ed6f40">FAIR principle alignment<a href="https://docs.metapage.io/blog/fair-principles#192018579bb5807e80c9d56f09ed6f40" class="hash-link" aria-label="Direct link to FAIR principle alignment" title="Direct link to FAIR principle alignment" translate="no">​</a></h2>
+<table><thead><tr><th>FAIR Principle</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/" target="_blank" rel="noopener noreferrer" class=""><strong>F1: (Meta) data are assigned globally unique and persistent identifiers</strong></a></td><td>✅</td><td>Metapages and metaframes get globally unique and persistent unique ids in the URLs. E.g. <a href="https://metapage.io/dion/drug-discovery-ab59f026e2094069ab4aea83a2c30797" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/dion/ab59f026e2094069ab4aea83a2c30797</a>. See <a href="https://docs.metapage.io/docs/url-structure" target="_blank" rel="noopener noreferrer" class="">here for URL structure</a></td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/" target="_blank" rel="noopener noreferrer" class=""> <strong>F2: Data are described with rich metadata</strong></a></td><td>✅</td><td>Metapage resources include name, description, authors, tags, dates, provenance (which metapage this was cloned from), in a simple JSON format (see <a href="https://metapage.io/dion/drug-discovery-ab59f026e2094069ab4aea83a2c30797/metapage.json" target="_blank" rel="noopener noreferrer" class="">this example</a>). The metapage workflow components include similar metadata, and all code and embedded data can be machine inspected. We will add any metadata that we have overlooked that researchers could use.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f3-metadata-clearly-explicitly-include-identifier-data-describe/" target="_blank" rel="noopener noreferrer" class=""><strong>F3: Metadata clearly and explicitly include the identifier of the data they describe</strong></a></td><td>🏗️&nbsp;<a href="https://github.com/orgs/metapages/projects/1?pane=issue&amp;itemId=97035755&amp;issue=metapages%7Cdocs.metapage.io%7C16" target="_blank" rel="noopener noreferrer" class="">On our roadmap</a></td><td>Although the URL contains the identifier, currently the metadata does not also have it embedded.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/" target="_blank" rel="noopener noreferrer" class=""><strong>F4: (Meta)data are registered or indexed in a searchable resource</strong></a></td><td>✅</td><td>All metadata is indexed immediately and available for search-as-you-type!</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/metadata-retrievable-identifier-standardised-communication-protocol/" target="_blank" rel="noopener noreferrer" class=""><strong>A1: (Meta)data are retrievable by their identifier using a standardised communication protocol</strong></a></td><td>✅</td><td>Metapages are workflows that live in the browser, all communication is via over standard HTTPS</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/" target="_blank" rel="noopener noreferrer" class=""><strong>A1.1: The protocol is open, free and universally implementable</strong></a></td><td>✅</td><td>See above</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a1-2-protocol-allows-authentication-authorisation-required/" target="_blank" rel="noopener noreferrer" class=""><strong>A1.2: The protocol allows for an authentication and authorisation procedure where necessary</strong></a></td><td>✅</td><td>Our resources have a layered permissions model, allowing public, private, per user, per group, and  sharing, where authentication is then required for non-public resources.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/a2-metadata-accessible-even-data-no-longer-available/" target="_blank" rel="noopener noreferrer" class=""><strong>A2: Metadata should be accessible even when the data is no longer available</strong></a></td><td>✅</td><td>We keep metapage definitions around <a href="https://docs.metapage.io/blog/deep-time-data-expiration" target="_blank" rel="noopener noreferrer" class="">forever if published</a>, which contains the metadata.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/" target="_blank" rel="noopener noreferrer" class=""><strong>I1: (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</strong></a></td><td>✅</td><td>The resource metadata (<a href="https://docs.metapage.io/docs/metapage-json" target="_blank" rel="noopener noreferrer" class="">metapage JSON definitions</a>) are in a simple JSON format, with descriptions and types in an <a href="https://www.npmjs.com/package/@metapages/metapage" target="_blank" rel="noopener noreferrer" class="">open source published package</a></td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/" target="_blank" rel="noopener noreferrer" class=""><strong>I2: (Meta)data use vocabularies that follow the FAIR principles</strong></a></td><td>Not applicable</td><td>Metapage metadata currently does not use any vocabularies that require identifiers</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/" target="_blank" rel="noopener noreferrer" class=""><strong>I3: (Meta)data include qualified references to other (meta)data</strong></a></td><td>✅&nbsp;with caveats</td><td>This applies to data, however metapages is about code and compute connecting data. We <a class="" href="https://docs.metapage.io/blog/fair-data-what-about-compute">discuss this here</a>. For metapage resources, we link to other internal resources and store provenance and history</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/" target="_blank" rel="noopener noreferrer" class=""><strong>R1: (Meta)data are richly described with a plurality of accurate and relevant attributes</strong></a></td><td>Not applicable</td><td>This is strictly about generated or experimental data, which is what metapages operate on, but do not themselves generate.</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/" target="_blank" rel="noopener noreferrer" class=""><strong>R1.1: (Meta)data are released with a clear and accessible data usage license</strong></a></td><td>🏗️&nbsp;<a href="https://github.com/orgs/metapages/projects/1?pane=issue&amp;itemId=97032431&amp;issue=metapages%7Cdocs.metapage.io%7C15" target="_blank" rel="noopener noreferrer" class="">On our roadmap</a></td><td>We plan to implement simple and transparent attachments of licenses to user created workflows</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/" target="_blank" rel="noopener noreferrer" class=""><strong>R1.2: (Meta)data are associated with detailed provenance</strong></a></td><td>✅</td><td>Copied metapages store the origin metapage, and resources contain the owner, creation date, etc</td></tr><tr><td><a href="https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/" target="_blank" rel="noopener noreferrer" class=""><strong>R1.3: (Meta)data meet domain-relevant community standards</strong></a></td><td>👀&nbsp;Not <em>yet</em> applicable</td><td>There are currently no relevant community standards, we hope to establish one</td></tr></tbody></table>
+<p>The goal of the <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer" class="">FAIR principles</a> is to</p>
 <blockquote>
 <p>improve the <strong>F</strong>indability, <strong>A</strong>ccessibility, <strong>I</strong>nteroperability, and <strong>R</strong>euse of digital assets.</p>
 </blockquote>
@@ -535,14 +524,14 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/posi-principles"/>
         <updated>2025-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The POSI principles are a set of goals to promote open scholarly infrastructure that guide the heart and direction of the metapage platform. Some aspects specific to our organization:]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener noreferrer">The POSI principles</a> are a set of goals to promote open scholarly infrastructure that guide the heart and direction of the metapage platform. Some aspects specific to our organization:</p>
+        <content type="html"><![CDATA[<p><a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener noreferrer" class="">The POSI principles</a> are a set of goals to promote open scholarly infrastructure that guide the heart and direction of the metapage platform. Some aspects specific to our organization:</p>
 <!-- -->
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580469aedc90c74f46268"><strong>Governance: the metapage platform will seek to be a worker owned enterprise:</strong><a href="https://docs.metapage.io/blog/posi-principles#193018579bb580469aedc90c74f46268" class="hash-link" aria-label="Direct link to 193018579bb580469aedc90c74f46268" title="Direct link to 193018579bb580469aedc90c74f46268">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb580469aedc90c74f46268"><strong>Governance: the metapage platform will seek to be a worker owned enterprise:</strong><a href="https://docs.metapage.io/blog/posi-principles#193018579bb580469aedc90c74f46268" class="hash-link" aria-label="Direct link to 193018579bb580469aedc90c74f46268" title="Direct link to 193018579bb580469aedc90c74f46268" translate="no">​</a></h3>
 <p>We aim to have transparent governance, with input and visibility from our users. The goal is to eventually convert the current LLC into a worker owned cooperative, or similar structure. A cooperative structure has the best chance of long-term survival and durability, which is one of our core values: users workflows will <em>always</em> run.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58016884bc00ca48bcc22">Sustainability: the metapage organization aims for financial growth<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58016884bc00ca48bcc22" class="hash-link" aria-label="Direct link to Sustainability: the metapage organization aims for financial growth" title="Direct link to Sustainability: the metapage organization aims for financial growth">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb58016884bc00ca48bcc22">Sustainability: the metapage organization aims for financial growth<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58016884bc00ca48bcc22" class="hash-link" aria-label="Direct link to Sustainability: the metapage organization aims for financial growth" title="Direct link to Sustainability: the metapage organization aims for financial growth" translate="no">​</a></h3>
 <p>Based on services, not data or compute.</p>
 <p>We specifically store data at cost, and provide computation resources, also at cost. We aim to make compute resources a commodity, so will never charge a computation “value add” beyond what it takes us to service scalable cloud infrastructure.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58038baade8dae8f4d2fe">Insurance: metapage resources (workflows) will always run, even if the organization is wound down<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58038baade8dae8f4d2fe" class="hash-link" aria-label="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down" title="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb58038baade8dae8f4d2fe">Insurance: metapage resources (workflows) will always run, even if the organization is wound down<a href="https://docs.metapage.io/blog/posi-principles#193018579bb58038baade8dae8f4d2fe" class="hash-link" aria-label="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down" title="Direct link to Insurance: metapage resources (workflows) will always run, even if the organization is wound down" translate="no">​</a></h3>
 <p>We will save user data as long as there are resources, and will enable users to take their workflows with them, in their entirety, and run them simply with a public, open-source, static browser (that users can also take and fork).</p>
 <hr>]]></content>
         <author>
@@ -557,17 +546,17 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/workflows-forever"/>
         <updated>2025-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Regardless of what happens to individuals or organizations, your workflows will run]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="195018579bb5801ca9c6f8375fb3808d">Regardless of what happens to individuals or organizations, your workflows will run<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb5801ca9c6f8375fb3808d" class="hash-link" aria-label="Direct link to Regardless of what happens to individuals or organizations, your workflows will run" title="Direct link to Regardless of what happens to individuals or organizations, your workflows will run">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="195018579bb5801ca9c6f8375fb3808d">Regardless of what happens to individuals or organizations, your workflows will run<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb5801ca9c6f8375fb3808d" class="hash-link" aria-label="Direct link to Regardless of what happens to individuals or organizations, your workflows will run" title="Direct link to Regardless of what happens to individuals or organizations, your workflows will run" translate="no">​</a></h2>
 <p>Metapage workflows require three things to run:</p>
 <ol>
-<li>A website serving the <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer">standalone metapage app</a></li>
-<li>A website serving the <a href="https://container.mtfm.io/" target="_blank" rel="noopener noreferrer">metaframe container client</a></li>
-<li>A <a href="https://github.com/metapages/compute-queues/releases/" target="_blank" rel="noopener noreferrer">metaframe container worker agent</a> running locally connecting to 2.</li>
+<li class="">A website serving the <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer" class="">standalone metapage app</a></li>
+<li class="">A website serving the <a href="https://container.mtfm.io/" target="_blank" rel="noopener noreferrer" class="">metaframe container client</a></li>
+<li class="">A <a href="https://github.com/metapages/compute-queues/releases/" target="_blank" rel="noopener noreferrer" class="">metaframe container worker agent</a> running locally connecting to 2.</li>
 </ol>
 <!-- -->
-<p>Currently 1. is the main <a href="http://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> app. If the organization is no longer functional, we will wind down and convert the domain metapage.io into the standalone app <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer">open-sourced here</a>.</p>
+<p>Currently 1. is the main <a href="http://metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapage.io</a> app. If the organization is no longer functional, we will wind down and convert the domain metapage.io into the standalone app <a href="https://github.com/metapages/archive.metapage.io" target="_blank" rel="noopener noreferrer" class="">open-sourced here</a>.</p>
 <p>You will be able to simply paste your workflows, or include the link to the definition in the URL, and the definition will be loaded.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="195018579bb58097bdadcc2bd6afa2d2">Immutable archived metapages are already a reality<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb58097bdadcc2bd6afa2d2" class="hash-link" aria-label="Direct link to Immutable archived metapages are already a reality" title="Direct link to Immutable archived metapages are already a reality">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="195018579bb58097bdadcc2bd6afa2d2">Immutable archived metapages are already a reality<a href="https://docs.metapage.io/blog/workflows-forever#195018579bb58097bdadcc2bd6afa2d2" class="hash-link" aria-label="Direct link to Immutable archived metapages are already a reality" title="Direct link to Immutable archived metapages are already a reality" translate="no">​</a></h2>
 <p>When a metapage is published, we store it in an immutable database that we will be available for the long term. We aim to make this archive part of a public record, with a commitment to make the public resources always searchable and available.</p>
 <p>This is an ongoing effort. Contributions and ideas welcome.</p>]]></content>
         <author>
@@ -583,9 +572,9 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <updated>2025-02-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb5802398b9caeb74604eb8"><a href="https://docs.metapage.io/blog/competition-1-2">Round 2</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb5802398b9caeb74604eb8" class="hash-link" aria-label="Direct link to 1a0018579bb5802398b9caeb74604eb8" title="Direct link to 1a0018579bb5802398b9caeb74604eb8">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a0018579bb5802398b9caeb74604eb8"><a class="" href="https://docs.metapage.io/blog/competition-1-2">Round 2</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb5802398b9caeb74604eb8" class="hash-link" aria-label="Direct link to 1a0018579bb5802398b9caeb74604eb8" title="Direct link to 1a0018579bb5802398b9caeb74604eb8" translate="no">​</a></h2>
 <p>Underway!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb580d494dad167127f58c9"><a href="https://docs.metapage.io/blog/competition-1-1">Round 1</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb580d494dad167127f58c9" class="hash-link" aria-label="Direct link to 1a0018579bb580d494dad167127f58c9" title="Direct link to 1a0018579bb580d494dad167127f58c9">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a0018579bb580d494dad167127f58c9"><a class="" href="https://docs.metapage.io/blog/competition-1-1">Round 1</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb580d494dad167127f58c9" class="hash-link" aria-label="Direct link to 1a0018579bb580d494dad167127f58c9" title="Direct link to 1a0018579bb580d494dad167127f58c9" translate="no">​</a></h2>
 <p>2025-02-20</p>
 <p>David Lee won the first round with this visualization:</p>
 <iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
@@ -604,82 +593,82 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/competition-1.19201857-9bb5-80e7-af89-ce98201f24b7-cfc68a701837de589f1b5fa41f840825.png" width="2794" height="680" class="img_ev3q"></p>
-<p>🚀 <strong>Welcome to the first</strong> <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer"><strong>Metapages</strong></a> <strong>Weekly Science Challenge!</strong></p>
+<p>🚀 <strong>Welcome to the first</strong> <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class=""><strong>Metapages</strong></a> <strong>Weekly Science Challenge!</strong></p>
 <p>We're excited to launch our first weekly (in a series) challenge focused on creating engaging, interactive scientific visualizations. For this first challenge, we offer using classic datasets.</p>
 <p>The goal is to expose this open science platform to users, showcasing it’s powerful browser-based computation and visualization capabilities and learning what users can create with it.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ef5d646f323246d6bd79e7174d407ca2">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1#ef5d646f323246d6bd79e7174d407ca2" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge">​</a></h3>
-<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> platform, create an interactive scientific visualization workflow using one of three classic datasets. Your creation should combine compelling visual storytelling with meaningful user interaction to reveal insights within the data.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b3492816d7d646a5b68816fecb7eb883">📊 Dataset Options<a href="https://docs.metapage.io/blog/competition-1#b3492816d7d646a5b68816fecb7eb883" class="hash-link" aria-label="Direct link to 📊 Dataset Options" title="Direct link to 📊 Dataset Options">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="ef5d646f323246d6bd79e7174d407ca2">🎯 The Challenge<a href="https://docs.metapage.io/blog/competition-1#ef5d646f323246d6bd79e7174d407ca2" class="hash-link" aria-label="Direct link to 🎯 The Challenge" title="Direct link to 🎯 The Challenge" translate="no">​</a></h3>
+<p>Using the <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapage.io</a> platform, create an interactive scientific visualization workflow using one of three classic datasets. Your creation should combine compelling visual storytelling with meaningful user interaction to reveal insights within the data.</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="b3492816d7d646a5b68816fecb7eb883">📊 Dataset Options<a href="https://docs.metapage.io/blog/competition-1#b3492816d7d646a5b68816fecb7eb883" class="hash-link" aria-label="Direct link to 📊 Dataset Options" title="Direct link to 📊 Dataset Options" translate="no">​</a></h3>
 <p>Choose <strong>one</strong> of the following classic datasets:</p>
 <ol>
-<li><strong>Palmer Penguins Dataset</strong>
+<li class=""><strong>Palmer Penguins Dataset</strong>
 <ul>
-<li>Contains measurements for three penguin species</li>
-<li>Features: body mass, flipper length, bill dimensions, and more</li>
-<li>Perfect for exploring relationships between physical characteristics</li>
-<li>[Download Link: <a href="https://archive.ics.uci.edu/dataset/690/palmer+penguins-3" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/690/palmer+penguins-3</a>]</li>
+<li class="">Contains measurements for three penguin species</li>
+<li class="">Features: body mass, flipper length, bill dimensions, and more</li>
+<li class="">Perfect for exploring relationships between physical characteristics</li>
+<li class="">[Download Link: <a href="https://archive.ics.uci.edu/dataset/690/palmer+penguins-3" target="_blank" rel="noopener noreferrer" class="">https://archive.ics.uci.edu/dataset/690/palmer+penguins-3</a>]</li>
 </ul>
 </li>
-<li><strong>Restaurant Tips Dataset</strong>
+<li class=""><strong>Restaurant Tips Dataset</strong>
 <ul>
-<li>Real-world tipping behavior in restaurants</li>
-<li>Features: total bill, tip amount, day of week, time of day, party size</li>
-<li>Perfect for exploring customer behavior patterns and service economics</li>
-<li>Available via seaborn.load_dataset('tips')</li>
+<li class="">Real-world tipping behavior in restaurants</li>
+<li class="">Features: total bill, tip amount, day of week, time of day, party size</li>
+<li class="">Perfect for exploring customer behavior patterns and service economics</li>
+<li class="">Available via seaborn.load_dataset('tips')</li>
 </ul>
 </li>
-<li><strong>Air Quality Dataset</strong>
+<li class=""><strong>Air Quality Dataset</strong>
 <ul>
-<li>Hourly measurements of air pollutants in an Italian city</li>
-<li>Features: CO, NO2, temperature, humidity, and other pollutants</li>
-<li>Perfect for temporal analysis and environmental pattern discovery</li>
-<li>[Download Link: <a href="https://archive.ics.uci.edu/dataset/360/air+quality" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/360/air+quality</a>]</li>
+<li class="">Hourly measurements of air pollutants in an Italian city</li>
+<li class="">Features: CO, NO2, temperature, humidity, and other pollutants</li>
+<li class="">Perfect for temporal analysis and environmental pattern discovery</li>
+<li class="">[Download Link: <a href="https://archive.ics.uci.edu/dataset/360/air+quality" target="_blank" rel="noopener noreferrer" class="">https://archive.ics.uci.edu/dataset/360/air+quality</a>]</li>
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ce9bc2a67d384e359126069ecd8c0c21">📋 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1#ce9bc2a67d384e359126069ecd8c0c21" class="hash-link" aria-label="Direct link to 📋 Evaluation Criteria" title="Direct link to 📋 Evaluation Criteria">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="ce9bc2a67d384e359126069ecd8c0c21">📋 Evaluation Criteria<a href="https://docs.metapage.io/blog/competition-1#ce9bc2a67d384e359126069ecd8c0c21" class="hash-link" aria-label="Direct link to 📋 Evaluation Criteria" title="Direct link to 📋 Evaluation Criteria" translate="no">​</a></h3>
 <p>Submissions will be judged on:</p>
 <ul>
-<li><strong>Technical Implementation</strong></li>
-<li><strong>Visual Design</strong></li>
-<li><strong>Scientific Insight</strong></li>
-<li><strong>Creativity</strong></li>
+<li class=""><strong>Technical Implementation</strong></li>
+<li class=""><strong>Visual Design</strong></li>
+<li class=""><strong>Scientific Insight</strong></li>
+<li class=""><strong>Creativity</strong></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fbb02186a0b749e091348e56d5b342ff">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1#fbb02186a0b749e091348e56d5b342ff" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="fbb02186a0b749e091348e56d5b342ff">🏆 Prizes<a href="https://docs.metapage.io/blog/competition-1#fbb02186a0b749e091348e56d5b342ff" class="hash-link" aria-label="Direct link to 🏆 Prizes" title="Direct link to 🏆 Prizes" translate="no">​</a></h3>
 <ul>
-<li><strong>First Place:</strong>
+<li class=""><strong>First Place:</strong>
 <ul>
-<li>$100 Amazon Gift Card</li>
-<li>Featured spotlight on <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">Metapages</a> homepage</li>
-<li>Recognition in Metapages community showcase</li>
+<li class="">$100 Amazon Gift Card</li>
+<li class="">Featured spotlight on <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">Metapages</a> homepage</li>
+<li class="">Recognition in Metapages community showcase</li>
 </ul>
 </li>
-<li><strong>Runner Up:</strong>
+<li class=""><strong>Runner Up:</strong>
 <ul>
-<li>$50 Amazon Gift Card</li>
-<li>Recognition in Metapages community showcase</li>
+<li class="">$50 Amazon Gift Card</li>
+<li class="">Recognition in Metapages community showcase</li>
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="89dd08a1e8874d6dbb23414cb6de29bf">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1#89dd08a1e8874d6dbb23414cb6de29bf" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="89dd08a1e8874d6dbb23414cb6de29bf">📅 Timeline<a href="https://docs.metapage.io/blog/competition-1#89dd08a1e8874d6dbb23414cb6de29bf" class="hash-link" aria-label="Direct link to 📅 Timeline" title="Direct link to 📅 Timeline" translate="no">​</a></h3>
 <ul>
-<li><strong>Start Date:</strong> Thursday, February 6, 2025</li>
-<li><strong>Submission Deadline:</strong> Wednesday, February 12, 2025 (11:59 PM GMT)</li>
-<li><strong>Winners Announced:</strong> Sunday, February 16, 2025</li>
+<li class=""><strong>Start Date:</strong> Thursday, February 6, 2025</li>
+<li class=""><strong>Submission Deadline:</strong> Wednesday, February 12, 2025 (11:59 PM GMT)</li>
+<li class=""><strong>Winners Announced:</strong> Sunday, February 16, 2025</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4a94093c81624970891c7bddc258f07a">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1#4a94093c81624970891c7bddc258f07a" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="4a94093c81624970891c7bddc258f07a">📫 How to Submit<a href="https://docs.metapage.io/blog/competition-1#4a94093c81624970891c7bddc258f07a" class="hash-link" aria-label="Direct link to 📫 How to Submit" title="Direct link to 📫 How to Submit" translate="no">​</a></h3>
 <ol>
-<li>Create your workflow on the metapage platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">https://metapage.io</a></li>
-<li>When finished, make sure it's publicly accessible</li>
-<li>Submit via the competition to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer">competition@metapage.io</a> including:<!-- -->
+<li class="">Create your workflow on the metapage platform: <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">https://metapage.io</a></li>
+<li class="">When finished, make sure it's publicly accessible</li>
+<li class="">Submit via the competition to <a href="mailto:competition@metapage.io" target="_blank" rel="noopener noreferrer" class="">competition@metapage.io</a> including:<!-- -->
 <ul>
-<li>The public URL to your workflow</li>
-<li>Optional:<!-- -->
+<li class="">The public URL to your workflow</li>
+<li class="">Optional:<!-- -->
 <ul>
-<li>Very brief description (max 300 words)<!-- -->
+<li class="">Very brief description (max 300 words)<!-- -->
 <ul>
-<li>If you want, a brief technical overview of implementation</li>
-<li>Any feedback about your experience with the platform</li>
+<li class="">If you want, a brief technical overview of implementation</li>
+<li class="">Any feedback about your experience with the platform</li>
 </ul>
 </li>
 </ul>
@@ -687,22 +676,22 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="41ba13566ae34a11ac87fa1fed39ecd2">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1#41ba13566ae34a11ac87fa1fed39ecd2" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started">​</a></h3>
-<p>Visit our <a href="https://docs.metapage.io/docs/getting-started" target="_blank" rel="noopener noreferrer">[Quick Start Guide]</a> for:</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="41ba13566ae34a11ac87fa1fed39ecd2">🚀 Getting Started<a href="https://docs.metapage.io/blog/competition-1#41ba13566ae34a11ac87fa1fed39ecd2" class="hash-link" aria-label="Direct link to 🚀 Getting Started" title="Direct link to 🚀 Getting Started" translate="no">​</a></h3>
+<p>Visit our <a href="https://docs.metapage.io/docs/getting-started" target="_blank" rel="noopener noreferrer" class="">[Quick Start Guide]</a> for:</p>
 <ul>
-<li>Basic workflow templates</li>
-<li>Dataset loading examples</li>
-<li>Component communication tutorials</li>
-<li>Visualization best practices</li>
+<li class="">Basic workflow templates</li>
+<li class="">Dataset loading examples</li>
+<li class="">Component communication tutorials</li>
+<li class="">Visualization best practices</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="f40a0eaebc0948bca781b7b36faaaf2a">🛠️ Important Note<a href="https://docs.metapage.io/blog/competition-1#f40a0eaebc0948bca781b7b36faaaf2a" class="hash-link" aria-label="Direct link to 🛠️ Important Note" title="Direct link to 🛠️ Important Note">​</a></h3>
-<p><a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">metapage.io</a> is an evolving platform currently in alpha. While you might encounter quirks along the way, we're committed to helping you succeed! If you run into any issues or have questions, please reach out to <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer">support@metapage.io</a> - your feedback and questions help us improve the platform for everyone.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="576f6c81d9894784855dbdcaa0691582">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1#576f6c81d9894784855dbdcaa0691582" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?">​</a></h3>
-<p>Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> community for:</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="f40a0eaebc0948bca781b7b36faaaf2a">🛠️ Important Note<a href="https://docs.metapage.io/blog/competition-1#f40a0eaebc0948bca781b7b36faaaf2a" class="hash-link" aria-label="Direct link to 🛠️ Important Note" title="Direct link to 🛠️ Important Note" translate="no">​</a></h3>
+<p><a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">metapage.io</a> is an evolving platform currently in alpha. While you might encounter quirks along the way, we're committed to helping you succeed! If you run into any issues or have questions, please reach out to <a href="mailto:support@metapage.io" target="_blank" rel="noopener noreferrer" class="">support@metapage.io</a> - your feedback and questions help us improve the platform for everyone.</p>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="576f6c81d9894784855dbdcaa0691582">❓ Questions?<a href="https://docs.metapage.io/blog/competition-1#576f6c81d9894784855dbdcaa0691582" class="hash-link" aria-label="Direct link to ❓ Questions?" title="Direct link to ❓ Questions?" translate="no">​</a></h3>
+<p>Join our <a href="https://discord.gg/MVUsXgg5" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://bsky.app/profile/metapages.bsky.social" target="_blank" rel="noopener noreferrer" class="">Bluesky</a> community for:</p>
 <ul>
-<li>Technical support</li>
-<li>Dataset questions</li>
-<li>General discussion</li>
+<li class="">Technical support</li>
+<li class="">Dataset questions</li>
+<li class="">General discussion</li>
 </ul>
 <hr>
 <p>Good luck to all participants! We're excited to see your creative visualizations and scientific insights! 🎉</p>]]></content>
@@ -720,59 +709,59 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <summary type="html"><![CDATA[It’s one thing to have access to data, but it’s another thing to have code and also a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.]]></summary>
         <content type="html"><![CDATA[<p>It’s one thing to have access to data, but it’s another thing to have code <em>and also</em> a reliable, reproducible way to run the code that operates on the data. In other words, it’s not enough to just serve data, we also need principles around HOW we create compute environments that process the data.</p>
 <!-- -->
-<p>Data often doesn’t live on it’s own, it often requires extra tooling. For example, The Protein Data Bank <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">https://www.rcsb.org/</a>: it serves various protein structures and complexes, but also has multiple ways to display and interact with the 3D structures:</p>
+<p>Data often doesn’t live on it’s own, it often requires extra tooling. For example, The Protein Data Bank <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer" class="">https://www.rcsb.org/</a>: it serves various protein structures and complexes, but also has multiple ways to display and interact with the 3D structures:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-806f-bdf2-e7f51bf8b2c1-825f61188237a5872f9ae58c4da2d5dd.png" width="469" height="341" class="img_ev3q"></p>
 <p>Simply having a database serving files is not enough. Researchers need tools integrated with with data to be able to view, summarize, search, etc.</p>
 <h1>Towards principles for FAIR-aligned computation</h1>
-<p>The <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
+<p>The <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener noreferrer" class="">FAIR principles</a> are mostly about data, and accessing data. What’s missing is computation, or specifically, how the data is processed.</p>
 <p>Ideally given some definition, a user can automatically reproduce and use a compute environment and run some code in that environment, operating on (FAIR 😀) data.</p>
 <p>Since this is compute not data, the principles are overlapping, yet different:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb58033b274fc6868f09851"><strong>Findable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb58033b274fc6868f09851" class="hash-link" aria-label="Direct link to 193018579bb58033b274fc6868f09851" title="Direct link to 193018579bb58033b274fc6868f09851">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb58033b274fc6868f09851"><strong>Findable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb58033b274fc6868f09851" class="hash-link" aria-label="Direct link to 193018579bb58033b274fc6868f09851" title="Direct link to 193018579bb58033b274fc6868f09851" translate="no">​</a></h3>
 <p>This property is not as important as for data, because compute environments are inherently ephemeral. The underlying libraries and code to build the environments must be accessible.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb5806d8b11ecbac488a97b"><strong>Accessible</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb5806d8b11ecbac488a97b" class="hash-link" aria-label="Direct link to 193018579bb5806d8b11ecbac488a97b" title="Direct link to 193018579bb5806d8b11ecbac488a97b">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb5806d8b11ecbac488a97b"><strong>Accessible</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb5806d8b11ecbac488a97b" class="hash-link" aria-label="Direct link to 193018579bb5806d8b11ecbac488a97b" title="Direct link to 193018579bb5806d8b11ecbac488a97b" translate="no">​</a></h3>
 <p>Code and tools to build and run the compute environments must be accessible.</p>
 <ul>
-<li><strong>A1</strong> The metadata describing how to build the environment must suffice for the majority of tools and systems used to run the environments.</li>
-<li><strong>A2</strong> The tools used to build the environment must be <strong>open, free, and universally implementable</strong> (e.g., Git, DockerHub, OCI registries).</li>
-<li><strong>A3.</strong> <strong>Metadata remains accessible</strong> even if the code or environment is deprecated, providing references to alternative implementations or archived versions.</li>
-<li><strong>A4.</strong> Where possible, compute environments are not prohibitive in resources to build unless specifically requirements dictate that necessity.</li>
+<li class=""><strong>A1</strong> The metadata describing how to build the environment must suffice for the majority of tools and systems used to run the environments.</li>
+<li class=""><strong>A2</strong> The tools used to build the environment must be <strong>open, free, and universally implementable</strong> (e.g., Git, DockerHub, OCI registries).</li>
+<li class=""><strong>A3.</strong> <strong>Metadata remains accessible</strong> even if the code or environment is deprecated, providing references to alternative implementations or archived versions.</li>
+<li class=""><strong>A4.</strong> Where possible, compute environments are not prohibitive in resources to build unless specifically requirements dictate that necessity.</li>
 </ul>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb580d78c45f459b7311267"><strong>Interoperable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb580d78c45f459b7311267" class="hash-link" aria-label="Direct link to 193018579bb580d78c45f459b7311267" title="Direct link to 193018579bb580d78c45f459b7311267">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb580d78c45f459b7311267"><strong>Interoperable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb580d78c45f459b7311267" class="hash-link" aria-label="Direct link to 193018579bb580d78c45f459b7311267" title="Direct link to 193018579bb580d78c45f459b7311267" translate="no">​</a></h3>
 <p>Code and compute environments should work across platforms and integrate seamlessly into workflows.</p>
 <ul>
-<li><strong>I1.</strong> The compute environments described should be machine readable, and convertible into compatible platforms (e.g. <a href="https://podman-desktop.io/docs/migrating-from-docker/managing-docker-compatibility" target="_blank" rel="noopener noreferrer">docker and podman</a>)</li>
-<li><strong>I2.</strong> Code running in an environment build by one platform should run the same as an environment built with a different platform.</li>
+<li class=""><strong>I1.</strong> The compute environments described should be machine readable, and convertible into compatible platforms (e.g. <a href="https://podman-desktop.io/docs/migrating-from-docker/managing-docker-compatibility" target="_blank" rel="noopener noreferrer" class="">docker and podman</a>)</li>
+<li class=""><strong>I2.</strong> Code running in an environment build by one platform should run the same as an environment built with a different platform.</li>
 </ul>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="193018579bb5807cb410fa8a20dddd2c"><strong>Reusable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb5807cb410fa8a20dddd2c" class="hash-link" aria-label="Direct link to 193018579bb5807cb410fa8a20dddd2c" title="Direct link to 193018579bb5807cb410fa8a20dddd2c">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="193018579bb5807cb410fa8a20dddd2c"><strong>Reusable</strong><a href="https://docs.metapage.io/blog/fair-data-what-about-compute#193018579bb5807cb410fa8a20dddd2c" class="hash-link" aria-label="Direct link to 193018579bb5807cb410fa8a20dddd2c" title="Direct link to 193018579bb5807cb410fa8a20dddd2c" translate="no">​</a></h3>
 <p>Code and compute environments should be designed to be replicable and adaptable for future research.</p>
 <ul>
-<li><strong>R1.</strong> A compute environment running some code can be used for running different, but compatible code. Where possible, environments can be re-used for efficiency.</li>
+<li class=""><strong>R1.</strong> A compute environment running some code can be used for running different, but compatible code. Where possible, environments can be re-used for efficiency.</li>
 </ul>
 <h1>The metapage platform solution</h1>
-<p>The metapage organization and platform <a href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>, and we have developed an open source platform and API for representing docker containers and code as URLs:</p>
+<p>The metapage organization and platform <a class="" href="https://docs.metapage.io/blog/fair-principles">is guided by FAIR principles</a>, and we have developed an open source platform and API for representing docker containers and code as URLs:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/fair-data-what-about-compute.19301857-9bb5-80ec-9915-f915048ca263-ed97a3cf94bffedf7143cad05849420d.png" width="1233" height="372" class="img_ev3q"></p>
-<p><a href="https://docs.metapage.io/blog/url-configured-websites">We like URLs encoding state here!</a></p>
+<p><a class="" href="https://docs.metapage.io/blog/url-configured-websites">We like URLs encoding state here!</a></p>
 <p>The URL encodes the full definition of:</p>
 <ul>
-<li>The <code>Dockerfile</code>, or docker image</li>
-<li>Optionally a git repository for building the docker image</li>
-<li>Optionally scripts to mount into the container at runtime</li>
+<li class="">The <code>Dockerfile</code>, or docker image</li>
+<li class="">Optionally a git repository for building the docker image</li>
+<li class="">Optionally scripts to mount into the container at runtime</li>
 </ul>
 <p>We provide a worker agent the user runs on their own computer or cluster or workstation. The worker takes the docker image definition, and builds the image, then runs the code+data in the container environment. This browser client is actually a component, and can be connected to other browser components to exchange data.</p>
-<p>For a complete example showing a docker container running a ML workflow and producing visual output: <a href="https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668" target="_blank" rel="noopener noreferrer">https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="194018579bb580be8653efea408daf81">User experience<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb580be8653efea408daf81" class="hash-link" aria-label="Direct link to User experience" title="Direct link to User experience">​</a></h2>
+<p>For a complete example showing a docker container running a ML workflow and producing visual output: <a href="https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/dion/Python-ML-Workflow-385b95ab9cb04fa7a76df627b2bde668</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="194018579bb580be8653efea408daf81">User experience<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb580be8653efea408daf81" class="hash-link" aria-label="Direct link to User experience" title="Direct link to User experience" translate="no">​</a></h2>
 <p>As long as there is compute resources attached, users then do not have to manually install anything, or worry about their host system: the definition defined in the URL contains everything needed to reproduce the compute environment, and connectable from the browser.</p>
-<p>Users can then take existing compute environments, complete with code, and directly modify, copy, and share these environments, directly as you would any other URL, or via our <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer">index of components</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="194018579bb5806aae41ee7529a1f9cf">How it works<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb5806aae41ee7529a1f9cf" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
-<p><a href="https://docs.metapage.io/docs/containers" target="_blank" rel="noopener noreferrer">See here for detailed instructions</a></p>
+<p>Users can then take existing compute environments, complete with code, and directly modify, copy, and share these environments, directly as you would any other URL, or via our <a href="https://metapage.io/" target="_blank" rel="noopener noreferrer" class="">index of components</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="194018579bb5806aae41ee7529a1f9cf">How it works<a href="https://docs.metapage.io/blog/fair-data-what-about-compute#194018579bb5806aae41ee7529a1f9cf" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works" translate="no">​</a></h2>
+<p><a href="https://docs.metapage.io/docs/containers" target="_blank" rel="noopener noreferrer" class="">See here for detailed instructions</a></p>
 <p>We provide an open and open-source compute queue API layer, where any user can create their own secure queue, connect their computer, and run docker containers and code all defined in a single URL.</p>
 <p>The URL contains the <code>Dockerfile</code>  definition, or a publicly accessible docker image, optionally code, optionally a github repository to build from.</p>
 <p>This way, the mechanism to build a reproducible compute environment is simply a URL, where users simply add their own commodity compute resources (their laptop, workstation, cluster, almost anything that can run docker containers).</p>
 <p>If the user wanted to run their own complete system that is different, they can, because the definition of the compute environment is encoded into the URL, thus available for all.</p>
-]]></content>
+<div class="container_hPZg">Loading diagram...</div>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>hey@metapage.io</email>
@@ -785,37 +774,37 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <link href="https://docs.metapage.io/blog/competition-1-1"/>
         <updated>2025-02-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This competition is closed! Click here for the winner]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1a0018579bb5800e93a1e0717297692c">This competition is closed! <a href="https://docs.metapage.io/blog/community-showcase">Click here for the winner</a><a href="https://docs.metapage.io/blog/competition-1-1#1a0018579bb5800e93a1e0717297692c" class="hash-link" aria-label="Direct link to 1a0018579bb5800e93a1e0717297692c" title="Direct link to 1a0018579bb5800e93a1e0717297692c">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a0018579bb5800e93a1e0717297692c">This competition is closed! <a class="" href="https://docs.metapage.io/blog/community-showcase">Click here for the winner</a><a href="https://docs.metapage.io/blog/competition-1-1#1a0018579bb5800e93a1e0717297692c" class="hash-link" aria-label="Direct link to 1a0018579bb5800e93a1e0717297692c" title="Direct link to 1a0018579bb5800e93a1e0717297692c" translate="no">​</a></h2>
 <!-- -->
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58178a715f2bb8d10461d">🚀 <strong>Announcing the Metapages Weekly Science Challenges!</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58178a715f2bb8d10461d" class="hash-link" aria-label="Direct link to 192018579bb58178a715f2bb8d10461d" title="Direct link to 192018579bb58178a715f2bb8d10461d">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="192018579bb58178a715f2bb8d10461d">🚀 <strong>Announcing the Metapages Weekly Science Challenges!</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58178a715f2bb8d10461d" class="hash-link" aria-label="Direct link to 192018579bb58178a715f2bb8d10461d" title="Direct link to 192018579bb58178a715f2bb8d10461d" translate="no">​</a></h3>
 <p>Calling all scientists, data enthusiasts, and innovators! 🎉</p>
 <p>Over the next 10 weeks, we’re hosting a series of science-focused interactive challenges to showcase the incredible potential of Metapages. Each week, you’ll tackle a new topic, explore exciting datasets, and build workflows that engage and inform.</p>
 <p><strong>🧪 What’s the Goal?</strong></p>
 <p>Create a scientifically rigorous and visually stunning workflow using Metapages that combines interactivity, analysis, and visualization. Impress the judges, engage users, and win big!</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb5813a851bd18a873cbf0c"><strong>This Week’s Challenge:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb5813a851bd18a873cbf0c" class="hash-link" aria-label="Direct link to 192018579bb5813a851bd18a873cbf0c" title="Direct link to 192018579bb5813a851bd18a873cbf0c">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="192018579bb5813a851bd18a873cbf0c"><strong>This Week’s Challenge:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb5813a851bd18a873cbf0c" class="hash-link" aria-label="Direct link to 192018579bb5813a851bd18a873cbf0c" title="Direct link to 192018579bb5813a851bd18a873cbf0c" translate="no">​</a></h3>
 <p><strong>🌍 Topic:</strong> Climate Science Explorer</p>
 <p><strong>📊 Recommended Datasets:</strong></p>
 <ul>
-<li><a href="https://www.ncei.noaa.gov/access/monitoring/global-temperature-anomalies" target="_blank" rel="noopener noreferrer">Global Land and Ocean Temperature Index (NOAA)</a></li>
-<li><a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions" target="_blank" rel="noopener noreferrer">Global CO2 Emissions by Country (Our World in Data)</a></li>
-<li><a href="https://www.iea.org/reports/renewables-2021" target="_blank" rel="noopener noreferrer">Renewable Energy Generation (IEA)</a></li>
+<li class=""><a href="https://www.ncei.noaa.gov/access/monitoring/global-temperature-anomalies" target="_blank" rel="noopener noreferrer" class="">Global Land and Ocean Temperature Index (NOAA)</a></li>
+<li class=""><a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions" target="_blank" rel="noopener noreferrer" class="">Global CO2 Emissions by Country (Our World in Data)</a></li>
+<li class=""><a href="https://www.iea.org/reports/renewables-2021" target="_blank" rel="noopener noreferrer" class="">Renewable Energy Generation (IEA)</a></li>
 </ul>
 <p><strong>🎯 Your Mission:</strong></p>
 <p>Build an <strong>interactive tool</strong> that analyzes climate data, explores CO2 emissions and renewable energy adoption, and communicates actionable insights through clear visualizations.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58116b444fb68c372ea08"><strong>🏆 Prizes</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58116b444fb68c372ea08" class="hash-link" aria-label="Direct link to 192018579bb58116b444fb68c372ea08" title="Direct link to 192018579bb58116b444fb68c372ea08">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="192018579bb58116b444fb68c372ea08"><strong>🏆 Prizes</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58116b444fb68c372ea08" class="hash-link" aria-label="Direct link to 192018579bb58116b444fb68c372ea08" title="Direct link to 192018579bb58116b444fb68c372ea08" translate="no">​</a></h3>
 <ul>
-<li><strong>$100 Amazon gift card</strong>.</li>
-<li>Recognition on Metapages and social media.</li>
-<li>Premium access to Metapages features.</li>
+<li class=""><strong>$100 Amazon gift card</strong>.</li>
+<li class="">Recognition on Metapages and social media.</li>
+<li class="">Premium access to Metapages features.</li>
 </ul>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="192018579bb58159a906e6ec4d6ecb2d"><strong>📅 How to Participate:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58159a906e6ec4d6ecb2d" class="hash-link" aria-label="Direct link to 192018579bb58159a906e6ec4d6ecb2d" title="Direct link to 192018579bb58159a906e6ec4d6ecb2d">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_zFqj" id="192018579bb58159a906e6ec4d6ecb2d"><strong>📅 How to Participate:</strong><a href="https://docs.metapage.io/blog/competition-1-1#192018579bb58159a906e6ec4d6ecb2d" class="hash-link" aria-label="Direct link to 192018579bb58159a906e6ec4d6ecb2d" title="Direct link to 192018579bb58159a906e6ec4d6ecb2d" translate="no">​</a></h3>
 <ol>
-<li>Visit <a href="http://metapages.io/" target="_blank" rel="noopener noreferrer">metapages.io</a>.</li>
-<li>Build your workflow using Metapages, incorporating interactivity and analysis.</li>
-<li>Submit your entry as a public link by <strong>Sunday, 11:59 PM GMT</strong>.</li>
+<li class="">Visit <a href="http://metapages.io/" target="_blank" rel="noopener noreferrer" class="">metapages.io</a>.</li>
+<li class="">Build your workflow using Metapages, incorporating interactivity and analysis.</li>
+<li class="">Submit your entry as a public link by <strong>Sunday, 11:59 PM GMT</strong>.</li>
 </ol>
 <hr>
 <p>Don’t miss this chance to explore, innovate, and make an impact! 🌟</p>
@@ -847,12 +836,12 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <p>The 100 year span starts then anew.</p>
 <h1>Time machine schedule</h1>
 <ul>
-<li>All within the last minute</li>
-<li>Last hour: one per minute</li>
-<li>Last 24 hours: one per hour</li>
-<li>Last 7 days: one per day</li>
-<li>Last 30 days: one per week</li>
-<li>Last 12 months: one per month</li>
+<li class="">All within the last minute</li>
+<li class="">Last hour: one per minute</li>
+<li class="">Last 24 hours: one per hour</li>
+<li class="">Last 7 days: one per day</li>
+<li class="">Last 30 days: one per week</li>
+<li class="">Last 12 months: one per month</li>
 </ul>]]></content>
         <author>
             <name>Dion Whitehead</name>
@@ -869,9 +858,9 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <content type="html"><![CDATA[<p>Binder is a way to share Jupyter notebooks. That means all the advantages and disadvantages of Jupyter notebooks.</p>
 <!-- -->
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/comparison-with-other-tools-binder.e8ffa96c-e4d4-4f9d-8a26-05fe82e203d5-44d0749aebb0c2c29d6f1ec4b02115da.png" width="780" height="218" class="img_ev3q"></p>
-<p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a></p>
+<p><a href="https://mybinder.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer" class=""><em>Documentation</em></a></p>
 <blockquote>
-<p><a href="https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html" target="_blank" rel="noopener noreferrer">Binder</a> is meant for interactive and ephemeral interactive coding</p>
+<p><a href="https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html" target="_blank" rel="noopener noreferrer" class="">Binder</a> is meant for interactive and ephemeral interactive coding</p>
 </blockquote>
 <blockquote>
 <p>BinderHub is a kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories.</p>
@@ -908,15 +897,15 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
         <updated>2024-08-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
-<table><thead><tr><th></th><th>Metapages</th><th><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
+<table><thead><tr><th></th><th>Metapages</th><th><a class="" href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">Binder</a></th></tr></thead><tbody><tr><td>Any docker images</td><td>✅&nbsp;</td><td>🧩&nbsp;Only compatible with Jupyter Notebooks</td></tr><tr><td>Multiple connected compute</td><td>✅&nbsp;</td><td>❌&nbsp;Single compute node</td></tr><tr><td>Shareable</td><td>✅&nbsp;</td><td>✅&nbsp;</td></tr><tr><td>Build from a repo</td><td>🏗️</td><td>✅</td></tr><tr><td>Composable</td><td>✅</td><td>❌</td></tr><tr><td>Searchable Catalogue</td><td>✅</td><td>❌</td></tr><tr><td>Mix frontend visualization and backend compute</td><td>✅</td><td>🧩: only within the Jupyter environment</td></tr><tr><td>Use your own computer</td><td>✅</td><td>🧩: kubernetes only, but you can run the Jupyter notebooks on your own computer.</td></tr></tbody></table>
 <p>✅: Supported</p>
 <p>🧩: Partial</p>
 <p>❌: Not supported</p>
 <p>❓: Unknown</p>
 <p>🏗️: Planned to support</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="837061433fab4aca9bf6abb716f0d17f">Detailed Comparisons<a href="https://docs.metapage.io/blog/comparison-with-other-tools#837061433fab4aca9bf6abb716f0d17f" class="hash-link" aria-label="Direct link to Detailed Comparisons" title="Direct link to Detailed Comparisons">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_zFqj" id="837061433fab4aca9bf6abb716f0d17f">Detailed Comparisons<a href="https://docs.metapage.io/blog/comparison-with-other-tools#837061433fab4aca9bf6abb716f0d17f" class="hash-link" aria-label="Direct link to Detailed Comparisons" title="Direct link to Detailed Comparisons" translate="no">​</a></h2>
 <ul>
-<li><a href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">vs binder</a></li>
+<li class=""><a class="" href="https://docs.metapage.io/blog/comparison-with-other-tools-binder">vs binder</a></li>
 </ul>]]></content>
         <author>
             <name>Dion Whitehead</name>
