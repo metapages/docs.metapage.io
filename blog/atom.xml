@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-11-15T12:19:39.737Z</updated>
+    <updated>2025-11-15T13:01:36.454Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Boltzgen- Universal Binder Design as a web workflow]]></title>
         <id>https://docs.metapage.io/blog/boltzgen</id>
         <link href="https://docs.metapage.io/blog/boltzgen"/>
-        <updated>2025-11-15T12:19:39.737Z</updated>
+        <updated>2025-11-15T13:01:36.454Z</updated>
         <summary type="html"><![CDATA[BoltzGen is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
@@ -22,7 +22,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580f49352d8c3422fe0f1">Now an embeddable, shareable, editable web workflow<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580f49352d8c3422fe0f1" class="hash-link" aria-label="Direct link to Now an embeddable, shareable, editable web workflow" title="Direct link to Now an embeddable, shareable, editable web workflow" translate="no">​</a></h2>
 <p><a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a</a></p>
 <p>The embedded workflow below only shows a portion of the full workflow, click on the pencil icon on the right to see the <a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">full workflow</a></p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1929px;overflow:hidden" src="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a/embed?showTitle=true&amp;height=450px"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a/embed?showTitle=true&amp;height=450px"></iframe>
 <div class="video-container"><div style="width:100%;height:100%"></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580b690b6c9a5b31dd86e">What’s happening here?<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580b690b6c9a5b31dd86e" class="hash-link" aria-label="Direct link to What’s happening here?" title="Direct link to What’s happening here?" translate="no">​</a></h3>
 <p>Metapages are workflows (visualization and containers) built for the web, sharing and publishing. Boltzgen is a new AI model for generating molecular structures for binding, and we have containerized boltzgen in a web format.</p>
