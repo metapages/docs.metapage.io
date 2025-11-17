@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-11-17T06:53:17.654Z</updated>
+    <updated>2025-11-17T07:18:54.305Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Boltzgen- Universal Binder Design as a web workflow]]></title>
         <id>https://docs.metapage.io/blog/boltzgen</id>
         <link href="https://docs.metapage.io/blog/boltzgen"/>
-        <updated>2025-11-17T06:53:17.654Z</updated>
+        <updated>2025-11-17T07:18:54.305Z</updated>
         <summary type="html"><![CDATA[BoltzGen is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
