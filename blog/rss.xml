@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Tue, 18 Nov 2025 05:46:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2025 06:18:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Boltzgen- Universal Binder Design as a web workflow]]></title>
             <link>https://docs.metapage.io/blog/boltzgen</link>
             <guid>https://docs.metapage.io/blog/boltzgen</guid>
-            <pubDate>Tue, 18 Nov 2025 05:46:03 GMT</pubDate>
+            <pubDate>Tue, 18 Nov 2025 06:18:51 GMT</pubDate>
             <description><![CDATA[BoltzGen is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
