@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.metapage.io/blog</id>
     <title>Metapages Blog</title>
-    <updated>2025-11-19T16:18:54.204Z</updated>
+    <updated>2025-11-19T16:24:30.715Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.metapage.io/blog"/>
     <subtitle>Metapages Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Boltzgen- Universal Binder Design as a web workflow]]></title>
         <id>https://docs.metapage.io/blog/boltzgen</id>
         <link href="https://docs.metapage.io/blog/boltzgen"/>
-        <updated>2025-11-19T16:18:54.204Z</updated>
+        <updated>2025-11-19T16:24:30.715Z</updated>
         <summary type="html"><![CDATA[BoltzGen is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
@@ -22,7 +22,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580f49352d8c3422fe0f1">Now an embeddable, shareable, editable web workflow<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580f49352d8c3422fe0f1" class="hash-link" aria-label="Direct link to Now an embeddable, shareable, editable web workflow" title="Direct link to Now an embeddable, shareable, editable web workflow" translate="no">​</a></h2>
 <p><a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a</a></p>
 <p>The embedded workflow below only shows a portion of the full workflow, click on the pencil icon on the right to see the <a href="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a" target="_blank" rel="noopener noreferrer" class="">full workflow</a></p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1929px;overflow:hidden" src="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a/embed?showTitle=true&amp;height=450px"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:450px;overflow:hidden" src="https://metapage.io/m/a8e6dd78d176472098add0833ba5d76a/embed?showTitle=true&amp;height=450px"></iframe>
 <div class="video-container"><div style="width:100%;height:100%"></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_zFqj" id="2a7018579bb580b690b6c9a5b31dd86e">What’s happening here?<a href="https://docs.metapage.io/blog/boltzgen#2a7018579bb580b690b6c9a5b31dd86e" class="hash-link" aria-label="Direct link to What’s happening here?" title="Direct link to What’s happening here?" translate="no">​</a></h3>
 <p>Metapages are workflows (visualization and containers) built for the web, sharing and publishing. Boltzgen is a new AI model for generating molecular structures for binding, and we have containerized boltzgen in a web format.</p>
@@ -55,7 +55,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb580a0bb0cde87c0715466">Metapages is built for (safely) sharing code that runs, immediately, wherever you are<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580a0bb0cde87c0715466" class="hash-link" aria-label="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" title="Direct link to Metapages is built for (safely) sharing code that runs, immediately, wherever you are" translate="no">​</a></h2>
 <p>The metapage open-source library and platform are built specifically to address this problem: write code, connect data flow, create visualizations, attach data, and share this with others where they can edit and modify, take whatever they need, publish themselves, all in the browser, with the psychological assurance that this code will run in the future, without any installations.</p>
 <p>A simple example of python and visualization, embedded right here in this page:</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.localhost:3000/m/87ae11673508447e883b598bf7da9c5d/embed"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:450px;overflow:hidden" src="https://metapage.localhost:3000/m/87ae11673508447e883b598bf7da9c5d/embed"></iframe>
 <p>You can click the pencil icon in the top right, and then you can copy, edit: you have everything. The embedded workflow above is the embedded form: a minimal rendering of a workflow that runs in the browser. A workflow build of interoperable code chunks, editable directly in the browser, runnable anywhere, and embeddable anywhere you can put a link.</p>
 <h1>How you can share workflows and visualizations over social media and the web</h1>
 <h3 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb580d89e06e77cf50ef0e1">URLS / Social Media<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb580d89e06e77cf50ef0e1" class="hash-link" aria-label="Direct link to URLS / Social Media" title="Direct link to URLS / Social Media" translate="no">​</a></h3>
@@ -69,7 +69,7 @@
 <p>Metapages work out of the box with Notion. Paste the URL and choose “Embed”:</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/publishing-for-the-web.29501857-9bb5-804e-b3af-fae40d0a2c51-1f095f19edac7333682c26c3a02bed5c.png" width="1662" height="498" class="img_ev3q"></p>
 <p>Then you get a workflow running directly, fully interactive, fully self-contained, and immediately useable and shareable by your readers:</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:670px;overflow:hidden" src="https://metapage.io/m/87ae11673508447e883b598bf7da9c5d"></iframe>
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="295018579bb58023bff0d5f460b2780b">Embed in your own webpage<a href="https://docs.metapage.io/blog/publishing-for-the-web#295018579bb58023bff0d5f460b2780b" class="hash-link" aria-label="Direct link to Embed in your own webpage" title="Direct link to Embed in your own webpage" translate="no">​</a></h2>
 <p>Advanced use case:</p>
 <ul>
@@ -242,7 +242,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <li class=""><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer" class="">Source paper</a></li>
 <li class=""><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer" class="">Source Metapage Workflow</a></li>
 </ul>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:3609px;overflow:hidden" src="https://metapage.io/m/ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap"></iframe>]]></content>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:3610px;overflow:hidden" src="https://metapage.io/m/ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap"></iframe>]]></content>
         <author>
             <name>Dion Whitehead</name>
             <email>hey@metapage.io</email>
@@ -293,7 +293,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb5802ca540c1804650788d">Embed anywhere<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb5802ca540c1804650788d" class="hash-link" aria-label="Direct link to Embed anywhere" title="Direct link to Embed anywhere" translate="no">​</a></h2>
 <p>If you want to embed the workflow into your own notes or page or website or notion or anywhere, simply <code>Share</code> → <code>Embed</code> and paste the link or HTML snippet where you want. It can contain a link for navigating to the original</p>
 <p>Here is an interactive workflow embedded. You can access (then copy and edit) the entire workflow with the menu button on the left, without any installation steps:</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:370px;overflow:hidden" src="https://metapage.io/dion/87ae11673508447e883b598bf7da9c5d/embed-frame?frame=visualize+and+interact&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:450px;overflow:hidden" src="https://metapage.io/dion/87ae11673508447e883b598bf7da9c5d/embed-frame?frame=visualize+and+interact&amp;minimal=true&amp;mermaid=false&amp;filesystem=false&amp;hideOptions=false&amp;hideBorders=false"></iframe>
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1ab018579bb580a48296cd907bf9b829">Permissions: collaborate with anyone<a href="https://docs.metapage.io/blog/a-new-way-to-publish#1ab018579bb580a48296cd907bf9b829" class="hash-link" aria-label="Direct link to Permissions: collaborate with anyone" title="Direct link to Permissions: collaborate with anyone" translate="no">​</a></h2>
 <p>In a few seconds, grant permissions to your collaborators, they can now read or edit your workflow, upload/download data, and real-time work with you</p>
 <p><img decoding="async" loading="lazy" src="https://docs.metapage.io/assets/images/a-new-way-to-publish.1ab01857-9bb5-80c9-9dfe-c3cc6128678c-56a7fe31878a4e687e1887f0836f2cb3.png" width="522" height="238" class="img_ev3q"></p>
@@ -363,7 +363,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <p>There will always be times when a notebook interface is more appropriate.</p>
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a2018579bb580ba833df64ba0e01706">A example embedded metapage<a href="https://docs.metapage.io/blog/compare-to-jupyter-notebooks#1a2018579bb580ba833df64ba0e01706" class="hash-link" aria-label="Direct link to A example embedded metapage" title="Direct link to A example embedded metapage" translate="no">​</a></h2>
 <p>Here is a very basic simple example of what you would also do in a jupyter notebook (run some code and visualize). Unlike a notebook, it runs in the browser without needing to spin up a specific compute instance, and (unlike a jupyter notebook) you can immediately copy, edit, share.</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:669px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:670px;overflow:hidden" src="https://metapage.io/dion/Python-interactive-plotting-87ae11673508447e883b598bf7da9c5d"></iframe>
 <p>So take this, run it, and run with it. Once you open and clone it, it’s yours forever.</p>]]></content>
         <author>
             <name>Dion Whitehead</name>
@@ -577,7 +577,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <h2 class="anchor anchorTargetStickyNavbar_zFqj" id="1a0018579bb580d494dad167127f58c9"><a class="" href="https://docs.metapage.io/blog/competition-1-1">Round 1</a><a href="https://docs.metapage.io/blog/community-showcase#1a0018579bb580d494dad167127f58c9" class="hash-link" aria-label="Direct link to 1a0018579bb580d494dad167127f58c9" title="Direct link to 1a0018579bb580d494dad167127f58c9" translate="no">​</a></h2>
 <p>2025-02-20</p>
 <p>David Lee won the first round with this visualization:</p>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1229px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:1230px;overflow:hidden" src="https://metapage.io/DavidLee/Restaurant-Tips-8b9ecda9e67f4344bff929e54bd8f620"></iframe>
 ]]></content>
         <author>
             <name>Dion Whitehead</name>
