@@ -83,7 +83,7 @@ _serve: open
 
 # Open the docs in the browser
 open:
-    deno run --allow-all https://deno.land/x/metapages@v0.0.17/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
+    deno run --allow-all https://deno.land/x/metapages@v0.0.27/exec/open_url.ts https://metapages.github.io/load-page-when-available/?url=https://localhost:3000
 
 # Delete all generated files, node_modules, caches, build directories
 clean:
