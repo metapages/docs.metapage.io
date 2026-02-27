@@ -171,10 +171,6 @@ const config: Config = {
           position: "right",
         },
         {
-          type: "localeDropdown",
-          position: "right",
-        },
-        {
           href: APP_HREF,
           position: "right",
           // Copied and modified the button from: https://cssbuttons.app/buttons/60
