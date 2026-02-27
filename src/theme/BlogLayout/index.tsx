@@ -1,18 +1,20 @@
-import { useLocation } from '@docusaurus/router';
-import BlogLayout from '@theme-original/BlogLayout';
-import type { Props } from '@theme/BlogLayout';
-import { type ReactNode } from 'react';
+import React from 'react';
+import Layout from '@theme/Layout';
+import type {Props} from '@theme/BlogLayout';
 
-export default function BlogLayoutWrapper(props: Props): ReactNode {
-  const { pathname } = useLocation();
-
-  // Show sidebar only on /blog (or /blog/ with trailing slash)
-  const showSidebar = pathname === '/blog' || pathname === '/blog/';
-
+export default function BlogLayout({
+  sidebar: _sidebar,
+  toc: _toc,
+  children,
+  ...layoutProps
+}: Props): JSX.Element {
   return (
-    <BlogLayout
-      {...props}
-      sidebar={showSidebar ? props.sidebar : null}
-    />
+    <Layout {...layoutProps}>
+      <div className="container margin-vert--lg">
+        <div className="row">
+          <main className="col col--8 col--offset-2">{children}</main>
+        </div>
+      </div>
+    </Layout>
   );
 }

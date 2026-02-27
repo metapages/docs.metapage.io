@@ -6,7 +6,6 @@ module.exports = function (context, options) {
     name: 'webpack-config-plugin',
     configureWebpack(config, isServer) {
       const emptyModulePath = path.resolve(context.siteDir, 'plugins', 'empty-module.js');
-      
       return {
         plugins: [
           // Ignore https:// and http:// URLs in module resolution

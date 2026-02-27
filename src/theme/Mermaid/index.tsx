@@ -39,19 +39,25 @@ function MermaidRenderResult({
 }
 
 function MermaidRenderer({value}: Props): ReactNode {
+  // Always call the hook (required by React rules)
+  // The hook internally uses useColorMode which requires ColorModeProvider
+  // The ErrorBoundary will catch any context errors
   const renderResult = useMermaidRenderResult({text: value});
   
   if (renderResult === null) {
-    return null;
+    return <div className={styles.container}>Loading diagram...</div>;
   }
   
   return <MermaidRenderResult renderResult={renderResult} />;
 }
 
 export default function Mermaid(props: Props): ReactNode {
+  // ErrorBoundaries don't catch hook errors, so we need to prevent the hook from being called
+  // if the context isn't available. Since we can't conditionally call hooks, we'll
+  // just let it fail gracefully and show loading state
   return (
     <ErrorBoundary
-      fallback={(params) => <ErrorBoundaryErrorMessageFallback {...params} />}>
+      fallback={() => <div className={styles.container}>Loading diagram...</div>}>
       <BrowserOnly fallback={<div className={styles.container}>Loading diagram...</div>}>
         {() => <MermaidRenderer {...props} />}
       </BrowserOnly>

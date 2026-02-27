@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
+    "@docusaurus/theme-common": "3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
     "@docusaurus/theme-live-codeblock": "^3.9.2",
     "@docusaurus/theme-mermaid": "^3.9.2",
@@ -50,13 +51,14 @@
     "@docusaurus/tsconfig": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
     "@types/react": "18.2",
+    "baseline-browser-mapping": "^2.10.0",
     "client": "@types/@notionhq/client",
     "notion-to-md": "^3.1.4",
     "patch-package": "^8.0.0",
     "typescript": "^5.2.2"
   },
-  "peerDependencies": {
-    "@docusaurus/theme-common": "3.7.0"
+  "overrides": {
+    "@docusaurus/theme-common": "3.9.2"
   },
   "browserslist": {
     "production": [
@@ -72,10 +74,5 @@
   },
   "engines": {
     "node": ">=20.0"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@sillsdev/docu-notion@0.16.1": "patches/@sillsdev__docu-notion@0.16.1.patch"
-    }
   }
 }

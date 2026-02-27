@@ -15,6 +15,13 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Global max-width for content readability */
+  /* --content-max-width: 900px; */
+  --content-max-width: 90ch;
+  
+  --ifm-container-width-xl: 90ch; /* Adjust for extra-large screens */
+  --ifm-container-width: 90ch;   /* Adjust for standard desktop screens */
+  
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -49,6 +56,56 @@
   display: none;
 }
 
+/* Blog card excerpt: show text before truncate marker, clip overflow */
+.blog-card-excerpt {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.blog-card-excerpt img,
+.blog-card-excerpt h1,
+.blog-card-excerpt h2,
+.blog-card-excerpt h3,
+.blog-card-excerpt h4,
+.blog-card-excerpt h5,
+.blog-card-excerpt h6,
+.blog-card-excerpt pre,
+.blog-card-excerpt iframe {
+  display: none;
+}
+
+/* Hide the right-side table of contents */
+.theme-doc-toc-desktop {
+  display: none !important;
+}
+
+/* Global max-width for documentation and blog content */
+/* Documentation pages - target the main content container with high specificity */
+.theme-doc-layout .theme-doc-main,
+.theme-doc-main {
+  max-width: var(--content-max-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Also target markdown content directly */
+.theme-doc-markdown,
+.theme-doc-markdown .markdown,
+.theme-doc-main .markdown {
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Target the content column wrapper for docs */
+.theme-doc-layout .col.col--9 {
+  max-width: var(--content-max-width);
+}
+
+
 /* Minimal mode */
 
 /* Hide the navbar, sidebar, and footer completely */
@@ -77,48 +134,11 @@
   display: block !important; /* Remove flexbox layout */
 }
 
-/* Only apply sidebar width changes on the main blog list page */
-/* body.custom-blog-list-page .theme-blog-sidebar-container {
-  width: 40em;
-  flex: 0 0 40em;
-  padding-left: 1rem;
-} */
-
-/* Optionally reduce the left margin/padding */
-/* body.custom-blog-list-page .container {
-  margin-left: 0;
-  padding-left: 0;
-} */
-
-/* Only on the /blog list page */
-body.custom-blog-list-page .col.col--3 {
-  flex: 0 0 60em !important;
-  max-width: 60em !important;
-}
-
-/* Adjust the main content column (col--9) to fill remaining space */
-body.custom-blog-list-page .col.col--9 {
-  flex: 1 1 auto !important;
-  max-width: none !important;
-}
-
-/* For newer versions */
-/* Make the blog sidebar wider */
-/* .blog-wrapper .col.col--3 {
-  flex: 0 0 50em;  
-  max-width: 50em;
-} */
-
-/* Limit blog post width */
-.blog-wrapper .container {
-  max-width: 60em;
-  margin: 0 auto;
-}
 
 /* Ensure blog posts use full width */
 [data-minimal="true"] .theme-blog-container {
-  width: 60em !important;
-  max-width: 60em !important;
+  width: 100% !important;
+  max-width: 100% !important;
   margin-left: 0 !important;
 }
 

@@ -19,7 +19,7 @@ jobs:
           fetch-depth: '0'
     
       - name: Build website
-        run: just build
+        run: just generate-and-build
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DOCUMENT_ROOT: ${{ secrets.NOTION_DOCUMENT_ROOT }}

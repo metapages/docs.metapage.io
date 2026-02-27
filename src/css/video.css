@@ -1,9 +1,9 @@
 .video-container {
   position: relative;
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+  width: 100%;
+  max-width: var(--content-max-width, 90ch);
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 56.25%; /* for 16:9 aspect ratio */
   margin-top: 1rem;
   margin-bottom: 1rem;

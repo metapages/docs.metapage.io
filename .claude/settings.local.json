@@ -3,7 +3,20 @@
     "allow": [
       "Bash(cat:*)",
       "Bash(git log:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(grep -r \"useColorMode\" /Users/dion/dev/git/metapages/docs.metapage.io/node_modules/docusaurus-theme-search-typesense/lib --include=\"*.js\" -l 2>/dev/null | head -5)",
+      "Bash(grep -r \"useColorMode\\\\|ColorModeProvider\" /Users/dion/dev/git/metapages/docs.metapage.io/node_modules/@docusaurus/theme-mermaid/lib --include=\"*.js\" -l 2>/dev/null | head -10)",
+      "Bash(grep -r \"useColorMode\\\\|ColorModeProvider\" /Users/dion/dev/git/metapages/docs.metapage.io/node_modules/@docusaurus/theme-classic/lib --include=\"*.js\" -l 2>/dev/null | head -5)",
+      "Bash(ls /Users/dion/dev/git/metapages/docs.metapage.io/package*.json /Users/dion/dev/git/metapages/docs.metapage.io/pnpm-lock.yaml /Users/dion/dev/git/metapages/docs.metapage.io/yarn.lock 2>/dev/null | head -5)",
+      "Bash(node -e \"console.log\\(JSON.stringify\\(require\\('/Users/dion/dev/git/metapages/docs.metapage.io/node_modules/@docusaurus/theme-common/package.json'\\).exports, null, 2\\)\\)\")",
+      "Bash(grep -r \"ThemeProviderTitleFormatter\" /Users/dion/dev/git/metapages/docs.metapage.io/node_modules --include=\"*.js\" -l 2>/dev/null | head -10)",
+      "Bash(find /Users/dion/dev/git/metapages/docs.metapage.io/node_modules -maxdepth 3 -name \"package.json\" -path \"*/@docusaurus/theme-common/package.json\" 2>/dev/null | xargs grep '\"version\"')",
+      "Bash(find /Users/dion/dev/git/metapages/docs.metapage.io/node_modules -name \"package.json\" -path \"*/@docusaurus/theme-common/package.json\" 2>/dev/null | xargs grep '\"version\"')",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Bash(grep:*)",
+      "Bash(node:*)",
+      "Bash(echo === $f ===:*)"
     ],
     "deny": [],
     "ask": []
