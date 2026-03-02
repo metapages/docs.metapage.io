@@ -1,0 +1,98 @@
+---
+title: JavaScript SDK
+sidebar_position: 0
+slug: /javascript-sdk
+---
+
+The `@metapages/metapage` package is the core library for both rendering metapages and building metaframes. It has no framework dependencies.
+
+- **npm:** [`@metapages/metapage`](https://www.npmjs.com/package/@metapages/metapage)
+- **GitHub:** [`metapages/metapage`](https://github.com/metapages/metapage)
+- **Tests and tools:** [module.metapage.io](https://module.metapage.io)
+
+## Install
+
+```bash
+npm install @metapages/metapage
+```
+
+## Rendering a metapage
+
+`renderMetapage` takes a definition and a DOM element, creates the iframes, and starts the message routing layer.
+
+```javascript
+import { renderMetapage } from "@metapages/metapage";
+
+const { setInputs, dispose } = await renderMetapage({
+  definition: metapageDefinition,  // MetapageDefinition object
+  rootDiv: document.getElementById("metapage-root"),
+  onOutputs: (outputs) => {
+    // Called whenever any metaframe emits outputs
+    // outputs: Record<string, MetaframeInputMap>
+  },
+  options: {
+    hideBorder: true,
+    hideFrameBorders: true,
+    hideOptions: true,
+    hideMetaframeLabels: true,
+  },
+});
+
+// Inject data into the workflow
+setInputs({ paramName: "value" });
+
+// Tear down: removes event listeners and unloads iframes
+dispose();
+```
+
+### `renderMetapage` options
+
+| Option | Type | Default | Description |
+|---|---|---|---|
+| `definition` | `MetapageDefinition` | required | Metapage JSON definition |
+| `rootDiv` | `HTMLElement` | required | Container element for the iframes |
+| `onOutputs` | `(outputs) => void` | — | Called on any metaframe output change |
+| `options.hideBorder` | `boolean` | `false` | Hide outer metapage border |
+| `options.hideFrameBorders` | `boolean` | `false` | Hide individual iframe borders |
+| `options.hideOptions` | `boolean` | `false` | Hide the options menu |
+| `options.hideMetaframeLabels` | `boolean` | `false` | Hide metaframe title labels |
+
+## Building a metaframe
+
+A metaframe is a web page that uses the `MetaframeClient` to participate in a metapage workflow:
+
+```javascript
+import { MetaframeClient } from "@metapages/metapage";
+
+const metaframe = new MetaframeClient();
+
+// React to incoming inputs
+metaframe.onInputs = (inputs) => {
+  const value = inputs["myInput"];
+  // inputs is a plain object: Record<string, any>
+};
+
+// Send a single output
+metaframe.setOutput("result", { value: 42 });
+
+// Send multiple outputs at once
+metaframe.setOutputs({
+  result: 42,
+  labels: ["a", "b", "c"],
+  binary: new ArrayBuffer(1024),
+});
+```
+
+### `MetaframeClient` API
+
+| Method / Property | Description |
+|---|---|
+| `metaframe.onInputs` | Assign a handler: `(inputs: MetaframeInputMap) => void` |
+| `metaframe.setOutput(name, value)` | Emit a single named output |
+| `metaframe.setOutputs(map)` | Emit multiple outputs at once |
+| `metaframe.getInput(name)` | Get the current value of a named input |
+| `metaframe.dispose()` | Clean up event listeners |
+
+## Full API reference
+
+See [API Reference: metapage SDK](/docs/metapage-sdk) for the complete type definitions and method reference.

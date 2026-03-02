@@ -1,0 +1,58 @@
+---
+title: Troubleshooting
+sidebar_position: 0
+slug: /troubleshooting
+---
+
+## Container jobs not running
+
+**Symptom:** Container metaframe shows pending state indefinitely.
+
+**Check:**
+1. Is a worker running and connected to the correct queue? Verify the queue ID in the worker matches the queue ID in the metaframe URL.
+2. Is Docker running on the worker machine?
+3. In local mode: is the worker running on the same machine as the browser?
+
+## Container job fails immediately
+
+**Symptom:** Job goes to error state after a few seconds.
+
+**Check:**
+1. Does the Docker image exist and is it publicly accessible?
+2. Are the input files present at `/inputs/` in the expected format?
+3. Check worker logs: `docker logs <worker-container-id>`
+
+## Missing git-ref error
+
+See [error: missing git-ref](/docs/error-missing-git-sha).
+
+## Metaframe not receiving inputs
+
+**Symptom:** A metaframe never gets data from an upstream metaframe.
+
+**Check:**
+1. Verify the connection is defined in `metapage.json`: the `inputs` array in the target metaframe must reference the correct source `metaframe` key and `source` output name.
+2. Check the source glob — `*.json` will not match `data/results.json`. Use `**/*.json` to match in subdirectories.
+3. Confirm the source metaframe is actually emitting that output name.
+
+## WebSocket not connecting
+
+**Symptom:** Container cannot connect to the broadcast channel.
+
+**Check:**
+1. Is `WEBSOCKET_URL` available as an environment variable inside the container? It is injected by the metapage runtime when the job starts.
+2. The WebSocket URL can be regenerated in metapage settings — ensure all components are using the current URL.
+
+## Embedding not rendering
+
+**Symptom:** `renderMetapage` is called but no iframes appear.
+
+**Check:**
+1. Is `rootDiv` a valid DOM element that exists before `renderMetapage` is called?
+2. Does the `definition` contain valid metaframe URLs?
+3. Are the metaframe URLs accessible (not blocked by CORS or network)?
+
+## Reporting issues
+
+[GitHub Issues: metapages/compute-queues](https://github.com/metapages/compute-queues/issues)
+[GitHub Issues: metapages/metapage](https://github.com/metapages/metapage/issues)

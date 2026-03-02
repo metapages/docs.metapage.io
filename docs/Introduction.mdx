@@ -1,0 +1,48 @@
+---
+title: Introduction
+sidebar_position: 0
+slug: /
+---
+
+Metapages is an open-source platform for building composable, browser-native workflows. Connect visualizations, compute containers, and AI models through a declarative JSON graph — then embed the result in any web application or share it as a standalone URL.
+
+**Built for:**
+- Scientists building reproducible data pipelines and interactive figures
+- Web developers building modular dashboards and data applications
+- Platform builders embedding interactive computational components
+
+## Core model
+
+A **metapage** is a JSON-defined graph of **metaframes** — each metaframe is a URL pointing to a web application. The metapage library runs in the parent document, loads each metaframe as an iframe, and routes data between them via structured `postMessage`. No server coordination required.
+
+```json
+{
+  "version": "2",
+  "metaframes": {
+    "data-source": { "url": "https://random.mtfm.io/" },
+    "chart": {
+      "url": "https://plot.mtfm.io/",
+      "inputs": [{ "metaframe": "data-source", "source": "data", "target": "data" }]
+    }
+  }
+}
+```
+
+## Key capabilities
+
+- **Any language via Docker** — run Python, R, Julia, or any container as a metaframe; inputs and outputs are files on disk
+- **Embed anywhere** — one npm import renders a full metapage in your React or vanilla JS app
+- **URL-parameterized** — metapages act as functions: URL params propagate into metaframe URLs, enabling configurable deployments
+- **Real-time streaming** — every metapage has a WebSocket broadcast channel for low-latency event passing between containers and frontends
+- **Config as code** — `metapage.json` defines the entire workflow; version it, fetch it, generate it programmatically
+
+## Navigation
+
+| Section | What's there |
+|---|---|
+| [Quickstart](/docs/quickstart) | Render a metapage in under 5 minutes |
+| [Architecture](/docs/architecture-overview) | How metaframes, data flow, and the JSON config work |
+| [Build](/docs/javascript-sdk) | SDKs for JavaScript, React, and Docker containers |
+| [Deploy](/docs/containers) | Run and scale container workers |
+| [Reference](/docs/metapage-json) | JSON schema, REST API, SDK method reference |
+| [Examples](/docs/scientific-dashboard) | Annotated workflow examples |

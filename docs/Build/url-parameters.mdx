@@ -1,0 +1,74 @@
+---
+title: URL Parameters
+sidebar_position: 3
+slug: /url-parameters
+---
+
+URL parameters on the metapage URL are injected into metaframe URLs at runtime, using a `_param_` substitution syntax. This turns a metapage into a parameterized, configurable view — effectively a function with URL arguments.
+
+## Substitution syntax
+
+Any URL search or hash parameter on the metapage URL is injected into metaframe URLs that contain `_<param-name>_` as a placeholder:
+
+**Metapage URL:**
+```
+https://metapage.io/m/<id>?version=v1.2.3
+```
+
+**Metaframe URL in `metapage.json`:**
+```
+https://github.com/myorg/myrepo/tree/_version_
+```
+
+**Resolved metaframe URL at runtime:**
+```
+https://github.com/myorg/myrepo/tree/v1.2.3
+```
+
+The metapage URL becomes a versioned, shareable handle to a specific state of the workflow.
+
+## Reading injected parameters in JavaScript
+
+Use `@metapages/hash-query` to read parameters from within a metaframe:
+
+```javascript
+import { getHashParamFromWindow } from "https://cdn.jsdelivr.net/npm/@metapages/hash-query@latest/+esm";
+
+const version = getHashParamFromWindow("version");
+console.log(`version=${version}`);
+```
+
+Or with npm:
+
+```bash
+npm install @metapages/hash-query
+```
+
+```javascript
+import { getHashParamFromWindow } from "@metapages/hash-query";
+```
+
+## Container metaframes
+
+All metapage URL parameters are available as environment variables inside the container. For example:
+
+```
+https://metapage.io/m/<id>?MODEL_NAME=llama3
+```
+
+Makes `MODEL_NAME=llama3` available in the container environment.
+
+This is particularly useful for pointing a container at a specific git commit or branch — see [Git refs in URLs](/docs/git-refs-in-urls).
+
+## Example: version-pinned workflow
+
+```
+https://metapage.io/m/<id>?git-ref=affeff5e706b446358f4b619058c6e93afe8836f
+```
+
+With this container URL in the metapage definition:
+```
+https://github.com/myorg/myrepo/tree/_git-ref_
+```
+
+The container is built from the exact commit specified in the URL parameter. Changing the URL changes the version without modifying the metapage definition.

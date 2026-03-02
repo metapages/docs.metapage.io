@@ -1,0 +1,28 @@
+---
+title: Worker CLI Reference
+sidebar_position: 4
+slug: /container-cli-reference
+---
+
+The worker agent accepts configuration via CLI flags or environment variables. Get the pre-configured command for your queue at [metapage.io/settings/queues](https://metapage.io/settings/queues).
+
+## Environment variables and CLI flags
+
+| Env var | CLI flag | Default | Description |
+|---|---|---|---|
+| `METAPAGE_IO_WORKER_CPUS` | `-c, --cpus` | — | Max CPU cores the worker claims per job |
+| `METAPAGE_IO_WORKER_GPUS` | `-g, --gpus` | — | Max GPUs the worker claims per job. Use `"device=1,3"` format for specific GPU indices ([Docker docs](https://docs.docker.com/engine/containers/resource_constraints/#expose-gpus-for-use)) |
+| `METAPAGE_IO_WORKER_MODE` | `-m, --mode` | `remote` | `local` = no external API, runs on the same machine as the browser. `remote` = connects to the cloud queue. |
+| `METAPAGE_IO_WORKER_QUEUE` | — | — | Queue ID the worker connects to |
+| `METAPAGE_IO_WORKER_PORT` | `-p, --port` | `8000` | Port used in `local` mode |
+| `METAPAGE_IO_WORKER_API_ADDRESS` | `-a, --api-address` | `https://container.mtfm.io` | Queue API address (advanced/dev use) |
+| `METAPAGE_IO_WORKER_GENERATE_WORKER_ID` | — | `false` | If `true`, generates a new unique worker ID on every start |
+| `METAPAGE_IO_WORKER_RUN_STANDALONE` | — | `false` | If `true`, starts its own Docker daemon subprocess (for environments without a host daemon, e.g. Fly.io) |
+| `METAPAGE_IO_WORKER_DEBUG` | `--debug` | `false` | Verbose logging |
+| `METAPAGE_IO_WORKER_JOB_MAX_DURATION` | `-t, --max-job-duration` | `5m` | Maximum allowed duration for any single job on this worker |
+
+## Security
+
+- Job containers have no host network access
+- Only `/inputs` and `/outputs` are mounted from the host filesystem
+- Container configuration is restricted to a controlled set of options

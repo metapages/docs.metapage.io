@@ -1,0 +1,54 @@
+---
+title: REST API
+sidebar_position: 1
+slug: /rest-api
+---
+
+:::note
+This reference is a stub. Full documentation is in progress.
+:::
+
+## Metapage definitions
+
+### `GET /m/<id>/metapage.json`
+
+Returns the `MetapageDefinition` JSON for a public or archived metapage.
+
+```bash
+curl https://metapage.io/m/<id>/metapage.json
+```
+
+Response includes:
+- `version`
+- `metaframes` — the connection graph
+- `meta` — name, authors, tags, layout, description
+
+### `GET /archive/<id>/metapage.json`
+
+Same as above for explicitly archived metapages.
+
+## Queue API
+
+Base URL: `https://container.mtfm.io`
+
+### `GET /<queueId>/metrics`
+
+Returns Prometheus-compatible metrics for the queue. Currently exposes:
+
+| Metric | Description |
+|---|---|
+| `queue_length` | Number of jobs in the queue not in a `Finished` state |
+
+Used by the [Fly.io autoscaler](/docs/container-provider-flyio) to scale workers.
+
+### Job submission
+
+:::note
+Job submission via POST is supported but not yet documented here. For now, jobs are submitted through the container metaframe UI or by using the metaframe URL directly.
+:::
+
+## WebSocket
+
+Each metapage has a unique WebSocket broadcast URL available in the metapage settings. The channel routes all messages to all connected clients.
+
+See [WebSocket Streaming](/docs/websocket-streaming) for details.

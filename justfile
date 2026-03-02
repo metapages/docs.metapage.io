@@ -85,7 +85,10 @@ generate-and-build: generate build
     echo "👍 blog generated"
 
 # Generate docs from notion https://github.com/sillsdev/docu-notion
-docs: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs") (_replace_img_with_markdown "docs") (_fix_p_closing_tag "docs")
+docs:
+    echo "👍 docs generation is disabled"
+
+docs-DISABLED: _ensure_npm_modules && (_rename_md_mdx "docs") (_highlight_self_in_mermaid "docs") (_truncate_after_END_PAGE "docs") (_replace_img_with_markdown "docs") (_fix_p_closing_tag "docs")
     #!/usr/bin/env bash
     echo "Generating docs..."
     rm -rf docs/*

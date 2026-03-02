@@ -1,0 +1,141 @@
+---
+title: metapage.json
+sidebar_position: 0
+slug: /metapage-json
+---
+
+The `metapage.json` file defines the complete workflow: which metaframes to load, the data connections between them, and optional layout metadata.
+
+## TypeScript types
+
+```typescript
+// Top-level definition
+interface MetapageDefinition {
+  version: "2";
+  metaframes: Record<string, MetaframeDefinition>;
+  meta?: MetapageMeta;
+}
+
+interface MetaframeDefinition {
+  url: string;                  // URL of the metaframe web application
+  inputs?: MetaframeInput[];    // Incoming data connections
+}
+
+interface MetaframeInput {
+  metaframe: string;  // Source metaframe key
+  source: string;     // Source output name (glob supported)
+  target: string;     // Target input name (or path prefix ending in /)
+}
+
+interface MetapageMeta {
+  name?: string;
+  layouts?: {
+    "react-grid-layout"?: ReactGridLayoutConfig;
+  };
+}
+```
+
+## Annotated example
+
+```json
+{
+  "version": "2",
+
+  "metaframes": {
+    "data-generator": {
+      "url": "https://random.mtfm.io/#?distribution=sin"
+    },
+
+    "chart": {
+      "url": "https://plot.mtfm.io/",
+      "inputs": [
+        {
+          "metaframe": "data-generator",
+          "source": "v",
+          "target": "v"
+        }
+      ]
+    },
+
+    "editor": {
+      "url": "https://editor.mtfm.io/",
+      "inputs": [
+        {
+          "metaframe": "data-generator",
+          "source": "v",
+          "target": "value"
+        }
+      ]
+    }
+  },
+
+  "meta": {
+    "layouts": {
+      "react-grid-layout": {
+        "docs": "https://www.npmjs.com/package/react-grid-layout",
+        "props": {
+          "cols": 12,
+          "rowHeight": 200,
+          "margin": [10, 20],
+          "containerPadding": [5, 5]
+        },
+        "layout": [
+          { "i": "data-generator", "x": 0, "y": 0, "w": 6, "h": 3 },
+          { "i": "chart",          "x": 6, "y": 0, "w": 6, "h": 4 },
+          { "i": "editor",         "x": 0, "y": 3, "w": 6, "h": 2 }
+        ]
+      }
+    }
+  }
+}
+```
+
+## Field reference
+
+### `metaframes[key]`
+
+| Field | Type | Description |
+|---|---|---|
+| `url` | `string` | URL of the metaframe web application. May include URL parameters. Supports `_param_` substitution from the metapage URL (see [URL parameters](/docs/url-parameters)). |
+| `inputs` | `MetaframeInput[]` | Incoming data connections. Empty means the frame receives no piped data. |
+
+### `inputs[n]`
+
+| Field | Type | Description |
+|---|---|---|
+| `metaframe` | `string` | Key of the source metaframe |
+| `source` | `string` | Output name from the source, or a glob pattern (see [Data Flow](/docs/data-flow)) |
+| `target` | `string` | Input name in this metaframe. Ends with `/` to use as a directory prefix; omit for same name as source. |
+
+### `meta.layouts.react-grid-layout`
+
+Layout positions use the [react-grid-layout](https://www.npmjs.com/package/react-grid-layout) format:
+
+| Field | Type | Description |
+|---|---|---|
+| `i` | `string` | Metaframe key (must match a key in `metaframes`) |
+| `x` | `number` | Column position (0–cols) |
+| `y` | `number` | Row position |
+| `w` | `number` | Width in columns |
+| `h` | `number` | Height in row units |
+
+## Loading programmatically
+
+```typescript
+import { Metapage } from "@metapages/metapage";
+
+const definition = {
+  version: "2",
+  metaframes: { /* ... */ },
+};
+
+const metapage = await Metapage.from(definition);
+```
+
+Or fetch from a hosted URL:
+
+```javascript
+const definition = await fetch("https://metapage.io/m/<id>/metapage.json").then(r => r.json());
+```
+
+**Source:** [`metapage/v0_4/metapage.ts`](https://github.com/metapages/metapage/blob/main/app/libs/src/metapage/v0_4/metapage.ts)

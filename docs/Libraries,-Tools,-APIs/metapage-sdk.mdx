@@ -1,0 +1,74 @@
+---
+title: metapage SDK Reference
+sidebar_position: 2
+slug: /metapage-sdk
+---
+
+:::note
+This reference is a stub. Full API documentation is in progress. For now, see:
+- [npm: @metapages/metapage](https://www.npmjs.com/package/@metapages/metapage)
+- [GitHub: metapages/metapage](https://github.com/metapages/metapage)
+- [JavaScript SDK guide](/docs/javascript-sdk)
+:::
+
+## `renderMetapage(options)`
+
+Renders a metapage into a DOM element. Returns a handle for sending inputs and disposing.
+
+```typescript
+async function renderMetapage(options: {
+  definition: MetapageDefinition;
+  rootDiv: HTMLElement;
+  onOutputs?: (outputs: MetapageOutputs) => void;
+  options?: MetapageRenderOptions;
+}): Promise<{
+  setInputs: (inputs: MetaframeInputMap) => void;
+  dispose: () => void;
+}>
+```
+
+## `Metapage.from(definition)`
+
+Low-level constructor for the metapage runtime. Prefer `renderMetapage` unless you need direct access to the metapage instance.
+
+```typescript
+const metapage = await Metapage.from(definition: MetapageDefinition);
+```
+
+## `MetaframeClient`
+
+Used inside a metaframe to communicate with the parent metapage.
+
+```typescript
+class MetaframeClient {
+  onInputs: (inputs: MetaframeInputMap) => void;
+  setOutput(name: string, value: any): void;
+  setOutputs(outputs: MetaframeInputMap): void;
+  getInput(name: string): any;
+  dispose(): void;
+}
+```
+
+## Types
+
+```typescript
+interface MetapageDefinition {
+  version: "2";
+  metaframes: Record<string, MetaframeDefinition>;
+  meta?: MetapageMeta;
+}
+
+interface MetaframeDefinition {
+  url: string;
+  inputs?: MetaframeInput[];
+}
+
+interface MetaframeInput {
+  metaframe: string;
+  source: string;
+  target: string;
+}
+
+type MetaframeInputMap = Record<string, any>;
+type MetapageOutputs = Record<string, MetaframeInputMap>;
+```

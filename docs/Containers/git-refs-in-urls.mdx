@@ -1,0 +1,41 @@
+---
+title: Git Refs in URLs
+sidebar_position: 5
+slug: /git-refs-in-urls
+---
+
+Container metaframes can be pinned to a specific git commit, branch, or tag by encoding the ref in the container URL. Combined with [URL parameter substitution](/docs/url-parameters), this makes a metapage a versioned, URL-addressable view of a git repository.
+
+## Hard-code a git ref
+
+Append `tree/<ref>` to the GitHub repo URL in the container metaframe configuration:
+
+```
+https://github.com/myorg/myrepo/tree/affeff5e706b446358f4b619058c6e93afe8836f
+```
+
+The container is built from that exact commit every time.
+
+## Dynamic git ref via URL parameter
+
+Use the `_git-ref_` placeholder in the container URL:
+
+```
+https://github.com/myorg/myrepo/tree/_git-ref_
+```
+
+Then pass `git-ref` as a URL parameter on the metapage:
+
+```
+https://metapage.io/m/<id>?git-ref=affeff5e706b446358f4b619058c6e93afe8836f
+```
+
+At runtime, `_git-ref_` is substituted with the URL parameter value. Changing the URL changes the version — no edits to the metapage definition needed.
+
+This makes the metapage URL a function of the repository state. You can navigate through git history simply by changing the `git-ref` parameter.
+
+## URL parameters as container env vars
+
+All metapage URL parameters are available as environment variables inside the container. So `?git-ref=abc123` also makes `git-ref=abc123` available in the container environment — useful for scripts that need to know which version they're running.
+
+See [URL parameters](/docs/url-parameters) for the full parameter substitution reference.

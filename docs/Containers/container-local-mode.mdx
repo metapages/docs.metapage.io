@@ -1,0 +1,34 @@
+---
+title: Local mode
+sidebar_position: 1
+slug: /container-local-mode
+---
+
+In local mode, all jobs run on the current machine. No external API is used; data never leaves the host. This is the simplest setup for development and single-user workflows.
+
+## Prerequisites
+
+A Docker runtime:
+- [OrbStack](https://orbstack.dev/) (recommended on macOS)
+- [Docker Desktop](https://docs.docker.com/get-started/get-docker/)
+
+## Run the worker
+
+Get the terminal command from [metapage.io/settings/queues](https://metapage.io/settings/queues) under **Compute → Local mode**, or run directly:
+
+```bash
+docker run --rm -it \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -e METAPAGE_IO_WORKER_MODE=local \
+  metapage/metaframe-docker-worker:latest
+```
+
+The worker listens on port 8000 by default. The container metaframe at `container.mtfm.io` automatically connects to the local worker when mode is set to `local`.
+
+## Notes
+
+- Desktop only — mobile and tablet are not currently supported in local mode
+- The worker and the browser must be on the same machine
+- No cloud storage is used; all file I/O is local
+
+See [CLI reference](/docs/container-cli-reference) for all worker flags and environment variables.

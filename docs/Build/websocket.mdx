@@ -1,0 +1,72 @@
+---
+title: WebSocket Streaming
+sidebar_position: 5
+slug: /websocket-streaming
+---
+
+Every metapage has a private WebSocket broadcast channel. All metaframes — both JavaScript and container — can connect to this channel to send and receive messages outside the normal postMessage routing layer.
+
+This is particularly useful for container metaframes that need low-latency bidirectional communication without going through the browser-side routing layer.
+
+## Use cases
+
+- Streaming progress updates from a long-running container job to the browser
+- Real-time data feeds between multiple container workers
+- Cross-metapage communication (share the channel URL between metapages)
+- Bypassing the connection graph for ephemeral event messages
+
+## How it works
+
+Each metapage generates an unguessable WebSocket URL and injects it into all metaframes at runtime. The URL can be regenerated at any time from the metapage settings to revoke access.
+
+The channel is a broadcast router: all connected clients receive all messages. The system is designed for low-latency small messages — large binary blobs are not currently supported.
+
+## Accessing the WebSocket URL
+
+The channel URL is available in the metapage settings under **Settings → WebSocket Channel**. From there you can copy the URL or copy code snippets for connecting from JavaScript or Python.
+
+From within a metaframe (JavaScript), the URL is injected as a special input named `_websocket_url_` — listen for inputs to receive it:
+
+```javascript
+import { MetaframeClient } from "@metapages/metapage";
+
+const mf = new MetaframeClient();
+
+mf.onInputs = (inputs) => {
+  const wsUrl = inputs["_websocket_url_"];
+  if (wsUrl) {
+    const ws = new WebSocket(wsUrl);
+    ws.onmessage = (event) => {
+      const msg = JSON.parse(event.data);
+      // handle message
+    };
+    ws.onopen = () => {
+      ws.send(JSON.stringify({ type: "hello", from: "frame-a" }));
+    };
+  }
+};
+```
+
+From a container (Python):
+
+```python
+import os, json, asyncio, websockets
+
+async def main():
+    url = os.environ.get("WEBSOCKET_URL")  # injected by the metapage
+    async with websockets.connect(url) as ws:
+        await ws.send(json.dumps({"type": "progress", "value": 0.5}))
+        msg = await ws.recv()
+        print(json.loads(msg))
+
+asyncio.run(main())
+```
+
+## Live example
+
+<iframe
+  scrolling="yes"
+  allow="fullscreen *; camera *; speaker *;"
+  style={{width:"100%", height:"450px", overflow:"hidden"}}
+  src="https://metapage.io/dion/Websocket-streaming-between-containers-and-browser-ec3e48694f66441a9eec9a5c5c842810/embed-frame?frame=listen+to+socket&minimal=true&mermaid=false&filesystem=false&hideOptions=false&hideBorders=false">
+</iframe>

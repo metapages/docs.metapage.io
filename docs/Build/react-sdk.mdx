@@ -1,0 +1,94 @@
+---
+title: React SDK
+sidebar_position: 1
+slug: /react-sdk
+---
+
+Two packages are available for React integration:
+
+| Package | Purpose |
+|---|---|
+| [`@metapages/metapage-grid-react`](https://www.npmjs.com/package/@metapages/metapage-grid-react) | Render a full metapage with grid layout |
+| [`@metapages/metapage-react`](https://www.npmjs.com/package/@metapages/metapage-react) | Hooks and low-level components for embedding individual metaframes |
+
+- **GitHub (metapage-react):** [`metapages/metapage-react`](https://github.com/metapages/metapage-react)
+
+## Install
+
+```bash
+npm install @metapages/metapage @metapages/metapage-grid-react
+```
+
+## Render a full metapage
+
+`MetapageGridLayoutFromDefinition` renders all metaframes with their configured layout:
+
+```tsx
+import { MetapageGridLayoutFromDefinition } from "@metapages/metapage-grid-react";
+import type { MetapageDefinition } from "@metapages/metapage";
+
+interface Props {
+  definition: MetapageDefinition;
+}
+
+export const Dashboard: React.FC<Props> = ({ definition }) => {
+  const onOutputs = (outputs: Record<string, unknown>) => {
+    // Handle output changes from any metaframe
+  };
+
+  const onDefinition = (updated: MetapageDefinition) => {
+    // Called when the definition changes (e.g. user edits layout)
+  };
+
+  return (
+    <MetapageGridLayoutFromDefinition
+      definition={definition}
+      onOutputs={onOutputs}
+      onDefinition={onDefinition}
+      style={{ height: "600px" }}
+    />
+  );
+};
+```
+
+## Embed a single metaframe
+
+`MetaframeStandaloneComponent` embeds a single metaframe URL with React-managed I/O:
+
+```typescript
+import { useCallback } from "react";
+import { MetaframeStandaloneComponent } from "@metapages/metapage-embed-react";
+import type { MetaframeInputMap } from "@metapages/metapage";
+
+export const JsonEditor: React.FC<{
+  content: string;
+  onChange: (s: string) => void;
+}> = ({ content, onChange }) => {
+  const onOutputs = useCallback(
+    (outputs: MetaframeInputMap) => {
+      if (outputs["value"] != null) {
+        onChange(outputs["value"] as string);
+      }
+    },
+    [onChange]
+  );
+
+  return (
+    <MetaframeStandaloneComponent
+      url="https://editor.mtfm.io/#?options=eyJhdXRvc2VuZCI6dHJ1ZSwibW9kZSI6Impzb24ifQ=="
+      inputs={{ value: content }}
+      onOutputs={onOutputs}
+    />
+  );
+};
+```
+
+This pattern is useful for embedding any metaframe as a React-controlled component — code editors, visualizations, 3D renderers — without bundling their dependencies into your app.
+
+## API reference
+
+See [API Reference: metapage SDK](/docs/metapage-sdk) for hook and component signatures.
+
+:::note
+Full hook documentation is in progress. See the [GitHub repo](https://github.com/metapages/metapage-react) for current examples.
+:::

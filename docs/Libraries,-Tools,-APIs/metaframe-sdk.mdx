@@ -1,0 +1,82 @@
+---
+title: metaframe SDK Reference
+sidebar_position: 3
+slug: /metaframe-sdk
+---
+
+:::note
+This reference is a stub. Full API documentation is in progress. For now, see:
+- [npm: @metapages/metapage](https://www.npmjs.com/package/@metapages/metapage)
+- [GitHub: metapages/metapage](https://github.com/metapages/metapage)
+- [JavaScript SDK guide](/docs/javascript-sdk)
+:::
+
+## Building a metaframe
+
+A metaframe is any web page that imports the `MetaframeClient` and uses it to exchange data:
+
+```javascript
+import { MetaframeClient } from "@metapages/metapage";
+
+const mf = new MetaframeClient();
+
+mf.onInputs = (inputs) => {
+  // Handle incoming data
+};
+
+mf.setOutput("result", value);
+mf.setOutputs({ result: value, other: otherValue });
+```
+
+## `MetaframeClient` API
+
+### `onInputs`
+
+```typescript
+mf.onInputs = (inputs: MetaframeInputMap) => void;
+```
+
+Callback invoked whenever the parent metapage delivers new inputs to this metaframe.
+
+### `setOutput(name, value)`
+
+```typescript
+mf.setOutput(name: string, value: any): void;
+```
+
+Emit a single named output. The metapage routing layer forwards it to all connected downstream metaframes.
+
+### `setOutputs(map)`
+
+```typescript
+mf.setOutputs(outputs: MetaframeInputMap): void;
+```
+
+Emit multiple outputs in a single call.
+
+### `getInput(name)`
+
+```typescript
+mf.getInput(name: string): any;
+```
+
+Get the current value of a named input without waiting for a callback.
+
+### `dispose()`
+
+```typescript
+mf.dispose(): void;
+```
+
+Clean up event listeners and disconnect from the parent.
+
+## Supported data types
+
+- Primitive: `string`, `number`, `boolean`, `null`
+- Structured: JSON objects, arrays
+- Binary: `ArrayBuffer`, typed arrays (`Uint8Array`, etc.)
+- Browser types: `File`, `Blob`
+
+## WebSocket channel
+
+The metaframe receives the metapage's WebSocket broadcast URL as a special input named `_websocket_url_`. See [WebSocket Streaming](/docs/websocket-streaming).

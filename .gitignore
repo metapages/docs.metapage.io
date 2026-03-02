@@ -9,7 +9,8 @@
 .cache-loader
 
 # These are now generated from notion
-/docs
+# Temporarily commit these
+# /docs
 /blog
 
 # Misc
