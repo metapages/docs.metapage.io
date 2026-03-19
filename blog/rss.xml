@@ -4,7 +4,7 @@
         <title>Metapages Blog</title>
         <link>https://docs.metapage.io/blog</link>
         <description>Metapages Blog</description>
-        <lastBuildDate>Thu, 19 Mar 2026 08:56:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Mar 2026 09:28:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Boltzgen- Universal Binder Design as a web workflow]]></title>
             <link>https://docs.metapage.io/blog/boltzgen</link>
             <guid>https://docs.metapage.io/blog/boltzgen</guid>
-            <pubDate>Thu, 19 Mar 2026 08:56:46 GMT</pubDate>
+            <pubDate>Thu, 19 Mar 2026 09:28:59 GMT</pubDate>
             <description><![CDATA[import ReactPlayer from "react-player";]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p><a href="https://boltz.bio/boltzgen" target="_blank" rel="noopener noreferrer" class=""><strong>BoltzGen</strong></a>&nbsp;is a new generative model for designing protein and peptides of any modality to bind a wide range of biomolecular targets.</p>
@@ -221,7 +221,7 @@ is an NIH-funded consortium leveraging open science for antiviral drug discovery
 <li class=""><a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/" target="_blank" rel="noopener noreferrer" class="">Source paper</a></li>
 <li class=""><a href="https://metapage.io/dion/Biomolecular-Emulator-(BioEmu)-551d582261f943168bcfe729fba84312" target="_blank" rel="noopener noreferrer" class="">Source Metapage Workflow</a></li>
 </ul>
-<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:3610px;overflow:hidden" src="https://metapage.io/m/ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap"></iframe>]]></content:encoded>
+<iframe scrolling="yes" allow="fullscreen *; camera *; speaker *;" style="width:100%;height:450px;overflow:hidden" src="https://metapage.io/m/ede35cdc88794b0d871de364a67ad426/embed-frame?frame=plain+heatmap"></iframe>]]></content:encoded>
             <author>hey@metapage.io (Dion Whitehead)</author>
         </item>
         <item>
